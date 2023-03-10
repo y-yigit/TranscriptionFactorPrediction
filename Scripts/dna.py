@@ -50,14 +50,28 @@ class DNA():
         if isinstance(sequences, str):
             try:
                 self.dna_sequences = [re.sub("[^AGTC]", "G", str(record.seq).upper())
-                                      for record in SeqIO.parse(sequences, "fasta")]
+                                      for record in SeqIO.parse(sequences, "fasta") if record.seq != ""]
             except FileNotFoundError:
                 print("Incorrect file")
         elif isinstance(sequences, list):
             self.dna_sequences = [re.sub("[^ATGC]", "G", sequence.upper())
-                                  for sequence in sequences]
+                                  for sequence in sequences if sequence != ""]
         else:
             raise TypeError("The parameter sequences is not a list or string")
+
+    def change_sequence_lengths(self, max_length: int, nucleotide_percentages: dict):
+        """ Modifies all sequences in self.dna_sequences to share the same length
+        """
+        modified_sequences = []
+        for sequence in self.dna_sequences:
+            number_of_extra_bases = max_length - len(sequence)
+            random_sequence = self.generate_random_dna(number_of_extra_bases, nucleotide_percentages)
+            # This is not the exact middle base, but it is very close to it
+            middle_point = round(len(random_sequence) / 2)
+            modified_sequence = random_sequence[:middle_point] + sequence + random_sequence[middle_point:]
+            modified_sequences.append(modified_sequence)
+        # Overwrite the class variable
+        self.dna_sequences = modified_sequences
 
     def calculate_nucleotide_percentages(self) -> dict:
         """ calculates the nucleotides percentages of all the bases in the class parameter sequences
@@ -69,8 +83,9 @@ class DNA():
         return {base: round((dna_string.count(base) / len(dna_string)) * 100)
                 for base in ["A", "C", "G", "T"]}
 
-    def one_hot_encoder(self) -> list:
-        """ Encodes all DNA strings in the self.dna_sequences list
+    @staticmethod
+    def one_hot_encoder(dna_sequences) -> list:
+        """ Static method that encodes all DNA strings in the self.dna_sequences list
 
         The DNA strings are encoded to numpy arrays. Each array has 4 rows, one for each base.
 
@@ -79,7 +94,8 @@ class DNA():
         """
         mapping = dict(zip("AGCT", range(4)))
         # Encode every base in every sequence with np.eye
-        return [np.eye(4)[[mapping[base] for base in sequence]] for sequence in self.dna_sequences]
+        return [np.eye(4)[[mapping[base] for base in sequence]] for sequence in dna_sequences]
+
 
     def generate_random_dna(self, count: int, nucleotide_percentages: dict) -> list:
         """ Generates a sequence of bases with the GC content of the input fasta file
@@ -91,21 +107,13 @@ class DNA():
         :type nucleotide_percentages: dict
         :return: A list of random DNA strings
         :rtype: list
+
+        .. note:: String concatenation might be slow
         """
         dna_set = "".join([base*nucleotide_percentages[base] for base in nucleotide_percentages])
-        # Double for loop
-        return [self.create_random_sequence(dna_set) for i in range(0, count)]
 
-    def create_random_sequence(self, dna_set: str) -> str:
-        """ Creates a random sequence out of the input sequence
-
-        :param dna_set: A string containing bases
-        :type dna_set: str
-
-        :return: A DNA string
-        :rtype: str
-        .. todo:: This method could throws errors depending on value of self.promotor_length
-            and of the count parameter from generate_random_dna. Fix these errors
-        """
-        return "".join([dna_set[random.randint(0, len(dna_set) - index)] for index in
-                        range(self.promotor_length)])
+        random_sequence = ""
+        for index in range(0, count):
+            random_index = random.randint(0, len(dna_set) - 1)
+            random_sequence += dna_set[random_index]
+        return random_sequence
