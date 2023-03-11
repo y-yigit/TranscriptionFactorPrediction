@@ -82,23 +82,24 @@ def encode_many_sequences(dna_dictionaries, nucleotide_percentages, max_length) 
         nested_lists.append(encoded_sequences)
     return nested_lists
 
-def get_random_negatives(count: int, fasta_file: str) -> list:
+def get_random_negatives(count: int, nucleotide_percentages: dict, number_of_labels: int) -> list:
     """ Creates sequences for true negative labels based on the nucleotide percentage of a fasta file
 
     :param count: Integer specifying the total number of bases
     :type count: int
-    :param fasta_file: A path to a fasta file
-    :type fasta_file: str
-    
-    :return: A list of random DNA strings
-    :rtype: list
+    :param nucleotide_percentages: A dictionary containing the keys "A", "G", "C", and "T" with floats as values
+    :type nucleotide_percentages: dict
+    :param number_of_labelss: The number of labels to create
+    :type nucleotide_percentages: int
 
+
+    :return: A list of numpy arrays
+    :rtype: list
     .. todo:: Test this method with the CNN model
     """
-    dna_obj = DNA(fasta_file)
-    nucleotide_percentage = dna_obj.calculate_nucleotide_percentages()
-    dna_sequences = dna_obj.generate_random_dna(count, nucleotide_percentage)
-    return dna_sequences
+    random_sequences = [DNA.generate_random_dna(count, nucleotide_percentages) for label in range(0, number_of_labels)]
+    encoded_sequences = DNA.one_hot_encoder(random_sequences)
+    return encoded_sequences
 
 def create_labels(positive_data, negative_data):
     """ Create the labels for the CNN model
@@ -114,9 +115,15 @@ def create_labels(positive_data, negative_data):
     positive_labels = np.ones(len(positive_data))
     negative_labels = np.zeros(len(negative_data))
 
-    data = tf.stack(positive_data + negative_data)
+    # Combine data and labels into two separate arrays
+    data = np.concatenate((positive_data, negative_data))
     labels = np.concatenate((positive_labels, negative_labels))
-    return data, labels
+
+    # Shuffle data and labels
+    permutation = np.random.permutation(len(data))
+    shuffled_data = data[permutation]
+    shuffled_labels = labels[permutation]
+    return shuffled_data, shuffled_labels
 
 def test_model(data, test_set_fraction, labels, sequence_length):
     """ Test a CNN model
@@ -144,6 +151,13 @@ sequence_length = find_longest_sequence(dna_dictionaries)
 intergenic_true_negatives, true_positives = encode_many_sequences(dna_dictionaries, nucleotide_percentages,
                                                                   sequence_length)
 # Create labels and modify the data for tensorflow
-random_true_negatives = get_random_negatives(sequence_length, fasta_file)
+random_true_negatives = get_random_negatives(sequence_length, nucleotide_percentages, len(true_positives))
+
+# Test with intergenic true negatives
 data, labels = create_labels(true_positives, intergenic_true_negatives)
 test_model(data, 0.8, labels, sequence_length)
+
+# Test with true negatives from random sequences
+data, labels = create_labels(true_positives, random_true_negatives)
+test_model(data, 0.8, labels, sequence_length)
+# Random true negative performs worse than intergenic true negatives, probably because there are less intergenic labels
