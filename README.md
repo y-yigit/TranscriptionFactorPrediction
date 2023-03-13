@@ -47,6 +47,21 @@ Table of Contents
 
 ### Prerequisites
 
+The main software in this project are Bash version 4.2.46 and Python version
+3.9.5. Bash uses the tools MEME Suite version 5.5.0 and Proteinortho version 
+6.0.29. The Python modules are listed in table 1.
+
+Table 1: Python modules
+
+| Module     | Version | 
+|:---------- |:--------|
+| Bio        | xxx     |
+| pandas     | xxx     |
+| numpy      | 1.21    |
+| tensorflow | xxx     |
+
+It may be possible to use different versions, but for compatibility with 
+TensorFlow, it is necessary to use numpy version 1.21.
 
 ### Data sources
 
