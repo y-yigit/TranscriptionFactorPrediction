@@ -63,6 +63,8 @@ def find_longest_sequence(dna_dictionaries:list) -> int:
 def encode_many_sequences(dna_dictionaries, nucleotide_percentages, max_length) -> list:
     """ Encodes values of all dictionaries in a list
 
+    The function will also add additional bases if the length of the sequence is smaller than max_length
+
     :param dna_dictionaries: List of dictionaries that contain DNA sequences as values
     :type dna_dictionaries: list
     :param nucleotide_percentages: A dictionary containing the keys "A", "G", "C", and "T" with floats as values
@@ -74,7 +76,6 @@ def encode_many_sequences(dna_dictionaries, nucleotide_percentages, max_length) 
     :rtype: list
     """
     nested_lists = []
-    max_sequence_length = 0
     for dna_dictionary in dna_dictionaries:
         dna_obj = DNA(list(dna_dictionary.values()))
         dna_obj.change_sequence_lengths(max_length, nucleotide_percentages)
@@ -89,7 +90,7 @@ def get_random_negatives(count: int, nucleotide_percentages: dict, number_of_lab
     :type count: int
     :param nucleotide_percentages: A dictionary containing the keys "A", "G", "C", and "T" with floats as values
     :type nucleotide_percentages: dict
-    :param number_of_labelss: The number of labels to create
+    :param number_of_labels: The number of labels to create
     :type nucleotide_percentages: int
 
 
@@ -125,7 +126,7 @@ def create_labels(positive_data, negative_data):
     shuffled_labels = labels[permutation]
     return shuffled_data, shuffled_labels
 
-def test_model(data, test_set_fraction, labels, sequence_length):
+def test_model(data, test_set_fraction, labels, sequence_length, model_name):
     """ Test a CNN model
     :param data: A tensor object of the input data
     :type data: object
@@ -137,27 +138,68 @@ def test_model(data, test_set_fraction, labels, sequence_length):
     :type sequence_length: int
     """
     # The values for input_shape might not be correct
-    my_model = CNN((sequence_length, 4,))
+    my_model = CNN((sequence_length, 4,), model_name)
     my_model.divide_labels(data, labels, test_set_fraction)
     my_model.compile_model()
+    my_model.report_summary()
     my_model.train_model()
+
+def get_fimo_data(directory) -> tuple:
+    positives = []
+    negatives = []
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.endswith(".tsv"):
+                fimo_dataframe = pandas.read_csv(root + "/" + file, engine="python", sep="\\t", lineterminator="\r")
+                fimo_dataframe.dropna(subset=["matched_sequence"], inplace=True)
+                positive_sequences = fimo_dataframe["matched_sequence"].tolist()
+                sequence_length = len(positive_sequences[0])
+                dna_obj = DNA(positive_sequences)
+                nucleotide_percentages = DNA(fasta_file).calculate_nucleotide_percentages()
+                # Add additional bases to align motifs
+                dna_obj.change_sequence_lengths(sequence_length+40, nucleotide_percentages)
+                encoded_sequences = dna_obj.one_hot_encoder(dna_obj.dna_sequences)
+                positives += encoded_sequences
+                # Change the fasta file for each loop once the data is ready
+                negatives += get_random_negatives(sequence_length+40, nucleotide_percentages, len(positive_sequences))
+
+    data, labels = create_labels(positives, negatives)
+    return data, labels, sequence_length+40#1,2,3#shuffled_data, shuffled_labels, sequence_length
 
 # Get the nucleotide percentages using the whole file (GC content)
 nucleotide_percentages = DNA(fasta_file).calculate_nucleotide_percentages()
 
 # Extract the necessary data
 dna_dictionaries = prepare_input_data()
-sequence_length = find_longest_sequence(dna_dictionaries)
+whole_sequence_length = find_longest_sequence(dna_dictionaries)
 intergenic_true_negatives, true_positives = encode_many_sequences(dna_dictionaries, nucleotide_percentages,
-                                                                  sequence_length)
+                                                                  whole_sequence_length)
 # Create labels and modify the data for tensorflow
-random_true_negatives = get_random_negatives(sequence_length, nucleotide_percentages, len(true_positives))
+random_true_negatives = get_random_negatives(whole_sequence_length, nucleotide_percentages, len(true_positives))
 
 # Test with intergenic true negatives
-data, labels = create_labels(true_positives, intergenic_true_negatives)
-test_model(data, 0.8, labels, sequence_length)
+# There are not enough intergenic true negative labels yet, so this is commented out
+#intergenic_data, intergenic_labels = create_labels(true_positives, intergenic_true_negatives)
+#test_model(intergenic_data, 0.8, intergenic_labels, whole_sequence_length, "cnn_lstm_4")
 
 # Test with true negatives from random sequences
-data, labels = create_labels(true_positives, random_true_negatives)
-test_model(data, 0.8, labels, sequence_length)
+random_data, random_labels = create_labels(true_positives, random_true_negatives)
+test_model(random_data, 0.8, random_labels, whole_sequence_length, "cnn_lstm_4")
 # Random true negative performs worse than intergenic true negatives, probably because there are less intergenic labels
+
+# Use motifs found by FIMO instead of whole sequences
+fimo_data, fimo_labels, fimo_sequence_length = get_fimo_data(fimo_folder)
+test_model(fimo_data, 0.8, fimo_labels, fimo_sequence_length, "cnn_lstm_4")
+
+# Testing different models, the main goal is to find a model that can also classify the unprocessed sequences well
+#test_model(random_data, 0.8, random_labels, whole_sequence_length, "cnn_blstm_2")
+# Higher accuracy but more loss
+#test_model(fimo_data, 0.8, fimo_labels, fimo_sequence_length, "cnn_blstm_2")
+
+# Less loss and less accuracy
+#test_model(random_data, 0.8, random_labels, whole_sequence_length, "cnn_lstm_small_7_1_1_5_new")
+#test_model(fimo_data, 0.8, fimo_labels, fimo_sequence_length, "cnn_lstm_small_7_1_1_5_new")
+
+# Less loss and less accuracy
+#test_model(random_data, 0.8, random_labels, whole_sequence_length, "cnn_lstm_small_7_1_1_4_new")
+#test_model(fimo_data, 0.8, fimo_labels, fimo_sequence_length, "cnn_lstm_small_7_1_1_4_new")
