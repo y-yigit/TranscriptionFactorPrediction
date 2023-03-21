@@ -1,6 +1,7 @@
 #!usr/bin/env python3
 
-from tensorflow.keras.layers import Conv1D, LSTM, Dense, MaxPooling1D, Flatten, Dropout, BatchNormalization
+import tensorflow
+from tensorflow.keras.layers import Conv1D, LSTM, Dense, MaxPooling1D, Flatten, Dropout, BatchNormalization, Embedding, Bidirectional
 from tensorflow.keras.models import Sequential
 
 """
@@ -16,27 +17,80 @@ class CNN():
     """ Convolutional neural network for predicting motifs
     .. note:: This model is not final, layers and parameters will change
     """
-    def __init__(self, input_shape):
+    def __init__(self, input_shape, model_name):
         self.model = None
-        self.set_model(input_shape)
+        self.input_shape = input_shape
+        self.set_model(input_shape, model_name)
 
-    def set_model(self, input_shape):
-        """ Instantiates CNN model "cnn_lstm_4" from the models package
+    def set_model(self, input_shape, model_name):
+        """ Instantiates a CNN model
+
+        The models in this method originate from the models module, this module is not imported
+        because it adds additional layers. The values for the dense layers were changed
+
         """
-        model = Sequential(name='model_cnn_lstm')
-        model.add(Conv1D(filters=8, kernel_size=12, strides=1, activation='relu', input_shape=input_shape, name='conv1d_1'))
-        model.add(Conv1D(filters=8, kernel_size=9, strides=1, activation='relu', input_shape=input_shape, name='conv1d_2'))
-        model.add(BatchNormalization(name='batchnorm_1'))
-        model.add(MaxPooling1D(pool_size=2, name='max_pooling'))
-        model.add(Dropout(0.3, name='dropout_1'))
-        model.add(Conv1D(filters=16, kernel_size=6, strides=1, activation='relu', input_shape=input_shape, name='conv1d_3'))
-        model.add(Conv1D(filters=16, kernel_size=4, strides=1, activation='relu', input_shape=input_shape, name='conv1d_4'))
-        model.add(BatchNormalization(name='batchnorm_2'))
-        model.add(Dropout(0.3, name='dropout_2'))
-        # model.add(MaxPooling1D(pool_size=2, name='max_pooling_2'))
-        model.add(LSTM(units=16, return_sequences=True, recurrent_dropout=0.3, name='lstm'))
-        model.add(Flatten(name='flatten'))
-        self.model = model
+
+        model = Sequential(name=model_name)
+
+        if model_name == "cnn_lstm_4":
+            model.add(Conv1D(filters=8, kernel_size=12, strides=1, activation='relu', input_shape=input_shape, name='conv1d_1'))
+            model.add(Conv1D(filters=8, kernel_size=9, strides=1, activation='relu', input_shape=input_shape, name='conv1d_2'))
+            model.add(BatchNormalization(name='batchnorm_1'))
+            model.add(MaxPooling1D(pool_size=2, name='max_pooling'))
+            model.add(Dropout(0.3, name='dropout_1'))
+            model.add(Conv1D(filters=16, kernel_size=6, strides=1, activation='relu', input_shape=input_shape, name='conv1d_3'))
+            model.add(Conv1D(filters=16, kernel_size=4, strides=1, activation='relu', input_shape=input_shape, name='conv1d_4'))
+            model.add(BatchNormalization(name='batchnorm_2'))
+            model.add(Dropout(0.3, name='dropout_2'))
+            # model.add(MaxPooling1D(pool_size=2, name='max_pooling_2'))
+            model.add(LSTM(units=16, return_sequences=True, recurrent_dropout=0.3, name='lstm'))
+            model.add(Flatten(name='flatten'))
+            self.model = model
+
+        elif model_name == 'cnn_lstm_small_7_1_1_5_new':
+            model.add(Conv1D(filters=8, kernel_size=8, activation='relu', input_shape=input_shape, name='conv1d'))
+            model.add(MaxPooling1D(pool_size=2))
+            model.add(Conv1D(filters=16, kernel_size=4, activation='relu', name='conv1d_2'))
+            model.add(MaxPooling1D(pool_size=2))
+            model.add(LSTM(units=16, return_sequences=True, name='lstm'))
+            model.add(Flatten())
+            model.add(Dense(16, activation='relu', name='dense'))
+            model.add(Dense(1, activation='softmax', name='prediction'))
+            self.model = model
+
+        elif model_name == 'cnn_lstm_small_7_1_1_4_new':
+            model.add(Conv1D(filters=8, kernel_size=8, activation='relu', input_shape=input_shape))
+            model.add(Dropout(0.3))
+            model.add(Conv1D(filters=16, kernel_size=4, activation='relu'))
+            model.add(Dropout(0.3))
+            model.add(LSTM(units=16, return_sequences=True))
+            model.add(MaxPooling1D(pool_size=3))
+            model.add(Flatten())
+            model.add(Dense(16, activation='relu'))
+            model.add(Dense(1, activation='softmax', name='prediction'))
+            self.model = model
+
+        elif model_name == 'cnn_blstm_2':
+            model.add(Conv1D(filters=16, kernel_size=9, strides=1, activation='relu', input_shape=input_shape,
+                             name='conv1d_1'))
+            model.add(Conv1D(filters=16, kernel_size=6, strides=1, activation='relu', input_shape=input_shape,
+                             name='conv1d_2'))
+            model.add(BatchNormalization(name='batchnorm_1'))
+            model.add(MaxPooling1D(pool_size=2, name='max_pooling_1'))
+            model.add(Dropout(0.3, name='dropout_1'))
+            model.add(Conv1D(filters=32, kernel_size=3, strides=1, activation='relu', input_shape=input_shape,
+                             name='conv1d_3'))
+            model.add(Conv1D(filters=32, kernel_size=3, strides=1, activation='relu', input_shape=input_shape,
+                             name='conv1d_4'))
+            model.add(BatchNormalization(name='batchnorm_2'))
+            model.add(MaxPooling1D(pool_size=2, name='max_pooling_2'))
+            model.add(Dropout(0.3, name='dropout_2'))
+            model.add(Bidirectional(LSTM(units=32, return_sequences=True, recurrent_dropout=0.3, name='blstm_1')))
+            model.add(Bidirectional(LSTM(units=32, return_sequences=True, recurrent_dropout=0.3, name='blstm_2')))
+            model.add(Flatten(name='flatten'))
+            model.add(Dense(16, activation='relu', name='dense_0'))
+            model.add(BatchNormalization(name='batchnorm_3'))
+            self.model = model
 
     def divide_labels(self, data: object, labels: object, test_set_fraction: float):
         """ Divides the input data and labels into test and training datasets based on a fraction
@@ -49,11 +103,8 @@ class CNN():
         :type test_set_fraction: float
 
         .. note:: If values for the dense layer are set incorrectly it will return the error:
-                  "ValueError: `logits` and `labels` must have the same shape". This error is not a
-
-        .. todo:: The true positives and true negatives in the input data are not shuffled, this method should do that
+                  "ValueError: `logits` and `labels` must have the same shape".
         """
-        train_split = 0.8  # 80% for training, 20% for testing
         train_size = int(len(data) * test_set_fraction)
         self.train_data = data[:train_size]
         self.train_labels = labels[:train_size]
