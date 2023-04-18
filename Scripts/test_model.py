@@ -5,7 +5,6 @@ __author__ = "Yaprak Yigit"
 __version__ = "0.1"
 """
 
-from regulon import Regulon
 from dna import DNA
 import numpy as np
 from CNN import CNN
@@ -13,69 +12,70 @@ import tensorflow as tf
 import os
 import pandas
 from Bio import SeqIO
+from sklearn.preprocessing import OneHotEncoder
 
 # import screed # a library for reading in FASTA/FASTQ
 
 # Enable logging
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '0'
 
-sequence_file = "/home1/p312436/features_yy.csv"
-cnn_dataset = "/home1/p312436/features_yy_final.csv"
-fasta_folder = "/home1/p312436/Data/Intergenic_ccpA"
-test_file = "/home1/p312436/Data/Genomes/Neisseria_gonorrhoeae_FA_1090_ASM684v1_genomic.fna"
+train_sequences = "/home/ubuntu/Yaprak/train_sequences.csv"
+test_sequences = "/home/ubuntu/Yaprak/test_sequences.csv"
+
+train_dataset = "/home/ubuntu/Yaprak/train_dataset.csv"
+test_dataset = "/home/ubuntu/Yaprak/test_dataset.csv"
+fasta_folder = "/home/ubuntu/Yaprak/Data/Intergenic_ccpA"
+intergenic_file = "/home/ubuntu/Yaprak/Data/Intergenic/Bacillus_amyloliquefaciens_L-S60_ASM97348v1_genomic.g2d.intergenic.ffn"
 
 max_length = 51
 
 
-def read_kmers_from_file(filename: str, ksize: int) -> list:
-    """ Screen a fasta file and create all possible sequence of a certain length
-
-    :param filename: A path to a fasta file
-    :param ksize: Size of the k-mers
-    :return: A list of k-mers
-
-    .. note:: This is Jelmers function
-    """
+def read_kmers_from_file(filename, ksize):
     all_kmers = []
     with open(filename) as open_file:
         for record in SeqIO.parse(open_file, "fasta"):
             sequence = str(record.seq)
+
             kmers = []
             n_kmers = len(sequence) - ksize + 1
+
             for i in range(n_kmers):
-                kmers.append(sequence[i:i + ksize])
+                kmer = sequence[i:i + ksize]
+                kmers.append(kmer)
+
             kmers = DNA.one_hot_encoder(kmers)
             all_kmers += kmers
+
     return all_kmers
 
 
-def create_labels(positive_data: list, negative_data: list) -> tuple:
+def create_labels(positive_data, negative_data):
     """ Create the labels for the CNN model
 
     :param positive_data: Positive sequences
+    :type positive_data: list
     :param negative_data: Negatives sequences
+    :type negative_data: list
     :return: A tensor object and numpy array
+    :rtype: tuple
     """
-    # Create labels for the data
-    positive_labels = np.ones(len(positive_data))
-    negative_labels = np.zeros(len(negative_data))
+    one_hot_encoder = OneHotEncoder(categories='auto')
 
-    # Combine data and labels into two separate arrays
+    positive_labels = [1 for label in range(0, len(positive_data))]
+    negative_labels = [0 for label in range(0, len(negative_data))]
+
+    # Combine data and labels
     data = np.concatenate((positive_data, negative_data))
-    labels = np.concatenate((positive_labels, negative_labels))
-
+    labels = np.array(positive_labels + negative_labels).reshape(-1, 1)
     # Shuffle data and labels
     permutation = np.random.permutation(len(data))
     shuffled_data = data[permutation]
-    shuffled_labels = labels[permutation]
+    # Extra transformation for labels
+    shuffled_labels = one_hot_encoder.fit_transform(labels[permutation]).toarray()
     return shuffled_data, shuffled_labels
 
 
-def save_labels(input_file: str):
-    """ Extend DNA sequences from a dataset and save the resulting dataset
-
-    :param input_file: A path to a csv file
-    """
+def save_labels(input_file, output_file):
     label_dataframe = pandas.read_csv(input_file, engine="python", sep=",")
     final_dataframe = pandas.DataFrame(columns=["sequence", "species", "transcription_factor", "modified_sequence"])
 
@@ -98,46 +98,54 @@ def save_labels(input_file: str):
         feature_dataframe["transcription_factor"] = ["ccpA"] * len(positive_sequences) + ["random"] * len(
             negative_sequences)
         final_dataframe = final_dataframe.append(feature_dataframe)
-    final_dataframe.to_csv("features_yy_final.csv", sep='\t', index=False)
+    final_dataframe.to_csv(output_file, sep='\t', index=False)
 
 
-def prepare_input(input_file: str) -> tuple:
-    """ Reads labels from a csv file and encodes them
-    :param filename: A path to a csv file
-    """
+def prepare_input(input_file):
     label_dataframe = pandas.read_csv(input_file, engine="python", sep="\\t", lineterminator="\r")
     positives = label_dataframe[label_dataframe["species"] != ("random")]["modified_sequence"].tolist()
     negatives = label_dataframe[label_dataframe["species"] == ("random")]["modified_sequence"].tolist()
 
     encoded_positives = DNA.one_hot_encoder(positives)
     encoded_negatives = DNA.one_hot_encoder(negatives)
-    return len(positives[0]), encoded_positives, encoded_negatives
+
+    return encoded_positives, encoded_negatives
 
 
-def test_model(data: object, test_set_fraction: float, labels: list, sequence_length, model_name: str):
+def test_model(train_data, test_data, train_labels, test_labels, model_name):
     """ Test a CNN model
     :param data: A tensor object of the input data
+    :type data: object
     :param test_set_fraction: A fraction below 1
+    :type test_set_fraction: float
     :param labels: A numpy array of labels
+    :type labels: object
     :param sequence_length: The length of the longest sequence
+    :type sequence_length: int
     """
     # The values for input_shape might not be correct
-    my_model = CNN((sequence_length, 4,), model_name)
-    my_model.divide_labels(data, labels, test_set_fraction)
+    print("Training the model")
+    my_model = CNN((max_length, 4,), model_name)
+    my_model.set_input(train_data, test_data, train_labels, test_labels)
     my_model.compile_model()
     my_model.report_summary()
     my_model.train_model(30, 32)
+    # my_model.evaluate_model(test_data)
 
 
-# Save the input data with extended sequences
-save_labels(sequence_file)
+# Save the input data
+save_labels(train_sequences, "/home/ubuntu/Yaprak/train_dataset.csv")
+save_labels(test_sequences, "/home/ubuntu/Yaprak/test_dataset.csv")
 
-# Dataset for evaluating the model
-test = read_kmers_from_file(test_file, max_length)
+intergenic_data = read_kmers_from_file(intergenic_file, max_length)
+# Generate train data
+encoded_positives, encoded_negatives = prepare_input(train_dataset)
+train_data, train_labels = create_labels(encoded_positives, encoded_negatives)
+# Generate test data
 
-sequence_length, encoded_positives, encoded_negatives = prepare_input(cnn_dataset)
+encoded_positives, encoded_negatives = prepare_input(test_dataset)
+test_data, test_labels = create_labels(encoded_positives, encoded_negatives)
+# identifies multiple classes
+# test_model(train_data, test_data, train_labels, test_labels, "cnn_lstm_4")
+test_model(train_data, test_data, train_labels, test_labels, "cnn_lstm_4")
 
-data, labels = create_labels(encoded_positives, encoded_negatives)
-test_model(data, 0.8, labels, sequence_length, "cnn_lstm_4")
-my_model = CNN((sequence_length, 4,), "cnn_lstm_4")
-my_model.evaluate_model(test, data, labels)
