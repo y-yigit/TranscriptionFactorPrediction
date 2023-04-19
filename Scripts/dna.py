@@ -23,14 +23,12 @@ from Bio import SeqIO
 class DNA():
     """ Class for modifying DNA sequences """
 
-    def __init__(self, sequences: Union[str, list], promotor_length=100):
+    def __init__(self, sequences: Union[str, list]):
         """
         :param sequence: A path to a fasta file or a list containing DNA strings
         :type sequence: str, list
         :param promotor_length: The length of a promotor
-        :type promotor_length: int
         """
-        self.promotor_length = promotor_length
         self.dna_sequences = []
         self.__clean_sequence__(sequences)
 
@@ -60,16 +58,26 @@ class DNA():
             raise TypeError("The parameter sequences is not a list or string")
 
     def change_sequence_lengths(self, max_length: int, nucleotide_percentages: dict):
-        """ Modifies all sequences in self.dna_sequences to share the same length
+        """ Extends all sequences in self.dna_sequences to the same length and also creates a complement sequence
+
+        It adds extra nucleotides before and after the sequence. It uses every possible starting point. The order of the
+        nucleotides changes every time a new sequence gets created.
         """
         modified_sequences = []
+
+        head_shuffler = lambda sequence, start: ''.join(random.sample(sequence[0:start], len(sequence[0:start])))
+        tail_shuffler = lambda sequence, start, end: ''.join(random.sample(sequence[start:start+end],
+                                                                           len(sequence[start:start+end])))
+
         for sequence in self.dna_sequences:
             number_of_extra_bases = max_length - len(sequence)
             random_sequence = self.generate_random_dna(number_of_extra_bases, nucleotide_percentages)
-            # This is not the exact middle base, but it is very close to it
-            middle_point = round(len(random_sequence) / 2)
-            modified_sequence = random_sequence[:middle_point] + sequence + random_sequence[middle_point:]
-            modified_sequences.append(modified_sequence)
+
+            for index in range(0, max_length):
+                tail_length = number_of_extra_bases - index
+                reverse_strand = sequence[::-1]
+                modified_sequences.append(head_shuffler(random_sequence, index) + sequence + tail_shuffler(random_sequence, index, tail_length))
+                modified_sequences.append(head_shuffler(random_sequence, index) + reverse_strand + tail_shuffler(random_sequence, index, tail_length))
         # Overwrite the class variable
         self.dna_sequences = modified_sequences
 
@@ -92,12 +100,13 @@ class DNA():
         :return: A list of numpy arrays
         :rtype: list
         """
-        mapping = dict(zip("AGCT", range(4)))
+        mapping = dict(zip("AGCT0)", range(5)))
         # Encode every base in every sequence with np.eye
-        return [np.eye(4)[[mapping[base] for base in sequence]] for sequence in dna_sequences]
+        return [np.eye(5)[[mapping[base] for base in sequence]] for sequence in dna_sequences]
 
 
-    def generate_random_dna(self, count: int, nucleotide_percentages: dict) -> list:
+    @staticmethod
+    def generate_random_dna(count: int, nucleotide_percentages: dict) -> list:
         """ Generates a sequence of bases with the GC content of the input fasta file
 
         :param count: Integer specifying the total number of bases
@@ -117,3 +126,4 @@ class DNA():
             random_index = random.randint(0, len(dna_set) - 1)
             random_sequence += dna_set[random_index]
         return random_sequence
+
