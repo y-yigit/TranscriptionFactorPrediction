@@ -15,12 +15,15 @@
 library("readxl")
 library("data.table")
 library("plyr")
+library("ggseqlogo")
 library("tidyr")
 library("dplyr")
+library("ggplot2")
 
 pubmed_dir <- "/home/ubuntu/Yaprak/Data/Motifs/pubmed_articles/"
 prodoric_dir <- "/home/ubuntu/Yaprak/Data/Motifs/Prodoric"
 collectf_file <- "/home/ubuntu/Yaprak/Data/Motifs/Collectf/all_ccpa.tsv"
+fasta_file <- "/home/ubuntu/Yaprak/motifs.fasta"
 
 streptococcus_pyogenes <- read.table(paste(pubmed_dir, "streptococcus_pyogenes_33325565.csv", sep = ""), sep = "\t", header = TRUE)
 streptococcus_pyogenes$species <- "streptococcus_pyogenes"
@@ -49,14 +52,17 @@ colnames(lactococcus_lactis) <- c("gene", "sequence", "species")
 lactococcus_lactis <- lactococcus_lactis[!(lactococcus_lactis$sequence == " " | lactococcus_lactis$sequence == "  "  | lactococcus_lactis$sequence == "<"), ]
 lactococcus_lactis$source <- "PMID: 1702870"
 
+# Extra motifs
+extra_motifs = read.table(paste(pubmed_dir, "extra.csv", sep = ""), sep = "\t", header = TRUE)
+eextra_motifs <- extra_motifs[,c(1,3,2,4)]
+
 # Also present in the CollecTF dataset
-#bacillus_subtilis <- read.table(paste(pubmed_dir, "dbtbs_bacillus_subtilis.csv", sep =""), sep = "\t", header = TRUE)
+#bacillus_subtilis <- read.table(paste(pubmed_dir, "DBRTS/bacillus_subtilis.csv", sep =""), sep = "\t", header = TRUE)
 #bacillus_subtilis$species <- "bacillus_subtilis"
 #bacillus_subtilis <- bacillus_subtilis[,c(2,3,5)]
 #colnames(bacillus_subtilis) <- c("gene", "sequence", "species")
 #bacillus_subtilis <- bacillus_subtilis[!(is.na(bacillus_subtilis$sequence) | bacillus_subtilis$sequence=="ND" | bacillus_subtilis$sequence==""), ]
-
-transcription_df <- rbind(streptococcus_pyogenes, clostridium_acetobutylicum, lactococcus_lactis)#, streptococcus_suis, bacillus_subtilis) 
+transcription_df <- rbind(streptococcus_pyogenes, clostridium_acetobutylicum, lactococcus_lactis, extra_motifs)#, streptococcus_suis, bacillus_subtilis) 
 transcription_df$feature <- "ccpA"
 
 # CollecTF data
@@ -80,4 +86,17 @@ complete_dataset$sequence <- as.character(complete_dataset$sequence)
 complete_dataset <- complete_dataset[nchar(complete_dataset$sequence) <= 51, ]
 complete_dataset$modified_sequence <- complete_dataset$sequence
 
-write.csv(complete_dataset, "features_yy.csv")
+# A new column containing indexes
+complete_dataset$index <- seq(1, nrow(complete_dataset))
+
+# Create a fasta file containing the motifs
+open_file <- file(fasta_file, "w")
+
+# Iterate through the motifs and add each motif to the fasta file with a header
+for (i in 1:nrow(complete_dataset)) {
+  cat(paste0(">", complete_dataset$index[i], "\n"), file = open_file)
+  cat(paste0(complete_dataset$sequence[i], "\n"), file = open_file)
+}
+
+# Create a dataset of the motifs and additional information
+write.csv(complete_dataset, "cnn_dataset.csv")
