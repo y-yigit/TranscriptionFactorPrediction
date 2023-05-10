@@ -1,8 +1,13 @@
 #!usr/bin/env python3
 
 import tensorflow
-from tensorflow.keras.layers import Conv1D, LSTM, Dense, MaxPooling1D, Flatten, Dropout, BatchNormalization, Embedding, Bidirectional
+from tensorflow.keras import regularizers
+from tensorflow.keras.layers import Conv1D, Masking, LSTM, Dense, MaxPooling1D, Flatten, Dropout, BatchNormalization, Embedding, Bidirectional, GlobalMaxPool1D, InputLayer, GaussianNoise
 from tensorflow.keras.models import Sequential
+from tensorflow.keras.regularizers import l2, l1
+from tensorflow.keras.metrics import SensitivityAtSpecificity
+import numpy as np
+from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score, classification_report
 
 """
 CCN.py
@@ -11,6 +16,7 @@ __author__ = "Yaprak Yigit"
 __version__ = "0.1"
 
 .. note:: Use numpy 1.21 for compatibility with tensorflow
+.. note:: DENSE LAYER DECIDES THE AMOUNT OF CLASSES
 """
 
 class CNN():
@@ -32,67 +38,25 @@ class CNN():
 
         model = Sequential(name=model_name)
 
-        if model_name == "cnn_lstm_4":
-            model.add(Conv1D(filters=8, kernel_size=12, strides=1, activation='relu', input_shape=input_shape, name='conv1d_1'))
-            model.add(Conv1D(filters=8, kernel_size=9, strides=1, activation='relu', input_shape=input_shape, name='conv1d_2'))
-            model.add(BatchNormalization(name='batchnorm_1'))
-            model.add(MaxPooling1D(pool_size=2, name='max_pooling'))
-            model.add(Dropout(0.3, name='dropout_1'))
-            model.add(Conv1D(filters=16, kernel_size=6, strides=1, activation='relu', input_shape=input_shape, name='conv1d_3'))
-            model.add(Conv1D(filters=16, kernel_size=4, strides=1, activation='relu', input_shape=input_shape, name='conv1d_4'))
-            model.add(BatchNormalization(name='batchnorm_2'))
-            model.add(Dropout(0.3, name='dropout_2'))
-            # model.add(MaxPooling1D(pool_size=2, name='max_pooling_2'))
-            model.add(LSTM(units=16, return_sequences=True, recurrent_dropout=0.3, name='lstm'))
-            model.add(Flatten(name='flatten'))
-            self.model = model
-
-        elif model_name == 'cnn_lstm_small_7_1_1_5_new':
-            model.add(Conv1D(filters=8, kernel_size=8, activation='relu', input_shape=input_shape, name='conv1d'))
-            model.add(MaxPooling1D(pool_size=2))
-            model.add(Conv1D(filters=16, kernel_size=4, activation='relu', name='conv1d_2'))
-            model.add(MaxPooling1D(pool_size=2))
-            model.add(LSTM(units=16, return_sequences=True, name='lstm'))
+        if model_name == "model_sigme54_weights":
+            model.add(Masking(mask_value=0))
+            model.add(GaussianNoise(0.2))
+            model.add(Conv1D(filters=128, kernel_size=5, activation='relu', kernel_regularizer=regularizers.l2(1e-4),
+                             bias_regularizer=regularizers.l2(1e-6), input_shape=input_shape))
+            model.add(MaxPooling1D(pool_size=4, strides=2))
+            model.add(Dropout(0.5))
+            model.add(Conv1D(filters=256, kernel_size=7, activation='relu', kernel_regularizer=regularizers.l2(1e-4),
+                         bias_regularizer=regularizers.l2(1e-6)))
+            model.add(MaxPooling1D(pool_size=4, strides=2))
+            model.add(Dropout(0.5))
             model.add(Flatten())
-            model.add(Dense(16, activation='relu', name='dense'))
-            model.add(Dense(1, activation='softmax', name='prediction'))
+            model.add(Dense(64, activation='relu', kernel_regularizer=regularizers.l2(1e-4),
+                        bias_regularizer=regularizers.l2(1e-6)))
+            model.add(Dropout(0.5))
+            model.add(Dense(2, activation='sigmoid'))
             self.model = model
 
-        elif model_name == 'cnn_lstm_small_7_1_1_4_new':
-            model.add(Conv1D(filters=8, kernel_size=8, activation='relu', input_shape=input_shape))
-            model.add(Dropout(0.3))
-            model.add(Conv1D(filters=16, kernel_size=4, activation='relu'))
-            model.add(Dropout(0.3))
-            model.add(LSTM(units=16, return_sequences=True))
-            model.add(MaxPooling1D(pool_size=3))
-            model.add(Flatten())
-            model.add(Dense(16, activation='relu'))
-            model.add(Dense(1, activation='softmax', name='prediction'))
-            self.model = model
-
-        elif model_name == 'cnn_blstm_2':
-            model.add(Conv1D(filters=16, kernel_size=9, strides=1, activation='relu', input_shape=input_shape,
-                             name='conv1d_1'))
-            model.add(Conv1D(filters=16, kernel_size=6, strides=1, activation='relu', input_shape=input_shape,
-                             name='conv1d_2'))
-            model.add(BatchNormalization(name='batchnorm_1'))
-            model.add(MaxPooling1D(pool_size=2, name='max_pooling_1'))
-            model.add(Dropout(0.3, name='dropout_1'))
-            model.add(Conv1D(filters=32, kernel_size=3, strides=1, activation='relu', input_shape=input_shape,
-                             name='conv1d_3'))
-            model.add(Conv1D(filters=32, kernel_size=3, strides=1, activation='relu', input_shape=input_shape,
-                             name='conv1d_4'))
-            model.add(BatchNormalization(name='batchnorm_2'))
-            model.add(MaxPooling1D(pool_size=2, name='max_pooling_2'))
-            model.add(Dropout(0.3, name='dropout_2'))
-            model.add(Bidirectional(LSTM(units=32, return_sequences=True, recurrent_dropout=0.3, name='blstm_1')))
-            model.add(Bidirectional(LSTM(units=32, return_sequences=True, recurrent_dropout=0.3, name='blstm_2')))
-            model.add(Flatten(name='flatten'))
-            model.add(Dense(16, activation='relu', name='dense_0'))
-            model.add(BatchNormalization(name='batchnorm_3'))
-            self.model = model
-
-    def divide_labels(self, data: object, labels: object, test_set_fraction: float):
+    def set_input(self, train_data: object, test_data, train_labels: object, test_labels):
         """ Divides the input data and labels into test and training datasets based on a fraction
 
         :param data: A tensor object from the module tensorflow
@@ -105,27 +69,75 @@ class CNN():
         .. note:: If values for the dense layer are set incorrectly it will return the error:
                   "ValueError: `logits` and `labels` must have the same shape".
         """
-        train_size = int(len(data) * test_set_fraction)
-        self.train_data = data[:train_size]
-        self.train_labels = labels[:train_size]
+        test_set_fraction = 0.5  # 80% for training, 20% for testing
+        train_size = int(len(train_data) * test_set_fraction)
 
-        self.test_data = data[train_size:]
-        self.test_labels = labels[train_size:]
+        self.train_data = train_data[:train_size]
+        self.train_labels = train_labels[:train_size]
+
+        self.val_data = train_data[train_size:]
+        self.val_labels = train_labels[train_size:]
+
+        self.test_data = test_data
+        self.test_labels = test_labels
 
     def compile_model(self):
         """ Compile the model
         """
-        self.model.compile(loss='binary_crossentropy', optimizer="adam", metrics=['binary_accuracy'])
+        self.model.compile(loss='binary_crossentropy',
+                           optimizer="adam",#tensorflow.keras.optimizers.Adam(learning_rate=0.001),
+                           metrics=['binary_accuracy'])#, SensitivityAtSpecificity(0.9)])
 
-    def train_model(self):
+    def train_model(self, epochs, batch_size):
         """ Train and test the model
 
         Results epochs:
             1 - 187ms/step - loss: 0.6527 - binary_accuracy: 0.9237 - val_loss: 0.1032 - val_binary_accuracy: 1.0000
             10 - 186ms/step - loss: 0.3004 - binary_accuracy: 0.9296 - val_loss: 0.1373 - val_binary_accuracy: 1.0000
         """
-        self.model.fit(self.train_data, self.train_labels, epochs=10, batch_size=32, validation_data=(self.test_data,
-                                                                                                      self.test_labels))
+        res = self.model.fit(self.train_data, self.train_labels, epochs=epochs, shuffle=True,
+                             batch_size=batch_size, validation_data=(self.val_data, self.val_labels), verbose=0)
+        print(res)
+
+
+    def predict_labels(self):
+
+        # Make predictions on test data
+        predicted_labels = self.model.predict(self.test_data)
+
+        cm = confusion_matrix(np.argmax(self.test_labels, axis=1), np.argmax(predicted_labels, axis=1))
+        TP = cm[1][1]
+        FP = cm[0][1]
+        FN = cm[1][0]
+        precision = TP / (TP + FP)
+        recall = TP / (TP + FN)
+        f1 = 2 * (precision * recall) / (precision + recall)
+
+        print(f"F1 score: {f1} \nPrecision: {precision} \nRecall: {recall} \nConfusion Matrix :\n{cm}")
+
+     #   # Map the predicted label index to the corresponding label name using your label mapping
+      #  label_mapping = {0: "Non-motif", 1: "Motif"}
+       # pred_labels = [label_mapping[idx] for idx in pred_labels_idx]
+
+        # Combine the predicted labels with the input data points into a list of tuples
+        #results = list(zip(self.test_data, pred_labels))
+
+        # Print the predicted labels along with their corresponding input data
+       # for data, label in results:
+        #    pass#print(f"Data: {self.decoder(data)}, Label: {label}")
+
+    @staticmethod
+    def decoder(encoded_lists):
+        reverse_mapping = {0: "A", 1: "G", 2: "C", 3: "T"}
+        motif = ""
+        for encoded_list in encoded_lists:
+            for index, encoded_nucleotide in enumerate(encoded_list):
+                if encoded_nucleotide == 1:
+                    nucleotide = reverse_mapping[index]
+                    motif += nucleotide
+        return motif
+
     def report_summary(self):
         """ Prints a summary of the model"""
         self.model.summary()
+
