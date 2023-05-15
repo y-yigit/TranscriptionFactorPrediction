@@ -30,6 +30,7 @@ class DNA():
         :param promotor_length: The length of a promotor
         """
         self.dna_sequences = []
+        self.ids = []
         self.__clean_sequence__(sequences)
 
     def __clean_sequence__(self, sequences: Union[str, list]):
@@ -47,37 +48,51 @@ class DNA():
         """
         if isinstance(sequences, str):
             try:
-                self.dna_sequences = [re.sub("[^AGTC]", "G", str(record.seq).upper())
-                                      for record in SeqIO.parse(sequences, "fasta") if record.seq != ""]
-            except FileNotFoundError:
-                print("Incorrect file")
+                for record in SeqIO.parse(sequences, "fasta"):
+                    if record.seq != "":
+                        self.dna_sequences.append(re.sub("[^AGTC]", "G", str(record.seq).upper()))
+                        self.ids.append(record.id)
+            except FileNotFoundError as er:
+                print("Incorrect file", er)
         elif isinstance(sequences, list):
             self.dna_sequences = [re.sub("[^ATGC]", "G", sequence.upper())
                                   for sequence in sequences if sequence != ""]
         else:
             raise TypeError("The parameter sequences is not a list or string")
 
-    def change_sequence_lengths(self, max_length: int, nucleotide_percentages: dict):
+    def change_sequence_lengths(self, max_length: int, nucleotide_percentages: dict, augment: bool):
         """ Extends all sequences in self.dna_sequences to the same length and also creates a complement sequence
 
         It adds extra nucleotides before and after the sequence. It uses every possible starting point. The order of the
         nucleotides changes every time a new sequence gets created.
+
+        .. note:: This method causes a lot of duplicates by creating 51 * 2 new sequences for each motif.
+                  It is possible to shift the motif over a sequence of length 51, but this will cause an uneven distribution.
         """
         modified_sequences = []
 
-        head_shuffler = lambda sequence, start: ''.join(random.sample(sequence[0:start], len(sequence[0:start])))
-        tail_shuffler = lambda sequence, start, end: ''.join(random.sample(sequence[start:start+end],
-                                                                           len(sequence[start:start+end])))
+        shuffler = lambda sequence: ''.join(random.sample(sequence, len(sequence)))
 
+
+        # The smallest motif has a length of 14 and the largest 41
         for sequence in self.dna_sequences:
             number_of_extra_bases = max_length - len(sequence)
+            # dit veroorzaakt een oneven distributie, want de sequenties zijn niet even lang
             random_sequence = self.generate_random_dna(number_of_extra_bases, nucleotide_percentages)
 
-            for index in range(0, max_length):
-                tail_length = number_of_extra_bases - index
-                reverse_strand = sequence[::-1]
-                modified_sequences.append(head_shuffler(random_sequence, index) + sequence + tail_shuffler(random_sequence, index, tail_length))
-                modified_sequences.append(head_shuffler(random_sequence, index) + reverse_strand + tail_shuffler(random_sequence, index, tail_length))
+            if augment == True:
+                for index in range(0, max_length):
+                    middle_point = round(len(random_sequence) / 2)
+                    shuffled_sequence = shuffler(random_sequence)
+                    modified_sequence = shuffled_sequence[:middle_point] + sequence + shuffled_sequence[middle_point:]
+                    final_sequence = modified_sequence[index:] + modified_sequence[0:index]
+                    reverse_strand = final_sequence[::-1]
+                    modified_sequences.append(final_sequence)
+                    modified_sequences.append(reverse_strand)
+            else: # For the test set
+                middle_point = round(len(random_sequence) / 2)
+                modified_sequence = random_sequence[:middle_point] + sequence + random_sequence[middle_point:]
+                modified_sequences.append(modified_sequence)
         # Overwrite the class variable
         self.dna_sequences = modified_sequences
 
@@ -104,16 +119,13 @@ class DNA():
         # Encode every base in every sequence with np.eye
         return [np.eye(5)[[mapping[base] for base in sequence]] for sequence in dna_sequences]
 
-
     @staticmethod
     def generate_random_dna(count: int, nucleotide_percentages: dict) -> list:
         """ Generates a sequence of bases with the GC content of the input fasta file
 
         :param count: Integer specifying the total number of bases
-        :type count: int
         :param nucleotide_percentages: A dictionary with bases as keys and the percentage
             of their occurrence in a sequence as float
-        :type nucleotide_percentages: dict
         :return: A list of random DNA strings
         :rtype: list
 
