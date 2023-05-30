@@ -45,8 +45,7 @@ intergenic_folder = "/home/ubuntu/Yaprak/Data/Intergenic"
 
 max_length = 64
 window_size = 50
-
-def extract_non_motifs(fasta_file):
+def extract_intergenic_sequences(fasta_file, test_specie = "None"):
     """ Reads a fasta file and extracts sequences with a length of 64
 
     The selected sequences are one-hot encoded before they are returned
@@ -57,18 +56,39 @@ def extract_non_motifs(fasta_file):
     dna_obj = DNA(fasta_file)
     non_motifs = dna_obj.dna_sequences
     negative_labels = []
-    for non_motif in non_motifs:
-        kmers = []
+    negative_labels_test = []
+    ids = []
+    ids_test = []
+    for non_motif, id in zip(non_motifs, dna_obj.ids):
         for i in range(0, len(non_motif), 3):
             chunk = non_motif[i:i+max_length]
             if len(chunk) == max_length:
-                negative_labels.append(chunk)
-                # Add the reverse strand as well
-                negative_labels.append(chunk[::-1])
-        negative_labels += kmers
-    random.shuffle(negative_labels)
+                if test_specie in id:
+                    negative_labels_test.append(chunk)
+                    ids_test.append(id)
+                    ids_test.append(id)
+                    # Add the reverse strand as well
+                    negative_labels_test.append(chunk[::-1])
+                else:
+                    negative_labels.append(chunk)
+                    ids.append(id)
+                    ids.append(id)
+                    # Add the reverse strand as well
+                    negative_labels.append(chunk[::-1])
+
+    shuffled_indexes = [i for i in range(0, len(negative_labels))]
+    negative_labels = [negative_labels[index] for index in shuffled_indexes]
+    ids = [ids[index] for index in shuffled_indexes]
     encoded_negative_labels = DNA.one_hot_encoder(negative_labels)
-    return encoded_negative_labels
+
+    if test_specie != "None":
+        shuffled_indexes = [i for i in range(0, len(negative_labels_test))]
+        negative_labels_test = [negative_labels_test[index] for index in shuffled_indexes]
+        ids_test = [ids_test[index] for index in shuffled_indexes]
+        encoded_negative_labels_test = DNA.one_hot_encoder(negative_labels_test)
+        return (encoded_negative_labels, ids, encoded_negative_labels_test, ids_test)
+    else:
+        return (encoded_negative_labels, ids)
 
 def create_labels(positive_data, negative_data):
     """ Create the labels for the CNN model
@@ -177,7 +197,6 @@ def find_motifs(sequences: list, motifs: list, augment: bool) -> list:
                         padded_motifs.append(padded_motif[::-1])
     return padded_motifs
 
-
 def find_conserved_positions(fasta_file: str) -> tuple:
     """ Reads a fasta file containing motifs and calculates the most conserved nucleotide for each position
 
@@ -240,7 +259,7 @@ def create_fake_motifs(fasta_file: str, n_motifs: int) -> list:
             # Mutate the conserved motifs
             for nucleotide_tuple in nucleotide_tuples:
                 # Create a list of nucleotides without the conserved nucleotide
-                possible_mutations =  list(filter(lambda base: base != nucleotide_tuple[1], dna_set))
+                possible_mutations = list(filter(lambda base: base != nucleotide_tuple[1], dna_set))
                 random_motif[nucleotide_tuple[0]] = random.choice(possible_mutations)
         # Create random DNA based on the GC content of the organism to surround the fake motif with
         random_intergenic_dna = "".join(random.sample(dna_set, window_size))
@@ -250,53 +269,42 @@ def create_fake_motifs(fasta_file: str, n_motifs: int) -> list:
         fake_motifs.append(final_motif)
     return DNA.one_hot_encoder(fake_motifs)
 
-def test_model(train_data, test_data, train_labels, test_labels, model_name):
-    """ Trains a CNN model and then tests the model
-
-    The train data and labels are split into train and validation datasets
-
-    :param train_data: A list of numpy arrays containing train data
-    :param test_data: A list of numpy arrays containing test data
-    :param train_labels: A list of numpy arrays containing train labels
-    :param test_labels: A list of numpy arrays containing test labels
-    :param model_name: The name of the model defined in the CNN module
-    """
-    my_model = CNN((max_length, 30,), model_name)
-    my_model.set_input(train_data, test_data, train_labels, test_labels)
-    my_model.compile_model()
-    # The numbers stand for 100 epochs and 32 mini-batches
-    my_model.train_model(10, 32)
-    my_model.predict_labels(my_model.test_data, my_model.test_labels)
-
-def hypter_tune(train_data, test_data, train_labels, test_labels, model_name):
-    tuner = kt.Hyperband(my_model.model_builder,
-                         objective='val_accuracy',
-                         max_epochs=10,
-                         factor=3,
-                         directory='my_dir',
-                         project_name='intro_to_kt')
-    stop_early = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=5)
-
+def hyper_tune(train_data, test_data, train_labels, test_labels, model_name, sequence_ids, specie, predict_data, predict_ids):
     my_model = CNN((max_length, 30,))
     my_model.set_input(train_data, test_data, train_labels, test_labels)
-    tuner.search(my_model.train_data, my_model.train_labels, epochs=100, validation_split=0.2, callbacks=[stop_early])
 
-    # Get the optimal hyperparameters
-    best_hps = tuner.get_best_hyperparameters(num_trials=1)[0]
-
-    # Build the model with the optimal hyperparameters and train it on the data for 100 epochs
-    model = tuner.hypermodel.build(best_hps)
-    history = model.fit(img_train, label_train, epochs=100, validation_split=0.2)
-
-    val_acc_per_epoch = history.history['val_accuracy']
-    best_epoch = val_acc_per_epoch.index(max(val_acc_per_epoch)) + 1
-    print('Best epoch: %d' % (best_epoch,))
-
-    #Re-instantiate the hypermodel and train it with the optimal number of epochs from above.
-    hypermodel = tuner.hypermodel.build(best_hps)
+    hypermodel, history, best_epoch = my_model.create_hyper_model()
     # Retrain the model
-    hypermodel.fit(y_model.train_data, my_model.train_labels, epochs=best_epoch, validation_split=0.2)
-    eval_result = hypermodel.evaluate(my_model.test_data, my_model.test_labels)
+    res = hypermodel.fit(my_model.train_data, my_model.train_labels, verbose=0, epochs=best_epoch, validation_split=0.2)
+
+    pred_probs = hypermodel.predict(my_model.test_data)
+    cm = confusion_matrix(np.argmax(my_model.test_labels, axis=1), np.argmax(pred_probs, axis=1))
+    TP = cm[1][1]
+    FP = cm[0][1]
+    FN = cm[1][0]
+    precision = TP / (TP + FP)
+    recall = TP / (TP + FN)
+    f1 = 2 * (precision * recall) / (precision + recall)
+    # Get the predicted label index for each input data point
+    pred_labels_idx = np.argmax(pred_probs, axis=1)
+
+    # Map the predicted label
+    label_mapping = {0: "Non-motif", 1: "Motif"}
+    pred_labels = [label_mapping[idx] for idx in pred_labels_idx]
+
+    # Print the predicted labels along with their corresponding input data
+    predicted_data = CNN.decoder(test_data)
+    with open(f"found_by_model_{specie}.csv", "w") as open_file:
+        for index, (prediction, label) in enumerate(zip(predicted_data, pred_labels)):
+            if label == "Motif":
+                open_file.write(f">{sequence_ids[index]}\n{prediction}\n")
+
+    hypermodel.save(f"{specie}_model.h5")
+    print(f"F1: {f1}, Recall: {recall}, Precision: {precision}")
+    print("prediction done, Loss, Val loss, recall, accuracy, val_accuracy, precision")
+
+    return [history.history['loss'][-1], history.history['val_loss'][-1], recall, history.history['accuracy'][-1],
+            history.history['val_accuracy'][-1], precision]
 
 
 def main():
@@ -305,37 +313,44 @@ def main():
     It leaves every organism out of the training and validation dataset once, so that it can be used in the test data.
     The end results such as the F1 and precision score are written to a file.
     """
-
     species = []
     sequences = []
-
-    fake_motifs = create_fake_motifs(motif_dataset, 5000)
-
-    # parse the fasta file and append headers and sequences to the lists
+    rows = []
+    # Extract the species and sequences from a fasta file
     for record in SeqIO.parse(motif_dataset, "fasta"):
-        species.append(record.id.split("|")[0])
+        headerless = record.id.split("|")[0]
+        # Select only the scientific name
+        species.append("_".join(headerless.split("_")[0:2]))
         sequences.append(str(record.seq))
-
-    # create a pandas dataframe with two columns
     label_dataframe = pandas.DataFrame({'species': species, 'sequence': sequences})
-    train_sequences = label_dataframe[label_dataframe["species"].str.contains("Streptococcus_pyogenes") == False]
-    test_sequences = label_dataframe[label_dataframe["species"].str.contains("Streptococcus_pyogenes")]
 
-    encoded_negatives = extract_non_motifs(non_motifs)
+
+    specie = "Bacillus_subtilis"
+    predict_data, predict_ids = extract_intergenic_sequences(predicted_specie)
+    print()
+    print(specie)
+
+
+    encoded_negatives, ids, encoded_negatives_test, ids_test = extract_intergenic_sequences(non_motifs, specie)
+    # De file non_motifs is fout aangemaakt
+    train_sequences = label_dataframe[label_dataframe["species"].str.contains(specie) == False]
+    test_sequences = label_dataframe[label_dataframe["species"].str.contains(specie)]
     encoded_positives_train = process_motifs(train_sequences, True)
     encoded_positives_test = process_motifs(test_sequences, False)
-    #np.save("train_positives.npy", np.array(encoded_positives_train, dtype=object), allow_pickle=True)
-  #  np.load("train_positives.npy", allow_pickle=True)
-    #np.save("test_positives.npy", np.array(encoded_positives_test, dtype=object), allow_pickle=True)
-   # np.save("train_negatives.npy", np.array(encoded_negatives[0:100000], dtype=object), allow_pickle=True)
-    #np.save("test_negatives.npy", np.array(encoded_negatives[100000:200000], dtype=object), allow_pickle=True)
-    
-    train_data, train_labels = create_labels(encoded_positives_train, encoded_negatives[0:100000])#+ fake_motifs)
-    test_data, test_labels = create_labels(encoded_positives_test, encoded_negatives[100000:200000])
+    np.save(f"train_positives_{specie}.npy", np.array(encoded_positives_train, dtype=object), allow_pickle=True)
+    np.save(f"train_negatives_{specie}.npy", np.array(encoded_negatives[0:100000], dtype=object), allow_pickle=True)
+    np.save(f"test_negatives_{specie}.npy", np.array(encoded_negatives[100000:200000], dtype=object), allow_pickle=True)
+    train_data, train_labels = create_labels(encoded_positives_train, encoded_negatives[0:100000] + encoded_negatives_test[:round(len(encoded_negatives_test)/2)])#+ fake_motifs)
+    test_data, test_labels = create_labels(encoded_positives_test, encoded_negatives_test[round(len(encoded_negatives_test)/2):])
+    results = hyper_tune(train_data, test_data, train_labels, test_labels, "model_lstm_bi", ids, specie, predict_data, predict_ids)
+    print([specie] + results)
+    rows.append([specie] + results)
 
-    test_model(train_data, test_data, train_labels, test_labels, "model_lstm_bi")
-    hyper_tune(train_data, test_data, train_labels, test_labels, "model_lstm_bi")
-    # test_model(train_data, test_data, train_labels, test_labels, "model_gaussian")
+    with open('all_outcomes.csv', 'w') as f:
+        # create the csv writer
+        writer = csv.writer(f)
+        for row in rows:# write a row to the csv file
+            writer.writerow(row)
 
 if __name__ == "__main__":
     sys.exit(main())
