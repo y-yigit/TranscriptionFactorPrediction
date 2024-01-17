@@ -1,7 +1,7 @@
 ## ----------------------------------------------------------------------------
 ## Script name: combine_data.R
 ##
-## Purpose: This script combines motifs found from papers, CollecTF en PRODRIC
+## Purpose: This script combines motifs found from papers, CollecTF and PRODRIC
 ## Note: The datasets from papers were already filtered for the sequence 
 ##       and gene columns.
 ##
@@ -15,46 +15,48 @@
 library("readxl")
 library("data.table")
 library("plyr")
-library("ggseqlogo")
 library("tidyr")
 library("dplyr")
 library("ggplot2")
 
-pubmed_dir <- "/home/ubuntu/Yaprak/Data/Motifs/pubmed_articles/"
-prodoric_dir <- "/home/ubuntu/Yaprak/Data/Motifs/Prodoric"
-collectf_file <- "/home/ubuntu/Yaprak/Data/Motifs/Collectf/all_ccpa.tsv"
-fasta_file <- "/home/ubuntu/Yaprak/motifs.fasta"
+current_dir <- getwd()
+pubmed_dir <- file.path(current_dir, "Data/Motifs/pubmed_articles/")
+prodoric_dir <- file.path(current_dir, "Data/Motifs/Prodoric")
+collectf_file <- file.path(current_dir, "Data/Motifs/Collectf/all_ccpa.tsv")
+fasta_file <- file.path(current_dir, "Output/Motifs/motifs.fasta")
 
 streptococcus_pyogenes <- read.table(paste(pubmed_dir, "streptococcus_pyogenes_33325565.csv", sep = ""), sep = "\t", header = TRUE)
-streptococcus_pyogenes$species <- "streptococcus_pyogenes"
+streptococcus_pyogenes$species <- "Streptococcus pyogenes"
 colnames(streptococcus_pyogenes) <- c("sequence", "gene", "species")
 streptococcus_pyogenes_filtered <- streptococcus_pyogenes[streptococcus_pyogenes$sequence != "–", ]
 streptococcus_pyogenes <- streptococcus_pyogenes_filtered[, c(2,1,3)]
 streptococcus_pyogenes$source <- "PMID:33325565"
 
 bacillus_licheniformis <- read_excel(paste(pubmed_dir, "bacillus_licheniformis_33997685.xlsx", sep = ""))
-bacillus_licheniformis$species <- "bacillus_licheniformis"
+bacillus_licheniformis$species <- "Bacillus licheniformis"
 colnames(bacillus_licheniformis) <- c("gene", "sequence", "species")
 bacillus_licheniformis$sequence <- toupper(bacillus_licheniformis$sequence)
 bacillus_licheniformis$source <- "PMID:33997685"
 
+bacillus_amyloliquefaciens <- read.table(paste(pubmed_dir, "Bacillus_amyloliquefaciens_37634771.csv", sep = ""), sep = ",", header = TRUE)
+bacillus_amyloliquefaciens <- bacillus_amyloliquefaciens[,c(1, 2,3,4)]
 clostridium_acetobutylicum <- read.table(paste(pubmed_dir, "clostridium_acetobutylicum_28119470.csv", sep = ""), sep = "\t", header = TRUE)
-clostridium_acetobutylicum$species <- "clostridium_acetobutylicum"
+clostridium_acetobutylicum$species <- "Clostridium acetobutylicum"
 clostridium_acetobutylicum <- clostridium_acetobutylicum[,c(2,4,7)]
 colnames(clostridium_acetobutylicum) <- c("gene","sequence", "species")
 clostridium_acetobutylicum$source <- "PMID: 28119470"
 
 lactococcus_lactis <- read.table(paste(pubmed_dir, "lactococcus_lactis_1702870.csv", sep = ""), sep = "\t", header = TRUE)
-lactococcus_lactis$species <- "lactococcus_lactis"
+lactococcus_lactis$species <- "Lactococcus lactis"
 lactococcus_lactis <- gather(lactococcus_lactis, key = "col", value = "sequence", cre.sequence, cre2.sequence)
 lactococcus_lactis <- lactococcus_lactis[,c(1,4,2)]
 colnames(lactococcus_lactis) <- c("gene", "sequence", "species")
 lactococcus_lactis <- lactococcus_lactis[!(lactococcus_lactis$sequence == " " | lactococcus_lactis$sequence == "  "  | lactococcus_lactis$sequence == "<"), ]
-lactococcus_lactis$source <- "PMID: 1702870"
+lactococcus_lactis$source <- "PMID: 17028270"
 
 # Extra motifs
 extra_motifs = read.table(paste(pubmed_dir, "extra.csv", sep = ""), sep = "\t", header = TRUE)
-eextra_motifs <- extra_motifs[,c(1,3,2,4)]
+extra_motifs <- extra_motifs[,c(1,3,2,4)]
 
 # Also present in the CollecTF dataset
 #bacillus_subtilis <- read.table(paste(pubmed_dir, "DBRTS/bacillus_subtilis.csv", sep =""), sep = "\t", header = TRUE)
@@ -62,7 +64,7 @@ eextra_motifs <- extra_motifs[,c(1,3,2,4)]
 #bacillus_subtilis <- bacillus_subtilis[,c(2,3,5)]
 #colnames(bacillus_subtilis) <- c("gene", "sequence", "species")
 #bacillus_subtilis <- bacillus_subtilis[!(is.na(bacillus_subtilis$sequence) | bacillus_subtilis$sequence=="ND" | bacillus_subtilis$sequence==""), ]
-transcription_df <- rbind(streptococcus_pyogenes, clostridium_acetobutylicum, lactococcus_lactis, extra_motifs)#, streptococcus_suis, bacillus_subtilis) 
+transcription_df <- rbind(streptococcus_pyogenes, clostridium_acetobutylicum, lactococcus_lactis, bacillus_amyloliquefaciens, extra_motifs)#, streptococcus_suis, bacillus_subtilis) 
 transcription_df$feature <- "ccpA"
 
 # CollecTF data
@@ -86,17 +88,31 @@ complete_dataset$sequence <- as.character(complete_dataset$sequence)
 complete_dataset <- complete_dataset[nchar(complete_dataset$sequence) <= 51, ]
 complete_dataset$modified_sequence <- complete_dataset$sequence
 
+# The minimum sequence length allowed for MEME
+complete_dataset <- complete_dataset[nchar(complete_dataset$sequence) >= 14,]
+
 # A new column containing indexes
 complete_dataset$index <- seq(1, nrow(complete_dataset))
+
+sources <- aggregate(source ~ species, data = complete_dataset, FUN = unique)
 
 # Create a fasta file containing the motifs
 open_file <- file(fasta_file, "w")
 
+substitutions <- c("_WCFS1", "_BL23", "_V583", "_630", "_subsp", "_D39", "_P1/7", "_AS_1.3089", "_JTH08", "_033", "_str")
+complete_dataset$species <- gsub(" ", "_", complete_dataset$species)
+
+for (substitution in substitutions){
+  complete_dataset$species <- gsub(sprintf("\\%s.*", substitution), "", complete_dataset$species)}
+
+complete_dataset$species <- gsub("Bacillus_megateriumxyl", "Bacillus_megaterium", complete_dataset$species)
+complete_dataset$species <- gsub("Corynebacterium_glutamicum_", "Corynebacterium_glutamicum", complete_dataset$species)
+complete_dataset$species <- gsub("Clostridium_difficile", "Clostridioides_difficile", complete_dataset$species)
+
+
 # Iterate through the motifs and add each motif to the fasta file with a header
 for (i in 1:nrow(complete_dataset)) {
-  cat(paste0(">", complete_dataset$index[i], "\n"), file = open_file)
-  cat(paste0(complete_dataset$sequence[i], "\n"), file = open_file)
+  cat(paste0(">", complete_dataset$species[i], "|", toString(i), "\n", complete_dataset$sequence[i], "\n"), file = open_file)
 }
 
-# Create a dataset of the motifs and additional information
-write.csv(complete_dataset, "cnn_dataset.csv")
+write.csv(complete_dataset, "Output/Motifs/raw_dataset.csv")
