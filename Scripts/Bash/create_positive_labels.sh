@@ -69,12 +69,11 @@ Rscript ${current_dir}/Scripts/R/combine_data.R
 #python3 ${current_dir}/Scripts/Python/meme_reader.py $meme_experimental_dir/meme.txt $experimental_motifs
 
 experimental_motifs=$raw_motifs
-#########
-#######################################################################
+################################################################################
 # Predict cre sites in ortholog genes of the ccpA regulon and move the proteinortho files
 ################################################################################
 
-#proteinortho -cpus=12 -p=blastp -clean -project=cre_experimental $protein_dir/*.faa
+proteinortho -cpus=12 -p=blastp -clean -project=cre_experimental $protein_dir/*.faa
 [ -e cre_experimental* ] && mv cre_experimental* "$proteinortho_dir" && echo "Proteinortho files moved successfully." || echo "No matching files found."
 python3 ${current_dir}/Scripts/Python/extract_blast_genes.py $fimo_motifs $intergenic_dir $proteinortho_dir/cre_experimental.proteinortho.tsv $regulon_file
 
@@ -86,7 +85,7 @@ done
 # Filter for the CcpA regulon
 python3 ${current_dir}/Scripts/Python/data_filtering.py $fimo_dir $fimo_motifs
 
-#meme $fimo_motifs -oc $meme_predicted_dir -maxw 16 -minw 14 -brief 100000#
+meme $fimo_motifs -oc $meme_predicted_dir -maxw 16 -minw 14 -brief 100000#
 python3 ${current_dir}/Scripts/Python/meme_reader.py $meme_predicted_dir/meme.txt $predicted_motifs 
 
 ################################################################################
@@ -100,4 +99,4 @@ python3 ${current_dir}/Scripts/Python/merge_fasta.py $experimental_motifs $motif
 
 # Converting newlines to spaces in the 'files' variable
 files=${files//$'\n'/ }
-#python3 ${current_dir}/Scripts/Python/merge_fasta.py $motifs_completed $motifs_w_regprecise --additional_files ${files[@]} --duplicate_species ${duplicate_species[@]}
+python3 ${current_dir}/Scripts/Python/merge_fasta.py $motifs_completed $motifs_w_regprecise --additional_files ${files[@]} --duplicate_species ${duplicate_species[@]}
