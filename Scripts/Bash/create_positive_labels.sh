@@ -44,7 +44,7 @@ predicted_motifs="${current_dir}/Output/Motifs/predicted_motifs.fasta"
 fimo_dir="${current_dir}/Output/FIMO"
 meme_experimental_dir="${current_dir}/Output/MEME_experimental"
 meme_predicted_dir="${current_dir}/Output/MEME_predicted"
-proteinortho_dir="${current_dir}/Output/Proteinortho/"
+proteinortho_dir="${current_dir}/Output/Proteinortho"
 
 # Regprecise data
 files=$(find $regprecise_dir -type f)
@@ -62,31 +62,19 @@ mkdir -p ${current_dir}/Output/Motifs ${current_dir}/Output/FIMO $proteinortho_d
 ################################################################################
 # Combine and filter data from experimentally predicted cre sites
 # The filtering method has been dropped, since it reduces the models F1 score
+# I only execute it to report the results with count_data.R
 ################################################################################
 Rscript ${current_dir}/Scripts/R/combine_data.R
 
-#meme $raw_motifs -oc $meme_experimental_dir -maxw 16 -minw 14
-#python3 ${current_dir}/Scripts/Python/meme_reader.py $meme_experimental_dir/meme.txt $experimental_motifs
+meme $raw_motifs -oc $meme_experimental_dir -maxw 16 -minw 14
+python3 ${current_dir}/Scripts/Python/meme_reader.py $meme_experimental_dir/meme.txt $experimental_motifs
 
 experimental_motifs=$raw_motifs
 ################################################################################
-# Predict cre sites in ortholog genes of the ccpA regulon and move the proteinortho files
+#Extract cre sites in ortholog genes of the ccpA regulon filter with meme
 ################################################################################
 
-proteinortho -cpus=12 -p=blastp -clean -project=cre_experimental $protein_dir/*.faa
-
-# Check if the proteinortho files exist
-files_to_move=("$current_dir"/cre_experimental)
-
-if [ ${#files_to_move[@]} -gt 0 ]; then
-    # Move files to the destination folder
-    mv "$current_dir"/cre_experimental* "$proteinortho_dir"/
-    echo "Files moved successfully."
-else
-    echo "No matching files found."
-fi
-
-python3 ${current_dir}/Scripts/Python/extract_blast_genes.py $fimo_motifs $intergenic_dir $proteinortho_dir/cre_experimental.proteinortho.tsv $regulon_file
+python3 ${current_dir}/Scripts/Python/extract_blast_genes.py select $fimo_motifs $intergenic_dir $proteinortho_dir/cre_experimental.proteinortho.tsv $regulon_file
 
 for motif_name in $motif_list
 do
@@ -111,3 +99,8 @@ python3 ${current_dir}/Scripts/Python/merge_fasta.py $experimental_motifs $motif
 # Converting newlines to spaces in the 'files' variable
 files=${files//$'\n'/ }
 python3 ${current_dir}/Scripts/Python/merge_fasta.py $motifs_completed $motifs_w_regprecise --additional_files ${files[@]} --duplicate_species ${duplicate_species[@]}
+
+################################################################################
+# Report results
+################################################################################
+Rscript ${current_dir}/Scripts/R/count_data.R

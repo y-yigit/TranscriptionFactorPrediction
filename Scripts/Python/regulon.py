@@ -75,27 +75,7 @@ class Regulon():
             print("Invalid file")
         self.sequence_dict = sequence_dict
 
-    def match_intergenic_regulations(self, locus_col):
-        """ Matches DNA sequences from the fasta file to the regulon file by locus tag
-
-        :param locus_col: A string specifying the name of the column containing regulator locus ids in the regulon file
-        :return: regulon_dataframe_with_sequences: A shallow copy of the self.regulon_dataframe with an additional
-                 column that contains the intergenic sequences
-        """
-        sequence_col = []
-        for locus_tag in self.regulon_dataframe[locus_col]:
-            locus_tag = locus_tag.replace("_", "")
-            if locus_tag in self.sequence_dict:
-                # Conversion to string is required, since the sequence_dict contains a Bio object
-                sequence_col.append(str(self.sequence_dict[locus_tag]))
-            else:
-                sequence_col.append("")
-        # Shallow copy, dependent on the original dataframe
-        regulon_dataframe_with_sequences = self.regulon_dataframe.copy(deep=False)
-        regulon_dataframe_with_sequences["sequence"] = sequence_col
-        return regulon_dataframe_with_sequences
-
-    def match_intergenic_regulations2(self, locus_list, species):
+    def match_intergenic_regulations(self, locus_list, species):
         """ Matches DNA sequences from the fasta file to the regulon file by locus tag
 
         :param locus_col: A string specifying the name of the column containing regulator locus ids in the regulon file

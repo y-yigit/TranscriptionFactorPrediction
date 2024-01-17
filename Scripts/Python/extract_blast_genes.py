@@ -30,17 +30,18 @@ def extract_ccpa_genes_collectf(data_dir) -> list:
         if filename.endswith(".tsv"):
             tsv_file = os.path.join(data_dir, filename)
             ccpa_regulon = Regulon(tsv_file, "\\t").regulon_dataframe
+
             ccpa_genes += ccpa_regulon["regulated genes (locus_tags)"].str.replace("_", "").tolist()
     return ccpa_genes
 
-def retrieve_blast_genes(gene_list, blast_results) -> list:
+def retrieve_blast_genes(action, gene_list, blast_results) -> list:
     """ Collects proteinortho output
 
     :param gene_list: List of gene names
     :param blast_results: BLAST output file
 
     :return:
-    .. note:: Proteinortho removed the underscores for bacillus subtilis
+    .. note:: Proteinortho removed the underscores for Bacillus subtilis
     """
     homologs = pd.read_csv(blast_results, engine="python", sep="\\t", lineterminator='\r')
 
@@ -49,22 +50,21 @@ def retrieve_blast_genes(gene_list, blast_results) -> list:
                         "Lactococcus_lactis_subsp_cremoris_MG1363_ASM942v1_genomic.g2d.faa",
                         "Streptococcus_pneumoniae_D39_ASM1436v2_genomic.g2d.faa",
                         "Streptococcus_suis_P1_7_ASM9190v1_genomic.g2d.faa"]
-    filtered_df = pd.DataFrame()
-    # Loop through the DataFrame rows
-    for index, row in homologs.iterrows():
-        # Check if any of the specified columns have a value in gene_list
-        if any(row[col].replace("_", "") in gene_list for col in columns_to_check):
-            filtered_df = filtered_df.append(row)
 
-    # Reset the index of the filtered DataFrame
-    filtered_df.reset_index(drop=True, inplace=True)
+    ccpa_mask = homologs.apply(lambda row: any(row[col].replace("_", "") in gene_list for col in columns_to_check),
+                               axis=1)
 
+    ccpa_df = homologs[ccpa_mask].reset_index(drop=True)
+    non_ccpa_df = homologs[~ccpa_mask].reset_index(drop=True)
 
-    #homologs = homologs[homologs["Bacillus_subtilis_subsp_subtilis_str_168_ASM904v1_genomic.g2d.faa"].isin(gene_list)]
     homologs.drop(["# Species", "Genes", "Alg.-Conn."], axis=1, inplace=True)
     # Get all values that are not empty
-    all_ccpa_genes = [str(value).replace("_", "") for value in filtered_df.values.flatten() if value != '*']
-    return all_ccpa_genes
+    all_ccpa_genes = [str(value).replace("_", "") for value in ccpa_df.values.flatten() if value != '*']
+    all_non_ccpa_genes = [str(value).replace("_", "") for value in non_ccpa_df.values.flatten() if value != '*']
+    if action == "select":
+        return all_ccpa_genes
+    elif action == "drop":
+        return all_non_ccpa_genes
 
 def save_sequences(locus_list, out_file, data_dir):
     """ Writes regulon gene sequences to an output fasta file
@@ -80,7 +80,7 @@ def save_sequences(locus_list, out_file, data_dir):
                 ccpa_regulon = Regulon()
                 ccpa_regulon.extract_dna_sequences(root + "/" + file)
                 species = "_".join(file.replace("_genomic.g2d.intergenic.ffn", "").split("_")[0:2])
-                rows = ccpa_regulon.match_intergenic_regulations2(locus_list, species)
+                rows = ccpa_regulon.match_intergenic_regulations(locus_list, species)
                 for row in rows:
                     with open(out_file, "a") as open_file:
                         open_file.write(f">{row[1]}|{row[2]}\n{row[0]}\n")
@@ -89,6 +89,7 @@ def arg_parser():
     """ The arguments in the main function are processed with argparse
     """
     parser = argparse.ArgumentParser(description='Argument parser that specifies paths')
+    parser.add_argument('action', type=str, help='Whether to drop or to select CcpA genes')
     parser.add_argument('output_file', type=str, help='The name for the fasta output file')
     parser.add_argument('intergenic_dir', type=str, help='Path to the folder containing intergenic sequences')
     parser.add_argument('blast_file', type=str, help='The name of the BLAST output file')
@@ -98,7 +99,7 @@ def arg_parser():
 
 def main(args):
     ccpa_loci = extract_ccpa_genes_collectf(args.regulon_dir)
-    locus_list = retrieve_blast_genes(ccpa_loci, args.blast_file)
+    locus_list = retrieve_blast_genes(args.action, ccpa_loci, args.blast_file)
     save_sequences(locus_list, args.output_file, args.intergenic_dir)
 
 if __name__ == '__main__':
