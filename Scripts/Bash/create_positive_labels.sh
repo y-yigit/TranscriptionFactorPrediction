@@ -74,7 +74,18 @@ experimental_motifs=$raw_motifs
 ################################################################################
 
 proteinortho -cpus=12 -p=blastp -clean -project=cre_experimental $protein_dir/*.faa
-[ -e cre_experimental* ] && mv cre_experimental* "$proteinortho_dir" && echo "Proteinortho files moved successfully." || echo "No matching files found."
+
+# Check if the proteinortho files exist
+files_to_move=("$current_dir"/cre_experimental)
+
+if [ ${#files_to_move[@]} -gt 0 ]; then
+    # Move files to the destination folder
+    mv "$current_dir"/cre_experimental* "$proteinortho_dir"/
+    echo "Files moved successfully."
+else
+    echo "No matching files found."
+fi
+
 python3 ${current_dir}/Scripts/Python/extract_blast_genes.py $fimo_motifs $intergenic_dir $proteinortho_dir/cre_experimental.proteinortho.tsv $regulon_file
 
 for motif_name in $motif_list
