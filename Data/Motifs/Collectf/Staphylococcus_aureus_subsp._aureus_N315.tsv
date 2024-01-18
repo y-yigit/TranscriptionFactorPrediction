@@ -1,0 +1,2 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	Q2G295	NC_002745.2	Staphylococcus aureus subsp. aureus N315	2061036	2061053	1	TATGTAAACGTTTACACA	REP	Consensus search, Luciferase reporter assay, Multiple sequence alignment (MSA) [PMID:18710862]	SA1819

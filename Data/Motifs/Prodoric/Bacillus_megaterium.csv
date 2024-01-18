@@ -1,0 +1,6 @@
+mx,tf,organism,operon,regulation,sequence,evidence
+MX000306,CcpA,Bacillus megaterium,xylABT,Repression,TGAAAGCGCTAACA,1
+MX000306,CcpA,Bacillus megaterium,xylABT,Repression,GTAAAACGATGAAA,1
+MX000306,CcpA,Bacillus megaterium,bamM,Repression,TGAAAGCGTTAACA,7
+MX000306,CcpA,Bacillus megaterium,mbgA,Repression,TGATAAGGTTTTCA,6
+MX000306,CcpA,Bacillus megaterium,mbgA,Repression,TGATAACGTTTTCT,6

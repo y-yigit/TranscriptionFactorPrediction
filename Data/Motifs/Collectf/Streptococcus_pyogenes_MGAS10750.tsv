@@ -1,0 +1,2 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	A0A0C6FYN7	NC_008024.1	Streptococcus pyogenes MGAS10750	425659	425672	1	TGAAAACTTTTTCA	N/A	EMSA, Visual sequence inspection [PMID:15345406]	MGAS10750_Spy0437

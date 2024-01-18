@@ -1,0 +1,4 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	A0A0C6FYN7	NC_021807.1	Streptococcus pyogenes HSC5	338115	338128	1	TGTAAGCGCTAACA	REP	Consensus search, DNA affinity purification, MALDI-TOF Mass Spectrometry, qRT-PCR [RNA] [PMID:19841076]	L897_01860
+CcpA	A0A0C6FYN7	NC_021807.1	Streptococcus pyogenes HSC5	949224	949237	-1	TGATAACGTTATAA	REP	Consensus search, qRT-PCR [RNA] [PMID:19841076]	L897_04845
+CcpA	A0A0C6FYN7	NC_021807.1	Streptococcus pyogenes HSC5	1682037	1682050	-1	TGAGAACGGTCCCA	ACT	Consensus search, DNA affinity purification, qRT-PCR [RNA] [PMID:19841076]	L897_08645

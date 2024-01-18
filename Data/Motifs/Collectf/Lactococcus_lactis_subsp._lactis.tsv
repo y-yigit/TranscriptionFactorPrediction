@@ -1,0 +1,3 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	Q9CF33	NC_002662.1	Lactococcus lactis subsp. lactis Il1403	176237	176250	1	TGATATCGCTTGCA	REP	Luciferase reporter assay, Visual sequence inspection [PMID:21262549]	L176316
+CcpA	Q9CF33	NC_002662.1	Lactococcus lactis subsp. lactis Il1403	177264	177277	1	TGACAACGAAGGCT	REP	Luciferase reporter assay, Visual sequence inspection [PMID:21262549]	L177520

@@ -1,0 +1,75 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3645438	3645453	-1	GAAGGAACGATGACAA	ACT	Beta-gal reporter assay, DNAse footprinting, EMSA, Site directed mutagenesis, Visual sequence inspection, Western blot (quantitative) expression analysis [PMID:23123903]	BSU35490
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	883692	883705	1	TGAAAGCGCTTTAT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU08100
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3039911	3039924	-1	TGAAAGCGTTACCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU29680
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3040018	3040031	1	TGAAAACGCTTTAT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU29690
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	327494	327507	1	TGTAAGCGTTAACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU03040
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4035846	4035859	-1	TGAAAGCGTTGACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU39270
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2600059	2600072	-1	TGTAAGCGTATACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU25190
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	834352	834365	1	TGTAAGCGGATTCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU07610
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2938164	2938177	-1	TGAATGCGGTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU28710
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	500103	500116	1	TGAAAACGCTATCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU04470
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1002320	1002333	1	TGACACCGCTTTCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU09280
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	626590	626603	1	TGTAAGCGTTTTAA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU05810
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4084475	4084488	-1	TGAAAGCGTTTAAT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU39770
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4082164	4082177	-1	TGAAAACGTTGTCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU39740
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1270553	1270566	1	TGTAAACGGTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU12000
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3985251	3985264	-1	AGAAAGCGTTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU38810
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3701378	3701391	1	TGTAAACGGTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU35910
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3882050	3882063	-1	TTAAAGCGCTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU37790
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3905192	3905205	-1	CGAAAACGCTATCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU38050
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1680381	1680394	1	TGAAAGCGCAGTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU16090
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	850686	850699	1	TGAAAACGCTTGCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU07800
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1301627	1301640	1	TGAAAGCGTTATCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU12300
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	267837	267850	1	TAAAAGCGCTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1891943	1891956	1	TGGAAGCGCAAACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU17600
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1887254	1887267	1	TGAAAGCGCTTTTA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU17570
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1164317	1164330	1	AGAAAACGCTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU10850
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1304443	1304456	1	TGAAAGCGGTTCAA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU12330
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1398558	1398571	1	TGCAAGGGCTTTCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU13340
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2739446	2739459	1	TGATAGCGTTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU26820
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3137408	3137421	-1	TGTAAGCGTTTGCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU30660
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3199571	3199584	-1	TGAAAGCGCTATCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU31190
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3508543	3508556	-1	TTAAAGCGCTTTCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2950048	2950061	-1	TGTAAGCGCTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU28810
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	879436	879449	1	TGTAAGCGTTTGCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU08060
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2982369	2982382	-1	TGTAAGCATTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU29140
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2839197	2839210	-1	TGAAAACGGTGCCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU27760
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3979405	3979418	-1	TGAAATGAATCGTT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU38760
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2448493	2448506	-1	TGAAAACGGTTTAT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU23500
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4113337	4113350	1	TGAAAGTGTTTGCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU40050
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4113524	4113537	1	TGAAAGCGGTACCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU40050
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4041653	4041666	1	TGAAACCGCTTCCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU39340
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2919903	2919916	-1	TGAAAACGTTATCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU28560
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2762901	2762914	-1	TGAAAACGCTTAAC	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU27070
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	889995	890008	1	TGTAAACGTTATCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU08180
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2454231	2454244	-1	TGAAAGCGTTTTAG	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU23560
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3096697	3096710	1	TGTAACCGCTTACT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU30260
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	467032	467045	1	TGAAAGCGTTTTAT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU04160
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2111695	2111708	-1	TGGAAGCGTTTTTA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	694663	694676	1	TGAAAACGTTTTTT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU06370
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2421440	2421453	-1	TAAAAACGCTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU23150
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3513230	3513243	-1	GGAAAACGCTTTCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1153718	1153731	1	TGTAAGCGGTATCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU10770
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	368925	368938	-1	TGAAAACGCGATCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU03380
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	452799	452812	1	AGAAAGCGCTTACG	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU04000
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	475890	475903	-1	TGAAAACGTGTCCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU04240
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	758065	758078	1	TGAAAGCGTTTTCC	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU06940
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	899980	899993	1	AGAAAGCGGTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU08260
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1896315	1896328	1	TGTAAACGGTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU17630
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2126255	2126268	-1	TGAAAGCGCTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU19520
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2565628	2565641	1	TGAAAACGCTATCG	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU24800
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2564567	2564580	1	TGAAAATGTTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU24780
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2955703	2955716	-1	TGTAAGCGCTTTAT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU28900
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2933153	2933166	1	TGAAAGCGTTTTTT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3220342	3220355	-1	TGAATGCGCTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU31330
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3203958	3203971	-1	TGAAAACGGATACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU31220
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3555856	3555869	-1	TGTAACCGCTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3966689	3966702	1	TTGAAACGCTTTCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU38640
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4123132	4123145	1	TGTAAGCGGTTTAT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU40130
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4123056	4123069	-1	TGAAAGCGTAACCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU40120
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2897536	2897549	-1	TGAAAGCGTATACA	ACT	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU28310
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	728528	728541	-1	TGAAAGCGTTTTAT	ACT	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU06660
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	282132	282145	-1	TGAAAGCGCTCGCT	ACT	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU02590
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2982363	2982389	-1	AGTAAAATGTAAGCATTTTCTTTTTGG	REP	Beta-gal reporter assay, DNAse footprinting, EMSA, Primer Extension assay, Visual sequence inspection [PMID:12100558]	BSU29140
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2897536	2897550	-1	ATGAAAGCGTATACA	ACT	Beta-gal reporter assay, Consensus search, DNAse footprinting, Site directed mutagenesis [PMID:15916606]	BSU28310, BSU28300, BSU28290

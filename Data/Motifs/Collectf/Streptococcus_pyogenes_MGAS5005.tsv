@@ -1,0 +1,2 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	A0A0C6FYN7	NC_007297.1	Streptococcus pyogenes MGAS5005	559519	559532	-1	TGTAAACCCTTTCT	REP	Consensus search, DNA-array expression analysis, EMSA, Luciferase reporter assay, qRT-PCR [RNA] [PMID:18490461]	M5005_Spy_0562

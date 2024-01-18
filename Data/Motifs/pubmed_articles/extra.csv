@@ -1,0 +1,31 @@
+gene	species	sequence	source
+cresacK	Lactobacillus plantarum	TGTAATCGTTAACAAA	PMID: 29896178
+crepts1	Lactobacillus plantarum	TGTAAAGCGCTTGCAT 	PMID: 29896178
+cresacA1	Lactobacillus plantarum	TGTCAAACGATTGACA	PMID: 29896178
+cresacA2	Lactobacillus plantarum	GTGTAAGCGGTTTTAT	PMID: 29896178
+creag14	Lactobacillus plantarum	GTGGAATCGATTCCAA	PMID: 29896178
+cresacPTS26	Lactobacillus plantarum	TGGAAACGATTCCAAA	PMID: 29896178
+xylA	Tetragenococcus halophila	TGAAAACGCTTGACA	PMID: 9647823
+dsrLL	Lactobacillus sakei	GAATTTTCAAATAA	PMID: 31134012
+cg1547	Corynebacterium glutamicum 	TGTAATCGTTTGCA	PMID: 18375800
+cg1547	Corynebacterium glutamicum	GCAATCGATTACAT	PMID: 18375800
+cg2554	Corynebacterium glutamicum	TGAAAACGTTTGCA	PMID: 18375800
+crec	Streptococcus anginosus	GCGAAAGCGCTTTTTT	Bauer, R., Mauerer, S. & Spellerberg, B. Regulation of the β-hemolysin gene cluster of Streptococcus anginosus by CcpA. Sci Rep 8, 9028 (2018). https://doi.org/10.1038/s41598-018-27334-z
+BAS3893	Bacillus anthracis	ATGAAAACGCTGTCATAA	PMID: 20971911
+xylose 	Paenibacillus polymyxa	TGTAAACGTTTACT	 PMID: 35563415
+ily	Streptococcus intermedius	AATGAAAGAATTCGCAAT	PMID: 20624907
+ily	Streptococcus intermedius	AATGAAAGCATGCAAT	PMID: 20624907
+xylcre	Bacillus megateriumxyl	TGAAAGCGCAAACA	 PMID: 12051938
+cre+	Bacillus megateriumxyl	TGAAAGCGCTAACA	 PMID: 12051938
+PtreA	Bacillus_licheniformis	TGAAAGCGCTATAA	PMID: 33997685
+treR	Bacillus_licheniformis	AGACACCGCTTGGA	PMID: 33997685
+treR	Bacillus_licheniformis	AAGGAACTTTCAGA	PMID: 33997685
+creA	Streptococcus anginosus	TTGTTCGTTTTATTT	https://www.nature.com/articles/s41598-018-27334-z
+creB	Streptococcus anginosus	AAGAACGCGCTTTTTA	https://www.nature.com/articles/s41598-018-27334-z
+creB	Streptococcus anginosus	TTTTTATTTTGTTTTA	https://www.nature.com/articles/s41598-018-27334-z
+creC	Streptococcus anginosus	CGGAAAGCGCTTTTTT	https://www.nature.com/articles/s41598-018-27334-z
+chiB	Bacillus thuringiensis	TGTAAACGCTTTAT	PMID: 26162881
+nagP	Bacillus thuringiensis	AGAAAGCGTTTTCT	PMID: 26162881
+LipR	Bacillus thuringiensis	AAGAAAACGTTTTC	https://onlinelibrary.wiley.com/doi/full/10.1002/mlf2.12055
+pepQ-ccpA	Lactobacillus pentosus	TGAAAGCGATTTCA	PMID: 10618236
+pLCCP53	Leuconostoc mesenteroides	TGTAAGCTTTGCA	https://koreascience.kr/article/JAKO200504840585051.pdf

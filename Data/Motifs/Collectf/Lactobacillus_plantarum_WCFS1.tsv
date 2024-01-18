@@ -1,0 +1,4 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	F9UQH6	NC_004567.2	Lactobacillus plantarum WCFS1	3141954	3141967	-1	TGTAAGGGCTATCA	REP	CAT reporter gene assays, EMSA, Site directed mutagenesis [PMID:11934508]	lp_3525
+CcpA	F9UQH6	NC_004567.2	Lactobacillus plantarum WCFS1	3208201	3208214	-1	TGTAAGCGTTTGCT	REP	Premethylation interference footprinting, Primer Extension assay, Visual sequence inspection [PMID:15175288]	lp_3589
+CcpA	F9UQH6	NC_004567.2	Lactobacillus plantarum WCFS1	3141954	3141967	-1	TGTAAGGGCTATCA	REP	Premethylation interference footprinting, Primer Extension assay [PMID:11425700]	lp_3525

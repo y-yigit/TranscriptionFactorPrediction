@@ -1,0 +1,53 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	260615	260630	1	GAGAAAATGTTTACAG	N/A	ChIP-chip, DNA-array expression analysis, Motif-discovery, PSSM site search [PMID:22989714]	CD630_02010
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	340706	340721	1	AAGAAAACGTTATTAC	REP	ChIP-chip, DNA-array expression analysis, Motif-discovery, PSSM site search [PMID:22989714]	CD630_02791
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	359055	359070	1	AGTAAAACGGTTTCCT	REP	ChIP-chip, DNA-array expression analysis, PSSM site search, qRT-PCR [RNA] [PMID:22989714]	CD630_02980, CD630_02990, CD630_03000, CD630_03010, CD630_03020
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	467022	467037	1	AGGAAAACGTTATGCT	REP	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search, qRT-PCR [RNA] [PMID:22989714]	CD630_03950, CD630_03940, CD630_03960, CD630_03970, CD630_03980, CD630_03990, CD630_04000, CD630_04010
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	556274	556289	1	TCAAAAAGATTTTCAT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_04670, CD630_04680, CD630_04690
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	583420	583435	1	AAGAAAACGTTAAGCA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_04940
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	635641	635656	-1	AGGAAAACGTATTATA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_05300, CD630_05290, CD630_05280
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	688003	688018	1	GAGAAAAGGATTTCTA	N/A	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_05760
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	693075	693090	1	AGAAAAACGTTAACTT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_05800
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	821478	821493	1	ATGATAACATTTTCTT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_06790
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	905428	905443	1	GGGAAAACGATACCAA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_07410, CD630_07420
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	949316	949331	1	GAGAAAAAGACATCAT	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_07790, CD630_07800
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1009605	1009620	1	AGGAAATGGTATTTGT	REP	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search, qRT-PCR [RNA] [PMID:22989714]	CD630_08330, CD630_08340
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1029516	1029531	1	AAGAAAACCTTATCTA	REP	ChIP-chip, DNA-array expression analysis, PSSM site search, qRT-PCR [RNA] [PMID:22989714]	CD630_08540
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1313004	1313019	-1	GAGAAAAGGTTTCCAA	ACT	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_11160
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1336420	1336435	1	GAAAAAATGTTTTTTT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_11370
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1412556	1412571	1	TGTAAAAAGTTTAGTT	REP	ChIP-chip, DNA-array expression analysis, EMSA, PSSM site search, qRT-PCR [RNA] [PMID:22989714]	CD630_12140
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1531870	1531885	1	AGGAAATAGTTAACTT	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_13210
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1550455	1550470	1	TAGAAAACGTTTTAAA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_13360
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1603652	1603667	1	AAGAAAGCGTTTTGAA	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_13850
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1714225	1714240	1	AAGATAACGATTGCTT	ACT	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_14770
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1781920	1781935	1	AAGAAAACGATTTTGT	REP	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_15360
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1838921	1838936	1	TAGAAAAGGTTATCAT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_15860
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1854851	1854866	1	TTGAAAACGTTTAGTG	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_15990
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1925176	1925191	1	AGGAAATAGATAAGTT	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_16580
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2045778	2045793	1	GAGAAAAGGTTTTGTT	ACT	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search, qRT-PCR [RNA] [PMID:22989714]	CD630_17680
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2198623	2198638	-1	TATAAAACGTTTTCTT	N/A	ChIP-chip, DNA-array expression analysis, Motif-discovery, PSSM site search [PMID:22989714]	CD630_18930
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2233587	2233602	-1	AAATAAAGGTTTTCTT	REP	ChIP-chip, DNA-array expression analysis, EMSA, PSSM site search [PMID:22989714]	CD630_19350
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2440343	2440358	1	TAGAAAATGTTTGCAG	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_21110
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2515101	2515116	-1	GAGAAAAAATTATAAA	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_21730
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2593114	2593129	-1	AAGAAAAAGTTTTCAT	N/A	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_22410
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2646467	2646482	-1	AAGAAATCGTTTCTTT	N/A	ChIP-chip, DNA-array expression analysis, Motif-discovery, PSSM site search [PMID:22989714]	CD630_22800
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2689649	2689664	-1	GGGAAAACATTTTCTT	REP	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search, qRT-PCR [RNA] [PMID:22989714]	CD630_23270
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2713817	2713832	-1	AAGATAAAATTTTTTT	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_23440
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2716801	2716816	-1	CAGAAAAGGTTTGCAA	ACT	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_23470
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2804904	2804919	-1	GAGAAAAGGTATGCAA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_24290
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2863605	2863620	-1	TTGAAAAAGATTACTA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_24810
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3009209	3009224	-1	TGGAAATAGTTTTCTT	N/A	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_26000
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3031941	3031956	1	AGGATAACGTTATCAT	N/A	ChIP-chip, DNA-array expression analysis, Motif-discovery, PSSM site search [PMID:22989714]	CD630_26250
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3034723	3034738	-1	GAGAAAAAATATACAA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_26260
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3094028	3094043	1	ATGTAAACGTTATCTT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_26780
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3113090	3113105	-1	AAGAAAAAAATAGGTT	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_26930
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3124425	3124440	-1	GGGAAAACGTTAACAA	N/A	ChIP-chip, DNA-array expression analysis, Motif-discovery, PSSM site search [PMID:22989714]	CD630_27020
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3368187	3368202	1	TAGATAAGGTTTTCTT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_28790
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3373182	3373197	-1	ATGAAAAAGTTTTCTT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_28840
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3711112	3711127	-1	AGGAGAACATTATCAA	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_31750
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3726185	3726200	-1	TAGATTTGGTTTAAAT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_31840
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3766328	3766343	-1	GAGTTAACGTTTTCAA	REP	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_32180
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3795982	3795997	-1	GAGAAAATGTTTACAA	ACT	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_32440
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3984772	3984787	1	CTGATAACGTTTTCTA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_34060
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	4258320	4258335	-1	AAGAAAAGGCTTTCTA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_36490
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	4275737	4275752	-1	AAGAAAACATTTTCAT	N/A	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_36640

@@ -1,0 +1,74 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	764212	764225	-1	TGTAAACCTTTTCA	REP	Beta-gal reporter assay, Consensus search, DNA-array expression analysis, EMSA [PMID:17028270]	llmg_0775
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1060274	1060287	-1	AGTAACCGTTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1099
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1089041	1089054	1	AGAAATCGCTAACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1127
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1713778	1713791	-1	TGTAACAGTTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1734
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1845408	1845421	-1	AGTAACCGGTATTA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1864
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1895597	1895610	1	TGAAAGAGCATACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1915
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1896653	1896666	1	TGACAGAGTTTTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1916
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2243521	2243534	-1	TTAAAACGTTTGAA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2289
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2242414	2242427	-1	ATAAAACGCATACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2288
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2382931	2382944	1	ATAAAGCGATTTCT	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2432
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	133733	133746	1	AGTAAGCGTATTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	764212	764225	-1	TGTAAACCTTTTCA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0774
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1012046	1012059	1	TGTAAGAGATATCT	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1048
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2263385	2263398	-1	TGAAAACTTTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2312
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2264670	2264683	-1	TGTAAACGATTCCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2313
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	994997	995010	1	TGAAATCATTAGCA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1030
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2425586	2425599	-1	TGTAAGCGCAAGCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2467
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	751170	751183	1	TGTGAACGCTTAAA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0762
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	938160	938173	1	TGTAATGGATTTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0975
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2116564	2116577	-1	TGAAAGTGATAACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2155
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2168308	2168321	-1	TGCACACGTTATCT	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	26443	26456	1	TGGTAGCGGTTATA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0022
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	30850	30863	1	TGTAAAAGCTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0025
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	150493	150506	-1	TGAAAACCTTTGCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0158
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	428328	428341	1	TGAAAACGTTATAA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0437
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	430168	430181	1	AGAAACCGCTTTCT	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0440
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	446866	446879	1	TGAAAACGTTTTTA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0453
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	722209	722222	-1	ATAAACCGTTTTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0739
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	738259	738272	1	TGAAATCGCTATCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0751
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	923493	923506	1	AGTAATCGTTATCT	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0957
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	925295	925308	1	TGAAACAGTTATCA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1444529	1444542	-1	ATAAAGCGTTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1468
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1543917	1543930	-1	TGAAAAAGGTAACA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1569
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1769739	1769752	-1	TGAAAGCGAATAAA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1789
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2165065	2165078	1	AGTTAGCGCTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2199
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2198280	2198293	-1	TATCAGCGTTAACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2235
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2200598	2200611	-1	TGCCATCGTATTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2237
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2381722	2381735	1	TGAAAACGCTTTTT	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2431
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2402024	2402037	-1	AATAAGCGCTTACA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2448
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1543917	1543930	-1	TGAAAAAGGTAACA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1570
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1189436	1189449	1	TGTAAGTATTTTCA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1222
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1701648	1701661	-1	AGAAAATGTTTTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1724
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1701982	1701995	-1	TGCAAGCGATTTGA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	764561	764574	1	TGATATCGCTTCCA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	923613	923626	-1	GGTAATCGTTTACT	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0956
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2183502	2183515	-1	TGAAAGCGCAAACA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2218
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1028646	1028659	-1	AAAAAGCGTATTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1068
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2275631	2275644	-1	TTAATACGATTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2320
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	634209	634222	-1	TGAAAGCGTTAAGA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0638
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	297968	297981	1	TGTAAAGGCTTAAA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0312
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	337109	337122	1	TTAAAGCGGTTAAA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	657849	657862	1	TGAAAACTCTAACA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1523567	1523580	-1	TAAATACGCTTTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1551
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	173530	173543	1	TGAATACGAATACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0185
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	182573	182586	1	TGAAATCGTTCACA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0194
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	540012	540025	-1	TGTAAGCGTTGATA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0541
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	751170	751183	-1	TTTAAGCGTTCACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0761
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	960373	960386	1	TGATATCGATAACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0995
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1900620	1900633	-1	TTTAAACGTTTACC	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1920
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1979095	1979108	-1	AGAATGCGTTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1991
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1916903	1916916	-1	TGTCAGCATTTTCA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	420923	420936	1	TGTAATCGGTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0430
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	954600	954613	1	TGAAAGCACTGCCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	172512	172525	1	TGAAAGTGCTTGCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0183
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	297784	297797	-1	TGATAACGCTGACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0311
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1050253	1050266	1	AGAAAGCGTTTTAT	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1090
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1052167	1052180	1	TGCGAACGCATTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1055585	1055598	1	AGAAAGCGGACTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1361138	1361151	-1	TAGAAGCGATAACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1732276	1732289	-1	GGCAAACGTTATCA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1750
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2101494	2101507	1	TGTATGCGTTTTAA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2131
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2175251	2175264	1	AGAAAGGGTTTTCT	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2211
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2241106	2241119	-1	AGAAAGCGCTATAA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2286

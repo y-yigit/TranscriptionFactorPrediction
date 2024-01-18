@@ -1,0 +1,45 @@
+gene, sequence,species,source,position
+ackA,TTGTAAGCGTTCA,Bacillus_amyloliquefaciens,PMID:37634771,117
+ackA,TTGTAAGCGTTATCA,Bacillus_amyloliquefaciens,PMID:37634771,-56
+acoA,ATGTAAAGCGTTTGC,Bacillus_amyloliquefaciens,PMID:37634771,468
+acoR,TTGAAGCGCTTTATT,Bacillus_amyloliquefaciens,PMID:37634771,
+acsA,TTGAAGCGTTACCA,Bacillus_amyloliquefaciens,PMID:37634771,44
+acuA,TTGAAACGTTTATA,Bacillus_amyloliquefaciens,PMID:37634771,-25
+amyE,ATGTAAGCGTTAACA,Bacillus_amyloliquefaciens,PMID:37634771,4
+araA,TTGAAGCGTTTTATTA,Bacillus_amyloliquefaciens,PMID:37634771,66
+araB,ATGAATACGTTACAA,Bacillus_amyloliquefaciens,PMID:37634771,
+araE,ATGAATACGTTTCCT,Bacillus_amyloliquefaciens,PMID:37634771,74
+bglP,ATGAAGCGTTGACA,Bacillus_amyloliquefaciens,PMID:37634771,-35
+bglS,TAGAAACGCTTCA,Bacillus_amyloliquefaciens,PMID:37634771,
+ccpC,AAGAAAGCGCATACAT,Bacillus_amyloliquefaciens,PMID:37634771,-67
+citM,ATGTAAGCGGATTCAT,Bacillus_amyloliquefaciens,PMID:37634771,46
+dctP,ATGAACGTATCAT,Bacillus_amyloliquefaciens,PMID:37634771,-13
+dra,TTGAACCGCATACAC,Bacillus_amyloliquefaciens,PMID:37634771,73
+galT,ATGGAAACGGATA,Bacillus_amyloliquefaciens,PMID:37634771,
+glpF,TTGACACCGCTTTCAT,Bacillus_amyloliquefaciens,PMID:37634771,-26
+gntR,TTGAAGCGGTACCAT,Bacillus_amyloliquefaciens,PMID:37634771,46
+hutP,TTGAACCGCTTCCA,Bacillus_amyloliquefaciens,PMID:37634771,7
+ilvB,ATGAATACGTAACAA,Bacillus_amyloliquefaciens,PMID:37634771,-89
+kdgA,ATGGAAGCGCTGACAT,Bacillus_amyloliquefaciens,PMID:37634771,
+lcfA,ATGAACGTTCATAA,Bacillus_amyloliquefaciens,PMID:37634771,
+levD,GTGAACGCTTAACA,Bacillus_amyloliquefaciens,PMID:37634771,-42
+licB,ATGAAGCGATTTTCAT,Bacillus_amyloliquefaciens,PMID:37634771,-20
+malA,TTGAACGTTCATA,Bacillus_amyloliquefaciens,PMID:37634771,5
+mmgA,TTGAAGCGCTGTC,Bacillus_amyloliquefaciens,PMID:37634771,20
+mmsA,TTGAAGCGTTAATTT,Bacillus_amyloliquefaciens,PMID:37634771,94
+iolB,ATGAACGTTGTCAT,Bacillus_amyloliquefaciens,PMID:37634771,
+msmX,AAGAAAGCGTTTACAA,Bacillus_amyloliquefaciens,PMID:37634771,
+phoP,ATGAACGCTATCAT,Bacillus_amyloliquefaciens,PMID:37634771,21
+pta,ATGAACGCTATAAT,Bacillus_amyloliquefaciens,PMID:37634771,-54
+pta,AAGAAAGCTTTTTG,Bacillus_amyloliquefaciens,PMID:37634771,5
+rbsR,ATGTAAACGGTTACA,Bacillus_amyloliquefaciens,PMID:37634771,6
+sigL,TGGAAACGCTTTCAG,Bacillus_amyloliquefaciens,PMID:37634771,
+treP,GTGAACGCTTGCA,Bacillus_amyloliquefaciens,PMID:37634771,374
+uxaC,ATGAACGTTCATAA,Bacillus_amyloliquefaciens,PMID:37634771,226
+xylA,TTGAAGCGCAAACA,Bacillus_amyloliquefaciens,PMID:37634771,146
+xynP,TTGAACGCTTTTAT,Bacillus_amyloliquefaciens,PMID:37634771,228
+ydhO,TTGAAGCGGTATCAT,Bacillus_amyloliquefaciens,PMID:37634771,
+yobO,ATGAAGCGGATTCA,Bacillus_amyloliquefaciens,PMID:37634771 Gene,
+yxjC,TTGAACGCTTTCTA,Bacillus_amyloliquefaciens,PMID:37634771 Gene,44
+yxkJ,TTGCAAACGGATACA,Bacillus_amyloliquefaciens,PMID:37634771 Gene,-117
+

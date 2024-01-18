@@ -1,0 +1,3 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	A8AWB2	NC_009785.1	Streptococcus gordonii str. Challis substr. CH1	312059	312074	1	CTTGAAGCGTTTTCAT	REP	Ad-hoc quantitative phenotype observation, Consensus search, EMSA, qRT-PCR [RNA], Site directed mutagenesis [PMID:21571883]	SGO_0292
+CcpA	A8AWB2	NC_009785.1	Streptococcus gordonii str. Challis substr. CH1	312081	312096	1	ATGGAAATGTTTTCAA	REP	Ad-hoc quantitative phenotype observation, Consensus search, EMSA, qRT-PCR [RNA], Site directed mutagenesis [PMID:21571883]	SGO_0292

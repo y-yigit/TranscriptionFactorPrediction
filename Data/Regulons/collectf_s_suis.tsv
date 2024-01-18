@@ -1,0 +1,77 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	896122	896137	1	AAGGAAACGCTTTCAT	REP	Consensus search, DNA-array expression analysis, EMSA, GFP Promoter Fusion, Site directed mutagenesis [PMID:24673665]	SSU0871
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	603640	603655	1	ATGTGAGCGTTTTCAA	ACT	Consensus search, DNA-array expression analysis, EMSA, GFP Promoter Fusion, Site directed mutagenesis [PMID:24673665]	SSU0580
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	191254	191269	1	TTGAAAACACTTTCTA	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0191
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	191282	191302	-1	GTTTTTCATTTATTTTCAAGT	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0191
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	266750	266765	1	ATGGAAGCGTTTTCTT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0261
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	700751	700766	1	ATGGAAGCGTTTTCAA	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0675
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	956054	956069	1	ATGTAAACATTTTCAA	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0927
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1653438	1653453	1	ATTGAACCGTTTTCTT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1637
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1653457	1653477	-1	GGTTTTCACAAAAATTTCTGT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1637
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	10023	10043	-1	CTTTTTCTATCCTTTTTTCAC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	235616	235636	-1	CTTTTTCAAATCCTTTCCCTT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1216089	1216109	1	TTATTTCAAAGATTTTCCAAT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1618054	1618069	-1	TTGAAAACTTTTTCTA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1611
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1617876	1617896	1	GTTTTTCTGAAATTTTCATAC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1611
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1759739	1759759	-1	ATTTTTCAGAAAATTTCCATT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1741
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1698200	1698220	-1	AATTTTCAGAAAATTTCTTGA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1682
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	335430	335450	1	TTTTTTCATAAATTTTCAGTT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	902635	902655	1	CTTTTTCTTTAATTTTATCTA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	708518	708538	-1	CTTTTTCATAAATTTTGCCTT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0680
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	766170	766190	1	TCTTTTCATAAAAATTCCAAT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0735
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	963900	963920	1	TGTTTTCCGAAATATTTTCAT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1779303	1779323	1	GATTTTCAGTACATTTTTCAC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1758
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	254690	254705	1	GAGTAAACGTTTTCTT	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0249
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	347939	347954	-1	TTGTAATCGTTTTCTT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0329
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	667654	667669	1	TATTAAACGCTTTCAT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0644
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	896122	896137	1	AAGGAAACGCTTTCAT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0870
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	896087	896107	-1	TATTTTCATTTTTCTTTTCAA	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0870
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	926703	926723	1	CTCTTTCAAGCTATTTTCAAC	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1259792	1259807	1	GAGATAGCGCTTACAT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1230
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1296238	1296253	1	TTGTAAACGTTTTCTT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1265
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1352524	1352544	-1	TTTTTTCTTGAAAAATCCCTT	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1320
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1392936	1392956	-1	TATTCTCAAGCATTTTTTCAA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1396119	1396134	1	TTGTAAGCCTTTTCTT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1369
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1861536	1861556	1	TTTTTTCAAGAAATTTATCAA	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1836
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1880372	1880387	-1	AAGAAAACGTTTGCAA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1849
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1947597	1947612	1	ATAAAAACGCTTGCAA	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1915
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1963636	1963651	1	ATTAAAACGCTTTCTT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1927
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1967451	1967466	1	ATGAAAACCCTTTCTT	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1929
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	420138	420153	-1	TTGCAACCGTTTTCTT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0395
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	513861	513876	-1	TTGCAAGCATTTTCTA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0482
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1198938	1198958	1	TTGTTTCATGACATTTTTGGC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	230385	230405	-1	CATTTTCATAACCTTTCTGTA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	380178	380193	-1	GCGTAACCGTTTTCTT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0355
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	380116	380136	-1	GCTTTTCCGTAATATTTTAAA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0355
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	639101	639116	-1	TCGAAAACGATTTCAA	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0613
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	937952	937972	-1	GCTTTTCAATTTGTTTTCAGT	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1193426	1193441	-1	CAGAAAACGGTTACAA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1172
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1226297	1226312	1	TTGAAACCACTTTCAA	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1202
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1852762	1852782	1	TCTTTTCTGAAAATATTTTGT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1826
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1881492	1881507	1	GTGCAAACGTTTTCTT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1850
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	552748	552763	1	AAGATAACGTTTTCCA	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0515
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1679071	1679091	1	TTTTTTCCAAATTTTTCTCAC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1665
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1921785	1921805	1	TATTTTCAAGTTCATTTTCAT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	789629	789649	-1	CTTTTTCATAACTTTTCCTCC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0757
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	837245	837265	1	CATTTTCTTTCCAATTTTCAA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	837839	837859	1	CCTTTTCTGACATTTTTCTCT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1497104	1497119	-1	ATAGAAGCGTTTTCAT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1480
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	2005052	2005072	1	ACTTTTCTTTCAATTTTCCAA	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1968
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	978947	978967	1	TTTTTTCATTTCATTTTTTCC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0953
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	999671	999691	-1	CTTTTTCAATAAGTTTTCATC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	919923	919938	1	AAGGAAAATCTTACAC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	919912	919932	-1	GATTTTCCTTCATTCTTTCAT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1377410	1377430	1	TTTTTTCAATAATTTTACTGT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1584676	1584696	1	CCCTTTCTTTCATTTTTTCAA	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1578
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1782534	1782549	-1	GAGAGAACGGTTTCTA	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1830186	1830206	-1	TTTTTTCAATGATTTTCTGAT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	627013	627033	-1	GATTTTCTGGATATTTTCACC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	716910	716925	-1	ATGATAACGCTTTCTT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0688
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	941530	941550	-1	CATTTTCCTAACCATTTTCAC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	583922	583942	-1	ATTTTTCAAGCCTATTTCAGT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	752199	752219	-1	GATTTTCAGAAAGATGTTCAA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	851896	851916	1	TCTTTTCATGCACCTTTTCAT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	922768	922788	1	TCTTTTCAAAATTATTTCTCT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1039342	1039362	-1	GTTTTTCCTGAAAATTCCGTA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1261732	1261752	1	GTTTTTCCAACAATTTCCGGA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1231
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1334375	1334395	1	TTTTTTCAAGAAAATTTACAA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	

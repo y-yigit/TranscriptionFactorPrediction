@@ -1,0 +1,4 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	H7C6V6	NC_004668.1	Enterococcus faecalis V583	3212152	3212165	-1	TGTAAACGGTGACA	REP	Beta-gal reporter assay, EMSA, Site directed mutagenesis, Visual sequence inspection, Western blot (quantitative) expression analysis [PMID:21989394]	EF3327
+CcpA	H7C6V6	NC_004668.1	Enterococcus faecalis V583	3212040	3212053	-1	TGTAAGCGTTAACA	REP	Beta-gal reporter assay, EMSA, Site directed mutagenesis, Visual sequence inspection, Western blot (quantitative) expression analysis [PMID:21989394]	EF3327
+CcpA	H7C6V6	NC_004668.1	Enterococcus faecalis V583	3211608	3211622	-1	TGAAAGCGTTATCCA	REP	Beta-gal reporter assay, EMSA, Site directed mutagenesis, Visual sequence inspection, Western blot (quantitative) expression analysis [PMID:21989394]	EF3326

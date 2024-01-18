@@ -1,0 +1,226 @@
+>CLOHIR_01952(rnfC) Score=3.6 Pos=-190 [Clostridium hiranonis DSM 13275]
+TAGAAACATATATCTT
+>CLOHIR_01036(CD2693) Score=4 Pos=18 [Clostridium hiranonis DSM 13275]
+AAGAAAAAAATTGGCT
+>CLOHIR_02123(CD3664) Score=4.3 Pos=-31 [Clostridium hiranonis DSM 13275]
+AAATAAACATTTTCAT
+>CLOHIR_00161(grdX) Score=4.2 Pos=47 [Clostridium hiranonis DSM 13275]
+AAAAGAAAGTTTTCCT
+>CLOHIR_00196(nanA) Score=4.3 Pos=-77 [Clostridium hiranonis DSM 13275]
+AGGAAAACGTTAATTA
+>CLOHIR_00161(grdX) Score=4.3 Pos=116 [Clostridium hiranonis DSM 13275]
+TAGAAAATATATTCAT
+>CLOHIR_00162(trxB3) Score=4.3 Pos=-97 [Clostridium hiranonis DSM 13275]
+CGGAAAACATTTACAA
+>CLOHIR_00836(cggR) Score=4.4 Pos=-163 [Clostridium hiranonis DSM 13275]
+GATATATCGTTTTCTT
+>CLOHIR_01291(aspB) Score=4.9 Pos=232 [Clostridium hiranonis DSM 13275]
+AGGAAAACGATTTCGT
+>CLOHIR_00174(gatA) Score=4.7 Pos=-153 [Clostridium hiranonis DSM 13275]
+AAAAAAACATTTTCCT
+>CLOHIR_01724(fba) Score=4.8 Pos=-112 [Clostridium hiranonis DSM 13275]
+AAGAAAATGTTTGCAA
+>CLOHIR_01209(pgi) Score=4.9 Pos=-159 [Clostridium hiranonis DSM 13275]
+GAAAAAACGATTTCTT
+>CLOHIR_01209(pgi) Score=4.1 Pos=-11 [Clostridium hiranonis DSM 13275]
+AGAAAAATATTATGAT
+>CLOHIR_00956(CD2791) Score=4.3 Pos=-141 [Clostridium hiranonis DSM 13275]
+GAGAATAAGTTATCAA
+>CLOHIR_00712(sigF) Score=4 Pos=-218 [Clostridium hiranonis DSM 13275]
+AATAAAAAGTTATTCT
+>CD1477 Score=4.7 Pos=-51 [Clostridium difficile 630]
+AAGATAACGATTGCTT
+>CD0853(oppB) Score=4.1 Pos=-197 [Clostridium difficile 630]
+AATAAAATAATTTGAT
+>CD0854(oppC) Score=4 Pos=-305 [Clostridium difficile 630]
+AGCAAAAGGTTTAAAT
+>CD0530 Score=4.1 Pos=11 [Clostridium difficile 630]
+TAAAAAACATTTTATT
+>CD0395(hadA) Score=4.9 Pos=-11 [Clostridium difficile 630]
+AGGAAAACGTTATGCT
+>CD0530 Score=4.1 Pos=-79 [Clostridium difficile 630]
+AGGAAAACGTATTATA
+>CD0850 Score=4 Pos=169 [Clostridium difficile 630]
+TTGAAAATGTTTTGGT
+>CD2795(CD2795) Score=4.5 Pos=12 [Clostridium difficile 630]
+AAAAAAATATTATCAT
+>CD2485(CD2385) Score=4 Pos=221 [Clostridium difficile 630]
+TAGAACTCATTTTGAT
+>CD0209(CD0209) Score=4.1 Pos=0 [Clostridium difficile 630]
+ATGAAAAAGTTACCAA
+>CD2514(tdcB) Score=4.5 Pos=-94 [Clostridium difficile 630]
+TAAAAATCGTTTACAT
+>CD2854(dltD) Score=4.3 Pos=184 [Clostridium difficile 630]
+GAGAAAAGGATATTAT
+>CD0830 Score=4.2 Pos=-269 [Clostridium difficile 630]
+AAGAAAAAATTATATA
+>CD0201 Score=4.5 Pos=78 [Clostridium difficile 630]
+GAGAAAATGTTTACAG
+>CD0394(ldhA) Score=4.3 Pos=-207 [Clostridium difficile 630]
+AAAATAACAATTTCTT
+>CD0394(ldhA) Score=4.6 Pos=-319 [Clostridium difficile 630]
+CAAAAAAAGTTTTCAT
+>CD1336(malX) Score=3.9 Pos=-141 [Clostridium difficile 630]
+TTGAAAAAATTTACAG
+>CD1387 Score=4.2 Pos=-127 [Clostridium difficile 630]
+AAGAACAGATTTTGCT
+>CD1322(dapG) Score=4.1 Pos=-124 [Clostridium difficile 630]
+AGAAAAAGGATTTTTT
+>CD0576(virS) Score=4.9 Pos=93 [Clostridium difficile 630]
+GAGAAAAGGATTTCTA
+>CD0742(eutH) Score=4.2 Pos=-75 [Clostridium difficile 630]
+GGGAAAACGATACCAA
+>CD2625(CD2625) Score=4.8 Pos=17 [Clostridium difficile 630]
+AGGAACAGGTTTACTT
+>CD3244(prdA) Score=4.9 Pos=-294 [Clostridium difficile 630]
+GAGAAAATGTTTACAA
+>CD2879 Score=5 Pos=-127 [Clostridium difficile 630]
+TAGATAAGGTTTTCTT
+>CD2693(CD2693) Score=4 Pos=3 [Clostridium difficile 630]
+AAGAAAAAAATAGGTT
+>CD1657(gcvPB) Score=4.1 Pos=-493 [Clostridium difficile 630]
+GTGAAAATGTTATTTT
+>CD2355(trxA2) Score=4.2 Pos=-6 [Clostridium difficile 630]
+AAGAAAATGTTAGATT
+>CD3664(CD3664) Score=5.4 Pos=-31 [Clostridium difficile 630]
+AAGAAAACATTTTCAT
+>CD2354(grdE) Score=4.4 Pos=-211 [Clostridium difficile 630]
+AGAAAAAGGTTTTTAT
+>CD3649(rlmH) Score=4.6 Pos=69 [Clostridium difficile 630]
+AAGAAAAGGCTTTCTA
+>CD2429(porA) Score=4 Pos=-10 [Clostridium difficile 630]
+GAGAAAAGGTATGCAA
+>CD2173 Score=4 Pos=55 [Clostridium difficile 630]
+GAGAAAAAATTATAAA
+>CD2357(grdX) Score=4.5 Pos=197 [Clostridium difficile 630]
+AGGAAATCGTTTGGAT
+>CD0394(ldhA) Score=4.7 Pos=-130 [Clostridium difficile 630]
+GGGAAAACAATTTCAA
+>CD3175(cggR) Score=4 Pos=-80 [Clostridium difficile 630]
+AAAATAAAAATATCTT
+>CD3175(cggR) Score=4.2 Pos=108 [Clostridium difficile 630]
+AGGAGAACATTATCAA
+>CD2884(licB) Score=5.2 Pos=-187 [Clostridium difficile 630]
+ATGAAAAAGTTTTCTT
+>CD3218(CD3218) Score=4.3 Pos=253 [Clostridium difficile 630]
+GAGTTAACGTTTTCAA
+>CD2347(CD2347) Score=3.8 Pos=-31 [Clostridium difficile 630]
+AAGATAAAATTTATTA
+>CD2347(CD2347) Score=4.3 Pos=175 [Clostridium difficile 630]
+CAGAAAAGGTTTGCAA
+>CD2344 Score=4.3 Pos=-153 [Clostridium difficile 630]
+AAGATAAAATTTTTTT
+>CD2702(brnQ) Score=4.8 Pos=-105 [Clostridium difficile 630]
+GGGAAAACGTTAACAA
+>CD2625(CD2625) Score=5.1 Pos=-60 [Clostridium difficile 630]
+AGGATAACGTTATCAT
+>CD2481(ung) Score=4.3 Pos=46 [Clostridium difficile 630]
+TTGAAAAAGATTACTA
+>CD1536(CD1536) Score=4.3 Pos=232 [Clostridium difficile 630]
+AAGAAAACGATTTTGT
+>CD1586 Score=5.1 Pos=112 [Clostridium difficile 630]
+TAGAAAAGGTTATCAT
+>CD1768(CD1768) Score=5.1 Pos=-51 [Clostridium difficile 630]
+GAGAAAAGGTTTTGTT
+>CD1893 Score=4.3 Pos=-153 [Clostridium difficile 630]
+TAGAAATCGTTTAATT
+>CD2281 Score=3.9 Pos=-11 [Clostridium difficile 630]
+AGGAAATTATTATGAA
+>CD2600(cstA) Score=5 Pos=-68 [Clostridium difficile 630]
+TGGAAATAGTTTTCTT
+>CD0854(oppC) Score=3.6 Pos=-184 [Clostridium difficile 630]
+GAAAAAGTTTTTTCTT
+>CD0679 Score=4.2 Pos=32 [Clostridium difficile 630]
+AAGAAATTATTTTGAA
+>CD0854(oppC) Score=3.8 Pos=-186 [Clostridium difficile 630]
+TTGAAAAAGTTTTTTC
+>CD0679 Score=4.2 Pos=-66 [Clostridium difficile 630]
+AGGAAATCGTATGCAT
+>CD0298(rbsR) Score=4.3 Pos=-27 [Clostridium difficile 630]
+AGTAAAACGGTTTCCT
+>CD0279A Score=4.2 Pos=-370 [Clostridium difficile 630]
+AAGAAAACGTTATTAC
+>CD0279A Score=3.9 Pos=-325 [Clostridium difficile 630]
+AATAAAAAGATTTTTA
+>CD2241(nanE) Score=5.6 Pos=-73 [Clostridium difficile 630]
+AAGAAAAAGTTTTCAT
+>CD1386 Score=4.2 Pos=-146 [Clostridium difficile 630]
+AAGAAAAGATATTGTT
+>CD1137(rnfC) Score=3.8 Pos=-184 [Clostridium difficile 630]
+ATGAAAAGGATTGTTT
+>CD1336(malX) Score=4.6 Pos=-39 [Clostridium difficile 630]
+TAGAAAACGTTTTAAA
+>CD1338(glvG) Score=4.2 Pos=-142 [Clostridium difficile 630]
+ATGAAAAAAATTACAA
+>CD2111 Score=4.2 Pos=-6 [Clostridium difficile 630]
+TAGAAAATGTTTGCAG
+>CD1893 Score=5.1 Pos=-76 [Clostridium difficile 630]
+TATAAAACGTTTTCTT
+>CD1935(spoVS) Score=4.4 Pos=-143 [Clostridium difficile 630]
+AAATAAAGGTTTTCTT
+>CD1385 Score=4.4 Pos=-110 [Clostridium difficile 630]
+AAGAAAGCGTTTTGAA
+>CD2327(gatA) Score=5.3 Pos=-114 [Clostridium difficile 630]
+GGGAAAACATTTTCTT
+>CD2283 Score=4.3 Pos=-71 [Clostridium difficile 630]
+TAGAAAAAAATATCAA
+>CD1214(spo0A) Score=3.9 Pos=-16 [Clostridium difficile 630]
+AAGAAGATGTTTTTTA
+>CD1214(spo0A) Score=4.3 Pos=-41 [Clostridium difficile 630]
+TGTAAAAAGTTTAGTT
+>CD1214(spo0A) Score=3.8 Pos=-134 [Clostridium difficile 630]
+ATTAAAAAATTTTATT
+>CD2280 Score=3.9 Pos=-101 [Clostridium difficile 630]
+GAAAAAACATTTTATA
+>CD3076(tagK) Score=4.8 Pos=-68 [Clostridium difficile 630]
+GTGAAAAGATTTTCAT
+>CD1321 Score=4.8 Pos=25 [Clostridium difficile 630]
+AGGAAATAGTTAACTT
+>CD1387 Score=3.9 Pos=-55 [Clostridium difficile 630]
+TCGAAAAAAATAACTT
+>CD0855(oppA) Score=3.8 Pos=-302 [Clostridium difficile 630]
+AGGAATTGGTTTACCA
+>CD0679 Score=4.7 Pos=-168 [Clostridium difficile 630]
+ATGATAACATTTTCTT
+>CD0580(gapN) Score=4.1 Pos=-75 [Clostridium difficile 630]
+AAAGAAATGTTTACAT
+>CD0580(gapN) Score=4.8 Pos=-123 [Clostridium difficile 630]
+AGAAAAACGTTAACTT
+>CD0770(spoIIAA) Score=4.5 Pos=88 [Clostridium difficile 630]
+AAGAAATAGATAACTT
+>CD2791(CD2791) Score=4.7 Pos=-131 [Clostridium difficile 630]
+AAGAAAAAGTTTATAT
+>CD2756(ptsH) Score=4.2 Pos=-55 [Clostridium difficile 630]
+AGGAAAACAATTTTAA
+>CD0177(CD0177) Score=4.1 Pos=-88 [Clostridium difficile 630]
+TGAAAAAATTTTACTT
+>CD0183(CD0183) Score=4.1 Pos=3 [Clostridium difficile 630]
+AAGAAAAAGATATTAA
+>CLOBAR_00380(cggR) Score=4 Pos=-16 [Clostridium bartlettii DSM 16795]
+AAAATAAAAATATCTT
+>CLOBAR_00645(licB) Score=4.4 Pos=-114 [Clostridium bartlettii DSM 16795]
+AGGAAAAGGGTTGCAT
+>CLOBAR_00039(rlmH) Score=4.6 Pos=69 [Clostridium bartlettii DSM 16795]
+AAAAAAAGGTTATCTA
+>CLOBAR_01893(brnQ) Score=4.1 Pos=-75 [Clostridium bartlettii DSM 16795]
+GGAAAAAGGTTTATAT
+>CLOBAR_00380(cggR) Score=4 Pos=-51 [Clostridium bartlettii DSM 16795]
+GAGAAAACATATTGAA
+>CLOBAR_02757(ung) Score=3.9 Pos=-71 [Clostridium bartlettii DSM 16795]
+TTTAAATAATTTTCTT
+>CLOBAR_01505(rnfC) Score=3.7 Pos=-100 [Clostridium bartlettii DSM 16795]
+GATAAATAATTAACAA
+>CLOBAR_02382(tagK) Score=4.2 Pos=-79 [Clostridium bartlettii DSM 16795]
+TGAAAATGGTTTTCTA
+>CLOBAR_02247(spo0A) Score=3.9 Pos=-130 [Clostridium bartlettii DSM 16795]
+AGTAAATTGTATTCAT
+>CLOBAR_00319(pgi) Score=4.2 Pos=-172 [Clostridium bartlettii DSM 16795]
+GTGATATCGTTTTCAA
+>CLOBAR_02382(tagK) Score=4.7 Pos=-60 [Clostridium bartlettii DSM 16795]
+TTGAAAAGATTTTCAT
+>CLOBAR_00319(pgi) Score=4.4 Pos=-208 [Clostridium bartlettii DSM 16795]
+AGGAAAAATATATCAT
+>CLOBAR_02362(ptsH) Score=3.8 Pos=-39 [Clostridium bartlettii DSM 16795]
+AAAATAAAATTTTTAT
+>CLOBAR_01234(spoIIAA) Score=3.8 Pos=2 [Clostridium bartlettii DSM 16795]
+GATAAAATGTTATTTA

@@ -1,0 +1,10 @@
+mx,tf,organism,operon,regulation,sequence,evidence
+MX000261,CcpA,Clostridioides difficile,feoA,Activation,AAGATAACGATTGCTT,3
+MX000261,CcpA,Clostridioides difficile,CD1768,Activation,GAGAAAAGGTTTTGTT,3
+MX000261,CcpA,Clostridioides difficile,prdA,Activation,GAGAAAATGTTTACAA,3
+MX000261,CcpA,Clostridioides difficile,hadA,Repression,AGGAAAACGTTATGCT,3
+MX000261,CcpA,Clostridioides difficile,aksA-acnB-icd,Repression,AGGAAATGGTATTTGT,3
+MX000261,CcpA,Clostridioides difficile,spo0A,Repression,TGTAAAAAGTTTAGTT,3
+MX000261,CcpA,Clostridioides difficile,CD1536-aspB,Repression,AAGAAAACGATTTTGT,3
+MX000261,CcpA,Clostridioides difficile,spoVS,Repression,AAATAAAGGTTTTCTT,3
+MX000261,CcpA,Clostridioides difficile,gatA,Repression,GGGAAAACATTTTCTT,3

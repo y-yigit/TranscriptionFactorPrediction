@@ -1,0 +1,2 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	S5RJF3	NC_021900.1	Streptococcus lutetiensis 033	776750	776764	1	TGAAAGCGATTTATC	ACT	qRT-PCR [RNA], Visual sequence inspection [PMID:18565772]	KE3_0819, KE3_0820

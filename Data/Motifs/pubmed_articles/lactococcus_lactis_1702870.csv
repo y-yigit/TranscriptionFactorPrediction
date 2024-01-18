@@ -1,0 +1,349 @@
+Gene	cre sequence	cre2 sequence
+    pdhD	 	 
+    pdhC	 	 
+    pdhB	 	 
+    nifJ	 	 
+    llmg0559	 	 
+    glpD	 	 
+    glpK	AGTAACCGTTTACA	TTGACATCTTTCTGTTATCATACTATAAT
+    llmg1127	AGAAATCGCTAACA	ATGCAATCTTAATAAAAATATTGATAAAAA
+    llmg1726	 	 
+    noxB	TGTAACAGTTTACA	TTTACAAATTGCTCTAAAAAGGATATAAT
+    noxA	 	 
+    cydB	 	 
+    cydA	AGTAACCGGTATTA	 
+    llmg1915	TGAAAGAGCATACA	TTGAAAATCTAAATGAATCGGCTTATAAT
+    llmg1916	TGACAGAGTTTTCA	 
+    atpD	 	 
+    atpG	 	 
+    atpA	 	 
+    ackA1	TTAAAACGTTTGAA	 
+    ackA2	ATAAAACGCATACA	ATGAAATCAACTCTAAAGTATGATATAAT
+    adhE	ATAAAGCGATTTCT	TTGCCAAATCTTTAAAAGGATTGGCAATAT
+    gntK	 	 
+    trxH	 	  
+    argG	AGTAAGCGTATTCA	TATTCAATACTATCATTTTTCTTATATAAT
+    argH	 	 
+    llmg0184	 	 
+    phnC	 	 
+    phnB	 	 
+    llmg0376	 	 
+    lysQ	 	 
+    llmg0507	 	 
+    argE	 	 
+    glyA	 	 
+    oppA	 	 
+    pepQ	TGTAAACCTTTTCA	GTGATTTTTCAATAAAAATAGCGTAGAAT
+    trpD	 	 
+    trpF	 	 
+    trpB	 	 
+    busAA	TGTAAGAGATATCT	 
+    llmg1299	 	 
+    telA	 	 
+    argF	 	 
+    argB	 	 
+    argD	 	 
+    argJ	 	 
+    argC	 	 
+    cysK	 	 
+    metC	 	 
+    pheA	 	 
+    llmg1993	 	 
+    pepT	 	 
+    oppA2	 	 
+    arcC2	 	 
+    arcC1	 	 
+    arcD1	 	 
+    arcB	TGAAAACTTTTACA	 
+    arcA	TGTAAACGATTCCA	TTGACAAAAAATATGCATAGATGTATAAT
+    llmg2477	 	 
+    glnA	 	 
+    carB	 	 
+    trpE	TGAAATCATTAGCA	 
+    oppD	 	 
+    oppB2	 	 
+    llmg1195	 	 
+    butB	 	 
+    gltS	 	 
+    gntP	TGTAAGCGCAAGCA	TTCAAAGAAAATTTGAAAAAGACTAAATT
+    pmrB	 	 
+    llmg0856	 	 
+    llmg2513	 	 
+    nrdD	 	 
+    udk	TGTGAACGCTTAAA	ATGACAAAAAGCCCAAAAATTGTGGTAGAAT
+    pyrR	 	 
+    pyrP	 	 
+    pyrB	 	 
+    purC	 	 
+    purQ	TGTAATGGATTTCA	 
+    purl	 	 
+    purM	 	 
+    purN	 	 
+    hprT	 	 
+    purH	 	 
+    purD	 	 
+    purK	 	 
+    pyrDB	 	 
+    guaC	 	 
+    pyrC	 	 
+    pyrE	 	 
+    nrdE	 	 
+    gmk	TGAAAGTGATAACA	 
+    purA	TGCACACGTTATCT	 
+    adk	 	 
+    purR	 	 
+    carB	 	 
+    mtlA	TGGTAGCGGTTATA	TTTACAGTCTTATTGGTAGCGGTTATAAT
+    mtlF	 	 
+    mtlD	TGTAAAAGCTTACA	TTGAAAATTAATCAATAAAATCAAAAAAAT
+    ptsH	 	 
+    glgB	TGAAAACCTTTGCA	TATGAAAACCTTTGCAAAAGTGCTAAAAT
+    ptcB	TGAAAACGTTATAA	TTGCATTATGAAAATGAAAACGTTATAAT
+    ptcA	 	 
+    ptcC	AGAAACCGCTTTCT	TTCTTTACTTTGCCTATTAATGCTATAAT
+    bglA	 	 
+    femD	 	 
+    llmg0453	TGAAAACGTTTTTA	TTGCTGAAAACGTTTTTATGTGATACAAT
+    llmg0454	 	 
+    trePP	 	 
+    llmg0487	 	 
+    llmg0488	 	 
+    llmg0489	 	 
+    llmg0490	 	 
+    malG	 	 
+    malF	 	 
+    malE	ATAAACCGTTTTCA	TTGACAAAAAGCAAACGGTTGCGTAAAAT
+    dexA	 	 
+    amyY	 	 
+    agl	 	 
+    mapA	 	 
+    ascB	TGAAATCGCTATCA	TATCAAAAACAATTAAAAAATGGTAAAAT
+    llmg0870	 	 
+    rpe2	AGTAATCGTTATCT	TTGACAGGTTGTTTTCCTGATGATATAAT
+    rpiB	 	 
+    llmg0959	TGAAACAGTTATCA	 
+    llmg0960	 	 
+    glpF2	 	 
+    pfk	TGAAAACGTTTCA	AAGAGATTTTTTTATAAATACGTGATATAAT
+    pyk	 	 
+    ldh	 	 
+    llmg1468	ATAAAGCGTTTACA	TAAAAAGTAAAGGCCAATTATGTTATAAT
+    fruA	 	 
+    fruC	TGAAAAAGGTAACA	 
+    pmi	TGAAAGCGAATAAA	TTGTTCTAGATAAATTTTGTGATATAAT
+    gpmC	 	 
+    chiC	AGTTAGCGCTTACA	TTTAAGTTAGGGAAAAAAATTGTTAGAAT
+    galT	 	 
+    galK	TATCAGCGTTAACA	 
+    galM	 	 
+    galP	TGCCATCGTATTCA	TTGGAAACCCTTTCTTAAACCAAAGTGTTATACT
+    bcrA	 	 
+    glpF3	 	 
+    llmg2431	TGAAAACGCTTTTT	CTGAAAACGCTTTTTTTGTGATAAAAT
+    pgiA	AATAAGCGCTTACA	TTGTTAAAAAGCCGAAAAAGTGATAAAAT
+    glcU	 	 
+    gntP	 	 
+    pmrB	 	 
+    llmg0856	 	 
+    llmg2513	 	 
+    llmg0961	 	 
+    fruR	TGAAAAAGGTAACA	 
+    lplL	 	 
+    menA	 	 
+    thiI	 	 
+    gltD	 	 
+    dltD	TGTAAGTATTTTCA	 
+    ribH	 	 
+    ribA	 	 
+    rib	 	 
+    ribD	 	 
+    pnuC2	 	 
+    folD	 	 
+    kdtB	 	 
+    trpE	 	  
+    mvk	 	 
+    llmg0431	 	 
+    llmg1517	 	 
+    accA	 	 
+    accC	 	 
+    butA	 	 
+    llmg1762	 	 
+    llmg0015	 	 
+    rpmG	 	 
+    prmA	 	 
+    tgt	 	 
+    rpsD	 	 
+    tyrS	 	 
+    thiM	 	 
+    hisF	 	 
+    truB	 	 
+    rplU	 	 
+    rpsA	AGAAAATGTTTTCA	 
+    trmU	TGCAAGCGATTTGA	 
+    pnpA	 	 
+    thrS	 	 
+    argS	 	 
+    rplO	 	 
+    proS	 	 
+    valS	 	  
+    mtlR	 	 
+    llmg0141	 	 
+    cspE	 	 
+    llmg0432	 	 
+    llmg0439	 	 
+    lytR	 	 
+    malR	 	 
+    ccpA	TGATATCGCTTCCA	TTGAAAAGGTTTACAGTTCATGATATAAT
+    llmg0956	GGTAATCGTTTACT	TTGCTAAACTTGTTTATATATGAGAGAAT
+    rplL	 	 
+    cspD	 	 
+    gidC	 	 
+    llmg2218	TGAAAGCGCAAACA	 
+    glnR	 	 
+    llmg0961	 	 
+    fruR	 	 
+    llrB	AAAAAGCGTATTCA	  
+    llmg0151	 	 
+    matR	 	 
+    ltrC	 	 
+    tnp-981	 	 
+    xseB	 	 
+    xseA	 	 
+    llmg2007	 	 
+    llmg2444	 	 
+    rnhA	 	  
+    rgpA	 	 
+    pbp2B	 	 
+    mgtA	 	 
+    galE	 	 
+    llmg2320	TTAATACGATTACA	  
+    gcp	 	 
+    ahpF	 	 
+    groEL2	 	 
+    tig	 	 
+    clpB	 	 
+    llmg1129	 	 
+    dnaK	 	 
+    fabD	 	 
+    pepO2	 	 
+    trxH	 	 
+    clpP	TGAAAGCGTTAAGA	TTGACCTTTTTTGACCAATGAGTTATAAT
+    phnD	TGTAAAGGCTTAAA	TTGTAAAGGCTTAAAAAAAGGGTTAGAAT
+    phnE	 	 
+    plpA	 	 
+    plpB	<	 
+    fhuD	TTAAAGCGGTTAAA	 
+    llmg0514	 	 
+    llmg0661	TGAAAACTCTAACA	 
+    fur	 	 
+    cspD2	 	 
+    orf53	 	 
+    fdhC	TAAATACGCTTTCA	TAGCATTCTAATATAATTTATGATAGAAT
+    pstC	 	 
+    oppD	 	 
+    oppB2	 	 
+    pmrB	 	 
+    llmg0856	 	 
+    llmg2513	 	  
+    llmg1629	 	 
+    butA	 	 
+    llmg1762	 	 
+    llmg0146	 	 
+    llmg0167	 	 
+    llmg0185	TGAATACGAATACA	TTCTTATTTCTACAGTTTTGTGTTAAAAT
+    llmg0194	TGAAATCGTTCACA	TTGTCAAAGATTAAAAATTATCGTAGAAT
+    pgmB	 	 
+    llmg0481	 	 
+    llmg0541	TGTAAGCGTTGATA	TGTTTTTTTTATTAAAAAAATGTTATAAT
+    llmg0736	 	 
+    llmg0761	TTTAAGCGTTCACA	 
+    llmg0765	 	 
+    llmg0876	 	 
+    llmg0995	TGATATCGATAACA	 
+    bmpA	 	 
+    orf18	 	 
+    cpo	 	 
+    lrgA	 	 
+    llmg1912	 	 
+    pbuO	 	 
+    llmg1920	TTTAAACGTTTACC	 
+    adhA	AGAATGCGTTTACA	GATACAAAACGAGGTGAAAAGTGTTATAAT
+    llmg2436	 	 
+    llmg1195	 	 
+    butB	 	 
+    pmrB	 	 
+    llmg0856	 	 
+    llmg2513	 	 
+    butA	 	 
+    llmg1629	 	 
+    llmg1762	 	  
+    llmg03303	 	 
+    llmg0334	 	 
+    llmg0343	 	 
+    llmg0448	 	 
+    llmg0476	 	 
+    llmg0492	 	 
+    llmg1202	 	 
+    llmg1540	 	 
+    llmg1666	 	 
+    llmg1917	 	 
+    llmg1936	TGTCAGCATTTTCA	 
+    llmg2164	 	 
+    llmg2194	 	 
+    chb	 	 
+    llmg2213	 	 
+    llmg2337	 	 
+    llmg2338	 	  
+    kinC	 	 
+    cstA	TGTAATCGGTTACA	TTATCTTTTTGATTAAATAGTGCTAAAAT
+    kinF	 	 
+    kinE	 	 
+    uspA	 	 
+    llmg2047	 	 
+    llrB	 	 
+    gltS	 	  
+    llmg1391	 	 
+    cluA	 	 
+    ps457	 	 
+    clpP	 	  
+    hsdS	 	 
+    llmg0989	TGAAAGCACTGCCA	TATTTACTTTTGGAATTTAAATGCTACAAT
+    hdiR	 	 
+    llmg1467	 	 
+    lmrA	 	  
+    cluA	 	 
+    ps457	 	 
+    llmg0183	TGAAAGTGCTTGCA	TTGCAAAGAATCTTTAATCTTGCTAGAAT
+    llmg0311	TGATAACGCTGACA	TTGATAACGCTGACAAATTTTCTGCTATAAT
+    llmg0379	 	 
+    llmg1090	AGAAAGCGTTTTAT	TAGACTTAAGTTAGAAAATAGGTTATAAA
+    llmg1091	 	 
+    llmg1092	TGCGAACGCATTCA	 
+    llmg1093	 	 
+    llmg1094	 	 
+    llmg1095	 	 
+    llmg1096	AGAAAGCGGACTCA	TCGCAAGAGAGGCTCAAATTTTATTAAAAT
+    llmg1108	 	 
+    panE	 	 
+    potD	 	 
+    orf46	 	 
+    orf30	 	 
+    orf28	 	 
+    orf26	 	 
+    orf22	 	 
+    orf20	TAGAAGCGATAACA	 
+    llmg1563	 	 
+    llmg1750	GGCAAACGTTATCA	 
+    llmg1773	 	 
+    llmg1944	 	 
+    llmg2036	 	 
+    ps431	 	 
+    ps412	TGTATGCGTTTTAA	ATTTCAAATTTTTAGGCATTCGTGGTATAAT
+    llmg2144	 	 
+    llmg2145	 	 
+    llmg2146	 	 
+    llmg2211	AGAAAGGGTTTTCT	TGTGTTATAAT
+    llmg2286	AGAAAGCGCTATAA	TTGTCATCTATAAAAGAAAGCGCTATAAT
+    llmg2482	 	 
+    llmgpseudo54	 	 
+    llmgpseudo69	 	 

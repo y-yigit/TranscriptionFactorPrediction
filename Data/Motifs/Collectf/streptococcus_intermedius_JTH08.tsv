@@ -1,0 +1,2 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	A0A0E2J8L1	NC_018073.1	Streptococcus intermedius JTH08	119641	119658	-1	AATGAAAGCGTTAGCAAT	REP	EMSA, qPCR [quantitative real-time], Site directed mutagenesis, Visual sequence inspection [PMID:20624907]	SCIM_0091

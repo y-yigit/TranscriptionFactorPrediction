@@ -1,0 +1,351 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	64495	64510	-1	ATATAATCGCTATCAA	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0063
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	274483	274498	1	AAGAATGCGTTTTTAT	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0277
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	285058	285073	-1	TTGTAAACGGTTTCTA	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0286
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	536845	536860	1	GAGAAAGGGTTTACAT	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0526
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1355905	1355920	-1	TATTAAACGCTTCCAA	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1341
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1420955	1420973	-1	TTTGTAAGCTATTCCAAAC	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1401
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1882106	1882124	1	ATTGACAACACTGCCAAAA	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1910
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1052309	1052327	-1	ATCGAAAACGATAGCATCA	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1026
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	98914	98932	1	ATTGTTACCGATCACATTC	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0098
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	729535	729549	-1	TGAAATCGAAACCAT	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0714
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1274633	1274646	-1	TTAAATCGTTTTCA	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1247
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	310644	310657	1	GGCAAACGCTTGCA	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0311
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1080214	1080232	-1	GATGAAAATGGTATCATCT	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1050
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	97943	97961	-1	TATGAAAAAGCAATCACTC	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0097
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1538043	1538057	-1	TGTTATCTTTTTCAA	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1515
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1988558	1988572	1	TGTCAAAGCTTTCAT	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_2012
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1907164	1907179	-1	TTAAAAACGCTTGCAA	REP	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1933
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	92759	92772	1	TGTAAACGATTTCA	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0092
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1023623	1023636	-1	TTAAACTGCTTTCA	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1011
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1434415	1434428	1	AGAAAGCGTTTTCA	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1415
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1512665	1512678	-1	TGTAATCGATTTCA	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1495
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1156861	1156875	-1	TGCAACCGATTTAAA	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1126
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	419566	419580	1	TGAAATCGGTTACTT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0420
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	65808	65823	1	ATGAAAGCGCAAACTT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0065
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	94830	94845	-1	ACAAAAACGCTTACAT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0093
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	264542	264557	-1	TGGAAAAGGCTTTCTT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0265
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	404732	404747	1	ATGAAATCGGTATCTT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0404
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	576943	576958	1	TTGACAACGGTTTCAT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0559
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	642462	642477	1	AAGCAAACGCTTACTT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0621
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	678853	678868	-1	ACGAAAACGTTTGCAC	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0661
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1025729	1025744	-1	AAGTAATCGCTTTCTT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1010
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1102060	1102075	-1	CAGAAAACGCTTCCTA	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1075
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1429282	1429297	-1	TATAAAGCGTTTTCAT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1409
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1512147	1512162	-1	ATGAAATCGCATACAA	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1496
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1626428	1626443	1	ATGAAACCGTTTCCTT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1610
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1649339	1649354	1	GTGTAATCGTTTTCTT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1634
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1770932	1770947	-1	TATAAAACGTTTTCAA	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1774
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1821959	1821974	-1	ATGAAACTGTTTACAA	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1834
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1952529	1952544	1	TAGAAAGCGTTTTCTT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1978
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1991284	1991299	-1	AAGAAAGCGCTTTATT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_2013
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1992809	1992827	-1	AATGAAAGGGGTAACAAAT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_2014
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	88873	88891	1	TTTGTATTCGTTATCATTA	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0089
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	163874	163892	1	CATGAAAAAGAAACCAATT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0159
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	469825	469843	1	AATGGAAAAGAATACACTC	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0460
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	687524	687542	1	AATGTTTGCGTTATCATTT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0667
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	781889	781907	1	AGTGTAAACGATAACAGGA	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0771
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1376644	1376662	-1	TATGTAACCGGTAACACAT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1360
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1505422	1505440	-1	ATTGAAAATGATGTCAACT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1488
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	310644	310657	1	GGCAAACGCTTGCA	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0311
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1538043	1538057	-1	TGTTATCTTTTTCAA	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1515
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1988558	1988572	1	TGTCAAAGCTTTCAT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_2012
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1907164	1907179	-1	TTAAAAACGCTTGCAA	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1933
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	1080214	1080232	-1	GATGAAAATGGTATCATCT	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_1050
+CcpA	A0A0H2ZQ65	NC_008533.1	Streptococcus pneumoniae D39	97943	97961	-1	TATGAAAAAGCAATCACTC	ACT	Consensus search, DNA-array expression analysis [PMID:22039538]	SPD_0097
+CcpA	F9UQH6	NC_004567.2	Lactobacillus plantarum WCFS1	3141954	3141967	-1	TGTAAGGGCTATCA	REP	CAT reporter gene assays, EMSA, Site directed mutagenesis [PMID:11934508]	lp_3525
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	896122	896137	1	AAGGAAACGCTTTCAT	REP	Consensus search, DNA-array expression analysis, EMSA, GFP Promoter Fusion, Site directed mutagenesis [PMID:24673665]	SSU0871
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	603640	603655	1	ATGTGAGCGTTTTCAA	ACT	Consensus search, DNA-array expression analysis, EMSA, GFP Promoter Fusion, Site directed mutagenesis [PMID:24673665]	SSU0580
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	191254	191269	1	TTGAAAACACTTTCTA	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0191
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	191282	191302	-1	GTTTTTCATTTATTTTCAAGT	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0191
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	266750	266765	1	ATGGAAGCGTTTTCTT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0261
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	700751	700766	1	ATGGAAGCGTTTTCAA	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0675
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	956054	956069	1	ATGTAAACATTTTCAA	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0927
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1653438	1653453	1	ATTGAACCGTTTTCTT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1637
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1653457	1653477	-1	GGTTTTCACAAAAATTTCTGT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1637
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	10023	10043	-1	CTTTTTCTATCCTTTTTTCAC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	235616	235636	-1	CTTTTTCAAATCCTTTCCCTT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1216089	1216109	1	TTATTTCAAAGATTTTCCAAT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1618054	1618069	-1	TTGAAAACTTTTTCTA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1611
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1617876	1617896	1	GTTTTTCTGAAATTTTCATAC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1611
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1759739	1759759	-1	ATTTTTCAGAAAATTTCCATT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1741
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1698200	1698220	-1	AATTTTCAGAAAATTTCTTGA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1682
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	335430	335450	1	TTTTTTCATAAATTTTCAGTT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	902635	902655	1	CTTTTTCTTTAATTTTATCTA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	708518	708538	-1	CTTTTTCATAAATTTTGCCTT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0680
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	766170	766190	1	TCTTTTCATAAAAATTCCAAT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0735
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	963900	963920	1	TGTTTTCCGAAATATTTTCAT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1779303	1779323	1	GATTTTCAGTACATTTTTCAC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1758
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	254690	254705	1	GAGTAAACGTTTTCTT	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0249
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	347939	347954	-1	TTGTAATCGTTTTCTT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0329
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	667654	667669	1	TATTAAACGCTTTCAT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0644
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	896122	896137	1	AAGGAAACGCTTTCAT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0870
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	896087	896107	-1	TATTTTCATTTTTCTTTTCAA	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0870
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	926703	926723	1	CTCTTTCAAGCTATTTTCAAC	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1259792	1259807	1	GAGATAGCGCTTACAT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1230
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1296238	1296253	1	TTGTAAACGTTTTCTT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1265
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1352524	1352544	-1	TTTTTTCTTGAAAAATCCCTT	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1320
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1392936	1392956	-1	TATTCTCAAGCATTTTTTCAA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1396119	1396134	1	TTGTAAGCCTTTTCTT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1369
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1861536	1861556	1	TTTTTTCAAGAAATTTATCAA	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1836
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1880372	1880387	-1	AAGAAAACGTTTGCAA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1849
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1947597	1947612	1	ATAAAAACGCTTGCAA	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1915
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1963636	1963651	1	ATTAAAACGCTTTCTT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1927
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1967451	1967466	1	ATGAAAACCCTTTCTT	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1929
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	420138	420153	-1	TTGCAACCGTTTTCTT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0395
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	513861	513876	-1	TTGCAAGCATTTTCTA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0482
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1198938	1198958	1	TTGTTTCATGACATTTTTGGC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	230385	230405	-1	CATTTTCATAACCTTTCTGTA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	380178	380193	-1	GCGTAACCGTTTTCTT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0355
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	380116	380136	-1	GCTTTTCCGTAATATTTTAAA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0355
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	639101	639116	-1	TCGAAAACGATTTCAA	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0613
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	937952	937972	-1	GCTTTTCAATTTGTTTTCAGT	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1193426	1193441	-1	CAGAAAACGGTTACAA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1172
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1226297	1226312	1	TTGAAACCACTTTCAA	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1202
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1852762	1852782	1	TCTTTTCTGAAAATATTTTGT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1826
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1881492	1881507	1	GTGCAAACGTTTTCTT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1850
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	552748	552763	1	AAGATAACGTTTTCCA	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0515
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1679071	1679091	1	TTTTTTCCAAATTTTTCTCAC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1665
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1921785	1921805	1	TATTTTCAAGTTCATTTTCAT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	789629	789649	-1	CTTTTTCATAACTTTTCCTCC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0757
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	837245	837265	1	CATTTTCTTTCCAATTTTCAA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	837839	837859	1	CCTTTTCTGACATTTTTCTCT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1497104	1497119	-1	ATAGAAGCGTTTTCAT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1480
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	2005052	2005072	1	ACTTTTCTTTCAATTTTCCAA	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1968
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	978947	978967	1	TTTTTTCATTTCATTTTTTCC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0953
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	999671	999691	-1	CTTTTTCAATAAGTTTTCATC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	919923	919938	1	AAGGAAAATCTTACAC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	919912	919932	-1	GATTTTCCTTCATTCTTTCAT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1377410	1377430	1	TTTTTTCAATAATTTTACTGT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1584676	1584696	1	CCCTTTCTTTCATTTTTTCAA	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1578
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1782534	1782549	-1	GAGAGAACGGTTTCTA	ACT	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1830186	1830206	-1	TTTTTTCAATGATTTTCTGAT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	627013	627033	-1	GATTTTCTGGATATTTTCACC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	716910	716925	-1	ATGATAACGCTTTCTT	REP	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU0688
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	941530	941550	-1	CATTTTCCTAACCATTTTCAC	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	583922	583942	-1	ATTTTTCAAGCCTATTTCAGT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	752199	752219	-1	GATTTTCAGAAAGATGTTCAA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	851896	851916	1	TCTTTTCATGCACCTTTTCAT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	922768	922788	1	TCTTTTCAAAATTATTTCTCT	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1039342	1039362	-1	GTTTTTCCTGAAAATTCCGTA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1261732	1261752	1	GTTTTTCCAACAATTTCCGGA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	SSU1231
+CcpA	G5L2G2	NC_012925.1	Streptococcus suis P1/7	1334375	1334395	1	TTTTTTCAAGAAAATTTACAA	N/A	ChIP-Seq, DNA-array expression analysis, Motif-discovery [PMID:24673665]	
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3645438	3645453	-1	GAAGGAACGATGACAA	ACT	Beta-gal reporter assay, DNAse footprinting, EMSA, Site directed mutagenesis, Visual sequence inspection, Western blot (quantitative) expression analysis [PMID:23123903]	BSU35490
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	883692	883705	1	TGAAAGCGCTTTAT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU08100
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3039911	3039924	-1	TGAAAGCGTTACCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU29680
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3040018	3040031	1	TGAAAACGCTTTAT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU29690
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	327494	327507	1	TGTAAGCGTTAACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU03040
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4035846	4035859	-1	TGAAAGCGTTGACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU39270
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2600059	2600072	-1	TGTAAGCGTATACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU25190
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	834352	834365	1	TGTAAGCGGATTCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU07610
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2938164	2938177	-1	TGAATGCGGTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU28710
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	500103	500116	1	TGAAAACGCTATCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU04470
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1002320	1002333	1	TGACACCGCTTTCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU09280
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	626590	626603	1	TGTAAGCGTTTTAA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU05810
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4084475	4084488	-1	TGAAAGCGTTTAAT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU39770
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4082164	4082177	-1	TGAAAACGTTGTCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU39740
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1270553	1270566	1	TGTAAACGGTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU12000
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3985251	3985264	-1	AGAAAGCGTTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU38810
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3701378	3701391	1	TGTAAACGGTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU35910
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3882050	3882063	-1	TTAAAGCGCTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU37790
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3905192	3905205	-1	CGAAAACGCTATCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU38050
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1680381	1680394	1	TGAAAGCGCAGTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU16090
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	850686	850699	1	TGAAAACGCTTGCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU07800
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1301627	1301640	1	TGAAAGCGTTATCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU12300
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	267837	267850	1	TAAAAGCGCTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1891943	1891956	1	TGGAAGCGCAAACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU17600
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1887254	1887267	1	TGAAAGCGCTTTTA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU17570
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1164317	1164330	1	AGAAAACGCTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU10850
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1304443	1304456	1	TGAAAGCGGTTCAA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU12330
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1398558	1398571	1	TGCAAGGGCTTTCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU13340
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2739446	2739459	1	TGATAGCGTTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU26820
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3137408	3137421	-1	TGTAAGCGTTTGCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU30660
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3199571	3199584	-1	TGAAAGCGCTATCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU31190
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3508543	3508556	-1	TTAAAGCGCTTTCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2950048	2950061	-1	TGTAAGCGCTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU28810
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	879436	879449	1	TGTAAGCGTTTGCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU08060
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2982369	2982382	-1	TGTAAGCATTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU29140
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2839197	2839210	-1	TGAAAACGGTGCCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU27760
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3979405	3979418	-1	TGAAATGAATCGTT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU38760
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2448493	2448506	-1	TGAAAACGGTTTAT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU23500
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4113337	4113350	1	TGAAAGTGTTTGCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU40050
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4113524	4113537	1	TGAAAGCGGTACCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU40050
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4041653	4041666	1	TGAAACCGCTTCCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU39340
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2919903	2919916	-1	TGAAAACGTTATCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU28560
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2762901	2762914	-1	TGAAAACGCTTAAC	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU27070
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	889995	890008	1	TGTAAACGTTATCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU08180
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2454231	2454244	-1	TGAAAGCGTTTTAG	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU23560
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3096697	3096710	1	TGTAACCGCTTACT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU30260
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	467032	467045	1	TGAAAGCGTTTTAT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU04160
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2111695	2111708	-1	TGGAAGCGTTTTTA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	694663	694676	1	TGAAAACGTTTTTT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU06370
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2421440	2421453	-1	TAAAAACGCTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU23150
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3513230	3513243	-1	GGAAAACGCTTTCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1153718	1153731	1	TGTAAGCGGTATCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU10770
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	368925	368938	-1	TGAAAACGCGATCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU03380
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	452799	452812	1	AGAAAGCGCTTACG	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU04000
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	475890	475903	-1	TGAAAACGTGTCCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU04240
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	758065	758078	1	TGAAAGCGTTTTCC	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU06940
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	899980	899993	1	AGAAAGCGGTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU08260
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	1896315	1896328	1	TGTAAACGGTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU17630
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2126255	2126268	-1	TGAAAGCGCTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU19520
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2565628	2565641	1	TGAAAACGCTATCG	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU24800
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2564567	2564580	1	TGAAAATGTTTACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU24780
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2955703	2955716	-1	TGTAAGCGCTTTAT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU28900
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2933153	2933166	1	TGAAAGCGTTTTTT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3220342	3220355	-1	TGAATGCGCTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU31330
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3203958	3203971	-1	TGAAAACGGATACA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU31220
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3555856	3555869	-1	TGTAACCGCTTTCT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	3966689	3966702	1	TTGAAACGCTTTCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU38640
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4123132	4123145	1	TGTAAGCGGTTTAT	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU40130
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	4123056	4123069	-1	TGAAAGCGTAACCA	REP	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU40120
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2897536	2897549	-1	TGAAAGCGTATACA	ACT	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU28310
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	728528	728541	-1	TGAAAGCGTTTTAT	ACT	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU06660
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	282132	282145	-1	TGAAAGCGCTCGCT	ACT	DNA-array expression analysis, PSSM site search [PMID:22900538]	BSU02590
+CcpA	N0CDN9	NC_021175.1	Streptococcus oligofermentans AS 1.3089	1383607	1383620	-1	TGACAGCGCTATCA	REP	Beta-gal reporter assay, EMSA, qPCR [quantitative real-time], Visual sequence inspection [PMID:22609925]	I872_06870, I872_06870
+CcpA	N0CDN9	NC_021175.1	Streptococcus oligofermentans AS 1.3089	1716340	1716353	1	TGAAAACGTTTTAT	REP	Beta-gal reporter assay, EMSA, Luciferase reporter assay, qPCR [quantitative real-time], Visual sequence inspection [PMID:22609925]	I872_08480
+CcpA	Q9CF33	NC_002662.1	Lactococcus lactis subsp. lactis Il1403	176237	176250	1	TGATATCGCTTGCA	REP	Luciferase reporter assay, Visual sequence inspection [PMID:21262549]	L176316
+CcpA	Q9CF33	NC_002662.1	Lactococcus lactis subsp. lactis Il1403	177264	177277	1	TGACAACGAAGGCT	REP	Luciferase reporter assay, Visual sequence inspection [PMID:21262549]	L177520
+CcpA	A0A0E2J8L1	NC_018073.1	Streptococcus intermedius JTH08	119641	119658	-1	AATGAAAGCGTTAGCAAT	REP	EMSA, qPCR [quantitative real-time], Site directed mutagenesis, Visual sequence inspection [PMID:20624907]	SCIM_0091
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2982363	2982389	-1	AGTAAAATGTAAGCATTTTCTTTTTGG	REP	Beta-gal reporter assay, DNAse footprinting, EMSA, Primer Extension assay, Visual sequence inspection [PMID:12100558]	BSU29140
+CcpA	F9UQH6	NC_004567.2	Lactobacillus plantarum WCFS1	3208201	3208214	-1	TGTAAGCGTTTGCT	REP	Premethylation interference footprinting, Primer Extension assay, Visual sequence inspection [PMID:15175288]	lp_3589
+CcpA	A0A0C6FYN7	NC_008024.1	Streptococcus pyogenes MGAS10750	425659	425672	1	TGAAAACTTTTTCA	N/A	EMSA, Visual sequence inspection [PMID:15345406]	MGAS10750_Spy0437
+CcpA	P25144	NC_000964.3	Bacillus subtilis subsp. subtilis str. 168	2897536	2897550	-1	ATGAAAGCGTATACA	ACT	Beta-gal reporter assay, Consensus search, DNAse footprinting, Site directed mutagenesis [PMID:15916606]	BSU28310, BSU28300, BSU28290
+CcpA	Q2G295	NC_002745.2	Staphylococcus aureus subsp. aureus N315	2061036	2061053	1	TATGTAAACGTTTACACA	REP	Consensus search, Luciferase reporter assay, Multiple sequence alignment (MSA) [PMID:18710862]	SA1819
+CcpA	F9UQH6	NC_004567.2	Lactobacillus plantarum WCFS1	3141954	3141967	-1	TGTAAGGGCTATCA	REP	Premethylation interference footprinting, Primer Extension assay [PMID:11425700]	lp_3525
+CcpA	A8AWB2	NC_009785.1	Streptococcus gordonii str. Challis substr. CH1	312059	312074	1	CTTGAAGCGTTTTCAT	REP	Ad-hoc quantitative phenotype observation, Consensus search, EMSA, qRT-PCR [RNA], Site directed mutagenesis [PMID:21571883]	SGO_0292
+CcpA	A8AWB2	NC_009785.1	Streptococcus gordonii str. Challis substr. CH1	312081	312096	1	ATGGAAATGTTTTCAA	REP	Ad-hoc quantitative phenotype observation, Consensus search, EMSA, qRT-PCR [RNA], Site directed mutagenesis [PMID:21571883]	SGO_0292
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	764212	764225	-1	TGTAAACCTTTTCA	REP	Beta-gal reporter assay, Consensus search, DNA-array expression analysis, EMSA [PMID:17028270]	llmg_0775
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1060274	1060287	-1	AGTAACCGTTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1099
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1089041	1089054	1	AGAAATCGCTAACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1127
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1713778	1713791	-1	TGTAACAGTTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1734
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1845408	1845421	-1	AGTAACCGGTATTA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1864
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1895597	1895610	1	TGAAAGAGCATACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1915
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1896653	1896666	1	TGACAGAGTTTTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1916
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2243521	2243534	-1	TTAAAACGTTTGAA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2289
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2242414	2242427	-1	ATAAAACGCATACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2288
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2382931	2382944	1	ATAAAGCGATTTCT	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2432
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	133733	133746	1	AGTAAGCGTATTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	764212	764225	-1	TGTAAACCTTTTCA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0774
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1012046	1012059	1	TGTAAGAGATATCT	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1048
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2263385	2263398	-1	TGAAAACTTTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2312
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2264670	2264683	-1	TGTAAACGATTCCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2313
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	994997	995010	1	TGAAATCATTAGCA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1030
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2425586	2425599	-1	TGTAAGCGCAAGCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2467
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	751170	751183	1	TGTGAACGCTTAAA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0762
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	938160	938173	1	TGTAATGGATTTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0975
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2116564	2116577	-1	TGAAAGTGATAACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2155
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2168308	2168321	-1	TGCACACGTTATCT	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	26443	26456	1	TGGTAGCGGTTATA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0022
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	30850	30863	1	TGTAAAAGCTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0025
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	150493	150506	-1	TGAAAACCTTTGCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0158
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	428328	428341	1	TGAAAACGTTATAA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0437
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	430168	430181	1	AGAAACCGCTTTCT	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0440
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	446866	446879	1	TGAAAACGTTTTTA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0453
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	722209	722222	-1	ATAAACCGTTTTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0739
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	738259	738272	1	TGAAATCGCTATCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0751
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	923493	923506	1	AGTAATCGTTATCT	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0957
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	925295	925308	1	TGAAACAGTTATCA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1444529	1444542	-1	ATAAAGCGTTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1468
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1543917	1543930	-1	TGAAAAAGGTAACA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1569
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1769739	1769752	-1	TGAAAGCGAATAAA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1789
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2165065	2165078	1	AGTTAGCGCTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2199
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2198280	2198293	-1	TATCAGCGTTAACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2235
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2200598	2200611	-1	TGCCATCGTATTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2237
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2381722	2381735	1	TGAAAACGCTTTTT	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2431
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2402024	2402037	-1	AATAAGCGCTTACA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2448
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1543917	1543930	-1	TGAAAAAGGTAACA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1570
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1189436	1189449	1	TGTAAGTATTTTCA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1222
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1701648	1701661	-1	AGAAAATGTTTTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1724
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1701982	1701995	-1	TGCAAGCGATTTGA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	764561	764574	1	TGATATCGCTTCCA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	923613	923626	-1	GGTAATCGTTTACT	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0956
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2183502	2183515	-1	TGAAAGCGCAAACA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2218
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1028646	1028659	-1	AAAAAGCGTATTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1068
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2275631	2275644	-1	TTAATACGATTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2320
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	634209	634222	-1	TGAAAGCGTTAAGA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0638
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	297968	297981	1	TGTAAAGGCTTAAA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0312
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	337109	337122	1	TTAAAGCGGTTAAA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	657849	657862	1	TGAAAACTCTAACA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1523567	1523580	-1	TAAATACGCTTTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1551
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	173530	173543	1	TGAATACGAATACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0185
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	182573	182586	1	TGAAATCGTTCACA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0194
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	540012	540025	-1	TGTAAGCGTTGATA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0541
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	751170	751183	-1	TTTAAGCGTTCACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0761
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	960373	960386	1	TGATATCGATAACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0995
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1900620	1900633	-1	TTTAAACGTTTACC	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1920
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1979095	1979108	-1	AGAATGCGTTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1991
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1916903	1916916	-1	TGTCAGCATTTTCA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	420923	420936	1	TGTAATCGGTTACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0430
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	954600	954613	1	TGAAAGCACTGCCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	172512	172525	1	TGAAAGTGCTTGCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0183
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	297784	297797	-1	TGATAACGCTGACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_0311
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1050253	1050266	1	AGAAAGCGTTTTAT	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1090
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1052167	1052180	1	TGCGAACGCATTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1055585	1055598	1	AGAAAGCGGACTCA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1361138	1361151	-1	TAGAAGCGATAACA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	1732276	1732289	-1	GGCAAACGTTATCA	REP	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_1750
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2101494	2101507	1	TGTATGCGTTTTAA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2131
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2175251	2175264	1	AGAAAGGGTTTTCT	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2211
+CcpA	Q9CF33	NC_009004.1	Lactococcus lactis subsp. cremoris MG1363	2241106	2241119	-1	AGAAAGCGCTATAA	ACT	Consensus search, DNA-array expression analysis [PMID:17028270]	llmg_2286
+CcpA	A0A0C6FYN7	NC_021807.1	Streptococcus pyogenes HSC5	338115	338128	1	TGTAAGCGCTAACA	REP	Consensus search, DNA affinity purification, MALDI-TOF Mass Spectrometry, qRT-PCR [RNA] [PMID:19841076]	L897_01860
+CcpA	A0A0C6FYN7	NC_021807.1	Streptococcus pyogenes HSC5	949224	949237	-1	TGATAACGTTATAA	REP	Consensus search, qRT-PCR [RNA] [PMID:19841076]	L897_04845
+CcpA	A0A0C6FYN7	NC_021807.1	Streptococcus pyogenes HSC5	1682037	1682050	-1	TGAGAACGGTCCCA	ACT	Consensus search, DNA affinity purification, qRT-PCR [RNA] [PMID:19841076]	L897_08645
+CcpA	A0A0C6FYN7	NC_007297.1	Streptococcus pyogenes MGAS5005	559519	559532	-1	TGTAAACCCTTTCT	REP	Consensus search, DNA-array expression analysis, EMSA, Luciferase reporter assay, qRT-PCR [RNA] [PMID:18490461]	M5005_Spy_0562
+CcpA	S5RJF3	NC_021900.1	Streptococcus lutetiensis 033	776750	776764	1	TGAAAGCGATTTATC	ACT	qRT-PCR [RNA], Visual sequence inspection [PMID:18565772]	KE3_0819, KE3_0820
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	260615	260630	1	GAGAAAATGTTTACAG	N/A	ChIP-chip, DNA-array expression analysis, Motif-discovery, PSSM site search [PMID:22989714]	CD630_02010
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	340706	340721	1	AAGAAAACGTTATTAC	REP	ChIP-chip, DNA-array expression analysis, Motif-discovery, PSSM site search [PMID:22989714]	CD630_02791
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	359055	359070	1	AGTAAAACGGTTTCCT	REP	ChIP-chip, DNA-array expression analysis, PSSM site search, qRT-PCR [RNA] [PMID:22989714]	CD630_02980, CD630_02990, CD630_03000, CD630_03010, CD630_03020
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	467022	467037	1	AGGAAAACGTTATGCT	REP	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search, qRT-PCR [RNA] [PMID:22989714]	CD630_03950, CD630_03940, CD630_03960, CD630_03970, CD630_03980, CD630_03990, CD630_04000, CD630_04010
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	556274	556289	1	TCAAAAAGATTTTCAT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_04670, CD630_04680, CD630_04690
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	583420	583435	1	AAGAAAACGTTAAGCA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_04940
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	635641	635656	-1	AGGAAAACGTATTATA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_05300, CD630_05290, CD630_05280
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	688003	688018	1	GAGAAAAGGATTTCTA	N/A	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_05760
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	693075	693090	1	AGAAAAACGTTAACTT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_05800
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	821478	821493	1	ATGATAACATTTTCTT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_06790
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	905428	905443	1	GGGAAAACGATACCAA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_07410, CD630_07420
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	949316	949331	1	GAGAAAAAGACATCAT	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_07790, CD630_07800
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1009605	1009620	1	AGGAAATGGTATTTGT	REP	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search, qRT-PCR [RNA] [PMID:22989714]	CD630_08330, CD630_08340
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1029516	1029531	1	AAGAAAACCTTATCTA	REP	ChIP-chip, DNA-array expression analysis, PSSM site search, qRT-PCR [RNA] [PMID:22989714]	CD630_08540
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1313004	1313019	-1	GAGAAAAGGTTTCCAA	ACT	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_11160
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1336420	1336435	1	GAAAAAATGTTTTTTT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_11370
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1412556	1412571	1	TGTAAAAAGTTTAGTT	REP	ChIP-chip, DNA-array expression analysis, EMSA, PSSM site search, qRT-PCR [RNA] [PMID:22989714]	CD630_12140
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1531870	1531885	1	AGGAAATAGTTAACTT	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_13210
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1550455	1550470	1	TAGAAAACGTTTTAAA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_13360
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1603652	1603667	1	AAGAAAGCGTTTTGAA	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_13850
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1714225	1714240	1	AAGATAACGATTGCTT	ACT	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_14770
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1781920	1781935	1	AAGAAAACGATTTTGT	REP	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_15360
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1838921	1838936	1	TAGAAAAGGTTATCAT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_15860
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1854851	1854866	1	TTGAAAACGTTTAGTG	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_15990
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	1925176	1925191	1	AGGAAATAGATAAGTT	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_16580
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2045778	2045793	1	GAGAAAAGGTTTTGTT	ACT	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search, qRT-PCR [RNA] [PMID:22989714]	CD630_17680
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2198623	2198638	-1	TATAAAACGTTTTCTT	N/A	ChIP-chip, DNA-array expression analysis, Motif-discovery, PSSM site search [PMID:22989714]	CD630_18930
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2233587	2233602	-1	AAATAAAGGTTTTCTT	REP	ChIP-chip, DNA-array expression analysis, EMSA, PSSM site search [PMID:22989714]	CD630_19350
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2440343	2440358	1	TAGAAAATGTTTGCAG	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_21110
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2515101	2515116	-1	GAGAAAAAATTATAAA	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_21730
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2593114	2593129	-1	AAGAAAAAGTTTTCAT	N/A	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_22410
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2646467	2646482	-1	AAGAAATCGTTTCTTT	N/A	ChIP-chip, DNA-array expression analysis, Motif-discovery, PSSM site search [PMID:22989714]	CD630_22800
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2689649	2689664	-1	GGGAAAACATTTTCTT	REP	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search, qRT-PCR [RNA] [PMID:22989714]	CD630_23270
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2713817	2713832	-1	AAGATAAAATTTTTTT	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_23440
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2716801	2716816	-1	CAGAAAAGGTTTGCAA	ACT	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_23470
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2804904	2804919	-1	GAGAAAAGGTATGCAA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_24290
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	2863605	2863620	-1	TTGAAAAAGATTACTA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_24810
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3009209	3009224	-1	TGGAAATAGTTTTCTT	N/A	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_26000
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3031941	3031956	1	AGGATAACGTTATCAT	N/A	ChIP-chip, DNA-array expression analysis, Motif-discovery, PSSM site search [PMID:22989714]	CD630_26250
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3034723	3034738	-1	GAGAAAAAATATACAA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_26260
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3094028	3094043	1	ATGTAAACGTTATCTT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_26780
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3113090	3113105	-1	AAGAAAAAAATAGGTT	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_26930
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3124425	3124440	-1	GGGAAAACGTTAACAA	N/A	ChIP-chip, DNA-array expression analysis, Motif-discovery, PSSM site search [PMID:22989714]	CD630_27020
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3368187	3368202	1	TAGATAAGGTTTTCTT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_28790
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3373182	3373197	-1	ATGAAAAAGTTTTCTT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_28840
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3711112	3711127	-1	AGGAGAACATTATCAA	REP	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_31750
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3726185	3726200	-1	TAGATTTGGTTTAAAT	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_31840
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3766328	3766343	-1	GAGTTAACGTTTTCAA	REP	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_32180
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3795982	3795997	-1	GAGAAAATGTTTACAA	ACT	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_32440
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	3984772	3984787	1	CTGATAACGTTTTCTA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_34060
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	4258320	4258335	-1	AAGAAAAGGCTTTCTA	N/A	ChIP-chip, DNA-array expression analysis, PSSM site search [PMID:22989714]	CD630_36490
+CcpA	Q18AR8	NC_009089.1	Clostridium difficile 630	4275737	4275752	-1	AAGAAAACATTTTCAT	N/A	ChIP-chip, DNA-array expression analysis, EMSA, Motif-discovery, PSSM site search [PMID:22989714]	CD630_36640
+CcpA	H7C6V6	NC_004668.1	Enterococcus faecalis V583	3212152	3212165	-1	TGTAAACGGTGACA	REP	Beta-gal reporter assay, EMSA, Site directed mutagenesis, Visual sequence inspection, Western blot (quantitative) expression analysis [PMID:21989394]	EF3327
+CcpA	H7C6V6	NC_004668.1	Enterococcus faecalis V583	3212040	3212053	-1	TGTAAGCGTTAACA	REP	Beta-gal reporter assay, EMSA, Site directed mutagenesis, Visual sequence inspection, Western blot (quantitative) expression analysis [PMID:21989394]	EF3327
+CcpA	H7C6V6	NC_004668.1	Enterococcus faecalis V583	3211608	3211622	-1	TGAAAGCGTTATCCA	REP	Beta-gal reporter assay, EMSA, Site directed mutagenesis, Visual sequence inspection, Western blot (quantitative) expression analysis [PMID:21989394]	EF3326
+CcpA	Q03AX7	NC_010999.1	Lactobacillus casei BL23	723749	723762	1	ATAAAACGTTTACA	REP	GUS reporter gene assay, Visual sequence inspection [PMID:9352913]	LCABL_07260, LCABL_07270, LCABL_07280, LCABL_07290

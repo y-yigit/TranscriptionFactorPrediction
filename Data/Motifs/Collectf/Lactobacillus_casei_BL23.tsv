@@ -1,0 +1,2 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	Q03AX7	NC_010999.1	Lactobacillus casei BL23	723749	723762	1	ATAAAACGTTTACA	REP	GUS reporter gene assay, Visual sequence inspection [PMID:9352913]	LCABL_07260, LCABL_07270, LCABL_07280, LCABL_07290

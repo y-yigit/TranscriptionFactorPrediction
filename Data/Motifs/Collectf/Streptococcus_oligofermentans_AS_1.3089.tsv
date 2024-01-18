@@ -1,0 +1,3 @@
+TF	TF_accession	genome_accession	organism	site_start	site_end	site_strand	sequence	mode	experimental_evidence	regulated genes (locus_tags)
+CcpA	N0CDN9	NC_021175.1	Streptococcus oligofermentans AS 1.3089	1383607	1383620	-1	TGACAGCGCTATCA	REP	Beta-gal reporter assay, EMSA, qPCR [quantitative real-time], Visual sequence inspection [PMID:22609925]	I872_06870, I872_06870
+CcpA	N0CDN9	NC_021175.1	Streptococcus oligofermentans AS 1.3089	1716340	1716353	1	TGAAAACGTTTTAT	REP	Beta-gal reporter assay, EMSA, Luciferase reporter assay, qPCR [quantitative real-time], Visual sequence inspection [PMID:22609925]	I872_08480

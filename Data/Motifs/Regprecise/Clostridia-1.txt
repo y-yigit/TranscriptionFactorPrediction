@@ -1,0 +1,872 @@
+>CAC3275 Score=4.1 Pos=-107 [Clostridium acetobutylicum ATCC 824]
+ATTTAAACTATTTTAA
+>CAC3273 Score=4.1 Pos=-114 [Clostridium acetobutylicum ATCC 824]
+ATGTAAATCTTTAAAA
+>CAC3274 Score=3.9 Pos=-104 [Clostridium acetobutylicum ATCC 824]
+ATTTAAATTTTAATAT
+>CAC3275 Score=4 Pos=-87 [Clostridium acetobutylicum ATCC 824]
+ATTAAATCTTTTTCTT
+>CAC3272 Score=4.3 Pos=-75 [Clostridium acetobutylicum ATCC 824]
+ATAAAAATATTTTAAA
+>CAC3279 Score=4 Pos=-131 [Clostridium acetobutylicum ATCC 824]
+AAGTAATCTTTTAAAT
+>CAP0003 Score=4.6 Pos=-48 [Clostridium acetobutylicum ATCC 824]
+AAGAAAACGATATAAT
+>CAP0002 Score=4.4 Pos=-167 [Clostridium acetobutylicum ATCC 824]
+ATGAATACGTTTTATT
+>CAC2229(nifJ2) Score=4.5 Pos=-117 [Clostridium acetobutylicum ATCC 824]
+TTGAAAAAAATTTTAT
+>CAC2851 Score=4.4 Pos=-61 [Clostridium acetobutylicum ATCC 824]
+ATGAAATCGATTATAA
+>CAC2689(CAC2689) Score=4.4 Pos=-148 [Clostridium acetobutylicum ATCC 824]
+ATGAAAACGTATATAA
+>CAC0612(lrgA) Score=4.2 Pos=-119 [Clostridium acetobutylicum ATCC 824]
+ATGTAATCGTTATTAT
+>CAC0612(lrgA) Score=3.9 Pos=-150 [Clostridium acetobutylicum ATCC 824]
+AATTAAAATTTTATAA
+>CAC2372(sspA) Score=4.2 Pos=-72 [Clostridium acetobutylicum ATCC 824]
+TAAAAAACGTTATTAT
+>CAC1075(gluA) Score=4.7 Pos=-50 [Clostridium acetobutylicum ATCC 824]
+TTGTAAATGTTTTCAT
+>CAC2570(ganA) Score=4.6 Pos=-56 [Clostridium acetobutylicum ATCC 824]
+TAGAAAACGATTTCTT
+>CAC1345(xylT) Score=4.6 Pos=-61 [Clostridium acetobutylicum ATCC 824]
+ATGAAATCGTTTAAAA
+>CAC1345(xylT) Score=4 Pos=-79 [Clostridium acetobutylicum ATCC 824]
+TATAAAAATTTATCAT
+>CAC2658(glnN) Score=4.5 Pos=-157 [Clostridium acetobutylicum ATCC 824]
+TAGTAAACGTTTTCTT
+>CAC2658(glnN) Score=4.6 Pos=-202 [Clostridium acetobutylicum ATCC 824]
+ATGAAAAAATTTACAA
+>CAC0164 Score=4.4 Pos=-38 [Clostridium acetobutylicum ATCC 824]
+TTGAAAACGCTATCAT
+>CAC1462(fruA) Score=4.9 Pos=-51 [Clostridium acetobutylicum ATCC 824]
+TTGAAAACGTTTTTAT
+>CAC0332(manB) Score=4.8 Pos=-158 [Clostridium acetobutylicum ATCC 824]
+TTGTAAACGTTTTTAT
+>CAP0160(CAP0160) Score=4.7 Pos=-170 [Clostridium acetobutylicum ATCC 824]
+AAGAAAATGTTTTCAA
+>CAC0532 Score=4.4 Pos=-202 [Clostridium acetobutylicum ATCC 824]
+TTGAAAAGGTTTTCTT
+>CAC1339(araE) Score=4.7 Pos=-91 [Clostridium acetobutylicum ATCC 824]
+ATGAAAACGTTATATA
+>CAC2612(xylB) Score=4.9 Pos=-104 [Clostridium acetobutylicum ATCC 824]
+ATGAAAAAGTTTACAA
+>CAC2612(xylB) Score=4.2 Pos=-35 [Clostridium acetobutylicum ATCC 824]
+TTTAAAAAGTTATTTA
+>CAC1341(araD) Score=3.9 Pos=-157 [Clostridium acetobutylicum ATCC 824]
+TAGAAAAAGAAAACTT
+>CAC1341(araD) Score=4 Pos=-105 [Clostridium acetobutylicum ATCC 824]
+TGGTAAACGTTTTACT
+>CAC3673(xylR) Score=4.1 Pos=-122 [Clostridium acetobutylicum ATCC 824]
+AAGAAAAAATATACAT
+>CAC0358 Score=4.2 Pos=3 [Clostridium acetobutylicum ATCC 824]
+AATAAAATTTTTAAAT
+>CAC2828(mutT1) Score=3.9 Pos=-94 [Clostridium acetobutylicum ATCC 824]
+ATATTAAAATTTTCAA
+>CAC2828(mutT1) Score=4.6 Pos=-70 [Clostridium acetobutylicum ATCC 824]
+AAGAAAACGATTATAT
+>CAP0056(pelL2) Score=4 Pos=-129 [Clostridium acetobutylicum ATCC 824]
+AATAAAAAGTTTTACA
+>CAP0056(pelL2) Score=4.4 Pos=-44 [Clostridium acetobutylicum ATCC 824]
+ATGTTAACGTTAACAT
+>CAC1968(pelL2) Score=4.3 Pos=-47 [Clostridium acetobutylicum ATCC 824]
+TAGTAAAAGATTTTTT
+>CAC2514(lacB) Score=4.3 Pos=-63 [Clostridium acetobutylicum ATCC 824]
+TATAAAAAGTTTTATA
+>CAP0161(solR) Score=4.6 Pos=-170 [Clostridium acetobutylicum ATCC 824]
+TTGAAAACATTTTCTT
+>CAP0097(lipG) Score=4.4 Pos=-189 [Clostridium acetobutylicum ATCC 824]
+ATTAAAAAAATTTAAA
+>CAC2981(mpg) Score=4.6 Pos=-124 [Clostridium acetobutylicum ATCC 824]
+ATGTAAACGTTAATAT
+>CAC0421 Score=4.5 Pos=-137 [Clostridium acetobutylicum ATCC 824]
+ATGATAACATTTTCAT
+>CAC3037(ccpA) Score=4.2 Pos=-78 [Clostridium acetobutylicum ATCC 824]
+TATAAAAAGATTATAA
+>CAC2955(lacR) Score=4.1 Pos=-86 [Clostridium acetobutylicum ATCC 824]
+TTGAAAATGATACTAT
+>CAC2954(lacA) Score=4.4 Pos=-38 [Clostridium acetobutylicum ATCC 824]
+AAGTAAAAAATTTAAT
+>CAC2966(lacR) Score=4.1 Pos=-134 [Clostridium acetobutylicum ATCC 824]
+ATGTAAACGAAAACAA
+>CAC2966(lacR) Score=4.3 Pos=-77 [Clostridium acetobutylicum ATCC 824]
+TAGAAAACGATAACTA
+>CAC2965(lacF) Score=4.2 Pos=-32 [Clostridium acetobutylicum ATCC 824]
+ATAAAAATTATTTAAA
+>CAC3672(msmE) Score=4.9 Pos=-45 [Clostridium acetobutylicum ATCC 824]
+ATGTAAACGATTTAAT
+>CAC0987 Score=4.6 Pos=-155 [Clostridium acetobutylicum ATCC 824]
+ATGAAAAAAATTACAT
+>CAC2547 Score=4.3 Pos=-193 [Clostridium acetobutylicum ATCC 824]
+TTAAAAAAGATTAATA
+>CAC2547 Score=4.3 Pos=-124 [Clostridium acetobutylicum ATCC 824]
+AAGTAAACGATAATAT
+>CAC0263(serB) Score=3.9 Pos=-66 [Clostridium acetobutylicum ATCC 824]
+ATAATAAAATTATAAT
+>CAC0767 Score=4.6 Pos=-37 [Clostridium acetobutylicum ATCC 824]
+ATAAAAAAGTTTAAAA
+>CAP0098(amyA) Score=4.2 Pos=20 [Clostridium acetobutylicum ATCC 824]
+AAGAAAAAGCTTACTT
+>CAP0098(amyA) Score=4.2 Pos=86 [Clostridium acetobutylicum ATCC 824]
+AAGTAATCGTTTTCAA
+>CAC2252(xylS2) Score=4.6 Pos=120 [Clostridium acetobutylicum ATCC 824]
+ATGAAAACGATATCTA
+>CAC2959(galK) Score=4.8 Pos=55 [Clostridium acetobutylicum ATCC 824]
+ATGAAAATGTTTTCTT
+>CAC0176(oppA) Score=4.5 Pos=112 [Clostridium acetobutylicum ATCC 824]
+TAGAAAACGTTATAAA
+>CAC1556(yvbX) Score=4.2 Pos=43 [Clostridium acetobutylicum ATCC 824]
+TTGTAATCATTTTCAA
+>CAC0086(YkgB) Score=4.5 Pos=10 [Clostridium acetobutylicum ATCC 824]
+ATGAAAAGGTTTATAT
+>CAC3682(kdpA/atkA) Score=4.6 Pos=-332 [Clostridium acetobutylicum ATCC 824]
+TTGAAAACATTATCAT
+>CAP0066(ptnA) Score=4.6 Pos=-321 [Clostridium acetobutylicum ATCC 824]
+ATGAAAACGTATTAAT
+>CAC3648(CAC3648) Score=4.4 Pos=-341 [Clostridium acetobutylicum ATCC 824]
+TGGAAAACATTTTCAT
+>CAC3683(pbp) Score=4.6 Pos=-308 [Clostridium acetobutylicum ATCC 824]
+ATGATAATGTTTTCAA
+>CAC3683(pbp) Score=4.3 Pos=-33 [Clostridium acetobutylicum ATCC 824]
+ATAAAAAATATTTAAT
+>CAC1084(bglC) Score=4.2 Pos=-102 [Clostridium acetobutylicum ATCC 824]
+ATGTATACGATTTCTT
+>CAC1084(bglC) Score=4 Pos=-38 [Clostridium acetobutylicum ATCC 824]
+AAGAAAAAATATTATA
+>CAC0812(pelL) Score=4.2 Pos=-165 [Clostridium acetobutylicum ATCC 824]
+TTGTTAACGATAACAA
+>CAC3500 Score=4.3 Pos=-261 [Clostridium acetobutylicum ATCC 824]
+TTGAAAACGATTGTAT
+>CAC1044(CAC1044) Score=4.4 Pos=-261 [Clostridium acetobutylicum ATCC 824]
+TTGATAACGTTATCTT
+>CAC3500 Score=3.9 Pos=-203 [Clostridium acetobutylicum ATCC 824]
+AAATAAACATTAAAAT
+>CAC0436(yxkH) Score=4.1 Pos=-259 [Clostridium acetobutylicum ATCC 824]
+AAGATATCGTTTTCAA
+>CAC0436(yxkH) Score=3.9 Pos=-124 [Clostridium acetobutylicum ATCC 824]
+AAAATAATGTTATAAT
+>CAC0635(CAC0635) Score=4.1 Pos=-197 [Clostridium acetobutylicum ATCC 824]
+TTTAATACGATTACAT
+>CAC0270(CAC0270) Score=4 Pos=27 [Clostridium acetobutylicum ATCC 824]
+ATAAAAAAAATAAATT
+>CAC1407(bglP) Score=4.1 Pos=49 [Clostridium acetobutylicum ATCC 824]
+AAGAAAACGTTAACAG
+>CAC0154(mtlA) Score=3.9 Pos=-112 [Clostridium acetobutylicum ATCC 824]
+TTGAAAACGTATACCA
+>CAC0019 Score=4 Pos=-88 [Clostridium acetobutylicum ATCC 824]
+ATGAAATCACTTTCAT
+>CAC0423 Score=4.2 Pos=-249 [Clostridium acetobutylicum ATCC 824]
+AATTAAAAGTTTTATA
+>CAC0692(uxaC) Score=3.9 Pos=-335 [Clostridium acetobutylicum ATCC 824]
+AAATAAAAATTTATAA
+>CAC0706(eglA) Score=3.9 Pos=-76 [Clostridium acetobutylicum ATCC 824]
+CAGATAACGTTTACAA
+>CAC0743(bglH) Score=3.9 Pos=-151 [Clostridium acetobutylicum ATCC 824]
+ATGATAACCTTATCAT
+>CAC1457 Score=4.1 Pos=-118 [Clostridium acetobutylicum ATCC 824]
+ATTAAAATATTATTAA
+>CAC1529(arb43) Score=4 Pos=-94 [Clostridium acetobutylicum ATCC 824]
+TTGAGAAAGATAAAAT
+>CAC1529(arb43) Score=4.3 Pos=7 [Clostridium acetobutylicum ATCC 824]
+ATGAAAAAATATTAAA
+>CAC2613(glcK) Score=4 Pos=-349 [Clostridium acetobutylicum ATCC 824]
+AAGAAAATTATAAATT
+>CAC2810(CAC2810) Score=4.2 Pos=-32 [Clostridium acetobutylicum ATCC 824]
+TTGTTAAAAATTAAAT
+>CAC3422(xynT) Score=3.9 Pos=-41 [Clostridium acetobutylicum ATCC 824]
+TTGAAAACGTTTAGTG
+>CAC3427(ptgA) Score=4.1 Pos=3 [Clostridium acetobutylicum ATCC 824]
+TTTAAAAAATTATTTT
+>CAC3451(xynT) Score=4.4 Pos=-69 [Clostridium acetobutylicum ATCC 824]
+TTGAAAAAGTTTGTAT
+>CAC3451(xynT) Score=4.4 Pos=-35 [Clostridium acetobutylicum ATCC 824]
+ATGTAAATAATTACAA
+>CAC0538(manB) Score=4.3 Pos=-147 [Clostridium acetobutylicum ATCC 824]
+TTGTAAATTATTAAAA
+>CAC0539(manB) Score=4.2 Pos=-58 [Clostridium acetobutylicum ATCC 824]
+ATAAAAACTTTATAAA
+>CAC0570(gamP) Score=4 Pos=-31 [Clostridium acetobutylicum ATCC 824]
+ATTTTAAAGATAAAAT
+>CAC1353(nagE) Score=4.1 Pos=-219 [Clostridium acetobutylicum ATCC 824]
+TTGTAAACGATGTAAA
+>CAC1354 Score=4.5 Pos=-197 [Clostridium acetobutylicum ATCC 824]
+ATGAAAAAAATTTTAA
+>CAC0383 Score=4 Pos=-153 [Clostridium acetobutylicum ATCC 824]
+ACTAAAATGTTTACAT
+>CAC1320(glpP) Score=4.1 Pos=-26 [Clostridium acetobutylicum ATCC 824]
+AGGATAATGTTTACTT
+>CAC3669 Score=4.3 Pos=-69 [Clostridium acetobutylicum ATCC 824]
+ATGTATATGTTTTCAT
+>CAC0422(licT) Score=4.7 Pos=-154 [Clostridium acetobutylicum ATCC 824]
+ATGAAAATGTTATCAT
+>CAC2833(sdaR) Score=4.6 Pos=-126 [Clostridium acetobutylicum ATCC 824]
+ATTAAAATGATTAAAA
+>CAC3295(mepA) Score=4.6 Pos=-154 [Clostridium acetobutylicum ATCC 824]
+ATGAAAACATTAAAAT
+>CAC3647(abrB) Score=4.7 Pos=-108 [Clostridium acetobutylicum ATCC 824]
+ATGAAAAAAATTAAAT
+>CAC1816(rny) Score=4.1 Pos=-183 [Clostridium acetobutylicum ATCC 824]
+TTGTAAACTCTTTAAT
+>CAC2534 Score=4.1 Pos=-190 [Clostridium acetobutylicum ATCC 824]
+AAGAAAACGTTGTCTT
+>CAC2534 Score=4.6 Pos=-82 [Clostridium acetobutylicum ATCC 824]
+TTGAAAAAAATTTAAT
+>CAC0434(ispF) Score=4.3 Pos=-77 [Clostridium acetobutylicum ATCC 824]
+TTTAAAACTATTTCTT
+>CAC2660(pykA) Score=4.2 Pos=-168 [Clostridium acetobutylicum ATCC 824]
+ATTAAAAATTTTATAA
+>CAC0708(cggR) Score=4.5 Pos=-117 [Clostridium acetobutylicum ATCC 824]
+ATGAAAAAATTATATT
+>CAC0535 Score=4.4 Pos=-156 [Clostridium acetobutylicum ATCC 824]
+ATAAAAAAATTTTAAA
+>CAC0695(uxaB) Score=3.9 Pos=-101 [Clostridium acetobutylicum ATCC 824]
+ATATAAAAGAATACAA
+>Cbei_2384(xylB) Score=4.4 Pos=-152 [Clostridium beijerincki NCIMB 8052]
+ATGAAAATGTATTCAA
+>Cbei_2384(xylB) Score=4.2 Pos=-83 [Clostridium beijerincki NCIMB 8052]
+TTTAAAAAGTTATTTA
+>Cbei_2389 Score=4.2 Pos=-126 [Clostridium beijerincki NCIMB 8052]
+ATAAAAATTATTAAAT
+>Cbei_2388 Score=4.3 Pos=-145 [Clostridium beijerincki NCIMB 8052]
+TTATAAAAGTTAAAAT
+>Cbei_2386(tal) Score=4 Pos=-43 [Clostridium beijerincki NCIMB 8052]
+TATTAAATGATTTTTA
+>Cbei_1222(CAC2689) Score=4.3 Pos=-29 [Clostridium beijerincki NCIMB 8052]
+ATGATAACAATTTTAA
+>Cbei_2389 Score=3.9 Pos=-171 [Clostridium beijerincki NCIMB 8052]
+TTGATAATAATAAATT
+>Cbei_2775(mutT1) Score=4.3 Pos=-132 [Clostridium beijerincki NCIMB 8052]
+TTTAAAAATATTTAAT
+>Cbei_2386(tal) Score=4 Pos=-112 [Clostridium beijerincki NCIMB 8052]
+AAATAAATATTTACAT
+>Cbei_4681 Score=4.3 Pos=-42 [Clostridium beijerincki NCIMB 8052]
+ATTATAAAGATTTAAA
+>Cbei_4681 Score=4.3 Pos=-244 [Clostridium beijerincki NCIMB 8052]
+TTTAAAAAGTTATTTT
+>Cbei_4454(tal) Score=4 Pos=-117 [Clostridium beijerincki NCIMB 8052]
+AAGAAAATGTCTAAAT
+>Cbei_4457(araA) Score=3.9 Pos=-192 [Clostridium beijerincki NCIMB 8052]
+ATGAAAAGGTATACTA
+>Cbei_0444(glnN) Score=4 Pos=-70 [Clostridium beijerincki NCIMB 8052]
+TTATTAATGTTTTTAA
+>Cbei_3239 Score=4.1 Pos=-172 [Clostridium beijerincki NCIMB 8052]
+TAGATAATGTTTTTTA
+>Cbei_4705 Score=4.4 Pos=-51 [Clostridium beijerincki NCIMB 8052]
+ATGATAATGTTAACAT
+>Cbei_1853(nifJ2) Score=4.4 Pos=-223 [Clostridium beijerincki NCIMB 8052]
+TTTTAAAAGTTATAAT
+>Cbei_2912 Score=4.1 Pos=-156 [Clostridium beijerincki NCIMB 8052]
+TGGTAAAAGTTAATAT
+>Cbei_2912 Score=3.9 Pos=-139 [Clostridium beijerincki NCIMB 8052]
+ATTAAAATTATAATAA
+>Cbei_2912 Score=4 Pos=-41 [Clostridium beijerincki NCIMB 8052]
+TTATAAATATTTAATA
+>Cbei_2495 Score=4 Pos=-126 [Clostridium beijerincki NCIMB 8052]
+AAAAAAATATTTATAA
+>Cbei_2495 Score=4.8 Pos=-92 [Clostridium beijerincki NCIMB 8052]
+ATGAAAACATTTAAAT
+>Cbei_4918 Score=4.4 Pos=-134 [Clostridium beijerincki NCIMB 8052]
+ATGAAAATATTATATT
+>Cbei_1278(YkgB) Score=4.2 Pos=-103 [Clostridium beijerincki NCIMB 8052]
+AATTAAATGATTAAAA
+>Cbei_2026(kdpX) Score=4.6 Pos=-227 [Clostridium beijerincki NCIMB 8052]
+ATGAAAATTATTTAAT
+>Cbei_0711(ptnA) Score=4.1 Pos=-374 [Clostridium beijerincki NCIMB 8052]
+ATAAAAATTATTTTAT
+>Cbei_0645(clpB) Score=4.3 Pos=-151 [Clostridium beijerincki NCIMB 8052]
+ATAAAAAAATTTAAAA
+>Cbei_3273(bglP) Score=4.1 Pos=-141 [Clostridium beijerincki NCIMB 8052]
+TTTAAAAAGAATAAAA
+>Cbei_3273(bglP) Score=4 Pos=49 [Clostridium beijerincki NCIMB 8052]
+AAGAAAACGTTAATAG
+>Cbei_3272(Cbei_3272) Score=4.2 Pos=0 [Clostridium beijerincki NCIMB 8052]
+ATGAAAAAAATAATTA
+>Cbei_0242(mtlA) Score=4 Pos=-86 [Clostridium beijerincki NCIMB 8052]
+TTGAAAAGGTATTCTT
+>Cbei_3335 Score=4.2 Pos=85 [Clostridium beijerincki NCIMB 8052]
+ATGAAAAAGGTTATTA
+>Cbei_5011(scrR) Score=4 Pos=-37 [Clostridium beijerincki NCIMB 8052]
+ATAATAATATTTATAT
+>Cbei_4082(uxaC) Score=4 Pos=-37 [Clostridium beijerincki NCIMB 8052]
+ATATAAAATATTTATT
+>Cbei_4657(uxaC) Score=4 Pos=-129 [Clostridium beijerincki NCIMB 8052]
+AAGAAAACGTTATAGT
+>Cbei_1838(uxaB) Score=4.1 Pos=-261 [Clostridium beijerincki NCIMB 8052]
+ATATAAAATTTTAATT
+>Cbei_1838(uxaB) Score=3.9 Pos=-157 [Clostridium beijerincki NCIMB 8052]
+AAATAAACTTTTACTT
+>Cbei_1838(uxaB) Score=4 Pos=-86 [Clostridium beijerincki NCIMB 8052]
+ATTAAAATGATAGCAT
+>Cbei_1832(uxaC) Score=4.6 Pos=-254 [Clostridium beijerincki NCIMB 8052]
+AAGAAAAAGTTTATAT
+>Cbei_1832(uxaC) Score=4.1 Pos=-99 [Clostridium beijerincki NCIMB 8052]
+ATAATAAAGTTATCAA
+>Cbei_3349(htd2) Score=4.1 Pos=-58 [Clostridium beijerincki NCIMB 8052]
+TTGAAAATACTTACAA
+>Cbei_2832(bglH) Score=4.2 Pos=-61 [Clostridium beijerincki NCIMB 8052]
+ATATAAACATTTTATA
+>Cbei_4510(glpP) Score=4.5 Pos=-26 [Clostridium beijerincki NCIMB 8052]
+AAGAAAACAATTACAT
+>Cbei_2148(dhaK) Score=4 Pos=-52 [Clostridium beijerincki NCIMB 8052]
+ATATAAATAATTTTAA
+>Cbei_4511(glpF) Score=4.4 Pos=-132 [Clostridium beijerincki NCIMB 8052]
+TTTAAAACTTTTAAAT
+>Cbei_4509(glpK) Score=3.9 Pos=-73 [Clostridium beijerincki NCIMB 8052]
+ATATAAATAATAAATT
+>Cbei_4508(glpA) Score=3.9 Pos=-143 [Clostridium beijerincki NCIMB 8052]
+AAGTATACATTTACAT
+>Cbei_4126(xynD) Score=4 Pos=-142 [Clostridium beijerincki NCIMB 8052]
+TTGTAAACGATTATTG
+>Cbei_4126(xynD) Score=3.9 Pos=-35 [Clostridium beijerincki NCIMB 8052]
+TAATAAATATTTTATT
+>Cbei_4125(xynT) Score=4.2 Pos=-41 [Clostridium beijerincki NCIMB 8052]
+AAGAAAAATATTATAA
+>Cbei_4636 Score=4.7 Pos=-162 [Clostridium beijerincki NCIMB 8052]
+TTGTAAACGTTTTATA
+>Cbei_1475 Score=4.1 Pos=-176 [Clostridium beijerincki NCIMB 8052]
+CTGAAAATATTTTTAA
+>Cbei_1475 Score=4.8 Pos=-46 [Clostridium beijerincki NCIMB 8052]
+TTGAAAAAGTTTTTAT
+>Cbei_0645(clpB) Score=4.4 Pos=-253 [Clostridium beijerincki NCIMB 8052]
+TTAAAAAAGTTTAATA
+>Cbei_4683 Score=4.1 Pos=-83 [Clostridium beijerincki NCIMB 8052]
+ATATAAAAGATAATAA
+>Cbei_0455(fucO) Score=4.7 Pos=-119 [Clostridium beijerincki NCIMB 8052]
+TTGAAAACGATTTATA
+>Cbei_1404(niaX) Score=4.2 Pos=-178 [Clostridium beijerincki NCIMB 8052]
+ATATAAAATTTTTAAA
+>Cbei_4640 Score=4.3 Pos=-214 [Clostridium beijerincki NCIMB 8052]
+TAGAAAAAAATTAAAA
+>Cbei_4847(licH) Score=4.7 Pos=-74 [Clostridium beijerincki NCIMB 8052]
+ATTAAAACGTTTAAAA
+>Cbei_4984(pagL) Score=4.7 Pos=-195 [Clostridium beijerincki NCIMB 8052]
+ATGAAAATATTTTCAT
+>Cbei_4985(Cbei_4985) Score=4.7 Pos=-131 [Clostridium beijerincki NCIMB 8052]
+ATGAAAATATTTTCAT
+>Cbei_4885(abrB) Score=4.1 Pos=-95 [Clostridium beijerincki NCIMB 8052]
+TTATAAATATTTAAAA
+>Cbei_2038(Cbei_2038) Score=4.7 Pos=-60 [Clostridium beijerincki NCIMB 8052]
+ATTAAAATGATTTAAT
+>Cbei_3351(ydiF) Score=4.7 Pos=-226 [Clostridium beijerincki NCIMB 8052]
+ATGTAAATGTTTACTT
+>Cbei_3821(atoE) Score=4.6 Pos=-194 [Clostridium beijerincki NCIMB 8052]
+TTGAAAAAATTTTCTT
+>Cbei_2040(ydiF) Score=4.1 Pos=-112 [Clostridium beijerincki NCIMB 8052]
+TTTAAAAAAATAATAT
+>Cbei_0230(malH) Score=4.1 Pos=-205 [Clostridium beijerincki NCIMB 8052]
+AAGAAAAGGTTAACAA
+>Cbei_2769(livK) Score=4.1 Pos=-225 [Clostridium beijerincki NCIMB 8052]
+ATTTTAACGTTAAAAA
+>Cbei_2769(livK) Score=4.1 Pos=-168 [Clostridium beijerincki NCIMB 8052]
+AAGTAAATATTATTAT
+>Cbei_5042(livK) Score=4.7 Pos=-188 [Clostridium beijerincki NCIMB 8052]
+ATGATAACGTTTTTAT
+>Cbei_5042(livK) Score=4.1 Pos=-153 [Clostridium beijerincki NCIMB 8052]
+ATATAAAATATTAAAT
+>Cbei_4450(araF) Score=4.6 Pos=-186 [Clostridium beijerincki NCIMB 8052]
+ATGAAAACGTATTAAT
+>Cbei_4959(cheY) Score=4.1 Pos=-132 [Clostridium beijerincki NCIMB 8052]
+ATGATAAATTTATTAT
+>Cbei_4661 Score=4.6 Pos=-74 [Clostridium beijerincki NCIMB 8052]
+TTTAAAACGTTTAATT
+>Cbei_3501(Cbei_3501) Score=4.6 Pos=-33 [Clostridium beijerincki NCIMB 8052]
+TTGAAAACGTTATATA
+>Cbei_4156 Score=4.1 Pos=-156 [Clostridium beijerincki NCIMB 8052]
+ATAATAACATTTTAAA
+>Cbei_2320(treB) Score=4.1 Pos=-215 [Clostridium beijerincki NCIMB 8052]
+TATTAAACATTTTCAA
+>Cbei_2320(treB) Score=4.6 Pos=-134 [Clostridium beijerincki NCIMB 8052]
+TTGTAAACATTTAAAT
+>Cbei_4325 Score=4.6 Pos=-203 [Clostridium beijerincki NCIMB 8052]
+TTGAAAAAATTTTTAT
+>Cbei_0663 Score=4.2 Pos=-234 [Clostridium beijerincki NCIMB 8052]
+ATTAAATTGTTTTATA
+>Cbei_0663 Score=4.2 Pos=-190 [Clostridium beijerincki NCIMB 8052]
+ATGAAAATGAATTTTT
+>Cbei_0663 Score=4.1 Pos=-100 [Clostridium beijerincki NCIMB 8052]
+TAGAAAATTATATAAT
+>Cbei_3986 Score=4.6 Pos=-59 [Clostridium beijerincki NCIMB 8052]
+AAGAAAATGTTTACTT
+>Cbei_4452(xylB) Score=4.6 Pos=-41 [Clostridium beijerincki NCIMB 8052]
+AAGTAAACGATTTAAA
+>Cbei_2175(leuA1) Score=4.5 Pos=-192 [Clostridium beijerincki NCIMB 8052]
+ATAAAAATGATTAAAT
+>Cbei_1967(ygeY) Score=4.5 Pos=-245 [Clostridium beijerincki NCIMB 8052]
+TTGAAAATATTTACAA
+>Cbei_1967(ygeY) Score=4.2 Pos=-184 [Clostridium beijerincki NCIMB 8052]
+ATAAAAAATTTTTTTT
+>Cbei_4465(galM) Score=4.2 Pos=-55 [Clostridium beijerincki NCIMB 8052]
+ATGTAAATGTATACTA
+>Cbei_2423(Cbei_2423) Score=4.5 Pos=-27 [Clostridium beijerincki NCIMB 8052]
+ATGAAAATATTATAAT
+>Cbei_4912 Score=4.5 Pos=-48 [Clostridium beijerincki NCIMB 8052]
+TTAAAAAAGTTTTTAT
+>Cbei_3872 Score=4.3 Pos=-48 [Clostridium beijerincki NCIMB 8052]
+ATAAAAACTTTTTTAT
+>Cbei_5019 Score=4.5 Pos=-60 [Clostridium beijerincki NCIMB 8052]
+ATGAAAACGTATATAT
+>Cbei_4806 Score=4.1 Pos=-35 [Clostridium beijerincki NCIMB 8052]
+AAGAAAATTATAAAAT
+>Cbei_4577(aroF) Score=4.1 Pos=-223 [Clostridium beijerincki NCIMB 8052]
+ATGCAAAAATTTTATA
+>CBO1767(CAC2689) Score=3.9 Pos=-106 [Clostridium botulinum A str. ATCC 3502]
+CTGAAAATATTAATAT
+>CBO0513 Score=4 Pos=-122 [Clostridium botulinum A str. ATCC 3502]
+TAAAAAATGTTAAATT
+>CBO0324(lrgA) Score=4.3 Pos=-63 [Clostridium botulinum A str. ATCC 3502]
+ATGAAAAAGTAATAAA
+>CBO1292(tal) Score=4 Pos=-175 [Clostridium botulinum A str. ATCC 3502]
+GAGAAAACGTTATAAA
+>CBO1292(tal) Score=4.1 Pos=-219 [Clostridium botulinum A str. ATCC 3502]
+ATAAAAATTTTAAAAT
+>CBO0278(glvA) Score=4.1 Pos=-42 [Clostridium botulinum A str. ATCC 3502]
+ATGAAAATAAATACAA
+>CBO2085(mutT1) Score=3.9 Pos=-42 [Clostridium botulinum A str. ATCC 3502]
+AAAAAAATTATTTTAT
+>CBO2760(nifJ2) Score=4.3 Pos=-191 [Clostridium botulinum A str. ATCC 3502]
+TTTAAAATGATTTTTA
+>CBO1873(spoIVB) Score=4.4 Pos=-168 [Clostridium botulinum A str. ATCC 3502]
+ATGTAAATATTTTTTT
+>CBO0193(agaY) Score=4 Pos=-154 [Clostridium botulinum A str. ATCC 3502]
+TTAAAAAATATATAAA
+>CBO1090 Score=4.2 Pos=-154 [Clostridium botulinum A str. ATCC 3502]
+AATTAAAAGATATAAT
+>CBO1090 Score=4 Pos=-131 [Clostridium botulinum A str. ATCC 3502]
+AGGAAAAAAATATTAT
+>CBO1090 Score=4 Pos=-87 [Clostridium botulinum A str. ATCC 3502]
+ATATAAATTATTAAAA
+>CBO1005(glcA) Score=4.1 Pos=-177 [Clostridium botulinum A str. ATCC 3502]
+ATAAAAAAAATTTTTA
+>CBO1005(glcA) Score=4.8 Pos=-149 [Clostridium botulinum A str. ATCC 3502]
+TTGAAAACGTTATAAT
+>CBO0409(clpB) Score=4.1 Pos=-52 [Clostridium botulinum A str. ATCC 3502]
+ATAAAAAAATTAAAAA
+>CBO0409(clpB) Score=4.6 Pos=-76 [Clostridium botulinum A str. ATCC 3502]
+TTGAAAATATTTAAAT
+>CBO2845(ptnD) Score=3.9 Pos=-279 [Clostridium botulinum A str. ATCC 3502]
+TATCAAATGTTTTAAA
+>CBO0654(licT) Score=4 Pos=58 [Clostridium botulinum A str. ATCC 3502]
+AAGAAATAATTATAAT
+>CBO2785(glpF) Score=4.3 Pos=-150 [Clostridium botulinum A str. ATCC 3502]
+TTGAAAACGTAAACAA
+>CBO2784(glpK) Score=4.3 Pos=-77 [Clostridium botulinum A str. ATCC 3502]
+TTTTAAAAGATTATTT
+>CBO2768(glpP) Score=4.2 Pos=-33 [Clostridium botulinum A str. ATCC 3502]
+ATTAAAAAATTAATAT
+>CBO0976(gldA) Score=3.9 Pos=-70 [Clostridium botulinum A str. ATCC 3502]
+ATGTAAACGATATTAC
+>CBO0976(gldA) Score=3.9 Pos=-36 [Clostridium botulinum A str. ATCC 3502]
+AATAAAAATATTTTTA
+>CBO2754(gamP) Score=4.4 Pos=0 [Clostridium botulinum A str. ATCC 3502]
+TTGAAAAATATTTTAA
+>CBO1014(aspC1) Score=4.1 Pos=-50 [Clostridium botulinum A str. ATCC 3502]
+ATGTTAAAGATAATAA
+>CBO1014(aspC1) Score=4.5 Pos=-94 [Clostridium botulinum A str. ATCC 3502]
+ATGAAAAATATTTAAA
+>CBO1014(aspC1) Score=4.1 Pos=-224 [Clostridium botulinum A str. ATCC 3502]
+ATATAAAAAATTATAT
+>CBO2780(mepA) Score=4.1 Pos=-139 [Clostridium botulinum A str. ATCC 3502]
+TAGAAAAATTTATAAA
+>CBO3516(murD) Score=4.5 Pos=-73 [Clostridium botulinum A str. ATCC 3502]
+TTTAAAATGTTTTATA
+>CBO2620(niaX) Score=4.3 Pos=-207 [Clostridium botulinum A str. ATCC 3502]
+ATTTAAATAATTTAAT
+>CBO0267(pagL) Score=4.3 Pos=-219 [Clostridium botulinum A str. ATCC 3502]
+TAGAAAAAGATATTAA
+>CBO0267(pagL) Score=4.5 Pos=-79 [Clostridium botulinum A str. ATCC 3502]
+TTGATAATGATTAAAT
+>CBO0277(glvC) Score=4.7 Pos=-161 [Clostridium botulinum A str. ATCC 3502]
+ATGTAAACATTTTAAT
+>CBO2404(rny) Score=4.1 Pos=-208 [Clostridium botulinum A str. ATCC 3502]
+ATGAAAAAATATATAA
+>CBO2233(ltaE) Score=4.2 Pos=-52 [Clostridium botulinum A str. ATCC 3502]
+ATGCAAACTTTTTTAT
+>CBO1816 Score=4.1 Pos=-32 [Clostridium botulinum A str. ATCC 3502]
+TATTAAATATTTAAAT
+>CBO2572 Score=4.6 Pos=-49 [Clostridium botulinum A str. ATCC 3502]
+TTGAAAATAATTAAAT
+>CBO3139(ytxC) Score=4.5 Pos=-108 [Clostridium botulinum A str. ATCC 3502]
+TTGAAAAAAATTTCAA
+>CBO2472 Score=4.6 Pos=-33 [Clostridium botulinum A str. ATCC 3502]
+ATGAAAAATTTTACAA
+>CBO2885(ygeW) Score=4.3 Pos=-208 [Clostridium botulinum A str. ATCC 3502]
+ATTAAAATGATAAATT
+>CBO3245(yjiM) Score=4.5 Pos=-85 [Clostridium botulinum A str. ATCC 3502]
+ATGAAATAGATTTAAT
+>CBO3312(pykA) Score=4.2 Pos=-189 [Clostridium botulinum A str. ATCC 3502]
+TAGTAAATTTTTAAAT
+>CBO3312(pykA) Score=4.5 Pos=-104 [Clostridium botulinum A str. ATCC 3502]
+TTGAAAAAATTTTATA
+>CBO0529(arcD) Score=4.1 Pos=-219 [Clostridium botulinum A str. ATCC 3502]
+AAAAAAACATTTTATA
+>CBO0529(arcD) Score=4.1 Pos=-145 [Clostridium botulinum A str. ATCC 3502]
+TTAAAAATGTATTTAT
+>CBO0529(arcD) Score=4.5 Pos=-67 [Clostridium botulinum A str. ATCC 3502]
+ATGAAAATTTTTTATT
+>CBO0225(cggR) Score=4.5 Pos=-125 [Clostridium botulinum A str. ATCC 3502]
+TTGAAAAATTTTAAAA
+>CBO2288 Score=4.1 Pos=-133 [Clostridium botulinum A str. ATCC 3502]
+TAGAAAATTTTTAATA
+>CBO0522 Score=4.1 Pos=-83 [Clostridium botulinum A str. ATCC 3502]
+ATTTAAAAAATATAAA
+>CBO0270 Score=4.1 Pos=-232 [Clostridium botulinum A str. ATCC 3502]
+ATTAAAAAATTATTTT
+>CBO0270 Score=4.5 Pos=-174 [Clostridium botulinum A str. ATCC 3502]
+TTGAAAAAAATTATAT
+>CBO1472(aroF) Score=4.5 Pos=-101 [Clostridium botulinum A str. ATCC 3502]
+ATTTAAAAGTTTAAAA
+>CBY_0413(lrgA) Score=4.6 Pos=-80 [Clostridium butyricum 5521]
+ATAAAAAAGTTTTAAA
+>CBY_2380 Score=4.1 Pos=-72 [Clostridium butyricum 5521]
+TTTAAAAAGTATTTTT
+>CBY_3808(ulaE) Score=4 Pos=-66 [Clostridium butyricum 5521]
+TATAAAAAGTTATTTA
+>CBY_2380 Score=4.2 Pos=-42 [Clostridium butyricum 5521]
+TATAAAACTTTTTAAA
+>CBY_2431(xylR) Score=4 Pos=-95 [Clostridium butyricum 5521]
+AATAAAAATATATAAT
+>CBY_2342(xylB) Score=4.6 Pos=-34 [Clostridium butyricum 5521]
+TTGTAAATGTTTAATA
+>CBY_2342(xylB) Score=4.5 Pos=-57 [Clostridium butyricum 5521]
+TTAAAAATGTTTTTAT
+>CBY_2342(xylB) Score=3.9 Pos=-77 [Clostridium butyricum 5521]
+TTTAAAAAGAATTTTA
+>CBY_2438(tkt) Score=3.9 Pos=-42 [Clostridium butyricum 5521]
+TGGAAAACATTTGAAT
+>CBY_2438(tkt) Score=3.9 Pos=-59 [Clostridium butyricum 5521]
+ATGATTAAGATTTTAA
+>CBY_2438(tkt) Score=4.1 Pos=-76 [Clostridium butyricum 5521]
+ATGAATAAATTTACAA
+>CBY_0242 Score=4.4 Pos=-54 [Clostridium butyricum 5521]
+ATGTAAATAATTACAA
+>CBY_3715(pelL2) Score=4.4 Pos=-115 [Clostridium butyricum 5521]
+AAGAAAATATTTACAA
+>CBY_3715(pelL2) Score=4.2 Pos=-41 [Clostridium butyricum 5521]
+TTGTTAACGATAACAA
+>CBY_0566(sspA) Score=4.6 Pos=-116 [Clostridium butyricum 5521]
+AAGAAAATGATTTTAT
+>CBY_1889(nifJ2) Score=4.1 Pos=-228 [Clostridium butyricum 5521]
+TTTATAAAAATTTAAT
+>CBY_2984(lacR) Score=4.2 Pos=-77 [Clostridium butyricum 5521]
+ATATTAACGTTTTTAT
+>CBY_2985(CBY_2985) Score=3.9 Pos=-73 [Clostridium butyricum 5521]
+AAGTAAAAAAATTAAT
+>CBY_0511 Score=4 Pos=-98 [Clostridium butyricum 5521]
+TTTAAAATGTAAAAAT
+>CBY_0240 Score=3.9 Pos=-52 [Clostridium butyricum 5521]
+AAATAAATAATTTTAT
+>CBY_3256(glcA) Score=4.1 Pos=-223 [Clostridium butyricum 5521]
+TTGAAAAAATTTTAGT
+>CBY_3256(glcA) Score=4.1 Pos=-130 [Clostridium butyricum 5521]
+AAGAAATAAATTTAAT
+>CBY_1726(galK) Score=4.3 Pos=55 [Clostridium butyricum 5521]
+CTGAAAATGTTTTCTT
+>CBY_3642(nifJ2) Score=4.4 Pos=-186 [Clostridium butyricum 5521]
+AATTAAATGTTTAAAT
+>CBY_0233(nifJ2) Score=4.3 Pos=-166 [Clostridium butyricum 5521]
+TTGTAAACAATAAAAA
+>CBY_3688(kdpA) Score=4.3 Pos=-250 [Clostridium butyricum 5521]
+ATGTAAATGTTTTAAG
+>CBY_1459(ptnA) Score=4.2 Pos=-370 [Clostridium butyricum 5521]
+ATGAAAATAAATTAAA
+>CBY_2409(xylS) Score=4.2 Pos=-114 [Clostridium butyricum 5521]
+ATATAAAATTTTTAAA
+>CBY_2409(xylS) Score=4 Pos=-48 [Clostridium butyricum 5521]
+AATAAAAAATTATTAT
+>CBY_4099(licT) Score=4.2 Pos=-170 [Clostridium butyricum 5521]
+ATGTAAAAAATAATAT
+>CBY_4099(licT) Score=4.1 Pos=-147 [Clostridium butyricum 5521]
+TTGACAACGTTTTCTA
+>CBY_1093(bglP) Score=4.3 Pos=-42 [Clostridium butyricum 5521]
+ATAAAAATAATTAAAT
+>CBY_0247(uxaB) Score=4.2 Pos=-150 [Clostridium butyricum 5521]
+TTGAAAATATTAATTA
+>CBY_0247(uxaB) Score=4.1 Pos=-40 [Clostridium butyricum 5521]
+ATTTAAATTATTATAT
+>CBY_3691(dhaK) Score=4.2 Pos=-96 [Clostridium butyricum 5521]
+ATGAAATAGTTATATA
+>CBY_0508(gldA) Score=4.5 Pos=-61 [Clostridium butyricum 5521]
+TTGTAAACGATATTAT
+>CBY_2354 Score=4.1 Pos=-77 [Clostridium butyricum 5521]
+TTGAAATAAATTTATA
+>CBY_1564(fucI) Score=4.7 Pos=-73 [Clostridium butyricum 5521]
+AAGAAAACGTTTAAAA
+>CBY_2072 Score=4.6 Pos=-157 [Clostridium butyricum 5521]
+AAGAAAACGTTTAATA
+>CBY_1661(manA) Score=4 Pos=-77 [Clostridium butyricum 5521]
+ATGTAAATGAATTTTA
+>CBY_2353(pelX) Score=4.8 Pos=-164 [Clostridium butyricum 5521]
+ATGAAAACGATTATAA
+>CBY_2353(pelX) Score=4.1 Pos=-32 [Clostridium butyricum 5521]
+TTGTTAACGTTAACTA
+>CBY_1562(fucO) Score=4.1 Pos=-66 [Clostridium butyricum 5521]
+TTGATAAAAATATAAT
+>CBY_0041(niaX) Score=4.8 Pos=-215 [Clostridium butyricum 5521]
+ATGTAAATGTTTTAAA
+>CBY_2074 Score=4.5 Pos=-104 [Clostridium butyricum 5521]
+AAGAAAACATTTACAA
+>CBY_0874 Score=4.4 Pos=-228 [Clostridium butyricum 5521]
+AATAAAAAGATTAAAA
+>CBY_0862(CBY_0862) Score=4.7 Pos=-104 [Clostridium butyricum 5521]
+ATGAAAATGATTACTT
+>CBY_1554(galU) Score=4.1 Pos=-147 [Clostridium butyricum 5521]
+TAATAAATGATTAAAT
+>CBY_1554(galU) Score=4.7 Pos=-99 [Clostridium butyricum 5521]
+ATTAAAACGTTTAAAA
+>CBY_1710(mglB) Score=4.7 Pos=-43 [Clostridium butyricum 5521]
+ATGTAAACGATTTTAA
+>CBY_2940(malH) Score=4.6 Pos=-226 [Clostridium butyricum 5521]
+TTGTAAAAGTTTACTT
+>CBY_1888(cheY) Score=4.6 Pos=-220 [Clostridium butyricum 5521]
+AAGTAAAAGTTTTCAT
+>CBY_1888(cheY) Score=4.6 Pos=-195 [Clostridium butyricum 5521]
+TTGAAAATATTTTTAT
+>CBY_1888(cheY) Score=4.2 Pos=-84 [Clostridium butyricum 5521]
+ATGATAATAATTTATA
+>CBY_1978(pflD) Score=4.6 Pos=-101 [Clostridium butyricum 5521]
+TTGTAAACGTTTATTT
+>CBY_3247(ltaE) Score=4.6 Pos=-222 [Clostridium butyricum 5521]
+AAGAAAATGTTTACAA
+>CBY_3649 Score=4.1 Pos=-232 [Clostridium butyricum 5521]
+TTTTAAATATTTATTT
+>CBY_3649 Score=4.1 Pos=-64 [Clostridium butyricum 5521]
+ATGAAAACAAATATTT
+>CBY_1729(agaN) Score=4.6 Pos=-58 [Clostridium butyricum 5521]
+TTGAAAACAATTTCAA
+>CBY_3009(ispF) Score=4.3 Pos=-90 [Clostridium butyricum 5521]
+ATGTAAATGTTTACCT
+>CBY_2696 Score=4.6 Pos=-153 [Clostridium butyricum 5521]
+ATGAAAAAAATTAAAA
+>CBY_2799 Score=4.6 Pos=-93 [Clostridium butyricum 5521]
+ATGAAAAAGTTAAATA
+>CBY_0846(bglA) Score=4.6 Pos=-153 [Clostridium butyricum 5521]
+ATGTAAACAATTAAAT
+>CBY_0558(ytxC) Score=4.2 Pos=-241 [Clostridium butyricum 5521]
+TTATAAATATTTTAAA
+>CBY_0558(ytxC) Score=4.2 Pos=-95 [Clostridium butyricum 5521]
+ATAAAAAAATTAAAAT
+>CBY_4133(galM) Score=4.1 Pos=-118 [Clostridium butyricum 5521]
+TTAAAAAGGTTTTCAA
+>CBY_4133(galM) Score=4.5 Pos=-32 [Clostridium butyricum 5521]
+ATGAAAACTATTACAA
+>CBY_0850(bglC) Score=4.5 Pos=-34 [Clostridium butyricum 5521]
+ATGAAATCGATTTAAA
+>CBY_4067(cggR) Score=4.1 Pos=-122 [Clostridium butyricum 5521]
+TTTTAAATAATTAAAA
+>CBY_1741 Score=4.5 Pos=-77 [Clostridium butyricum 5521]
+ATGATAATGTTTATAT
+>CBY_1585(aroF) Score=4.1 Pos=-92 [Clostridium butyricum 5521]
+CTTTAAAAGTTTAAAT
+>CBY_0842(nanE) Score=4.1 Pos=-162 [Clostridium butyricum 5521]
+AAGAAAAAAATAACTT
+>CBY_0842(nanE) Score=4.6 Pos=-66 [Clostridium butyricum 5521]
+TTGAAAATATTTTCAA
+>CKL_2031(lrgA) Score=4.3 Pos=-217 [Clostridium kluyveri DSM 555]
+AAGTAAATGATATCAT
+>CKL_1779 Score=4 Pos=-32 [Clostridium kluyveri DSM 555]
+AAGATAAAATTTATAA
+>CKL_1551(serB) Score=4 Pos=-113 [Clostridium kluyveri DSM 555]
+TTTTAAAAAATATATT
+>CKL_1471(kdpA) Score=4 Pos=-327 [Clostridium kluyveri DSM 555]
+TAGAAAATATTTCAAA
+>CKL_2702(clpB) Score=4.2 Pos=-30 [Clostridium kluyveri DSM 555]
+AAGAAAAAGTTTTATG
+>CKL_2732(pbp) Score=4.2 Pos=-154 [Clostridium kluyveri DSM 555]
+ATTTAAATAATTTATT
+>CKL_2172 Score=4.1 Pos=-77 [Clostridium kluyveri DSM 555]
+TTTAAAATTATTATAT
+>CKL_2743(livH) Score=4.4 Pos=-55 [Clostridium kluyveri DSM 555]
+ATGTAAAAATTTATTT
+>CKL_0782(yrvJ) Score=4.6 Pos=-174 [Clostridium kluyveri DSM 555]
+TTAAAAAAGTTTTAAT
+>CKL_3197(ytxC) Score=4.1 Pos=-195 [Clostridium kluyveri DSM 555]
+ATTATAATTTTTTAAT
+>CKL_0447(pykA) Score=4.1 Pos=-127 [Clostridium kluyveri DSM 555]
+ATAAAAAAAATAAAAT
+>CKL_0447(pykA) Score=4.3 Pos=-107 [Clostridium kluyveri DSM 555]
+TTGAAATAATTTTAAT
+>CKL_2838 Score=4.5 Pos=-133 [Clostridium kluyveri DSM 555]
+TTAAAAAAGTTTAAAA
+>CKL_0783(CKL_0783) Score=4.2 Pos=-205 [Clostridium kluyveri DSM 555]
+TTATAAAAATTTTAAA
+>CKL_0783(CKL_0783) Score=4.2 Pos=-177 [Clostridium kluyveri DSM 555]
+ATGAAAAAATATAAAA
+>CKL_0783(CKL_0783) Score=4.2 Pos=-142 [Clostridium kluyveri DSM 555]
+TAAAAAATGTTATAAT
+>NT01CX_0754(lrgA) Score=4.2 Pos=-140 [Clostridium novyi NT]
+AATAAAATATTTTATT
+>NT01CX_0749(cca) Score=4 Pos=-30 [Clostridium novyi NT]
+TTAAAAATTATATAAT
+>NT01CX_0749(cca) Score=4.2 Pos=-131 [Clostridium novyi NT]
+AAGAAAAATTTTATTT
+>NT01CX_1623 Score=4 Pos=46 [Clostridium novyi NT]
+TTGTTAAAGCTTTAAA
+>NT01CX_0100 Score=4.1 Pos=-65 [Clostridium novyi NT]
+TTGAAAATAAATTTAT
+>NT01CX_1854(nifJ2) Score=4.1 Pos=-193 [Clostridium novyi NT]
+TTGAAAAAGTGTACAA
+>NT01CX_1380(agaY) Score=4.2 Pos=-156 [Clostridium novyi NT]
+TTTAAAAAAATTTTTT
+>NT01CX_0292(agaS) Score=4.1 Pos=-75 [Clostridium novyi NT]
+ATAAAAATAATTTTTT
+>NT01CX_1609(glcA) Score=4.1 Pos=-124 [Clostridium novyi NT]
+TTTTAAATGTTAATAA
+>NT01CX_1609(glcA) Score=4.2 Pos=-32 [Clostridium novyi NT]
+AAGTAAAAAATTAAAA
+>NT01CX_1593 Score=4.1 Pos=-56 [Clostridium novyi NT]
+AATAAAAATATTAAAT
+>NT01CX_0643(ccpA) Score=4.4 Pos=-61 [Clostridium novyi NT]
+TTTTAAATGTTTTATA
+>NT01CX_1328(yxkH) Score=4.1 Pos=-56 [Clostridium novyi NT]
+ATAATAAAGATTATAA
+>NT01CX_1328(yxkH) Score=4 Pos=-32 [Clostridium novyi NT]
+ATTATAAAAATTAATT
+>NT01CX_0609(glpF) Score=4.2 Pos=-104 [Clostridium novyi NT]
+ATACAAACGTTTTCAA
+>NT01CX_0608(glpK) Score=3.9 Pos=-54 [Clostridium novyi NT]
+ATGAAAAATAAATTAT
+>NT01CX_0606(glpF) Score=4.2 Pos=-107 [Clostridium novyi NT]
+TATAAAAAGTTATATT
+>NT01CX_0689(dhaK) Score=4 Pos=-33 [Clostridium novyi NT]
+TATAAAAGGTTTTCAA
+>NT01CX_0284(aspC1) Score=4.1 Pos=-128 [Clostridium novyi NT]
+CTGTAAACGTTATTAT
+>NT01CX_2313(mepA) Score=4.2 Pos=-96 [Clostridium novyi NT]
+ATTAAATTGTTTTTAT
+>NT01CX_1049(murD) Score=4.6 Pos=-152 [Clostridium novyi NT]
+ATAAAAAAGTTTTTAT
+>NT01CX_2122(rny) Score=4.7 Pos=-223 [Clostridium novyi NT]
+ATTAAAAAGTTTTTAT
+>NT01CX_0485 Score=4.4 Pos=-194 [Clostridium novyi NT]
+ATATAAATGATTTAAA
+>NT01CX_0485 Score=4.6 Pos=-74 [Clostridium novyi NT]
+ATGAAAAAGATAATAT
+>NT01CX_1403(cggR) Score=4.1 Pos=-111 [Clostridium novyi NT]
+TTGATAACTTTTTTTA
+>CPF_0684(tal) Score=4.2 Pos=-128 [Clostridium perfringens ATCC 13124]
+ATGTAAACTTTAAATA
+>CPF_0684(tal) Score=4.1 Pos=-232 [Clostridium perfringens ATCC 13124]
+ATGATAAAGGTTACAT
+>CPF_1911 Score=4.1 Pos=-98 [Clostridium perfringens ATCC 13124]
+AATTAAAAATTTAATT
+>CPF_2863(ccpA) Score=4.1 Pos=-138 [Clostridium perfringens ATCC 13124]
+TTGAAAAAAAATTAAA
+>CPF_2863(ccpA) Score=4.6 Pos=-152 [Clostridium perfringens ATCC 13124]
+AAGAAAACGTTTTTTT
+>CPF_0818(ptnA) Score=4.5 Pos=-235 [Clostridium perfringens ATCC 13124]
+TTGAAAATTTTTTAAA
+>CPF_0733 Score=4 Pos=-95 [Clostridium perfringens ATCC 13124]
+AATAAAAATATTTCTT
+>CPF_0733 Score=4.3 Pos=-57 [Clostridium perfringens ATCC 13124]
+ATGTAAATGTTTAACT
+>CPF_2879 Score=4.2 Pos=-19 [Clostridium perfringens ATCC 13124]
+TTGTTAAATTTTTAAT
+>CPF_1170(glpF) Score=4 Pos=-60 [Clostridium perfringens ATCC 13124]
+TATTAAATGTTTATTA
+>CPF_0094(gldA) Score=4.4 Pos=-31 [Clostridium perfringens ATCC 13124]
+TAGTAAATGATTTTAT
+>CPF_0071(nagE) Score=4 Pos=-116 [Clostridium perfringens ATCC 13124]
+TAGATAACTTTTATAT
+>CPF_1048(fucI) Score=4.7 Pos=-93 [Clostridium perfringens ATCC 13124]
+AAGAAAACGTTTATAT
+>CPF_1681(clpB) Score=4.3 Pos=-148 [Clostridium perfringens ATCC 13124]
+ATATAAATGATTTATT
+>CPF_0244(CPF_0244) Score=4.2 Pos=-223 [Clostridium perfringens ATCC 13124]
+TTAAAAATGTTAATAA
+>CPF_0244(CPF_0244) Score=4.5 Pos=-129 [Clostridium perfringens ATCC 13124]
+TTGAAAACGTTTAGAT
+>CPF_0244(CPF_0244) Score=4.5 Pos=-28 [Clostridium perfringens ATCC 13124]
+ATTAAAAAATTTTAAA
+>CPF_1070(nagE) Score=4.8 Pos=-151 [Clostridium perfringens ATCC 13124]
+AAGAAAACGTTTTAAA
+>CPF_2652(malE) Score=4.8 Pos=-183 [Clostridium perfringens ATCC 13124]
+TTGAAAATGTTTTCTT
+>CPF_2652(malE) Score=4.5 Pos=-128 [Clostridium perfringens ATCC 13124]
+TTTAAAAAGATTTTAA
+>CPF_0875(nagJ) Score=4.8 Pos=-128 [Clostridium perfringens ATCC 13124]
+TTGAAAACGATTTTAA
+>CPF_0875(nagJ) Score=4.1 Pos=-91 [Clostridium perfringens ATCC 13124]
+ATAAAAATGTATTAAA
+>CPF_1046(fucO) Score=4.3 Pos=-148 [Clostridium perfringens ATCC 13124]
+ATTAAAAATATTTATT
+>CPF_0851(sdaR) Score=4.7 Pos=-131 [Clostridium perfringens ATCC 13124]
+TTGTAAATGTTTAAAT
+>CPF_1087(pulA) Score=4.7 Pos=-106 [Clostridium perfringens ATCC 13124]
+TTGAAAACGTTATTAT
+>CPF_2251(glsA) Score=4.3 Pos=-99 [Clostridium perfringens ATCC 13124]
+TTTTAAAAGATTTATA
+>CPF_2251(glsA) Score=4.7 Pos=-75 [Clostridium perfringens ATCC 13124]
+TTGAAAATGTTATAAT
+>CPF_1716(CPF_1716) Score=4.6 Pos=-114 [Clostridium perfringens ATCC 13124]
+AAGAAAACGATTAATT
+>CPF_1716(CPF_1716) Score=4.2 Pos=-63 [Clostridium perfringens ATCC 13124]
+TAGTAATCGTTTAAAA
+>CPF_1716(CPF_1716) Score=4.2 Pos=-48 [Clostridium perfringens ATCC 13124]
+AAGAAAAAATTAACAA
+>CPF_1064 Score=4.6 Pos=-148 [Clostridium perfringens ATCC 13124]
+ATGAAAATGTTATCTT
+>CPF_1064 Score=4.1 Pos=-76 [Clostridium perfringens ATCC 13124]
+TTTAAAAAAATTATTA
+>CPF_0556 Score=4.6 Pos=-48 [Clostridium perfringens ATCC 13124]
+AAGAAAATGTTTACAA
+>CPF_0541(treB) Score=4.2 Pos=-214 [Clostridium perfringens ATCC 13124]
+ATTTTAAAGTTTAATT
+>CPF_0765(lacR) Score=4.6 Pos=-62 [Clostridium perfringens ATCC 13124]
+ATGTAAATGTTTAATA
+>CPF_2616(ispF) Score=4.1 Pos=-202 [Clostridium perfringens ATCC 13124]
+ATATAAAATTTTATAT
+>CPF_1753 Score=4.5 Pos=-50 [Clostridium perfringens ATCC 13124]
+TTGAAAATATTTATAT
+>CPF_1512(cggR) Score=4.4 Pos=-112 [Clostridium perfringens ATCC 13124]
+AAGAAAAAATTTTCTA
+>CPF_0686(CPF_0686) Score=4.1 Pos=-47 [Clostridium perfringens ATCC 13124]
+TTAAAAAAGTTTAGAA
+>CTC02292 Score=4.2 Pos=-51 [Clostridium tetani E88]
+AAGAAAAATATATAAT
+>CTC00228(tal) Score=3.9 Pos=-78 [Clostridium tetani E88]
+TTTAAATTAATTAAAT
+>CTC00228(tal) Score=3.9 Pos=-162 [Clostridium tetani E88]
+GTGTAAAAATTTACAA
+>CTC00228(tal) Score=3.9 Pos=-32 [Clostridium tetani E88]
+TTATAATAGATTTATT
+>CTC01570(spoIVB) Score=4.7 Pos=-78 [Clostridium tetani E88]
+ATGAAAACATTTTATA
+>CTC00969(serB) Score=4.5 Pos=-55 [Clostridium tetani E88]
+ATTAAAATGATATAAT
+>CTC00860(mglB) Score=4.8 Pos=42 [Clostridium tetani E88]
+ATGAAAAAGATTATAT
+>CTC00263(ccpA) Score=4.1 Pos=-122 [Clostridium tetani E88]
+TTATAAATAATTTAAA
+>CTC01186(yxkH) Score=4.1 Pos=-163 [Clostridium tetani E88]
+TTGAAATAGATATTAA
+>CTC01996(glpF) Score=3.8 Pos=-32 [Clostridium tetani E88]
+AATTAAATATTTATTA
+>CTC01762(dhaK) Score=4.3 Pos=-169 [Clostridium tetani E88]
+ATTAAAAATATTTCAA
+>CTC02462(glpK) Score=4.2 Pos=-143 [Clostridium tetani E88]
+TTGAAATCATTATAAT
+>CTC00230(glcK) Score=4.3 Pos=-286 [Clostridium tetani E88]
+TAGAAAAAAATTAAAA
+>CTC00278(gamP) Score=4.1 Pos=-29 [Clostridium tetani E88]
+TTTAAAAAAATAATAT
+>CTC00278(gamP) Score=4.1 Pos=0 [Clostridium tetani E88]
+ATGAAAAAGCTATTTA
+>CTC01362(mepA) Score=4.2 Pos=-136 [Clostridium tetani E88]
+ATGTAAATTTTAAATT
+>CTC00886(hom) Score=4.7 Pos=-24 [Clostridium tetani E88]
+AAGAAAACGTTTTCTT
+>CTC00566(glsA) Score=4.2 Pos=-167 [Clostridium tetani E88]
+ATAAAAACAATATAAA
+>CTC00566(glsA) Score=4.2 Pos=-148 [Clostridium tetani E88]
+AATAAAACGATAAAAA
+>CTC01290(rny) Score=4.1 Pos=-69 [Clostridium tetani E88]
+ATAAAAAAATTAATAT
+>CTC00936(pflD) Score=4.1 Pos=-40 [Clostridium tetani E88]
+TTAAAAAGGATTAAAT
+>CTC00312(thlA) Score=4.6 Pos=-113 [Clostridium tetani E88]
+TTGAAAAATTTTTAAT
+>CTC01488(ifcA) Score=4.5 Pos=-39 [Clostridium tetani E88]
+ATGAAAAAATTAAAAT
+>CTC02162 Score=4.1 Pos=-155 [Clostridium tetani E88]
+TTTAAAACTATTATTT
