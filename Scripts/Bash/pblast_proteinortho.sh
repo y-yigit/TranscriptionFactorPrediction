@@ -2,6 +2,7 @@
 
 #title           :pblast_proteinortho.sh
 #description     :This script performs a pblast with Proteinortho
+#                 Proteinortho is slow and modifies the protein directory, so it is usefull to create a backup directory.
 #author          :Yaprak Yigit
 #date            :21-02-2023
 #version         :0.1
