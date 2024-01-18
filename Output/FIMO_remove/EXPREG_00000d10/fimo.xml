@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Begin document body -->
+<fimo version="5.5.2" release="Sun Jan 29 10:33:12 2023 -0800">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation=  xmlns:fimo="http://noble.gs.washington.edu/schema/fimo"
+>
+<command-line>fimo -oc /home/ubuntu/Desktop/Internship/Output/FIMO_remove/EXPREG_00000d10 -norc -thresh 1e-4 -motif EXPREG_00000d10 /home/ubuntu/Desktop/Internship/Data/MEME_database/collectf.meme /home/ubuntu/Desktop/Internship/Output/Non_motifs/non_cre_motifs.fasta</command-line>
+<settings>
+<setting name="output directory">/home/ubuntu/Desktop/Internship/Output/FIMO_remove/EXPREG_00000d10</setting>
+<setting name="MEME file name">/home/ubuntu/Desktop/Internship/Data/MEME_database/collectf.meme</setting>
+<setting name="sequence file name">/home/ubuntu/Desktop/Internship/Output/Non_motifs/non_cre_motifs.fasta</setting>
+<setting name="background file name">--nrdb--</setting>
+<setting name="allow clobber">true</setting>
+<setting name="compute q-values">true</setting>
+<setting name="parse genomic coord.">false</setting>
+<setting name="text only">false</setting>
+<setting name="scan both strands">false</setting>
+<setting name="output threshold">0.0001</setting>
+<setting name="threshold type">p-value</setting>
+<setting name="max stored scores">100000</setting>
+<setting name="pseudocount">0.1</setting>
+<setting name="verbosity">2</setting>
+<setting name="selected motif">EXPREG_00000d10</setting>
+</settings>
+<sequence-data num-sequences="254013" num-residues="41393292" />
+<alphabet name="DNA" like="dna">
+<letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+<letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+<letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+<letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+<letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+<letter id="V" symbol="V" equals="ACG" name="Not T"/>
+<letter id="H" symbol="H" equals="ACT" name="Not G"/>
+<letter id="D" symbol="D" equals="AGT" name="Not C"/>
+<letter id="B" symbol="B" equals="CGT" name="Not A"/>
+<letter id="M" symbol="M" equals="AC" name="Amino"/>
+<letter id="R" symbol="R" equals="AG" name="Purine"/>
+<letter id="W" symbol="W" equals="AT" name="Weak"/>
+<letter id="S" symbol="S" equals="CG" name="Strong"/>
+<letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+<letter id="K" symbol="K" equals="GT" name="Keto"/>
+</alphabet>
+<motif name="EXPREG_00000020" alt="LexA_C.glutamicum" width="17" best-possible-match="TTCGAACAAATGTTCGA"/>
+<motif name="EXPREG_00000050" alt="PhoP_Y.pestis" width="21" best-possible-match="TTGTTTAATTTTTGTTTAATT"/>
+<motif name="EXPREG_000000e0" alt="CcpA_S.pneumoniae" width="20" best-possible-match="TAATGAAAACGCTTTCAATT"/>
+<motif name="EXPREG_00000100" alt="Fur_C.crescentus" width="23" best-possible-match="ATTGCGAGCGATTCTCAATAGGG"/>
+<motif name="EXPREG_00000120" alt="LexA_P.difficile" width="16" best-possible-match="AGGAACTAATGTTCTA"/>
+<motif name="EXPREG_00000130" alt="HapR_V.cholerae" width="22" best-possible-match="TTATTGATAATTATGTCAGTTT"/>
+<motif name="EXPREG_000001b0" alt="CodY_L.lactis" width="15" best-possible-match="AATTTTCTGAAAATT"/>
+<motif name="EXPREG_00000200" alt="GlnR_S.erythraea" width="16" best-possible-match="TTAACGCTCCCGAAAC"/>
+<motif name="EXPREG_00000240" alt="ToxT_V.cholerae" width="14" best-possible-match="TATTTTTTGAAATT"/>
+<motif name="EXPREG_00000290" alt="LuxR_V.campbellii" width="21" best-possible-match="TTATTGATAATTTTATCATTA"/>
+<motif name="EXPREG_00000330" alt="CodY_S.pyogenes" width="15" best-possible-match="ATTTTTCAGAAAATT"/>
+<motif name="EXPREG_00000340" alt="Fur_H.pylori" width="48" best-possible-match="TTTATATTATAATAATCATTATTAAAAATAACATAAAAAAAAATTTTT"/>
+<motif name="EXPREG_00000360" alt="Fur_A.salmonicida" width="25" best-possible-match="ATTTTTAATGATAATTATTATCATT"/>
+<motif name="EXPREG_00000370" alt="Fur_A.ferrooxidans" width="21" best-possible-match="TGAAAAAATAATTATTCTTAT"/>
+<motif name="EXPREG_00000470" alt="ArgR_P.aeruginosa" width="43" best-possible-match="ATGTCGCATTGATGAAATTAGATGTCGCAAAACTGAAAGTCGC"/>
+<motif name="EXPREG_000004b0" alt="PvdS_P.aeruginosa" width="24" best-possible-match="ACGAAGAAGGGCGGCGGAAATTTA"/>
+<motif name="EXPREG_000004d0" alt="AmrZ_P.aeruginosa" width="24" best-possible-match="GTGCTGGCAGATCGCCATCATCGC"/>
+<motif name="EXPREG_000005c0" alt="DosR_M.tuberculosis" width="20" best-possible-match="TCGGGGACTAATGACCCTAG"/>
+<motif name="EXPREG_000005d0" alt="LexA_M.tuberculosis" width="20" best-possible-match="TATCGAACACATGTTCGATA"/>
+<motif name="EXPREG_00000670" alt="NikR_H.pylori" width="35" best-possible-match="ATATAATACTAATTCATTTTAAATAATAATTAGTT"/>
+<motif name="EXPREG_000006f0" alt="IHF_P.putida" width="28" best-possible-match="AACCTTCCCAGGTGCATCAAGACCTTGA"/>
+<motif name="EXPREG_00000700" alt="IHF_P.putida" width="14" best-possible-match="TGCATGGTCTTGAT"/>
+<motif name="EXPREG_00000710" alt="LexA_P.putida" width="22" best-possible-match="ATACTGGATATATATACAGTAT"/>
+<motif name="EXPREG_00000760" alt="NtcA_N.sp." width="14" best-possible-match="GTATCAAAAATTAC"/>
+<motif name="EXPREG_000007a0" alt="LexA_E.coli" width="20" best-possible-match="TACTGTATATATATACAGTA"/>
+<motif name="EXPREG_000007b0" alt="MatP_E.coli" width="53" best-possible-match="CGACTGTGCTTACAATGAAGGTGACACTGTCACATTAAACGGTATATCTATCT"/>
+<motif name="EXPREG_000007c0" alt="Fur_E.coli" width="31" best-possible-match="AATTATAATGATAATTATTATCATTAATATT"/>
+<motif name="EXPREG_00000800" alt="ArcA_E.coli" width="21" best-possible-match="TTGTTAAAAAAATGTTAAAAA"/>
+<motif name="EXPREG_00000810" alt="OmpR_S.enterica" width="9" best-possible-match="TATGTAACA"/>
+<motif name="EXPREG_00000840" alt="Lrp_E.coli" width="15" best-possible-match="CAGAATTTTATGCTG"/>
+<motif name="EXPREG_00000850" alt="CRP_E.coli" width="22" best-possible-match="TTCTGTGATCGATATCACATTT"/>
+<motif name="EXPREG_00000870" alt="RutR_E.coli" width="16" best-possible-match="TTGACCATTTGGTCAA"/>
+<motif name="EXPREG_000008b0" alt="Fur_V.cholerae" width="23" best-possible-match="AATGAGAATTATTATCATTTATA"/>
+<motif name="EXPREG_000008c0" alt="CtrA_C.crescentus" width="22" best-possible-match="CTTAATGTCTTGTTAACCATGG"/>
+<motif name="EXPREG_000008d0" alt="MogR_L.monocytogenes" width="15" best-possible-match="TTTTTTATAAAAAAA"/>
+<motif name="EXPREG_000008e0" alt="PhoP_S.enterica" width="27" best-possible-match="TTTTGTTTAGGATTTGTTTAATTTCTT"/>
+<motif name="EXPREG_00000950" alt="PhoP_E.coli" width="23" best-possible-match="TCTTGTTTATGTTTTGTTTATAT"/>
+<motif name="EXPREG_000009a0" alt="AmpR_P.aeruginosa" width="16" best-possible-match="ACAATTCTGGAACCTT"/>
+<motif name="EXPREG_000009b0" alt="LasR_P.aeruginosa" width="23" best-possible-match="AACCTATCAGATCTGCTAGCTTG"/>
+<motif name="EXPREG_000009c0" alt="CcpA_B.subtilis" width="27" best-possible-match="ATTTTATTGAAAGCGTTTTCAATTTTA"/>
+<motif name="EXPREG_000009d0" alt="AlgR_P.aeruginosa" width="24" best-possible-match="TCGCCCAACCGTTCGTCCTCCCGT"/>
+<motif name="EXPREG_000009e0" alt="RpoN_S.enterica" width="18" best-possible-match="TGGCATGAATTTTGCATT"/>
+<motif name="EXPREG_00000a00" alt="LexA_B.subtilis" width="14" best-possible-match="AGAACATATGTTCG"/>
+<motif name="EXPREG_00000a20" alt="Fur_Y.pestis" width="19" best-possible-match="AATGATAATGATTATCATT"/>
+<motif name="EXPREG_00000a60" alt="LexA_P.aeruginosa" width="20" best-possible-match="TACTGTATAAATATACAGTA"/>
+<motif name="EXPREG_00000b00" alt="CsgD_E.coli" width="17" best-possible-match="AAAAATGGTTAAATACA"/>
+<motif name="EXPREG_00000b40" alt="Fur_B.subtilis" width="22" best-possible-match="GATAATGATAATCATTATCAAT"/>
+<motif name="EXPREG_00000b50" alt="Vfr_P.aeruginosa" width="32" best-possible-match="TCGCATTAAAATGTGAACTAGTTCACATTTCT"/>
+<motif name="EXPREG_00000bc0" alt="PerR_B.subtilis" width="15" best-possible-match="TTATAATTATTATAA"/>
+<motif name="EXPREG_00000c30" alt="EspR_M.tuberculosis" width="9" best-possible-match="CCAGCAAAC"/>
+<motif name="EXPREG_00000c80" alt="Fur_P.aeruginosa" width="19" best-possible-match="GATAATGATAATCATTATC"/>
+<motif name="EXPREG_00000d10" alt="CcpA_C.difficile" width="16" best-possible-match="AAGAAAACGTTTTCAT"/>
+<motif name="EXPREG_00000e20" alt="Zur_P.protegens" width="17" best-possible-match="TTGTTATAATATAACAT"/>
+<motif name="EXPREG_00000ec0" alt="Fur_N.gonorrhoeae" width="24" best-possible-match="TTAATGATAATAATTTTTATTTTA"/>
+<motif name="EXPREG_00000f50" alt="HgtR_G.sulfurreducens" width="23" best-possible-match="AAATTGTATACAGTATACAAAAA"/>
+<motif name="EXPREG_00000f90" alt="GlxR_C.glutamicum" width="26" best-possible-match="AATATTGTGACTTACATCACAATTGT"/>
+<motif name="EXPREG_00000fc0" alt="BldD_S.coelicolor" width="15" best-possible-match="GTCACTCTGCGTGAC"/>
+<motif name="EXPREG_00000ff0" alt="CRP_Y.pestis" width="32" best-possible-match="TTTATAAAATGTGATCTAAATCACATTTTTAA"/>
+<motif name="EXPREG_00001000" alt="OmpR_Y.pestis" width="20" best-possible-match="AATACATTTTGTAACATTTT"/>
+<motif name="EXPREG_00001020" alt="Fur_S.enterica" width="19" best-possible-match="GGAAATGATAATCATTTTC"/>
+<motif name="EXPREG_00001030" alt="CRP_V.vulnificus" width="25" best-possible-match="TTATTGTGATCAATATCACATTTTC"/>
+<motif name="EXPREG_000010c0" alt="CodY_B.anthracis" width="11" best-possible-match="TCAGAAAATTC"/>
+<motif name="EXPREG_000010e0" alt="LexA_V.parahaemolyticus" width="22" best-possible-match="AAACTGTATAAATAAACAGTAT"/>
+<motif name="EXPREG_00001110" alt="Fur_P.syringae" width="17" best-possible-match="ATGAGAATCATTCTCAT"/>
+<motif name="EXPREG_00001150" alt="PvdS_P.syringae" width="29" best-possible-match="CTAAATATTTGCCCCCGCCATTCGTTCTA"/>
+<motif name="EXPREG_00001190" alt="PhhR_P.putida" width="29" best-possible-match="TGTGTGGTAAAAATTGCGTTACACGTGCA"/>
+<motif name="EXPREG_00001280" alt="ArcA_S.oneidensis" width="15" best-possible-match="GTTAATTAAATGTTA"/>
+<motif name="EXPREG_000012b0" alt="HexR_S.oneidensis" width="17" best-possible-match="TTGTAATTTTATTACAA"/>
+<motif name="EXPREG_000013d0" alt="Fur_L.monocytogenes" width="19" best-possible-match="GATAATGATTATCATTTAG"/>
+<motif name="EXPREG_000013e0" alt="LexA_L.monocytogenes" width="22" best-possible-match="AATAAGAACGTATGTTCGTTTT"/>
+<motif name="EXPREG_00001440" alt="ExpR_S.meliloti" width="27" best-possible-match="AAAAAACCCCTAAATTTAAAGGGGTTT"/>
+<motif name="EXPREG_00001480" alt="LexA_S.meliloti" width="19" best-possible-match="ATGTTCTTGATTTGTTCTG"/>
+<motif name="EXPREG_000014f0" alt="LexA_C.crescentus" width="19" best-possible-match="AATGTTCTCGTTATGTTCT"/>
+<motif name="EXPREG_00001520" alt="CcpA_L.lactis" width="14" best-possible-match="TGAAAACGTTTTCA"/>
+<motif name="EXPREG_00001560" alt="OxyR_P.aeruginosa" width="40" best-possible-match="AATAGATTTTATCTATCGATTAAATTGTACATAGAGATTT"/>
+<motif name="EXPREG_00001610" alt="PsrA_P.aeruginosa" width="14" best-possible-match="CAAACGCTTGTTTG"/>
+<motif name="EXPREG_00001670" alt="VqsM_P.aeruginosa" width="17" best-possible-match="GGATCTCTTCGGCCAGG"/>
+<motif name="EXPREG_000016a0" alt="Zur_N.meningitidis" width="15" best-possible-match="TGTTATAACATAACA"/>
+<motif name="EXPREG_000016e0" alt="RpoN_V.cholerae" width="15" best-possible-match="TGGCACGCTTTTTGC"/>
+<motif name="EXPREG_00001730" alt="H-NS_V.cholerae" width="10" best-possible-match="TCGATAAATT"/>
+<motif name="EXPREG_00001770" alt="AdpA_S.coelicolor" width="10" best-possible-match="TGGCCGGAAC"/>
+<motif name="EXPREG_00001790" alt="LexA_S.aureus" width="14" best-possible-match="CGAACATATGTTCT"/>
+<motif name="EXPREG_000017f0" alt="HrpX_X.oryzae" width="25" best-possible-match="TTCGCTAAGCGAGACAGTATTTCGG"/>
+<motif name="EXPREG_00001810" alt="CcpA_S.suis" width="23" best-possible-match="TAAAGAAAATGTTTTGAAAAATA"/>
+<background source="--nrdb--">
+<value letter="A">0.282</value>
+<value letter="C">0.222</value>
+<value letter="G">0.229</value>
+<value letter="T">0.267</value>
+</background>
+<cisml-file>cisml.xml</cisml-file>
+</fimo>

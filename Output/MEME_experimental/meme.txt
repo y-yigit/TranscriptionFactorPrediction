@@ -1,0 +1,2642 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.5.2 (Release date: Sun Jan 29 10:33:12 2023 -0800)
+
+For further information on how to interpret these results please access https://meme-suite.org/meme.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to
+discover motifs in biopolymers",
+Proceedings of the Second International Conference on Intelligent Systems
+for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= /home/ubuntu/Desktop/Internship/Output/Motifs/motifs.fasta
+CONTROL SEQUENCES= --none--
+ALPHABET= ACDEFGHIKLMNPQRSTVWY
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+Streptococcus_pyogenes|1 1.0000     16  Streptococcus_pyogenes|2 1.0000     16  
+Streptococcus_pyogenes|3 1.0000     16  Streptococcus_pyogenes|4 1.0000     16  
+Streptococcus_pyogenes|5 1.0000     16  Streptococcus_pyogenes|6 1.0000     16  
+Streptococcus_pyogenes|7 1.0000     16  Streptococcus_pyogenes|8 1.0000     20  
+Streptococcus_pyogenes|9 1.0000     20  Streptococcus_pyogenes|1 1.0000     16  
+Streptococcus_pyogenes|1 1.0000     16  Streptococcus_pyogenes|1 1.0000     16  
+Streptococcus_pyogenes|1 1.0000     20  Streptococcus_pyogenes|1 1.0000     16  
+Streptococcus_pyogenes|1 1.0000     16  Streptococcus_pyogenes|1 1.0000     16  
+Streptococcus_pyogenes|1 1.0000     16  Streptococcus_pyogenes|1 1.0000     16  
+Streptococcus_pyogenes|1 1.0000     16  Streptococcus_pyogenes|2 1.0000     16  
+Streptococcus_pyogenes|2 1.0000     16  Streptococcus_pyogenes|2 1.0000     16  
+Streptococcus_pyogenes|2 1.0000     16  Streptococcus_pyogenes|2 1.0000     16  
+Streptococcus_pyogenes|2 1.0000     16  Streptococcus_pyogenes|2 1.0000     16  
+Streptococcus_pyogenes|2 1.0000     16  Streptococcus_pyogenes|2 1.0000     16  
+Streptococcus_pyogenes|2 1.0000     17  Streptococcus_pyogenes|3 1.0000     17  
+Streptococcus_pyogenes|3 1.0000     16  Streptococcus_pyogenes|3 1.0000     16  
+Streptococcus_pyogenes|3 1.0000     16  Streptococcus_pyogenes|3 1.0000     16  
+Streptococcus_pyogenes|3 1.0000     16  Streptococcus_pyogenes|3 1.0000     16  
+Streptococcus_pyogenes|3 1.0000     16  Streptococcus_pyogenes|3 1.0000     16  
+Streptococcus_pyogenes|3 1.0000     16  Streptococcus_pyogenes|4 1.0000     16  
+Streptococcus_pyogenes|4 1.0000     16  Streptococcus_pyogenes|4 1.0000     16  
+Streptococcus_pyogenes|4 1.0000     16  Streptococcus_pyogenes|4 1.0000     16  
+Streptococcus_pyogenes|4 1.0000     16  Streptococcus_pyogenes|4 1.0000     16  
+Streptococcus_pyogenes|4 1.0000     16  Streptococcus_pyogenes|4 1.0000     16  
+Streptococcus_pyogenes|4 1.0000     16  Streptococcus_pyogenes|5 1.0000     16  
+Streptococcus_pyogenes|5 1.0000     16  Streptococcus_pyogenes|5 1.0000     16  
+Streptococcus_pyogenes|5 1.0000     16  Streptococcus_pyogenes|5 1.0000     16  
+Streptococcus_pyogenes|5 1.0000     16  Streptococcus_pyogenes|5 1.0000     16  
+Streptococcus_pyogenes|5 1.0000     16  Streptococcus_pyogenes|5 1.0000     16  
+Streptococcus_pyogenes|5 1.0000     16  Streptococcus_pyogenes|6 1.0000     16  
+Streptococcus_pyogenes|6 1.0000     15  Streptococcus_pyogenes|6 1.0000     16  
+Streptococcus_pyogenes|6 1.0000     16  Streptococcus_pyogenes|6 1.0000     16  
+Streptococcus_pyogenes|6 1.0000     16  Streptococcus_pyogenes|6 1.0000     16  
+Streptococcus_pyogenes|6 1.0000     16  Streptococcus_pyogenes|6 1.0000     16  
+Streptococcus_pyogenes|6 1.0000     16  Streptococcus_pyogenes|7 1.0000     17  
+Streptococcus_pyogenes|7 1.0000     17  Streptococcus_pyogenes|7 1.0000     16  
+Streptococcus_pyogenes|7 1.0000     16  Clostridium_acetobutylic 1.0000     24  
+Clostridium_acetobutylic 1.0000     27  Clostridium_acetobutylic 1.0000     41  
+Clostridium_acetobutylic 1.0000     20  Clostridium_acetobutylic 1.0000     36  
+Clostridium_acetobutylic 1.0000     38  Clostridium_acetobutylic 1.0000     19  
+Clostridium_acetobutylic 1.0000     22  Clostridium_acetobutylic 1.0000     35  
+Clostridium_acetobutylic 1.0000     17  Clostridium_acetobutylic 1.0000     22  
+Clostridium_acetobutylic 1.0000     19  Clostridium_acetobutylic 1.0000     37  
+Clostridium_acetobutylic 1.0000     33  Clostridium_acetobutylic 1.0000     50  
+Clostridium_acetobutylic 1.0000     16  Clostridium_acetobutylic 1.0000     30  
+Clostridium_acetobutylic 1.0000     33  Clostridium_acetobutylic 1.0000     23  
+Clostridium_acetobutylic 1.0000     20  Clostridium_acetobutylic 1.0000     20  
+Clostridium_acetobutylic 1.0000     29  Clostridium_acetobutylic 1.0000     19  
+Clostridium_acetobutylic 1.0000     19  Clostridium_acetobutylic 1.0000     36  
+Clostridium_acetobutylic 1.0000     19  Clostridium_acetobutylic 1.0000     21  
+Clostridium_acetobutylic 1.0000     42  Clostridium_acetobutylic 1.0000     50  
+Lactococcus_lactis|103   1.0000     14  Lactococcus_lactis|104   1.0000     14  
+Lactococcus_lactis|105   1.0000     14  Lactococcus_lactis|106   1.0000     14  
+Lactococcus_lactis|107   1.0000     14  Lactococcus_lactis|108   1.0000     14  
+Lactococcus_lactis|109   1.0000     14  Lactococcus_lactis|110   1.0000     14  
+Lactococcus_lactis|111   1.0000     14  Lactococcus_lactis|112   1.0000     14  
+Lactococcus_lactis|113   1.0000     14  Lactococcus_lactis|114   1.0000     14  
+Lactococcus_lactis|115   1.0000     14  Lactococcus_lactis|116   1.0000     14  
+Lactococcus_lactis|117   1.0000     14  Lactococcus_lactis|118   1.0000     14  
+Lactococcus_lactis|119   1.0000     14  Lactococcus_lactis|120   1.0000     14  
+Lactococcus_lactis|121   1.0000     14  Lactococcus_lactis|122   1.0000     14  
+Lactococcus_lactis|123   1.0000     14  Lactococcus_lactis|124   1.0000     14  
+Lactococcus_lactis|125   1.0000     14  Lactococcus_lactis|126   1.0000     14  
+Lactococcus_lactis|127   1.0000     14  Lactococcus_lactis|128   1.0000     14  
+Lactococcus_lactis|129   1.0000     14  Lactococcus_lactis|130   1.0000     14  
+Lactococcus_lactis|131   1.0000     14  Lactococcus_lactis|132   1.0000     14  
+Lactococcus_lactis|133   1.0000     14  Lactococcus_lactis|134   1.0000     14  
+Lactococcus_lactis|135   1.0000     14  Lactococcus_lactis|136   1.0000     14  
+Lactococcus_lactis|137   1.0000     14  Lactococcus_lactis|138   1.0000     14  
+Lactococcus_lactis|139   1.0000     14  Lactococcus_lactis|140   1.0000     14  
+Lactococcus_lactis|141   1.0000     14  Lactococcus_lactis|142   1.0000     14  
+Lactococcus_lactis|143   1.0000     14  Lactococcus_lactis|144   1.0000     14  
+Lactococcus_lactis|145   1.0000     14  Lactococcus_lactis|146   1.0000     14  
+Lactococcus_lactis|147   1.0000     14  Lactococcus_lactis|148   1.0000     14  
+Lactococcus_lactis|149   1.0000     14  Lactococcus_lactis|150   1.0000     14  
+Lactococcus_lactis|151   1.0000     14  Lactococcus_lactis|152   1.0000     14  
+Lactococcus_lactis|153   1.0000     14  Lactococcus_lactis|154   1.0000     14  
+Lactococcus_lactis|155   1.0000     14  Lactococcus_lactis|156   1.0000     14  
+Lactococcus_lactis|157   1.0000     14  Lactococcus_lactis|158   1.0000     14  
+Lactococcus_lactis|159   1.0000     14  Lactococcus_lactis|160   1.0000     14  
+Lactococcus_lactis|161   1.0000     14  Lactococcus_lactis|162   1.0000     14  
+Lactococcus_lactis|163   1.0000     14  Lactococcus_lactis|164   1.0000     14  
+Lactococcus_lactis|165   1.0000     14  Lactococcus_lactis|166   1.0000     14  
+Lactococcus_lactis|167   1.0000     14  Lactococcus_lactis|168   1.0000     14  
+Lactococcus_lactis|169   1.0000     14  Lactococcus_lactis|170   1.0000     14  
+Lactococcus_lactis|171   1.0000     14  Lactococcus_lactis|172   1.0000     14  
+Lactococcus_lactis|173   1.0000     14  Lactococcus_lactis|174   1.0000     14  
+Lactococcus_lactis|175   1.0000     29  Lactococcus_lactis|176   1.0000     30  
+Lactococcus_lactis|177   1.0000     29  Lactococcus_lactis|178   1.0000     29  
+Lactococcus_lactis|179   1.0000     29  Lactococcus_lactis|180   1.0000     30  
+Lactococcus_lactis|181   1.0000     30  Lactococcus_lactis|182   1.0000     29  
+Lactococcus_lactis|183   1.0000     29  Lactococcus_lactis|184   1.0000     29  
+Lactococcus_lactis|185   1.0000     31  Lactococcus_lactis|186   1.0000     29  
+Lactococcus_lactis|187   1.0000     30  Lactococcus_lactis|188   1.0000     29  
+Lactococcus_lactis|189   1.0000     29  Lactococcus_lactis|190   1.0000     29  
+Lactococcus_lactis|191   1.0000     29  Lactococcus_lactis|192   1.0000     29  
+Lactococcus_lactis|193   1.0000     29  Lactococcus_lactis|194   1.0000     29  
+Lactococcus_lactis|195   1.0000     31  Lactococcus_lactis|196   1.0000     29  
+Lactococcus_lactis|197   1.0000     28  Lactococcus_lactis|198   1.0000     29  
+Lactococcus_lactis|199   1.0000     34  Lactococcus_lactis|200   1.0000     27  
+Lactococcus_lactis|201   1.0000     29  Lactococcus_lactis|202   1.0000     29  
+Lactococcus_lactis|203   1.0000     29  Lactococcus_lactis|204   1.0000     29  
+Lactococcus_lactis|205   1.0000     29  Lactococcus_lactis|206   1.0000     29  
+Lactococcus_lactis|207   1.0000     29  Lactococcus_lactis|208   1.0000     29  
+Lactococcus_lactis|209   1.0000     29  Lactococcus_lactis|210   1.0000     30  
+Lactococcus_lactis|211   1.0000     29  Lactococcus_lactis|212   1.0000     30  
+Lactococcus_lactis|213   1.0000     29  Lactococcus_lactis|214   1.0000     31  
+Lactococcus_lactis|215   1.0000     29  Lactococcus_lactis|216   1.0000     30  
+Lactococcus_lactis|217   1.0000     31  Lactococcus_lactis|218   1.0000     29  
+Bacillus_amyloliquefacie 1.0000     15  Bacillus_amyloliquefacie 1.0000     15  
+Bacillus_amyloliquefacie 1.0000     15  Bacillus_amyloliquefacie 1.0000     14  
+Bacillus_amyloliquefacie 1.0000     14  Bacillus_amyloliquefacie 1.0000     15  
+Bacillus_amyloliquefacie 1.0000     16  Bacillus_amyloliquefacie 1.0000     15  
+Bacillus_amyloliquefacie 1.0000     15  Bacillus_amyloliquefacie 1.0000     14  
+Bacillus_amyloliquefacie 1.0000     16  Bacillus_amyloliquefacie 1.0000     16  
+Bacillus_amyloliquefacie 1.0000     15  Bacillus_amyloliquefacie 1.0000     16  
+Bacillus_amyloliquefacie 1.0000     15  Bacillus_amyloliquefacie 1.0000     14  
+Bacillus_amyloliquefacie 1.0000     15  Bacillus_amyloliquefacie 1.0000     16  
+Bacillus_amyloliquefacie 1.0000     14  Bacillus_amyloliquefacie 1.0000     14  
+Bacillus_amyloliquefacie 1.0000     16  Bacillus_amyloliquefacie 1.0000     15  
+Bacillus_amyloliquefacie 1.0000     14  Bacillus_amyloliquefacie 1.0000     16  
+Bacillus_amyloliquefacie 1.0000     14  Bacillus_amyloliquefacie 1.0000     14  
+Bacillus_amyloliquefacie 1.0000     14  Bacillus_amyloliquefacie 1.0000     15  
+Bacillus_amyloliquefacie 1.0000     15  Bacillus_amyloliquefacie 1.0000     14  
+Bacillus_amyloliquefacie 1.0000     14  Bacillus_amyloliquefacie 1.0000     14  
+Bacillus_amyloliquefacie 1.0000     15  Bacillus_amyloliquefacie 1.0000     14  
+Bacillus_amyloliquefacie 1.0000     14  Bacillus_amyloliquefacie 1.0000     15  
+Lactobacillus_plantarum| 1.0000     16  Lactobacillus_plantarum| 1.0000     16  
+Lactobacillus_plantarum| 1.0000     16  Lactobacillus_plantarum| 1.0000     16  
+Lactobacillus_plantarum| 1.0000     16  Lactobacillus_plantarum| 1.0000     16  
+Tetragenococcus_halophil 1.0000     15  Lactobacillus_sakei|262  1.0000     14  
+Corynebacterium_glutamic 1.0000     14  Corynebacterium_glutamic 1.0000     14  
+Corynebacterium_glutamic 1.0000     14  Streptococcus_anginosus| 1.0000     16  
+Bacillus_anthracis|267   1.0000     18  Paenibacillus_polymyxa|2 1.0000     14  
+Streptococcus_intermediu 1.0000     18  Streptococcus_intermediu 1.0000     16  
+Bacillus_megaterium|271  1.0000     14  Bacillus_megaterium|272  1.0000     14  
+Bacillus_licheniformis|2 1.0000     14  Bacillus_licheniformis|2 1.0000     14  
+Bacillus_licheniformis|2 1.0000     14  Streptococcus_anginosus| 1.0000     15  
+Streptococcus_anginosus| 1.0000     16  Streptococcus_anginosus| 1.0000     16  
+Streptococcus_anginosus| 1.0000     16  Bacillus_thuringiensis|2 1.0000     14  
+Bacillus_thuringiensis|2 1.0000     14  Bacillus_thuringiensis|2 1.0000     14  
+Lactobacillus_pentosus|2 1.0000     14  Streptococcus_pneumoniae 1.0000     16  
+Streptococcus_pneumoniae 1.0000     16  Streptococcus_pneumoniae 1.0000     16  
+Streptococcus_pneumoniae 1.0000     16  Streptococcus_pneumoniae 1.0000     16  
+Streptococcus_pneumoniae 1.0000     19  Streptococcus_pneumoniae 1.0000     19  
+Streptococcus_pneumoniae 1.0000     19  Streptococcus_pneumoniae 1.0000     19  
+Streptococcus_pneumoniae 1.0000     15  Streptococcus_pneumoniae 1.0000     14  
+Streptococcus_pneumoniae 1.0000     14  Streptococcus_pneumoniae 1.0000     19  
+Streptococcus_pneumoniae 1.0000     19  Streptococcus_pneumoniae 1.0000     15  
+Streptococcus_pneumoniae 1.0000     15  Streptococcus_pneumoniae 1.0000     16  
+Streptococcus_pneumoniae 1.0000     14  Streptococcus_pneumoniae 1.0000     14  
+Streptococcus_pneumoniae 1.0000     14  Streptococcus_pneumoniae 1.0000     14  
+Streptococcus_pneumoniae 1.0000     15  Streptococcus_pneumoniae 1.0000     15  
+Streptococcus_pneumoniae 1.0000     16  Streptococcus_pneumoniae 1.0000     16  
+Streptococcus_pneumoniae 1.0000     16  Streptococcus_pneumoniae 1.0000     16  
+Streptococcus_pneumoniae 1.0000     16  Streptococcus_pneumoniae 1.0000     16  
+Streptococcus_pneumoniae 1.0000     16  Streptococcus_pneumoniae 1.0000     16  
+Streptococcus_pneumoniae 1.0000     16  Streptococcus_pneumoniae 1.0000     16  
+Streptococcus_pneumoniae 1.0000     16  Streptococcus_pneumoniae 1.0000     16  
+Streptococcus_pneumoniae 1.0000     16  Streptococcus_pneumoniae 1.0000     16  
+Streptococcus_pneumoniae 1.0000     16  Streptococcus_pneumoniae 1.0000     16  
+Streptococcus_pneumoniae 1.0000     16  Streptococcus_pneumoniae 1.0000     19  
+Streptococcus_pneumoniae 1.0000     19  Streptococcus_pneumoniae 1.0000     19  
+Streptococcus_pneumoniae 1.0000     19  Streptococcus_pneumoniae 1.0000     19  
+Streptococcus_pneumoniae 1.0000     19  Streptococcus_pneumoniae 1.0000     19  
+Streptococcus_pneumoniae 1.0000     19  Streptococcus_pneumoniae 1.0000     14  
+Streptococcus_pneumoniae 1.0000     15  Streptococcus_pneumoniae 1.0000     15  
+Streptococcus_pneumoniae 1.0000     16  Streptococcus_pneumoniae 1.0000     19  
+Streptococcus_pneumoniae 1.0000     19  Lactobacillus_plantarum| 1.0000     14  
+Streptococcus_suis|339   1.0000     16  Streptococcus_suis|340   1.0000     16  
+Streptococcus_suis|341   1.0000     16  Streptococcus_suis|342   1.0000     21  
+Streptococcus_suis|343   1.0000     16  Streptococcus_suis|344   1.0000     16  
+Streptococcus_suis|345   1.0000     16  Streptococcus_suis|346   1.0000     16  
+Streptococcus_suis|347   1.0000     21  Streptococcus_suis|348   1.0000     21  
+Streptococcus_suis|349   1.0000     21  Streptococcus_suis|350   1.0000     21  
+Streptococcus_suis|351   1.0000     16  Streptococcus_suis|352   1.0000     21  
+Streptococcus_suis|353   1.0000     21  Streptococcus_suis|354   1.0000     21  
+Streptococcus_suis|355   1.0000     21  Streptococcus_suis|356   1.0000     21  
+Streptococcus_suis|357   1.0000     21  Streptococcus_suis|358   1.0000     21  
+Streptococcus_suis|359   1.0000     21  Streptococcus_suis|360   1.0000     21  
+Streptococcus_suis|361   1.0000     16  Streptococcus_suis|362   1.0000     16  
+Streptococcus_suis|363   1.0000     16  Streptococcus_suis|364   1.0000     16  
+Streptococcus_suis|365   1.0000     21  Streptococcus_suis|366   1.0000     21  
+Streptococcus_suis|367   1.0000     16  Streptococcus_suis|368   1.0000     16  
+Streptococcus_suis|369   1.0000     21  Streptococcus_suis|370   1.0000     21  
+Streptococcus_suis|371   1.0000     16  Streptococcus_suis|372   1.0000     21  
+Streptococcus_suis|373   1.0000     16  Streptococcus_suis|374   1.0000     16  
+Streptococcus_suis|375   1.0000     16  Streptococcus_suis|376   1.0000     16  
+Streptococcus_suis|377   1.0000     16  Streptococcus_suis|378   1.0000     16  
+Streptococcus_suis|379   1.0000     21  Streptococcus_suis|380   1.0000     21  
+Streptococcus_suis|381   1.0000     16  Streptococcus_suis|382   1.0000     21  
+Streptococcus_suis|383   1.0000     16  Streptococcus_suis|384   1.0000     21  
+Streptococcus_suis|385   1.0000     16  Streptococcus_suis|386   1.0000     16  
+Streptococcus_suis|387   1.0000     21  Streptococcus_suis|388   1.0000     16  
+Streptococcus_suis|389   1.0000     16  Streptococcus_suis|390   1.0000     21  
+Streptococcus_suis|391   1.0000     21  Streptococcus_suis|392   1.0000     21  
+Streptococcus_suis|393   1.0000     21  Streptococcus_suis|394   1.0000     21  
+Streptococcus_suis|395   1.0000     16  Streptococcus_suis|396   1.0000     21  
+Streptococcus_suis|397   1.0000     21  Streptococcus_suis|398   1.0000     21  
+Streptococcus_suis|399   1.0000     16  Streptococcus_suis|400   1.0000     21  
+Streptococcus_suis|401   1.0000     21  Streptococcus_suis|402   1.0000     21  
+Streptococcus_suis|403   1.0000     16  Streptococcus_suis|404   1.0000     21  
+Streptococcus_suis|405   1.0000     21  Streptococcus_suis|406   1.0000     16  
+Streptococcus_suis|407   1.0000     21  Streptococcus_suis|408   1.0000     21  
+Streptococcus_suis|409   1.0000     21  Streptococcus_suis|410   1.0000     21  
+Streptococcus_suis|411   1.0000     21  Streptococcus_suis|412   1.0000     21  
+Streptococcus_suis|413   1.0000     21  Streptococcus_suis|414   1.0000     21  
+Bacillus_subtilis|415    1.0000     16  Bacillus_subtilis|416    1.0000     14  
+Bacillus_subtilis|417    1.0000     14  Bacillus_subtilis|418    1.0000     14  
+Bacillus_subtilis|419    1.0000     14  Bacillus_subtilis|420    1.0000     14  
+Bacillus_subtilis|421    1.0000     14  Bacillus_subtilis|422    1.0000     14  
+Bacillus_subtilis|423    1.0000     14  Bacillus_subtilis|424    1.0000     14  
+Bacillus_subtilis|425    1.0000     14  Bacillus_subtilis|426    1.0000     14  
+Bacillus_subtilis|427    1.0000     14  Bacillus_subtilis|428    1.0000     14  
+Bacillus_subtilis|429    1.0000     14  Bacillus_subtilis|430    1.0000     14  
+Bacillus_subtilis|431    1.0000     14  Bacillus_subtilis|432    1.0000     14  
+Bacillus_subtilis|433    1.0000     14  Bacillus_subtilis|434    1.0000     14  
+Bacillus_subtilis|435    1.0000     14  Bacillus_subtilis|436    1.0000     14  
+Bacillus_subtilis|437    1.0000     14  Bacillus_subtilis|438    1.0000     14  
+Bacillus_subtilis|439    1.0000     14  Bacillus_subtilis|440    1.0000     14  
+Bacillus_subtilis|441    1.0000     14  Bacillus_subtilis|442    1.0000     14  
+Bacillus_subtilis|443    1.0000     14  Bacillus_subtilis|444    1.0000     14  
+Bacillus_subtilis|445    1.0000     14  Bacillus_subtilis|446    1.0000     14  
+Bacillus_subtilis|447    1.0000     14  Bacillus_subtilis|448    1.0000     14  
+Bacillus_subtilis|449    1.0000     14  Bacillus_subtilis|450    1.0000     14  
+Bacillus_subtilis|451    1.0000     14  Bacillus_subtilis|452    1.0000     14  
+Bacillus_subtilis|453    1.0000     14  Bacillus_subtilis|454    1.0000     14  
+Bacillus_subtilis|455    1.0000     14  Bacillus_subtilis|456    1.0000     14  
+Bacillus_subtilis|457    1.0000     14  Bacillus_subtilis|458    1.0000     14  
+Bacillus_subtilis|459    1.0000     14  Bacillus_subtilis|460    1.0000     14  
+Bacillus_subtilis|461    1.0000     14  Bacillus_subtilis|462    1.0000     14  
+Bacillus_subtilis|463    1.0000     14  Bacillus_subtilis|464    1.0000     14  
+Bacillus_subtilis|465    1.0000     14  Bacillus_subtilis|466    1.0000     14  
+Bacillus_subtilis|467    1.0000     14  Bacillus_subtilis|468    1.0000     14  
+Bacillus_subtilis|469    1.0000     14  Bacillus_subtilis|470    1.0000     14  
+Bacillus_subtilis|471    1.0000     14  Bacillus_subtilis|472    1.0000     14  
+Bacillus_subtilis|473    1.0000     14  Bacillus_subtilis|474    1.0000     14  
+Bacillus_subtilis|475    1.0000     14  Bacillus_subtilis|476    1.0000     14  
+Bacillus_subtilis|477    1.0000     14  Bacillus_subtilis|478    1.0000     14  
+Bacillus_subtilis|479    1.0000     14  Bacillus_subtilis|480    1.0000     14  
+Bacillus_subtilis|481    1.0000     14  Bacillus_subtilis|482    1.0000     14  
+Bacillus_subtilis|483    1.0000     14  Bacillus_subtilis|484    1.0000     14  
+Bacillus_subtilis|485    1.0000     14  Bacillus_subtilis|486    1.0000     14  
+Streptococcus_oligoferme 1.0000     14  Streptococcus_oligoferme 1.0000     14  
+Streptococcus_intermediu 1.0000     18  Bacillus_subtilis|490    1.0000     27  
+Lactobacillus_plantarum| 1.0000     14  Bacillus_subtilis|492    1.0000     15  
+Staphylococcus_aureus|49 1.0000     18  Lactobacillus_plantarum| 1.0000     14  
+Streptococcus_gordonii|4 1.0000     16  Streptococcus_gordonii|4 1.0000     16  
+Streptococcus_lutetiensi 1.0000     15  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Enterococcus_faecalis|55 1.0000     14  
+Enterococcus_faecalis|55 1.0000     14  Enterococcus_faecalis|55 1.0000     15  
+Lactobacillus_casei|553  1.0000     14  Bacillus_megaterium|554  1.0000     14  
+Bacillus_megaterium|555  1.0000     14  Bacillus_megaterium|556  1.0000     14  
+Bacillus_megaterium|557  1.0000     14  Bacillus_megaterium|558  1.0000     14  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  Clostridioides_difficile 1.0000     16  
+Clostridioides_difficile 1.0000     16  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme /home/ubuntu/Desktop/Internship/Output/Motifs/motifs.fasta -oc /home/ubuntu/Desktop/Internship/Output/MEME_experimental -maxw 16 -minw 14 
+
+model:  mod=         zoops    nmotifs=         1    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+width:  minw=           14    maxw=           16
+nsites: minsites=        2    maxsites=      567    wnsites=       0.8
+theta:  spmap=         pam    spfuzz=        120
+em:     prior=       megap    b=           49555    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=            9911    N=             567
+sample: seed=            0    hsfrac=          0
+        searchsize=   9911    norand=         no    csites=       1000
+Dirichlet mixture priors file: prior30.plib
+Letter frequencies in dataset:
+A 0.346 C 0.146 D 0 E 0 F 0 G 0.16 H 0 I 0 K 0 
+L 0 M 0 N 0 P 0 Q 0 R 0 S 0 T 0.347 V 0 
+W 0 Y 0 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.346 C 0.146 D 0.000101 E 0.000101 F 0.000101 G 0.16 H 0.000101 I 0.000101 K 0.000101 
+L 0.000101 M 0.000101 N 0.000101 P 0.000101 Q 0.000101 R 0.000101 S 0.000101 T 0.346 V 0.000101 
+W 0.000101 Y 0.000101 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF TGAAAACGTTTTCA MEME-1	width =  14  sites = 527  llr = 3741  E-value = 1.3e-701
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif TGAAAACGTTTTCA MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  21689511112316
+pos.-specific     C  ::1::17:3::18:
+probability       D  ::::::::::::::
+matrix            E  ::::::::::::::
+                  F  ::::::::::::::
+                  G  181::3181::1::
+                  H  ::::::::::::::
+                  I  ::::::::::::::
+                  K  ::::::::::::::
+                  L  ::::::::::::::
+                  M  ::::::::::::::
+                  N  ::::::::::::::
+                  P  ::::::::::::::
+                  Q  ::::::::::::::
+                  R  ::::::::::::::
+                  S  ::::::::::::::
+                  T  71211111597513
+                  V  ::::::::::::::
+                  W  ::::::::::::::
+                  Y  ::::::::::::::
+
+         bits   13.3               
+                11.9               
+                10.6               
+                 9.3               
+Relative         8.0               
+Entropy          6.6               
+(10.2 bits)      5.3               
+                 4.0               
+                 2.7               
+                 1.3  * ** ** *  * 
+                 0.0 --------------
+
+Multilevel           TGAAAACGTTTTCA
+consensus            A T  G  C AA T
+sequence                           
+                                   
+                                   
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TGAAAACGTTTTCA MEME-1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                 Site   
+-------------             ----- ---------            --------------
+Bacillus_subtilis|473         1  3.38e-08          . TGAAAGCGCTTTCT           
+Streptococcus_pneumoniae      1  9.31e-08          . AGAAAGCGTTTTCA           
+Streptococcus_suis|344        2  1.19e-07          A TGGAAGCGTTTTCA A         
+Bacillus_subtilis|435         1  1.34e-07          . TGAAAACGCTTGCA           
+Bacillus_subtilis|436         1  1.59e-07          . TGAAAGCGTTATCA           
+Bacillus_amyloliquefacie      1  1.59e-07          . TGGAAACGCTTTCA G         
+Bacillus_subtilis|424         1  1.95e-07          . TGAAAACGCTATCA           
+Lactobacillus_pentosus|2      1  1.95e-07          . TGAAAGCGATTTCA           
+Bacillus_subtilis|447         1  2.12e-07          . TGTAAGCGCTTTCT           
+Corynebacterium_glutamic      1  2.39e-07          . TGAAAACGTTTGCA           
+Bacillus_megaterium|554       1  2.71e-07          . TGAAAGCGCTAACA           
+Bacillus_megaterium|272       1  2.71e-07          . TGAAAGCGCTAACA           
+Bacillus_subtilis|430         1  2.91e-07          . AGAAAGCGTTTACA           
+Bacillus_amyloliquefacie      2  2.91e-07          A AGAAAGCGTTTACA A         
+Bacillus_subtilis|456         1  3.16e-07          . TGAAAACGTTATCA           
+Bacillus_subtilis|445         1  3.16e-07          . TGAAAGCGCTATCT           
+Streptococcus_pyogenes|1      3  3.37e-07         AA AGAAAGCGGTTTCA           
+Streptococcus_pneumoniae      2  3.62e-07          T AGAAAGCGTTTTCT T         
+Bacillus_thuringiensis|2      1  3.62e-07          . AGAAAGCGTTTTCT           
+Bacillus_megaterium|556       1  4.39e-07          . TGAAAGCGTTAACA           
+Streptococcus_suis|343        2  4.39e-07          A TGGAAGCGTTTTCT T         
+Bacillus_subtilis|470         1  4.63e-07          . TGAAAGCGTTTTCC           
+Bacillus_subtilis|440         1  4.63e-07          . AGAAAACGCTTTCT           
+Streptococcus_pyogenes|3      3  4.63e-07         TT AGAAAACGCTTTCT           
+Bacillus_subtilis|465         1  4.78e-07          . GGAAAACGCTTTCA           
+Staphylococcus_aureus|49      3  5.49e-07         TA TGTAAACGTTTACA CA        
+Bacillus_subtilis|455         1  5.84e-07          . TGAAACCGCTTCCA           
+Bacillus_subtilis|417         1  6.36e-07          . TGAAAGCGTTACCA           
+Streptococcus_suis|368        2  6.74e-07          T TGTAAACGTTTTCT T         
+Bacillus_anthracis|267        2  7.14e-07          A TGAAAACGCTGTCA TAA       
+Bacillus_amyloliquefacie      2  7.14e-07          T TGTAAGCGTTATCA           
+Streptococcus_pyogenes|5      3  7.14e-07         AA AGAAAACGTTTTCT           
+Streptococcus_intermediu      3  7.59e-07         AA TGAAAGCGTTAGCA AT        
+Streptococcus_suis|364        2  7.59e-07          A AGGAAACGCTTTCA T         
+Streptococcus_suis|339        2  7.59e-07          A AGGAAACGCTTTCA T         
+Bacillus_subtilis|471         1  8.54e-07          . AGAAAGCGGTTACA           
+Bacillus_subtilis|446         1  9.14e-07          . TTAAAGCGCTTTCA           
+Streptococcus_suis|373        2  1.07e-06          A AGAAAACGTTTGCA A         
+Bacillus_subtilis|428         1  1.13e-06          . TGAAAACGTTGTCA           
+Streptococcus_pyogenes|9      3  1.13e-06         AA TGTAAGCGCTAACA AAAT      
+Streptococcus_pyogenes|8      3  1.13e-06         AA TGTAAGCGCTAACA AAAT      
+Streptococcus_suis|388        2  1.21e-06          G TGCAAACGTTTTCT T         
+Bacillus_subtilis|458         1  1.30e-06          . TGTAAACGTTATCA           
+Bacillus_subtilis|439         1  1.30e-06          . TGAAAGCGCTTTTA           
+Bacillus_subtilis|420         1  1.40e-06          . TGAAAGCGTTGACA           
+Lactobacillus_plantarum|      1  1.50e-06          . TGTAAGCGTTTGCT           
+Bacillus_subtilis|472         1  1.50e-06          . TGTAAACGGTTACA           
+Bacillus_subtilis|448         1  1.50e-06          . TGTAAGCGTTTGCT           
+Bacillus_subtilis|444         1  1.50e-06          . TGTAAGCGTTTGCT           
+Bacillus_subtilis|431         1  1.50e-06          . TGTAAACGGTTACA           
+Bacillus_amyloliquefacie      2  1.50e-06          A TGTAAACGGTTACA           
+Lactococcus_lactis|130        1  1.50e-06          . TGAAATCGCTATCA           
+Streptococcus_suis|385        2  1.60e-06          C AGAAAACGGTTACA A         
+Streptococcus_pneumoniae      2  1.60e-06          C AGAAAACGCTTCCT A         
+Streptococcus_pneumoniae      1  1.60e-06          . TGTAAACGATTTCA           
+Paenibacillus_polymyxa|2      1  1.60e-06          . TGTAAACGTTTACT           
+Enterococcus_faecalis|55      1  1.74e-06          . TGTAAGCGTTAACA           
+Bacillus_subtilis|454         1  1.74e-06          . TGAAAGCGGTACCA           
+Bacillus_subtilis|419         1  1.74e-06          . TGTAAGCGTTAACA           
+Bacillus_amyloliquefacie      2  1.74e-06          A TGTAAGCGTTAACA           
+Streptococcus_pyogenes|2      3  1.74e-06         AC AGAAAACGATTTCA           
+Bacillus_subtilis|429         1  1.83e-06          . TGTAAACGGTTTCT           
+Streptococcus_pneumoniae      2  1.83e-06          T TGTAAACGGTTTCT A         
+Streptococcus_pyogenes|1      2  1.83e-06          T AGGAAGCGTTTTCT T         
+Bacillus_subtilis|480         1  1.94e-06          . TGTAACCGCTTTCT           
+Lactococcus_lactis|127        1  2.04e-06          . AGAAACCGCTTTCT           
+Streptococcus_pyogenes|7      2  2.04e-06          A TGTAAGCGTTATCT AA        
+Streptococcus_pyogenes|7      2  2.04e-06          A TGTAAGCGTTATCT AA        
+Streptococcus_pyogenes|3      3  2.04e-06         CT TGAAACCGCTTGCT           
+Bacillus_subtilis|432         1  2.16e-06          . TTAAAGCGCTTACA           
+Bacillus_subtilis|443         1  2.29e-06          . TGATAGCGTTTTCT           
+Bacillus_subtilis|492         2  2.41e-06          A TGAAAGCGTATACA           
+Bacillus_subtilis|484         1  2.41e-06          . TGAAAGCGTATACA           
+Streptococcus_pyogenes|3      2  2.41e-06          C TGCAAGCGGTTGCA T         
+Streptococcus_pyogenes|3      2  2.41e-06          C TGCAAGCGGTTGCA T         
+Enterococcus_faecalis|55      1  2.60e-06          . TGAAAGCGTTATCC A         
+Streptococcus_oligoferme      1  2.60e-06          . TGACAGCGCTATCA           
+Bacillus_subtilis|416         1  2.60e-06          . TGAAAGCGCTTTAT           
+Streptococcus_pneumoniae      2  2.60e-06          A TGAAACCGTTTCCT T         
+Streptococcus_pyogenes|5      2  2.60e-06          G TGAAAACGTTTTAA A         
+Streptococcus_pyogenes|5      2  2.60e-06          G TGAAAACGTTTTAA A         
+Streptococcus_pyogenes|6      2  2.60e-06          T TGAAAGCGCTTTAT T         
+Streptococcus_suis|406        2  2.76e-06          A TGATAACGCTTTCT T         
+Streptococcus_suis|361        2  2.76e-06          G AGTAAACGTTTTCT T         
+Streptococcus_pyogenes|4      3  3.10e-06         CA AGAAATCGCTTTCT           
+Bacillus_subtilis|478         1  3.27e-06          . TGAATGCGCTTTCT           
+Bacillus_subtilis|433         1  3.27e-06          . CGAAAACGCTATCA           
+Streptococcus_pyogenes|3      3  3.27e-06         AC TGATAACGCTTCCA A         
+Streptococcus_pyogenes|2      3  3.27e-06         AC TGATAACGCTTCCA A         
+Streptococcus_pyogenes|2      2  3.27e-06          A AGAAAGGGTTTTCA A         
+Streptococcus_pyogenes|2      2  3.27e-06          A AGAAAGGGTTTTCA A         
+Bacillus_subtilis|442         1  3.47e-06          . TGCAAGGGCTTTCA           
+Streptococcus_pneumoniae      2  3.47e-06          T TGACAACGGTTTCA T         
+Lactococcus_lactis|202        2  3.47e-06          T TGAAAAGGTTTACA GTTCATGATA
+Streptococcus_pyogenes|4      2  3.47e-06          A TGGAATCGCTTTCT A         
+Clostridioides_difficile      2  3.70e-06          A TGTAAACGTTATCT T         
+Bacillus_subtilis|437         1  3.70e-06          . TAAAAGCGCTTACA           
+Bacillus_subtilis|425         1  3.70e-06          . TGACACCGCTTTCA           
+Streptococcus_pneumoniae      2  3.70e-06          A CGAAAACGTTTGCA C         
+Bacillus_amyloliquefacie      2  3.70e-06          T TGACACCGCTTTCA T         
+Lactococcus_lactis|191        5  3.70e-06       TTGC TGAAAACGTTTTTA TGTGATACAA
+Lactococcus_lactis|128        1  3.70e-06          . TGAAAACGTTTTTA           
+Streptococcus_pyogenes|6      2  3.70e-06          T TGTAATCGTTTACA T         
+Bacillus_subtilis|485         1  3.96e-06          . TGAAAGCGTTTTAT           
+Bacillus_subtilis|461         1  3.96e-06          . TGAAAGCGTTTTAT           
+Bacillus_megaterium|558       1  4.19e-06          . TGATAACGTTTTCT           
+Clostridioides_difficile      2  4.19e-06          C TGATAACGTTTTCT A         
+Bacillus_amyloliquefacie      2  4.19e-06          A TGGAAGCGCTGACA T         
+Bacillus_subtilis|460         1  4.45e-06          . TGTAACCGCTTACT           
+Streptococcus_suis|362        2  4.45e-06          T TGTAATCGTTTTCT T         
+Streptococcus_pneumoniae      2  4.45e-06          G TGTAATCGTTTTCT T         
+Bacillus_subtilis|418         1  4.70e-06          . TGAAAACGCTTTAT           
+Streptococcus_suis|375        2  4.70e-06          A TTAAAACGCTTTCT T         
+Streptococcus_pyogenes|6      2  4.70e-06          G TGAAAGCGTTATCG T         
+Streptococcus_pyogenes|3      3  4.70e-06         AA TGAAAGCGTTTATA           
+Streptococcus_suis|377        2  4.91e-06          T TGCAACCGTTTTCT T         
+Streptococcus_suis|367        2  4.91e-06          G AGATAGCGCTTACA T         
+Bacillus_licheniformis|2      1  4.91e-06          . TGAAAGCGCTATAA           
+Bacillus_subtilis|468         1  5.23e-06          . AGAAAGCGCTTACG           
+Bacillus_subtilis|466         1  5.23e-06          . TGTAAGCGGTATCT           
+Bacillus_subtilis|426         1  5.23e-06          . TGTAAGCGTTTTAA           
+Streptococcus_suis|341        2  5.23e-06          T TGAAAACACTTTCT A         
+Lactococcus_lactis|116        1  5.23e-06          . TGTAAACGATTCCA           
+Bacillus_subtilis|477         1  5.53e-06          . TGAAAGCGTTTTTT           
+Bacillus_subtilis|474         1  5.53e-06          . TGAAAACGCTATCG           
+Streptococcus_suis|340        2  5.53e-06          A TGTGAGCGTTTTCA A         
+Streptococcus_pneumoniae      2  5.53e-06          T ATAAAGCGTTTTCA T         
+Streptococcus_pyogenes|5      2  5.53e-06          C TGTAAGCGATTACT T         
+Streptococcus_pyogenes|1      2  5.53e-06          T TGACACCGTTTTCA T         
+Streptococcus_pyogenes|1      2  5.53e-06          T TGACACCGTTTTCA T         
+Streptococcus_suis|383        2  5.86e-06          T CGAAAACGATTTCA A         
+Streptococcus_suis|376        2  5.86e-06          A TGAAAACCCTTTCT T         
+Streptococcus_gordonii|4      2  6.25e-06          C TTGAAGCGTTTTCA T         
+Corynebacterium_glutamic      1  6.25e-06          . TGTAATCGTTTGCA           
+Lactobacillus_plantarum|      1  6.25e-06          . TGGAAACGATTCCA AA        
+Bacillus_amyloliquefacie      2  6.25e-06          A AGAAAGCGCATACA T         
+Streptococcus_pyogenes|1      2  6.25e-06          T TGAAAACTTTTTCA A         
+Lactococcus_lactis|200        2  6.64e-06          C TGAAAACGCTTTTT TTGTGATAAA
+Lactococcus_lactis|139        1  6.64e-06          . TGAAAACGCTTTTT           
+Streptococcus_pyogenes|3      2  6.64e-06          C TAAAAGCGTTTTCT C         
+Streptococcus_oligoferme      1  6.99e-06          . TGAAAACGTTTTAT           
+Streptococcus_pneumoniae      2  6.99e-06          A AGCAAACGCTTACT T         
+Streptococcus_pneumoniae      1  6.99e-06          . TGAAATCGGTTACT T         
+Streptococcus_pyogenes|6      3  6.99e-06         GA TGCAATCGCTTGCA           
+Streptococcus_pyogenes|6      3  6.99e-06         TG GGAAAACGTTTCCT           
+Streptococcus_pyogenes|5      2  6.99e-06          A AGTAAGCGTTTTCC T         
+Bacillus_subtilis|481         1  7.37e-06          . TTGAAACGCTTTCA           
+Streptococcus_pneumoniae      2  7.37e-06          G AGAAAGGGTTTACA T         
+Lactococcus_lactis|165        1  7.37e-06          . TGAAAGTGCTTGCA           
+Streptococcus_pyogenes|2      2  7.37e-06          A AGAAAGGGTTTACA T         
+Bacillus_subtilis|486         1  7.78e-06          . TGAAAGCGCTCGCT           
+Bacillus_subtilis|464         1  7.78e-06          . TAAAAACGCTTTCT           
+Streptococcus_suis|386        2  7.78e-06          T TGAAACCACTTTCA A         
+Streptococcus_pyogenes|6      2  7.78e-06          G TGATAGCGCTATCT T         
+Streptococcus_pyogenes|6      2  7.78e-06          G TGATAGCGCTATCT T         
+Clostridioides_difficile      2  8.20e-06          A TGAAAAAGTTTTCT T         
+Bacillus_megaterium|271       1  8.20e-06          . TGAAAGCGCAAACA           
+Lactococcus_lactis|147        1  8.20e-06          . TGAAAGCGCAAACA           
+Streptococcus_pyogenes|6      3  8.20e-06         TG CGCAAGCGCTTGCA           
+Bacillus_subtilis|462         1  8.67e-06          . TGGAAGCGTTTTTA           
+Bacillus_subtilis|427         1  8.67e-06          . TGAAAGCGTTTAAT           
+Bacillus_subtilis|421         1  8.67e-06          . TGTAAGCGTATACA           
+Lactococcus_lactis|173        1  8.67e-06          . AGAAAGGGTTTTCT           
+Clostridioides_difficile      2  9.22e-06          G GGAAAACGTTAACA A         
+Bacillus_subtilis|476         1  9.22e-06          . TGTAAGCGCTTTAT           
+Bacillus_subtilis|450         1  9.22e-06          . TGAAAACGGTGCCA           
+Lactococcus_lactis|163        1  9.22e-06          . TGTAATCGGTTACA           
+Lactococcus_lactis|103        1  9.22e-06          . AGTAACCGTTTACA           
+Clostridium_acetobutylic      2  9.22e-06          A TGTAAACGGTATCT GTAATAAAGT
+Streptococcus_pyogenes|4      3  9.22e-06         TG AGTAATCGCTTACA           
+Streptococcus_pyogenes|4      3  9.22e-06         TG AGTAATCGCTTACA           
+Clostridioides_difficile      2  9.80e-06          T AGAAAACGTTTTAA A         
+Bacillus_subtilis|463         1  9.80e-06          . TGAAAACGTTTTTT           
+Bacillus_subtilis|422         1  9.80e-06          . TGTAAGCGGATTCA           
+Streptococcus_pneumoniae      2  9.80e-06          A AGAAAGCGCTTTAT T         
+Streptococcus_pneumoniae      2  9.80e-06          T ATAAAACGTTTTCA A         
+Streptococcus_pneumoniae      1  9.80e-06          . TGTAATCGATTTCA           
+Bacillus_amyloliquefacie      2  9.80e-06          A TGTAAGCGGATTCA T         
+Clostridioides_difficile      2  1.03e-05          A AGAAAAGGCTTTCT A         
+Lactobacillus_plantarum|      1  1.03e-05          . TGTAAGGGCTATCA           
+Bacillus_subtilis|423         1  1.03e-05          . TGAATGCGGTTACA           
+Streptococcus_suis|395        2  1.03e-05          A TAGAAGCGTTTTCA T         
+Streptococcus_suis|345        2  1.03e-05          A TGTAAACATTTTCA A         
+Lactobacillus_plantarum|      1  1.03e-05          . TGTAAGGGCTATCA           
+Clostridioides_difficile      2  1.09e-05          A AGAAAACATTTTCA T         
+Bacillus_subtilis|479         1  1.09e-05          . TGAAAACGGATACA           
+Bacillus_subtilis|453         1  1.09e-05          . TGAAAGTGTTTGCA           
+Streptococcus_suis|374        2  1.09e-05          A TAAAAACGCTTGCA A         
+Streptococcus_pneumoniae      2  1.09e-05          T TAAAAACGCTTGCA A         
+Streptococcus_pneumoniae      2  1.09e-05          A AGTAATCGCTTTCT T         
+Streptococcus_pneumoniae      2  1.09e-05          T TAAAAACGCTTGCA A         
+Clostridioides_difficile      2  1.15e-05          A AGAAAAAGTTTTCA T         
+Bacillus_subtilis|475         1  1.15e-05          . TGAAAATGTTTACA           
+Bacillus_subtilis|441         1  1.15e-05          . TGAAAGCGGTTCAA           
+Lactococcus_lactis|113        1  1.15e-05          . TGTAAACCTTTTCA           
+Streptococcus_pneumoniae      1  1.20e-05          . GGCAAACGCTTGCA           
+Streptococcus_pneumoniae      1  1.20e-05          . GGCAAACGCTTGCA           
+Lactococcus_lactis|188        3  1.20e-05         TA TGAAAACCTTTGCA AAAGTGCTAA
+Lactococcus_lactis|133        1  1.20e-05          . ATAAAGCGTTTACA           
+Lactococcus_lactis|125        1  1.20e-05          . TGAAAACCTTTGCA           
+Lactococcus_lactis|189       15  1.27e-05 ATTATGAAAA TGAAAACGTTATAA T         
+Lactococcus_lactis|126        1  1.27e-05          . TGAAAACGTTATAA           
+Lactococcus_lactis|104        1  1.27e-05          . AGAAATCGCTAACA           
+Clostridioides_difficile      2  1.34e-05          A AGAAAGCGTTTTGA A         
+Lactococcus_lactis|115        1  1.34e-05          . TGAAAACTTTTACA           
+Streptococcus_pyogenes|3      3  1.34e-05         AT CGTAATCGCTTTCA           
+Lactococcus_lactis|167        1  1.41e-05          . AGAAAGCGTTTTAT           
+Lactococcus_lactis|112        1  1.41e-05          . AGTAAGCGTATTCA           
+Streptococcus_pyogenes|2      2  1.41e-05          A TGGAAGCTTTTTCA G         
+Streptococcus_pyogenes|2      2  1.41e-05          A TGGAAGCTTTTTCA G         
+Streptococcus_pyogenes|1      2  1.41e-05          G TGCAAGCGCTTTGA T         
+Bacillus_subtilis|490         8  1.49e-05    AGTAAAA TGTAAGCATTTTCT TTTTGG    
+Bacillus_subtilis|449         1  1.49e-05          . TGTAAGCATTTTCT           
+Streptococcus_pneumoniae      2  1.49e-05          A TGAAATCGGTATCT T         
+Streptococcus_pneumoniae      1  1.49e-05          . TTAAATCGTTTTCA           
+Lactococcus_lactis|161        1  1.49e-05          . AGAATGCGTTTACA           
+Streptococcus_suis|351        2  1.57e-05          T TGAAAACTTTTTCT A         
+Bacillus_thuringiensis|2      1  1.57e-05          . TGTAAACGCTTTAT           
+Lactococcus_lactis|124        1  1.57e-05          . TGTAAAAGCTTACA           
+Streptococcus_pyogenes|5      2  1.57e-05          C TGCAATCGTTTACT T         
+Streptococcus_pyogenes|4      2  1.57e-05          C TGCAATCGTTTACT T         
+Bacillus_subtilis|483         1  1.66e-05          . TGAAAGCGTAACCA           
+Bacillus_subtilis|452         1  1.66e-05          . TGAAAACGGTTTAT           
+Streptococcus_suis|371        2  1.66e-05          T TGTAAGCCTTTTCT T         
+Streptococcus_pneumoniae      2  1.66e-05          A TGAAATCGCATACA A         
+Lactococcus_lactis|136        1  1.66e-05          . AGTTAGCGCTTACA           
+Clostridioides_difficile      2  1.74e-05          G AGAAAAGGTTTCCA A         
+Streptococcus_pneumoniae      3  1.74e-05         AG TGTAAACGATAACA GGA       
+Lactobacillus_plantarum|      2  1.74e-05          G TGTAAGCGGTTTTA T         
+Lactobacillus_plantarum|      1  1.74e-05          . TGTAATCGTTAACA AA        
+Lactococcus_lactis|218       15  1.74e-05 CATCTATAAA AGAAAGCGCTATAA T         
+Lactococcus_lactis|174        1  1.74e-05          . AGAAAGCGCTATAA           
+Lactococcus_lactis|145        1  1.84e-05          . TGATATCGCTTCCA           
+Lactococcus_lactis|143        1  1.84e-05          . AGAAAATGTTTTCA           
+Clostridioides_difficile      2  1.93e-05          G AGTTAACGTTTTCA A         
+Streptococcus_pyogenes|7      3  1.93e-05         CA TGAAAACGCCTCCA           
+Lactobacillus_casei|553       1  2.03e-05          . ATAAAACGTTTACA           
+Clostridioides_difficile      2  2.03e-05          C AGAAAAGGTTTGCA A         
+Streptococcus_gordonii|4      2  2.03e-05          A TGGAAATGTTTTCA A         
+Streptococcus_pneumoniae      2  2.03e-05          A TGAAAGCGCAAACT T         
+Streptococcus_pyogenes|1      3  2.03e-05         AA ATAAAGCGCTTACT           
+Enterococcus_faecalis|55      1  2.14e-05          . TGTAAACGGTGACA           
+Streptococcus_lutetiensi      1  2.14e-05          . TGAAAGCGATTTAT C         
+Streptococcus_suis|363        2  2.14e-05          T ATTAAACGCTTTCA T         
+Streptococcus_pyogenes|7      3  2.14e-05         AC AGATAACGCTTACT           
+Streptococcus_pneumoniae      3  2.25e-05         AA TGAAAGGGGTAACA AAT       
+Lactococcus_lactis|199        2  2.25e-05          T TGGAAACCCTTTCT TAAACCAAAG
+Lactococcus_lactis|171        1  2.25e-05          . GGCAAACGTTATCA           
+Streptococcus_pyogenes|5      2  2.25e-05          C TTGAAGCGCTTACT T         
+Streptococcus_pyogenes|5      2  2.25e-05          C TTGAAGCGCTTACT T         
+Clostridioides_difficile      2  2.36e-05          T ATAAAACGTTTTCT T         
+Streptococcus_suis|378        2  2.36e-05          T TGCAAGCATTTTCT A         
+Bacillus_subtilis|469         1  2.47e-05          . TGAAAACGTGTCCA           
+Bacillus_amyloliquefacie      2  2.47e-05          A TGAATACGTTTCCT           
+Lactococcus_lactis|156        1  2.47e-05          . TGAAATCGTTCACA           
+Streptococcus_pyogenes|5      3  2.47e-05         AA AGAAAACACTTGCA           
+Clostridioides_difficile      2  2.60e-05          T AGAAAAGGTTATCA T         
+Bacillus_subtilis|467         1  2.60e-05          . TGAAAACGCGATCA           
+Bacillus_subtilis|434         1  2.60e-05          . TGAAAGCGCAGTCT           
+Streptococcus_pneumoniae      2  2.60e-05          T GGAAAAGGCTTTCT T         
+Bacillus_megaterium|557       1  2.73e-05          . TGATAAGGTTTTCA           
+Bacillus_subtilis|459         1  2.73e-05          . TGAAAGCGTTTTAG           
+Streptococcus_pneumoniae      3  2.73e-05         TA TGTAACCGGTAACA CAT       
+Lactococcus_lactis|108        1  2.73e-05          . TGACAGAGTTTTCA           
+Streptococcus_pyogenes|6      2  2.87e-05          A TAAAAGCGTTATCT C         
+Bacillus_subtilis|482         1  3.03e-05          . TGTAAGCGGTTTAT           
+Bacillus_subtilis|438         1  3.03e-05          . TGGAAGCGCAAACA           
+Lactococcus_lactis|214        2  3.03e-05          T TGATAACGCTGACA AATTTTCTGC
+Lactococcus_lactis|166        1  3.03e-05          . TGATAACGCTGACA           
+Streptococcus_pyogenes|5      2  3.03e-05          G AGAAAAGGATTTCA T         
+Streptococcus_pyogenes|2      2  3.03e-05          T TGTAAGCGCTACCG A         
+Streptococcus_pyogenes|2      3  3.03e-05         GA AGATAACGATTTCA           
+Streptococcus_suis|381        2  3.18e-05          G CGTAACCGTTTTCT T         
+Lactobacillus_plantarum|      2  3.18e-05          G TGGAATCGATTCCA A         
+Clostridioides_difficile      2  3.34e-05          T TGAAAACGTTTAGT G         
+Streptococcus_anginosus|      2  3.34e-05          C GGAAAGCGCTTTTT T         
+Lactobacillus_plantarum|      2  3.34e-05          T GTAAAGCGCTTGCA T         
+Lactococcus_lactis|129        1  3.34e-05          . ATAAACCGTTTTCA           
+Lactococcus_lactis|150        1  3.51e-05          . TGAAAGCGTTAAGA           
+Streptococcus_pyogenes|4      2  3.51e-05          C AGAAAACTCTTTCT T         
+Streptococcus_pyogenes|5      3  3.51e-05         AA CGAAAACCTTTTCA           
+Streptococcus_pyogenes|4      3  3.51e-05         AA CGAAAACCTTTTCA           
+Clostridioides_difficile      2  3.67e-05          G AGAAAATGTTTACA A         
+Clostridioides_difficile      2  3.67e-05          G AGAAAATGTTTACA A         
+Clostridioides_difficile      2  3.67e-05          G AGAAAATGTTTACA G         
+Bacillus_subtilis|457         1  3.84e-05          . TGAAAACGCTTAAC           
+Streptococcus_pneumoniae      2  3.84e-05          A TGAAACTGTTTACA A         
+Streptococcus_anginosus|      2  3.84e-05          G CGAAAGCGCTTTTT T         
+Lactococcus_lactis|153        1  3.84e-05          . TGAAAACTCTAACA           
+Streptococcus_pyogenes|6      3  3.84e-05         AG AGAAACCGGTACCA           
+Lactococcus_lactis|140        1  4.02e-05          . AATAAGCGCTTACA           
+Lactococcus_lactis|118        1  4.02e-05          . TGTAAGCGCAAGCA           
+Lactococcus_lactis|164        1  4.22e-05          . TGAAAGCACTGCCA           
+Clostridium_acetobutylic     20  4.22e-05 ACAGACTTCA AGAAAACTTTTACA           
+Streptococcus_pyogenes|7      3  4.42e-05         AA AGAAAGCCCTTTCC           
+Streptococcus_pyogenes|3      3  4.66e-05         TA AGATACCGCTTGCA           
+Streptococcus_pyogenes|3      3  4.66e-05         TA AGATACCGCTTGCA           
+Lactococcus_lactis|132        1  4.86e-05          . TGAAACAGTTATCA           
+Streptococcus_pneumoniae      3  5.09e-05         GA TGAAAATGGTATCA TCT       
+Streptococcus_pneumoniae      3  5.09e-05         GA TGAAAATGGTATCA TCT       
+Bacillus_amyloliquefacie      2  5.09e-05          T TGCAAACGGATACA           
+Lactococcus_lactis|107        1  5.09e-05          . TGAAAGAGCATACA           
+Clostridioides_difficile      2  5.34e-05          A AGAAAACGTTATTA C         
+Streptococcus_suis|403        2  5.34e-05          G AGAGAACGGTTTCT A         
+Streptococcus_suis|389        2  5.34e-05          A AGATAACGTTTTCC A         
+Clostridioides_difficile      2  5.58e-05          T AGAAAATGTTTGCA G         
+Streptococcus_pneumoniae      2  5.58e-05          T ATTAAACGCTTCCA A         
+Clostridioides_difficile      2  5.85e-05          G GGAAAACGATACCA A         
+Tetragenococcus_halophil      1  5.85e-05          . TGAAAACGCTTGAC A         
+Bacillus_amyloliquefacie      1  5.85e-05          . TTGAAGCGGTATCA T         
+Clostridioides_difficile      2  6.12e-05          G GGAAAACATTTTCT T         
+Clostridioides_difficile      2  6.12e-05          A GGATAACGTTATCA T         
+Clostridioides_difficile      2  6.12e-05          G GGAAAACATTTTCT T         
+Streptococcus_pneumoniae      2  6.12e-05          A CAAAAACGCTTACA T         
+Lactococcus_lactis|131        1  6.12e-05          . AGTAATCGTTATCT           
+Lactococcus_lactis|141        1  6.41e-05          . TGAAAAAGGTAACA           
+Lactococcus_lactis|134        1  6.41e-05          . TGAAAAAGGTAACA           
+Lactococcus_lactis|111        1  6.41e-05          . ATAAAGCGATTTCT           
+Clostridioides_difficile      2  6.71e-05          G AGAAAAGGATTTCT A         
+Bacillus_amyloliquefacie      1  6.71e-05          . TTGAACCGCTTCCA           
+Bacillus_amyloliquefacie      1  7.02e-05          . TTGAAGCGTTACCA           
+Lactococcus_lactis|105        1  7.02e-05          . TGTAACAGTTTACA           
+Streptococcus_pyogenes|4      3  7.02e-05         CA TGATAACCCTTACA           
+Streptococcus_pyogenes|4      3  7.02e-05         CA TGATAACCCTTACA           
+Lactococcus_lactis|162        1  7.35e-05          . TGTCAGCATTTTCA           
+Lactococcus_lactis|146        1  7.35e-05          . GGTAATCGTTTACT           
+Clostridioides_difficile      2  7.68e-05          T TGAAAAAGATTACT A         
+Streptococcus_pneumoniae      3  7.68e-05         AT CGAAAACGATAGCA TCA       
+Streptococcus_suis|346        2  8.04e-05          A TTGAACCGTTTTCT T         
+Lactococcus_lactis|154        1  8.40e-05          . TAAATACGCTTTCA           
+Streptococcus_pneumoniae      1  8.80e-05          . TGTCAAAGCTTTCA T         
+Streptococcus_pneumoniae      1  8.80e-05          . TGTCAAAGCTTTCA T         
+Lactococcus_lactis|144        1  8.80e-05          . TGCAAGCGATTTGA           
+Clostridioides_difficile      2  1.01e-04          A TGATAACATTTTCT T         
+Clostridioides_difficile      2  1.05e-04          A AGAAAACCTTATCT A         
+Streptococcus_pyogenes|1      3  1.15e-04         TT TGGGAACGATTTCT CAAG      
+Lactococcus_lactis|121        1  1.20e-04          . TGAAAGTGATAACA           
+Lactococcus_lactis|120        1  1.20e-04          . TGTAATGGATTTCA           
+Clostridium_acetobutylic      2  1.20e-04          A TGTAAACGGTTATT TTTACAT   
+Streptococcus_pyogenes|1      2  1.25e-04          G AGAAAACGTTTTAG T         
+Lactococcus_lactis|172        1  1.31e-04          . TGTATGCGTTTTAA           
+Streptococcus_pneumoniae      3  1.37e-04         TT TGTAAGCTATTCCA AAC       
+Lactococcus_lactis|148        1  1.37e-04          . AAAAAGCGTATTCA           
+Bacillus_amyloliquefacie      1  1.43e-04          . TTGAAGCGGTACCA T         
+Lactococcus_lactis|160        1  1.43e-04          . TTTAAACGTTTACC           
+Lactococcus_lactis|157        1  1.43e-04          . TGTAAGCGTTGATA           
+Streptococcus_pneumoniae      3  1.49e-04         TA TGAAAAAGCAATCA CTC       
+Streptococcus_pneumoniae      3  1.49e-04         TA TGAAAAAGCAATCA CTC       
+Lactococcus_lactis|205        2  1.55e-04          T TGTAAAGGCTTAAA AAAAGGGTTA
+Lactococcus_lactis|169        1  1.55e-04          . AGAAAGCGGACTCA           
+Lactococcus_lactis|168        1  1.55e-04          . TGCGAACGCATTCA           
+Lactococcus_lactis|152        1  1.55e-04          . TTAAAGCGGTTAAA           
+Lactococcus_lactis|151        1  1.55e-04          . TGTAAAGGCTTAAA           
+Clostridioides_difficile      2  1.69e-04          T AGATAAGGTTTTCT T         
+Streptococcus_pneumoniae      2  1.69e-04          A TATAATCGCTATCA A         
+Lactococcus_lactis|158        1  1.69e-04          . TTTAAGCGTTCACA           
+Streptococcus_pneumoniae      2  1.77e-04          A AGAATGCGTTTTTA T         
+Lactococcus_lactis|117        1  1.77e-04          . TGAAATCATTAGCA           
+Lactococcus_lactis|109        1  1.77e-04          . TTAAAACGTTTGAA           
+Clostridioides_difficile      2  1.85e-04          A AGATAACGATTGCT T         
+Clostridioides_difficile      2  1.85e-04          A AGATAACGATTGCT T         
+Streptococcus_pneumoniae      3  1.85e-04         TT TGTATTCGTTATCA TTA       
+Lactococcus_lactis|192       10  1.85e-04  TTGACAAAA AGCAAACGGTTGCG TAAAAT    
+Streptococcus_pneumoniae      1  1.92e-04          . TGCAACCGATTTAA A         
+Bacillus_amyloliquefacie      1  1.92e-04          . TTGAAGCGCTTTAT T         
+Lactococcus_lactis|110        1  1.92e-04          . ATAAAACGCATACA           
+Lactococcus_lactis|142        1  2.01e-04          . TGTAAGTATTTTCA           
+Streptococcus_pneumoniae      3  2.28e-04         AT TGAAAATGATGTCA ACT       
+Streptococcus_pneumoniae      1  2.28e-04          . TTAAACTGCTTTCA           
+Lactococcus_lactis|135        1  2.37e-04          . TGAAAGCGAATAAA           
+Lactococcus_lactis|119        1  2.37e-04          . TGTGAACGCTTAAA           
+Lactococcus_lactis|114        1  2.37e-04          . TGTAAGAGATATCT           
+Streptococcus_pyogenes|3      2  2.37e-04          A TGGTGGCGTTTTCT T         
+Clostridioides_difficile      2  2.47e-04          T GGAAATAGTTTTCT T         
+Streptococcus_pyogenes|4      3  2.47e-04         AT CGTAAGCGCCTCCA           
+Clostridioides_difficile      2  2.58e-04          G AGAAAAGGTATGCA A         
+Bacillus_amyloliquefacie      1  2.58e-04          . TTGAAGCGTTTTAT TA        
+Lactococcus_lactis|159        1  2.80e-04          . TGATATCGATAACA           
+Lactococcus_lactis|122        1  2.80e-04          . TGCACACGTTATCT           
+Streptococcus_pneumoniae      3  2.92e-04         AA TGTTTGCGTTATCA TTT       
+Clostridioides_difficile      2  3.04e-04          A AGAAATCGTTTCTT T         
+Lactococcus_lactis|170        1  3.04e-04          . TAGAAGCGATAACA           
+Bacillus_amyloliquefacie      1  3.30e-04          . ATGAAGCGTTGACA           
+Clostridioides_difficile      2  3.43e-04          A GTAAAACGGTTTCC T         
+Lactococcus_lactis|186       14  3.87e-04 ACAGTCTTAT TGGTAGCGGTTATA AT        
+Lactococcus_lactis|123        1  3.87e-04          . TGGTAGCGGTTATA           
+Streptococcus_pneumoniae      1  4.19e-04          . TGAAATCGAAACCA T         
+Lactococcus_lactis|155        1  4.19e-04          . TGAATACGAATACA           
+Bacillus_amyloliquefacie      1  4.36e-04          . TTGAAGCGCAAACA           
+Bacillus_amyloliquefacie      1  4.36e-04          . TTGAAACGTTTATA           
+Lactococcus_lactis|138        1  4.53e-04          . TGCCATCGTATTCA           
+Clostridioides_difficile      2  4.71e-04          G AGAAAAGGTTTTGT T         
+Clostridioides_difficile      2  4.71e-04          G AGAAAAGGTTTTGT T         
+Clostridioides_difficile      2  4.90e-04          A GAAAAACGTTAACT T         
+Streptococcus_anginosus|      2  4.90e-04          A AGAACGCGCTTTTT A         
+Bacillus_amyloliquefacie      1  5.09e-04          . ATGAAGCGGATTCA           
+Lactococcus_lactis|149        1  5.09e-04          . TTAATACGATTACA           
+Clostridium_acetobutylic      9  5.29e-04   TGTAAAAA TATAAGCTTTTACA           
+Streptococcus_pneumoniae      3  5.50e-04         AT TGACAACACTGCCA AAA       
+Bacillus_amyloliquefacie      1  5.50e-04          . TTGAACCGCATACA C         
+Clostridioides_difficile      2  5.72e-04          A AGAAAACGATTTTG T         
+Clostridioides_difficile      2  5.72e-04          A AGAAAACGATTTTG T         
+Bacillus_amyloliquefacie      2  5.72e-04          A TGAATACGTTACAA           
+Lactococcus_lactis|137        1  5.72e-04          . TATCAGCGTTAACA           
+Clostridioides_difficile      2  5.94e-04          A GGAAAACGTATTAT A         
+Clostridium_acetobutylic      1  6.41e-04          . TGTAAACGTTCCAT TTACA     
+Lactococcus_lactis|106        1  7.18e-04          . AGTAACCGGTATTA           
+Streptococcus_pneumoniae      1  7.45e-04          . TGTTATCTTTTTCA A         
+Streptococcus_pneumoniae      1  7.45e-04          . TGTTATCTTTTTCA A         
+Clostridium_acetobutylic      9  7.45e-04   AATGTAAA TGTACACCTTTACA TT        
+Clostridioides_difficile      2  8.32e-04          A AATAAAGGTTTTCT T         
+Clostridioides_difficile      2  8.32e-04          A AATAAAGGTTTTCT T         
+Clostridioides_difficile      2  8.64e-04          A AGAAAACGTTAAGC A         
+Clostridium_acetobutylic     17  8.64e-04 CTAAATGTAA ATTATACGTTTACA TTTAGCAGTT
+Streptococcus_pyogenes|1      3  8.96e-04         GA AGATATCGCTTCTA           
+Streptococcus_pyogenes|6      2  9.65e-04          T TTAAAGCTTTTTAA           
+Clostridioides_difficile      2  1.00e-03          A GGAAAACGTTATGC T         
+Clostridioides_difficile      2  1.00e-03          A GGAAAACGTTATGC T         
+Streptococcus_pneumoniae      3  1.04e-03         AA TGGAAAAGAATACA CTC       
+Bacillus_licheniformis|2      1  1.04e-03          . AGACACCGCTTGGA           
+Streptococcus_pyogenes|2      3  1.11e-03         TA TTATATCGATTTCT           
+Streptococcus_pyogenes|1      3  1.11e-03         TA TTATATCGATTTCT           
+Clostridioides_difficile      2  1.20e-03          A GGAGAACATTATCA A         
+Streptococcus_pyogenes|4      2  1.20e-03          G TAAAATCTTTTTCT G         
+Clostridioides_difficile      2  1.24e-03          A GGAAATAGTTAACT T         
+Streptococcus_suis|399        2  1.24e-03          A AGGAAAATCTTACA C         
+Clostridium_acetobutylic      8  1.24e-03    AATGTAA AGAAATAATTTACA TT        
+Streptococcus_suis|398        6  1.33e-03      CTTTT TCAATAAGTTTTCA TC        
+Streptococcus_intermediu      3  1.33e-03         AA TGAAAGAATTCGCA AT        
+Streptococcus_pneumoniae      3  1.43e-03         CA TGAAAAAGAAACCA ATT       
+Streptococcus_pneumoniae      3  1.48e-03         AT TGTTACCGATCACA TTC       
+Bacillus_amyloliquefacie      1  1.59e-03          . TTGAAGCGTTAATT T         
+Clostridium_acetobutylic      1  1.59e-03          . TGTAAAGGGTATTT TTTTACA   
+Bacillus_amyloliquefacie      2  1.89e-03          A TGAAGCGATTTTCA T         
+Streptococcus_pyogenes|2      2  2.39e-03          G TGAAGGGTTTATCA T         
+Lactococcus_lactis|178       14  2.47e-03 AAAATCTAAA TGAATCGGCTTATA AT        
+Streptococcus_suis|350        6  2.73e-03      TTATT TCAAAGATTTTCCA AT        
+Clostridium_acetobutylic      4  2.73e-03        TAT TGTAAACCTTGTTT TGTTTTGCAG
+Clostridioides_difficile      2  2.91e-03          G AGAAAAAATATACA A         
+Clostridium_acetobutylic      1  2.91e-03          . TGTAAAAGTTGCTA TTTACA    
+Streptococcus_suis|407        7  3.01e-03     CATTTT CCTAACCATTTTCA C         
+Lactococcus_lactis|210       15  3.42e-03 CAAAACGAGG TGAAAAGTGTTATA AT        
+Streptococcus_suis|349        6  3.65e-03      CTTTT TCAAATCCTTTCCC TT        
+Clostridioides_difficile      2  3.89e-03          T CAAAAAGATTTTCA T         
+Clostridioides_difficile      2  4.02e-03          G AGAAAAAGACATCA T         
+Streptococcus_suis|387        8  4.02e-03    TCTTTTC TGAAAATATTTTGT           
+Bacillus_amyloliquefacie      2  4.02e-03          A TGAATACGTAACAA           
+Streptococcus_suis|392        6  4.42e-03      CTTTT TCATAACTTTTCCT CC        
+Streptococcus_suis|384        6  5.00e-03      GCTTT TCAATTTGTTTTCA GT        
+Clostridioides_difficile      2  5.31e-03          G AGAAAAAATTATAA A         
+Clostridium_acetobutylic     21  5.65e-03 TTATTATTTT TGCAAAAAGTTTTA CAA       
+Lactococcus_lactis|208        2  5.82e-03          T TGTCAAAGATTAAA AATTATCGTA
+Lactococcus_lactis|177       15  5.82e-03 CAAATTGCTC TAAAAAGGATATAA T         
+Clostridium_acetobutylic      1  5.82e-03          . TGTAAAAGATGTAT TTACA     
+Clostridium_acetobutylic      1  5.82e-03          . TGTAAATATTTTTT TTACA     
+Lactococcus_lactis|180       13  6.37e-03 GCCAAATCTT TAAAAGGATTGGCA ATAT      
+Clostridium_acetobutylic     37  6.37e-03 AGGTAGTTGA ATTGAGTGTTTACA           
+Clostridioides_difficile      1  7.18e-03          . AGGAAATGGTATTT GT        
+Clostridioides_difficile      1  7.18e-03          . AGGAAATGGTATTT GT        
+Clostridioides_difficile      2  7.40e-03          G AAAAAATGTTTTTT T         
+Streptococcus_suis|409        8  7.40e-03    GATTTTC AGAAAGATGTTCAA           
+Lactococcus_lactis|184       14  8.31e-03 AAAGAAAATT TGAAAAAGACTAAA TT        
+Bacillus_megaterium|555       1  8.56e-03          . GTAAAACGATGAAA           
+Streptococcus_suis|404        5  8.56e-03       TTTT TTCAATGATTTTCT GAT       
+Lactococcus_lactis|209       15  8.56e-03 TTTTTTATTA AAAAAATGTTATAA T         
+Lactococcus_lactis|212       16  9.33e-03 ACTTTTGGAA TTTAAATGCTACAA T         
+Clostridium_acetobutylic      1  1.10e-02          . TGTAAAATCTAATA AAAACAAGCT
+Clostridium_acetobutylic      3  1.10e-02         TG TAAATAGATTTACA           
+Streptococcus_suis|411        6  1.14e-02      TCTTT TCAAAATTATTTCT CT        
+Streptococcus_suis|408        6  1.20e-02      ATTTT TCAAGCCTATTTCA GT        
+Clostridium_acetobutylic     22  1.27e-02 GCTATGCAAT TAAACGGATTTACA T         
+Bacillus_subtilis|415         2  1.38e-02          G AAGGAACGATGACA A         
+Clostridium_acetobutylic      1  1.38e-02          . TGTAAAGGATGTTG GAAATAGAGT
+Streptococcus_suis|370        5  1.41e-02       TATT CTCAAGCATTTTTT CAA       
+Streptococcus_suis|359        7  1.41e-02     TGTTTT CCGAAATATTTTCA T         
+Bacillus_amyloliquefacie      2  1.49e-02          A TGTAAAGCGTTTGC           
+Clostridium_acetobutylic      7  1.53e-02     TGTAAA ATTTATTGTTTACA           
+Streptococcus_suis|353        6  1.57e-02      ATTTT TCAGAAAATTTCCA TT        
+Clostridium_acetobutylic      5  1.62e-02       ATGT AAAAATATTTTACA T         
+Clostridioides_difficile      1  1.66e-02          . TGTAAAAAGTTTAG TT        
+Clostridioides_difficile      1  1.66e-02          . TGTAAAAAGTTTAG TT        
+Streptococcus_suis|413        5  1.66e-02       GTTT TTCCAACAATTTCC GGA       
+Lactococcus_lactis|201       13  1.66e-02 GTTAAAAAGC CGAAAAAGTGATAA AAT       
+Lactococcus_lactis|193        4  1.84e-02        TAT CAAAAACAATTAAA AAATGGTAAA
+Lactococcus_lactis|176        2  1.84e-02          A TGCAATCTTAATAA AAATATTGAT
+Streptococcus_suis|355        5  1.89e-02       TTTT TTCATAAATTTTCA GTT       
+Streptococcus_intermediu      3  1.89e-02         AA TGAAAGCATGCAAT           
+Clostridioides_difficile      2  1.99e-02          A AGATAAAATTTTTT T         
+Lactobacillus_plantarum|      2  2.26e-02          T GTCAAACGATTGAC A         
+Clostridium_acetobutylic     21  2.32e-02 AATTTGTGGA ATAAGGTATTTACA T         
+Streptococcus_suis|347        6  2.38e-02      GGTTT TCACAAAAATTTCT GT        
+Streptococcus_suis|380        5  2.57e-02       CATT TTCATAACCTTTCT GTA       
+Streptococcus_suis|366        6  2.57e-02      CTCTT TCAAGCTATTTTCA AC        
+Lactococcus_lactis|179        2  2.57e-02          A TGAAATCAACTCTA AAGTATGATA
+Clostridium_acetobutylic      1  2.57e-02          . TGTAAATGTAGATT TTACA     
+Lactococcus_lactis|183        4  2.63e-02        TTG ACAAAAAATATGCA TAGATGTATA
+Streptococcus_suis|358        6  2.69e-02      TCTTT TCATAAAAATTCCA AT        
+Streptococcus_suis|390        5  2.76e-02       TTTT TTCCAAATTTTTCT CAC       
+Clostridioides_difficile      2  3.04e-02          A GGAAATAGATAAGT T         
+Lactococcus_lactis|215       14  3.04e-02 ACTTAAGTTA GAAAATAGGTTATA AA        
+Streptococcus_suis|401        6  3.12e-02      TTTTT TCAATAATTTTACT GT        
+Streptococcus_suis|394        8  3.12e-02    CCTTTTC TGACATTTTTCTCT           
+Bacillus_amyloliquefacie      1  3.19e-02          . TTGAACGCTTTTAT           
+Lactococcus_lactis|198       11  3.27e-02 TTTAAGTTAG GGAAAAAAATTGTT AGAAT     
+Lactococcus_lactis|175        2  3.43e-02          T TGACATCTTTCTGT TATCATACTA
+Bacillus_amyloliquefacie      1  3.94e-02          . TTGAACGCTTTCTA           
+Streptococcus_suis|414        7  4.22e-02     TTTTTT CAAGAAAATTTACA A         
+Clostridium_acetobutylic      6  4.22e-02      TGTAA AGGAAATGATAGAG GGCCATATTT
+Clostridium_acetobutylic      4  4.42e-02        TGT AAATATACTTTACA           
+Lactococcus_lactis|195       15  4.83e-02 GATTTTTTTA TAAATACGTGATAT AAT       
+Streptococcus_suis|342        5  4.94e-02       GTTT TTCATTTATTTTCA AGT       
+Streptococcus_suis|357        6  5.16e-02      CTTTT TCATAAATTTTGCC TT        
+Clostridium_acetobutylic      3  5.27e-02         TG TAAAATCTGTTATG TCGCAAATGT
+Streptococcus_suis|391        7  6.26e-02     TATTTT CAAGTTCATTTTCA T         
+Streptococcus_suis|354        5  6.26e-02       AATT TTCAGAAAATTTCT TGA       
+Lactococcus_lactis|203        5  6.26e-02       TTGC TAAACTTGTTTATA TATGAGAGAA
+Streptococcus_suis|352        5  6.80e-02       GTTT TTCTGAAATTTTCA TAC       
+Clostridioides_difficile      1  7.09e-02          . TAGATTTGGTTTAA AT        
+Bacillus_subtilis|451         1  7.09e-02          . TGAAATGAATCGTT           
+Streptococcus_suis|410        7  7.38e-02     TCTTTT CATGCACCTTTTCA T         
+Streptococcus_suis|405        8  9.01e-02    GATTTTC TGGATATTTTCACC           
+Lactococcus_lactis|181        8  9.72e-02    TATTCAA TACTATCATTTTTC TTATATAAT 
+Lactococcus_lactis|196        8  9.91e-02    TAAAAAG TAAAGGCCAATTAT GTTATAAT  
+Lactococcus_lactis|185        2  1.17e-01          A TGACAAAAAGCCCA AAAATTGTGG
+Streptococcus_suis|360        6  1.19e-01      GATTT TCAGTACATTTTTC AC        
+Lactococcus_lactis|194        4  1.19e-01        TTG ACAGGTTGTTTTCC TGATGATATA
+Streptococcus_suis|379        6  1.26e-01      TTGTT TCATGACATTTTTG GC        
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TGAAAACGTTTTCA MEME-1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Bacillus_subtilis|473             3.4e-08  [1]
+Streptococcus_pneumoniae          9.3e-08  [1]
+Streptococcus_suis|344            1.2e-07  1_[1]_1
+Bacillus_subtilis|435             1.3e-07  [1]
+Bacillus_subtilis|436             1.6e-07  [1]
+Bacillus_amyloliquefacie          1.6e-07  [1]_1
+Bacillus_subtilis|424             1.9e-07  [1]
+Lactobacillus_pentosus|2          1.9e-07  [1]
+Bacillus_subtilis|447             2.1e-07  [1]
+Corynebacterium_glutamic          2.4e-07  [1]
+Bacillus_megaterium|554           2.7e-07  [1]
+Bacillus_megaterium|272           2.7e-07  [1]
+Bacillus_subtilis|430             2.9e-07  [1]
+Bacillus_amyloliquefacie          2.9e-07  1_[1]_1
+Bacillus_subtilis|456             3.2e-07  [1]
+Bacillus_subtilis|445             3.2e-07  [1]
+Streptococcus_pyogenes|1          3.4e-07  2_[1]
+Streptococcus_pneumoniae          3.6e-07  1_[1]_1
+Bacillus_thuringiensis|2          3.6e-07  [1]
+Bacillus_megaterium|556           4.4e-07  [1]
+Streptococcus_suis|343            4.4e-07  1_[1]_1
+Bacillus_subtilis|470             4.6e-07  [1]
+Bacillus_subtilis|440             4.6e-07  [1]
+Streptococcus_pyogenes|3          4.6e-07  2_[1]
+Bacillus_subtilis|465             4.8e-07  [1]
+Staphylococcus_aureus|49          5.5e-07  2_[1]_2
+Bacillus_subtilis|455             5.8e-07  [1]
+Bacillus_subtilis|417             6.4e-07  [1]
+Streptococcus_suis|368            6.7e-07  1_[1]_1
+Bacillus_anthracis|267            7.1e-07  1_[1]_3
+Bacillus_amyloliquefacie          7.1e-07  1_[1]
+Streptococcus_pyogenes|5          7.1e-07  2_[1]
+Streptococcus_intermediu          7.6e-07  2_[1]_2
+Streptococcus_suis|364            7.6e-07  1_[1]_1
+Streptococcus_suis|339            7.6e-07  1_[1]_1
+Bacillus_subtilis|471             8.5e-07  [1]
+Bacillus_subtilis|446             9.1e-07  [1]
+Streptococcus_suis|373            1.1e-06  1_[1]_1
+Bacillus_subtilis|428             1.1e-06  [1]
+Streptococcus_pyogenes|9          1.1e-06  2_[1]_4
+Streptococcus_pyogenes|8          1.1e-06  2_[1]_4
+Streptococcus_suis|388            1.2e-06  1_[1]_1
+Bacillus_subtilis|458             1.3e-06  [1]
+Bacillus_subtilis|439             1.3e-06  [1]
+Bacillus_subtilis|420             1.4e-06  [1]
+Lactobacillus_plantarum|          1.5e-06  [1]
+Bacillus_subtilis|472             1.5e-06  [1]
+Bacillus_subtilis|448             1.5e-06  [1]
+Bacillus_subtilis|444             1.5e-06  [1]
+Bacillus_subtilis|431             1.5e-06  [1]
+Bacillus_amyloliquefacie          1.5e-06  1_[1]
+Lactococcus_lactis|130            1.5e-06  [1]
+Streptococcus_suis|385            1.6e-06  1_[1]_1
+Streptococcus_pneumoniae          1.6e-06  1_[1]_1
+Streptococcus_pneumoniae          1.6e-06  [1]
+Paenibacillus_polymyxa|2          1.6e-06  [1]
+Enterococcus_faecalis|55          1.7e-06  [1]
+Bacillus_subtilis|454             1.7e-06  [1]
+Bacillus_subtilis|419             1.7e-06  [1]
+Bacillus_amyloliquefacie          1.7e-06  1_[1]
+Streptococcus_pyogenes|2          1.7e-06  2_[1]
+Bacillus_subtilis|429             1.8e-06  [1]
+Streptococcus_pneumoniae          1.8e-06  1_[1]_1
+Streptococcus_pyogenes|1          1.8e-06  1_[1]_1
+Bacillus_subtilis|480             1.9e-06  [1]
+Lactococcus_lactis|127              2e-06  [1]
+Streptococcus_pyogenes|7            2e-06  1_[1]_2
+Streptococcus_pyogenes|7            2e-06  1_[1]_2
+Streptococcus_pyogenes|3            2e-06  2_[1]
+Bacillus_subtilis|432             2.2e-06  [1]
+Bacillus_subtilis|443             2.3e-06  [1]
+Bacillus_subtilis|492             2.4e-06  1_[1]
+Bacillus_subtilis|484             2.4e-06  [1]
+Streptococcus_pyogenes|3          2.4e-06  1_[1]_1
+Streptococcus_pyogenes|3          2.4e-06  1_[1]_1
+Enterococcus_faecalis|55          2.6e-06  [1]_1
+Streptococcus_oligoferme          2.6e-06  [1]
+Bacillus_subtilis|416             2.6e-06  [1]
+Streptococcus_pneumoniae          2.6e-06  1_[1]_1
+Streptococcus_pyogenes|5          2.6e-06  1_[1]_1
+Streptococcus_pyogenes|5          2.6e-06  1_[1]_1
+Streptococcus_pyogenes|6          2.6e-06  1_[1]_1
+Streptococcus_suis|406            2.8e-06  1_[1]_1
+Streptococcus_suis|361            2.8e-06  1_[1]_1
+Streptococcus_pyogenes|4          3.1e-06  2_[1]
+Bacillus_subtilis|478             3.3e-06  [1]
+Bacillus_subtilis|433             3.3e-06  [1]
+Streptococcus_pyogenes|3          3.3e-06  2_[1]_1
+Streptococcus_pyogenes|2          3.3e-06  2_[1]_1
+Streptococcus_pyogenes|2          3.3e-06  1_[1]_1
+Streptococcus_pyogenes|2          3.3e-06  1_[1]_1
+Bacillus_subtilis|442             3.5e-06  [1]
+Streptococcus_pneumoniae          3.5e-06  1_[1]_1
+Lactococcus_lactis|202            3.5e-06  1_[1]_14
+Streptococcus_pyogenes|4          3.5e-06  1_[1]_1
+Clostridioides_difficile          3.7e-06  1_[1]_1
+Bacillus_subtilis|437             3.7e-06  [1]
+Bacillus_subtilis|425             3.7e-06  [1]
+Streptococcus_pneumoniae          3.7e-06  1_[1]_1
+Bacillus_amyloliquefacie          3.7e-06  1_[1]_1
+Lactococcus_lactis|191            3.7e-06  4_[1]_11
+Lactococcus_lactis|128            3.7e-06  [1]
+Streptococcus_pyogenes|6          3.7e-06  1_[1]_1
+Bacillus_subtilis|485               4e-06  [1]
+Bacillus_subtilis|461               4e-06  [1]
+Bacillus_megaterium|558           4.2e-06  [1]
+Clostridioides_difficile          4.2e-06  1_[1]_1
+Bacillus_amyloliquefacie          4.2e-06  1_[1]_1
+Bacillus_subtilis|460             4.5e-06  [1]
+Streptococcus_suis|362            4.5e-06  1_[1]_1
+Streptococcus_pneumoniae          4.5e-06  1_[1]_1
+Bacillus_subtilis|418             4.7e-06  [1]
+Streptococcus_suis|375            4.7e-06  1_[1]_1
+Streptococcus_pyogenes|6          4.7e-06  1_[1]_1
+Streptococcus_pyogenes|3          4.7e-06  2_[1]
+Streptococcus_suis|377            4.9e-06  1_[1]_1
+Streptococcus_suis|367            4.9e-06  1_[1]_1
+Bacillus_licheniformis|2          4.9e-06  [1]
+Bacillus_subtilis|468             5.2e-06  [1]
+Bacillus_subtilis|466             5.2e-06  [1]
+Bacillus_subtilis|426             5.2e-06  [1]
+Streptococcus_suis|341            5.2e-06  1_[1]_1
+Lactococcus_lactis|116            5.2e-06  [1]
+Bacillus_subtilis|477             5.5e-06  [1]
+Bacillus_subtilis|474             5.5e-06  [1]
+Streptococcus_suis|340            5.5e-06  1_[1]_1
+Streptococcus_pneumoniae          5.5e-06  1_[1]_1
+Streptococcus_pyogenes|5          5.5e-06  1_[1]_1
+Streptococcus_pyogenes|1          5.5e-06  1_[1]_1
+Streptococcus_pyogenes|1          5.5e-06  1_[1]_1
+Streptococcus_suis|383            5.9e-06  1_[1]_1
+Streptococcus_suis|376            5.9e-06  1_[1]_1
+Streptococcus_gordonii|4          6.3e-06  1_[1]_1
+Corynebacterium_glutamic          6.3e-06  [1]
+Lactobacillus_plantarum|          6.3e-06  [1]_2
+Bacillus_amyloliquefacie          6.3e-06  1_[1]_1
+Streptococcus_pyogenes|1          6.3e-06  1_[1]_1
+Lactococcus_lactis|200            6.6e-06  1_[1]_12
+Lactococcus_lactis|139            6.6e-06  [1]
+Streptococcus_pyogenes|3          6.6e-06  1_[1]_1
+Streptococcus_oligoferme            7e-06  [1]
+Streptococcus_pneumoniae            7e-06  1_[1]_1
+Streptococcus_pneumoniae            7e-06  [1]_1
+Streptococcus_pyogenes|6            7e-06  2_[1]
+Streptococcus_pyogenes|6            7e-06  2_[1]
+Streptococcus_pyogenes|5            7e-06  1_[1]_1
+Bacillus_subtilis|481             7.4e-06  [1]
+Streptococcus_pneumoniae          7.4e-06  1_[1]_1
+Lactococcus_lactis|165            7.4e-06  [1]
+Streptococcus_pyogenes|2          7.4e-06  1_[1]_1
+Bacillus_subtilis|486             7.8e-06  [1]
+Bacillus_subtilis|464             7.8e-06  [1]
+Streptococcus_suis|386            7.8e-06  1_[1]_1
+Streptococcus_pyogenes|6          7.8e-06  1_[1]_1
+Streptococcus_pyogenes|6          7.8e-06  1_[1]_1
+Clostridioides_difficile          8.2e-06  1_[1]_1
+Bacillus_megaterium|271           8.2e-06  [1]
+Lactococcus_lactis|147            8.2e-06  [1]
+Streptococcus_pyogenes|6          8.2e-06  2_[1]
+Bacillus_subtilis|462             8.7e-06  [1]
+Bacillus_subtilis|427             8.7e-06  [1]
+Bacillus_subtilis|421             8.7e-06  [1]
+Lactococcus_lactis|173            8.7e-06  [1]
+Clostridioides_difficile          9.2e-06  1_[1]_1
+Bacillus_subtilis|476             9.2e-06  [1]
+Bacillus_subtilis|450             9.2e-06  [1]
+Lactococcus_lactis|163            9.2e-06  [1]
+Lactococcus_lactis|103            9.2e-06  [1]
+Clostridium_acetobutylic          9.2e-06  1_[1]_23
+Streptococcus_pyogenes|4          9.2e-06  2_[1]
+Streptococcus_pyogenes|4          9.2e-06  2_[1]
+Clostridioides_difficile          9.8e-06  1_[1]_1
+Bacillus_subtilis|463             9.8e-06  [1]
+Bacillus_subtilis|422             9.8e-06  [1]
+Streptococcus_pneumoniae          9.8e-06  1_[1]_1
+Streptococcus_pneumoniae          9.8e-06  1_[1]_1
+Streptococcus_pneumoniae          9.8e-06  [1]
+Bacillus_amyloliquefacie          9.8e-06  1_[1]_1
+Clostridioides_difficile            1e-05  1_[1]_1
+Lactobacillus_plantarum|            1e-05  [1]
+Bacillus_subtilis|423               1e-05  [1]
+Streptococcus_suis|395              1e-05  1_[1]_1
+Streptococcus_suis|345              1e-05  1_[1]_1
+Lactobacillus_plantarum|            1e-05  [1]
+Clostridioides_difficile          1.1e-05  1_[1]_1
+Bacillus_subtilis|479             1.1e-05  [1]
+Bacillus_subtilis|453             1.1e-05  [1]
+Streptococcus_suis|374            1.1e-05  1_[1]_1
+Streptococcus_pneumoniae          1.1e-05  1_[1]_1
+Streptococcus_pneumoniae          1.1e-05  1_[1]_1
+Streptococcus_pneumoniae          1.1e-05  1_[1]_1
+Clostridioides_difficile          1.1e-05  1_[1]_1
+Bacillus_subtilis|475             1.1e-05  [1]
+Bacillus_subtilis|441             1.1e-05  [1]
+Lactococcus_lactis|113            1.1e-05  [1]
+Streptococcus_pneumoniae          1.2e-05  [1]
+Streptococcus_pneumoniae          1.2e-05  [1]
+Lactococcus_lactis|188            1.2e-05  2_[1]_13
+Lactococcus_lactis|133            1.2e-05  [1]
+Lactococcus_lactis|125            1.2e-05  [1]
+Lactococcus_lactis|189            1.3e-05  14_[1]_1
+Lactococcus_lactis|126            1.3e-05  [1]
+Lactococcus_lactis|104            1.3e-05  [1]
+Clostridioides_difficile          1.3e-05  1_[1]_1
+Lactococcus_lactis|115            1.3e-05  [1]
+Streptococcus_pyogenes|3          1.3e-05  2_[1]
+Lactococcus_lactis|167            1.4e-05  [1]
+Lactococcus_lactis|112            1.4e-05  [1]
+Streptococcus_pyogenes|2          1.4e-05  1_[1]_1
+Streptococcus_pyogenes|2          1.4e-05  1_[1]_1
+Streptococcus_pyogenes|1          1.4e-05  1_[1]_1
+Bacillus_subtilis|490             1.5e-05  7_[1]_6
+Bacillus_subtilis|449             1.5e-05  [1]
+Streptococcus_pneumoniae          1.5e-05  1_[1]_1
+Streptococcus_pneumoniae          1.5e-05  [1]
+Lactococcus_lactis|161            1.5e-05  [1]
+Streptococcus_suis|351            1.6e-05  1_[1]_1
+Bacillus_thuringiensis|2          1.6e-05  [1]
+Lactococcus_lactis|124            1.6e-05  [1]
+Streptococcus_pyogenes|5          1.6e-05  1_[1]_1
+Streptococcus_pyogenes|4          1.6e-05  1_[1]_1
+Bacillus_subtilis|483             1.7e-05  [1]
+Bacillus_subtilis|452             1.7e-05  [1]
+Streptococcus_suis|371            1.7e-05  1_[1]_1
+Streptococcus_pneumoniae          1.7e-05  1_[1]_1
+Lactococcus_lactis|136            1.7e-05  [1]
+Clostridioides_difficile          1.7e-05  1_[1]_1
+Streptococcus_pneumoniae          1.7e-05  2_[1]_3
+Lactobacillus_plantarum|          1.7e-05  1_[1]_1
+Lactobacillus_plantarum|          1.7e-05  [1]_2
+Lactococcus_lactis|218            1.7e-05  14_[1]_1
+Lactococcus_lactis|174            1.7e-05  [1]
+Lactococcus_lactis|145            1.8e-05  [1]
+Lactococcus_lactis|143            1.8e-05  [1]
+Clostridioides_difficile          1.9e-05  1_[1]_1
+Streptococcus_pyogenes|7          1.9e-05  2_[1]
+Lactobacillus_casei|553             2e-05  [1]
+Clostridioides_difficile            2e-05  1_[1]_1
+Streptococcus_gordonii|4            2e-05  1_[1]_1
+Streptococcus_pneumoniae            2e-05  1_[1]_1
+Streptococcus_pyogenes|1            2e-05  2_[1]
+Enterococcus_faecalis|55          2.1e-05  [1]
+Streptococcus_lutetiensi          2.1e-05  [1]_1
+Streptococcus_suis|363            2.1e-05  1_[1]_1
+Streptococcus_pyogenes|7          2.1e-05  2_[1]
+Streptococcus_pneumoniae          2.2e-05  2_[1]_3
+Lactococcus_lactis|199            2.2e-05  1_[1]_19
+Lactococcus_lactis|171            2.2e-05  [1]
+Streptococcus_pyogenes|5          2.2e-05  1_[1]_1
+Streptococcus_pyogenes|5          2.2e-05  1_[1]_1
+Clostridioides_difficile          2.4e-05  1_[1]_1
+Streptococcus_suis|378            2.4e-05  1_[1]_1
+Bacillus_subtilis|469             2.5e-05  [1]
+Bacillus_amyloliquefacie          2.5e-05  1_[1]
+Lactococcus_lactis|156            2.5e-05  [1]
+Streptococcus_pyogenes|5          2.5e-05  2_[1]
+Clostridioides_difficile          2.6e-05  1_[1]_1
+Bacillus_subtilis|467             2.6e-05  [1]
+Bacillus_subtilis|434             2.6e-05  [1]
+Streptococcus_pneumoniae          2.6e-05  1_[1]_1
+Bacillus_megaterium|557           2.7e-05  [1]
+Bacillus_subtilis|459             2.7e-05  [1]
+Streptococcus_pneumoniae          2.7e-05  2_[1]_3
+Lactococcus_lactis|108            2.7e-05  [1]
+Streptococcus_pyogenes|6          2.9e-05  1_[1]_1
+Bacillus_subtilis|482               3e-05  [1]
+Bacillus_subtilis|438               3e-05  [1]
+Lactococcus_lactis|214              3e-05  1_[1]_16
+Lactococcus_lactis|166              3e-05  [1]
+Streptococcus_pyogenes|5            3e-05  1_[1]_1
+Streptococcus_pyogenes|2            3e-05  1_[1]_1
+Streptococcus_pyogenes|2            3e-05  2_[1]
+Streptococcus_suis|381            3.2e-05  1_[1]_1
+Lactobacillus_plantarum|          3.2e-05  1_[1]_1
+Clostridioides_difficile          3.3e-05  1_[1]_1
+Streptococcus_anginosus|          3.3e-05  1_[1]_1
+Lactobacillus_plantarum|          3.3e-05  1_[1]_1
+Lactococcus_lactis|129            3.3e-05  [1]
+Lactococcus_lactis|150            3.5e-05  [1]
+Streptococcus_pyogenes|4          3.5e-05  1_[1]_1
+Streptococcus_pyogenes|5          3.5e-05  2_[1]
+Streptococcus_pyogenes|4          3.5e-05  2_[1]
+Clostridioides_difficile          3.7e-05  1_[1]_1
+Clostridioides_difficile          3.7e-05  1_[1]_1
+Clostridioides_difficile          3.7e-05  1_[1]_1
+Bacillus_subtilis|457             3.8e-05  [1]
+Streptococcus_pneumoniae          3.8e-05  1_[1]_1
+Streptococcus_anginosus|          3.8e-05  1_[1]_1
+Lactococcus_lactis|153            3.8e-05  [1]
+Streptococcus_pyogenes|6          3.8e-05  2_[1]
+Lactococcus_lactis|140              4e-05  [1]
+Lactococcus_lactis|118              4e-05  [1]
+Lactococcus_lactis|164            4.2e-05  [1]
+Clostridium_acetobutylic          4.2e-05  19_[1]
+Streptococcus_pyogenes|7          4.4e-05  2_[1]
+Streptococcus_pyogenes|3          4.7e-05  2_[1]
+Streptococcus_pyogenes|3          4.7e-05  2_[1]
+Lactococcus_lactis|132            4.9e-05  [1]
+Streptococcus_pneumoniae          5.1e-05  2_[1]_3
+Streptococcus_pneumoniae          5.1e-05  2_[1]_3
+Bacillus_amyloliquefacie          5.1e-05  1_[1]
+Lactococcus_lactis|107            5.1e-05  [1]
+Clostridioides_difficile          5.3e-05  1_[1]_1
+Streptococcus_suis|403            5.3e-05  1_[1]_1
+Streptococcus_suis|389            5.3e-05  1_[1]_1
+Clostridioides_difficile          5.6e-05  1_[1]_1
+Streptococcus_pneumoniae          5.6e-05  1_[1]_1
+Clostridioides_difficile          5.8e-05  1_[1]_1
+Tetragenococcus_halophil          5.8e-05  [1]_1
+Bacillus_amyloliquefacie          5.8e-05  [1]_1
+Clostridioides_difficile          6.1e-05  1_[1]_1
+Clostridioides_difficile          6.1e-05  1_[1]_1
+Clostridioides_difficile          6.1e-05  1_[1]_1
+Streptococcus_pneumoniae          6.1e-05  1_[1]_1
+Lactococcus_lactis|131            6.1e-05  [1]
+Lactococcus_lactis|141            6.4e-05  [1]
+Lactococcus_lactis|134            6.4e-05  [1]
+Lactococcus_lactis|111            6.4e-05  [1]
+Clostridioides_difficile          6.7e-05  1_[1]_1
+Bacillus_amyloliquefacie          6.7e-05  [1]
+Bacillus_amyloliquefacie            7e-05  [1]
+Lactococcus_lactis|105              7e-05  [1]
+Streptococcus_pyogenes|4            7e-05  2_[1]
+Streptococcus_pyogenes|4            7e-05  2_[1]
+Lactococcus_lactis|162            7.3e-05  [1]
+Lactococcus_lactis|146            7.3e-05  [1]
+Clostridioides_difficile          7.7e-05  1_[1]_1
+Streptococcus_pneumoniae          7.7e-05  2_[1]_3
+Streptococcus_suis|346              8e-05  1_[1]_1
+Lactococcus_lactis|154            8.4e-05  [1]
+Streptococcus_pneumoniae          8.8e-05  [1]_1
+Streptococcus_pneumoniae          8.8e-05  [1]_1
+Lactococcus_lactis|144            8.8e-05  [1]
+Clostridioides_difficile           0.0001  1_[1]_1
+Clostridioides_difficile           0.0001  1_[1]_1
+Streptococcus_pyogenes|1          0.00011  2_[1]_4
+Lactococcus_lactis|121            0.00012  [1]
+Lactococcus_lactis|120            0.00012  [1]
+Clostridium_acetobutylic          0.00012  1_[1]_7
+Streptococcus_pyogenes|1          0.00013  1_[1]_1
+Lactococcus_lactis|172            0.00013  [1]
+Streptococcus_pneumoniae          0.00014  2_[1]_3
+Lactococcus_lactis|148            0.00014  [1]
+Bacillus_amyloliquefacie          0.00014  [1]_1
+Lactococcus_lactis|160            0.00014  [1]
+Lactococcus_lactis|157            0.00014  [1]
+Streptococcus_pneumoniae          0.00015  2_[1]_3
+Streptococcus_pneumoniae          0.00015  2_[1]_3
+Lactococcus_lactis|205            0.00016  1_[1]_14
+Lactococcus_lactis|169            0.00016  [1]
+Lactococcus_lactis|168            0.00016  [1]
+Lactococcus_lactis|152            0.00016  [1]
+Lactococcus_lactis|151            0.00016  [1]
+Clostridioides_difficile          0.00017  1_[1]_1
+Streptococcus_pneumoniae          0.00017  1_[1]_1
+Lactococcus_lactis|158            0.00017  [1]
+Streptococcus_pneumoniae          0.00018  1_[1]_1
+Lactococcus_lactis|117            0.00018  [1]
+Lactococcus_lactis|109            0.00018  [1]
+Clostridioides_difficile          0.00018  1_[1]_1
+Clostridioides_difficile          0.00018  1_[1]_1
+Streptococcus_pneumoniae          0.00018  2_[1]_3
+Lactococcus_lactis|192            0.00018  9_[1]_6
+Streptococcus_pneumoniae          0.00019  [1]_1
+Bacillus_amyloliquefacie          0.00019  [1]_1
+Lactococcus_lactis|110            0.00019  [1]
+Lactococcus_lactis|142             0.0002  [1]
+Streptococcus_pneumoniae          0.00023  2_[1]_3
+Streptococcus_pneumoniae          0.00023  [1]
+Lactococcus_lactis|135            0.00024  [1]
+Lactococcus_lactis|119            0.00024  [1]
+Lactococcus_lactis|114            0.00024  [1]
+Streptococcus_pyogenes|3          0.00024  1_[1]_1
+Clostridioides_difficile          0.00025  1_[1]_1
+Streptococcus_pyogenes|4          0.00025  2_[1]
+Clostridioides_difficile          0.00026  1_[1]_1
+Bacillus_amyloliquefacie          0.00026  [1]_2
+Lactococcus_lactis|159            0.00028  [1]
+Lactococcus_lactis|122            0.00028  [1]
+Streptococcus_pneumoniae          0.00029  2_[1]_3
+Clostridioides_difficile           0.0003  1_[1]_1
+Lactococcus_lactis|170             0.0003  [1]
+Bacillus_amyloliquefacie          0.00033  [1]
+Clostridioides_difficile          0.00034  1_[1]_1
+Lactococcus_lactis|186            0.00039  13_[1]_2
+Lactococcus_lactis|123            0.00039  [1]
+Streptococcus_pneumoniae          0.00042  [1]_1
+Lactococcus_lactis|155            0.00042  [1]
+Bacillus_amyloliquefacie          0.00044  [1]
+Bacillus_amyloliquefacie          0.00044  [1]
+Lactococcus_lactis|138            0.00045  [1]
+Clostridioides_difficile          0.00047  1_[1]_1
+Clostridioides_difficile          0.00047  1_[1]_1
+Clostridioides_difficile          0.00049  1_[1]_1
+Streptococcus_anginosus|          0.00049  1_[1]_1
+Bacillus_amyloliquefacie          0.00051  [1]
+Lactococcus_lactis|149            0.00051  [1]
+Clostridium_acetobutylic          0.00053  8_[1]
+Streptococcus_pneumoniae          0.00055  2_[1]_3
+Bacillus_amyloliquefacie          0.00055  [1]_1
+Clostridioides_difficile          0.00057  1_[1]_1
+Clostridioides_difficile          0.00057  1_[1]_1
+Bacillus_amyloliquefacie          0.00057  1_[1]
+Lactococcus_lactis|137            0.00057  [1]
+Clostridioides_difficile          0.00059  1_[1]_1
+Clostridium_acetobutylic          0.00064  [1]_5
+Lactococcus_lactis|106            0.00072  [1]
+Streptococcus_pneumoniae          0.00074  [1]_1
+Streptococcus_pneumoniae          0.00074  [1]_1
+Clostridium_acetobutylic          0.00074  8_[1]_2
+Clostridioides_difficile          0.00083  1_[1]_1
+Clostridioides_difficile          0.00083  1_[1]_1
+Clostridioides_difficile          0.00086  1_[1]_1
+Clostridium_acetobutylic          0.00086  16_[1]_11
+Streptococcus_pyogenes|1           0.0009  2_[1]
+Streptococcus_pyogenes|6          0.00096  1_[1]
+Clostridioides_difficile            0.001  1_[1]_1
+Clostridioides_difficile            0.001  1_[1]_1
+Streptococcus_pneumoniae            0.001  2_[1]_3
+Bacillus_licheniformis|2            0.001  [1]
+Streptococcus_pyogenes|2           0.0011  2_[1]
+Streptococcus_pyogenes|1           0.0011  2_[1]
+Clostridioides_difficile           0.0012  1_[1]_1
+Streptococcus_pyogenes|4           0.0012  1_[1]_1
+Clostridioides_difficile           0.0012  1_[1]_1
+Streptococcus_suis|399             0.0012  1_[1]_1
+Clostridium_acetobutylic           0.0012  7_[1]_2
+Streptococcus_suis|398             0.0013  5_[1]_2
+Streptococcus_intermediu           0.0013  2_[1]_2
+Streptococcus_pneumoniae           0.0014  2_[1]_3
+Streptococcus_pneumoniae           0.0015  2_[1]_3
+Bacillus_amyloliquefacie           0.0016  [1]_1
+Clostridium_acetobutylic           0.0016  [1]_7
+Bacillus_amyloliquefacie           0.0019  1_[1]_1
+Streptococcus_pyogenes|2           0.0024  1_[1]_1
+Lactococcus_lactis|178             0.0025  13_[1]_2
+Streptococcus_suis|350             0.0027  5_[1]_2
+Clostridium_acetobutylic           0.0027  3_[1]_19
+Clostridioides_difficile           0.0029  1_[1]_1
+Clostridium_acetobutylic           0.0029  [1]_6
+Streptococcus_suis|407              0.003  6_[1]_1
+Lactococcus_lactis|210             0.0034  14_[1]_2
+Streptococcus_suis|349             0.0037  5_[1]_2
+Clostridioides_difficile           0.0039  1_[1]_1
+Clostridioides_difficile            0.004  1_[1]_1
+Streptococcus_suis|387              0.004  7_[1]
+Bacillus_amyloliquefacie            0.004  1_[1]
+Streptococcus_suis|392             0.0044  5_[1]_2
+Streptococcus_suis|384              0.005  5_[1]_2
+Clostridioides_difficile           0.0053  1_[1]_1
+Clostridium_acetobutylic           0.0056  20_[1]_3
+Lactococcus_lactis|208             0.0058  1_[1]_14
+Lactococcus_lactis|177             0.0058  14_[1]_1
+Clostridium_acetobutylic           0.0058  [1]_5
+Clostridium_acetobutylic           0.0058  [1]_5
+Lactococcus_lactis|180             0.0064  12_[1]_4
+Clostridium_acetobutylic           0.0064  36_[1]
+Clostridioides_difficile           0.0072  [1]_2
+Clostridioides_difficile           0.0072  [1]_2
+Clostridioides_difficile           0.0074  1_[1]_1
+Streptococcus_suis|409             0.0074  7_[1]
+Lactococcus_lactis|184             0.0083  13_[1]_2
+Bacillus_megaterium|555            0.0086  [1]
+Streptococcus_suis|404             0.0086  4_[1]_3
+Lactococcus_lactis|209             0.0086  14_[1]_1
+Lactococcus_lactis|212             0.0093  15_[1]_1
+Clostridium_acetobutylic            0.011  [1]_15
+Clostridium_acetobutylic            0.011  2_[1]
+Streptococcus_suis|411              0.011  5_[1]_2
+Streptococcus_suis|408              0.012  5_[1]_2
+Clostridium_acetobutylic            0.013  21_[1]_1
+Bacillus_subtilis|415               0.014  1_[1]_1
+Clostridium_acetobutylic            0.014  [1]_16
+Streptococcus_suis|370              0.014  4_[1]_3
+Streptococcus_suis|359              0.014  6_[1]_1
+Bacillus_amyloliquefacie            0.015  1_[1]
+Clostridium_acetobutylic            0.015  6_[1]
+Streptococcus_suis|353              0.016  5_[1]_2
+Clostridium_acetobutylic            0.016  4_[1]_1
+Clostridioides_difficile            0.017  [1]_2
+Clostridioides_difficile            0.017  [1]_2
+Streptococcus_suis|413              0.017  4_[1]_3
+Lactococcus_lactis|201              0.017  12_[1]_3
+Lactococcus_lactis|193              0.018  3_[1]_12
+Lactococcus_lactis|176              0.018  1_[1]_15
+Streptococcus_suis|355              0.019  4_[1]_3
+Streptococcus_intermediu            0.019  2_[1]
+Clostridioides_difficile             0.02  1_[1]_1
+Lactobacillus_plantarum|            0.023  1_[1]_1
+Clostridium_acetobutylic            0.023  20_[1]_1
+Streptococcus_suis|347              0.024  5_[1]_2
+Streptococcus_suis|380              0.026  4_[1]_3
+Streptococcus_suis|366              0.026  5_[1]_2
+Lactococcus_lactis|179              0.026  1_[1]_14
+Clostridium_acetobutylic            0.026  [1]_5
+Lactococcus_lactis|183              0.026  3_[1]_12
+Streptococcus_suis|358              0.027  5_[1]_2
+Streptococcus_suis|390              0.028  4_[1]_3
+Clostridioides_difficile             0.03  1_[1]_1
+Lactococcus_lactis|215               0.03  13_[1]_2
+Streptococcus_suis|401              0.031  5_[1]_2
+Streptococcus_suis|394              0.031  7_[1]
+Bacillus_amyloliquefacie            0.032  [1]
+Lactococcus_lactis|198              0.033  10_[1]_5
+Lactococcus_lactis|175              0.034  1_[1]_14
+Bacillus_amyloliquefacie            0.039  [1]
+Streptococcus_suis|414              0.042  6_[1]_1
+Clostridium_acetobutylic            0.042  5_[1]_14
+Clostridium_acetobutylic            0.044  3_[1]
+Lactococcus_lactis|195              0.048  14_[1]_3
+Streptococcus_suis|342              0.049  4_[1]_3
+Streptococcus_suis|357              0.052  5_[1]_2
+Clostridium_acetobutylic            0.053  2_[1]_26
+Streptococcus_suis|391              0.063  6_[1]_1
+Streptococcus_suis|354              0.063  4_[1]_3
+Lactococcus_lactis|203              0.063  4_[1]_11
+Streptococcus_suis|352              0.068  4_[1]_3
+Clostridioides_difficile            0.071  [1]_2
+Bacillus_subtilis|451               0.071  [1]
+Streptococcus_suis|410              0.074  6_[1]_1
+Streptococcus_suis|405               0.09  7_[1]
+Lactococcus_lactis|181              0.097  7_[1]_9
+Lactococcus_lactis|196              0.099  7_[1]_8
+Lactococcus_lactis|185               0.12  1_[1]_16
+Streptococcus_suis|360               0.12  5_[1]_2
+Lactococcus_lactis|194               0.12  3_[1]_12
+Streptococcus_suis|379               0.13  5_[1]_2
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TGAAAACGTTTTCA MEME-1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF TGAAAACGTTTTCA width=14 seqs=527
+Bacillus_subtilis|473    (    1) TGAAAGCGCTTTCT  1 
+Streptococcus_pneumoniae (    1) AGAAAGCGTTTTCA  1 
+Streptococcus_suis|344   (    2) TGGAAGCGTTTTCA  1 
+Bacillus_subtilis|435    (    1) TGAAAACGCTTGCA  1 
+Bacillus_subtilis|436    (    1) TGAAAGCGTTATCA  1 
+Bacillus_amyloliquefacie (    1) TGGAAACGCTTTCA  1 
+Bacillus_subtilis|424    (    1) TGAAAACGCTATCA  1 
+Lactobacillus_pentosus|2 (    1) TGAAAGCGATTTCA  1 
+Bacillus_subtilis|447    (    1) TGTAAGCGCTTTCT  1 
+Corynebacterium_glutamic (    1) TGAAAACGTTTGCA  1 
+Bacillus_megaterium|554  (    1) TGAAAGCGCTAACA  1 
+Bacillus_megaterium|272  (    1) TGAAAGCGCTAACA  1 
+Bacillus_subtilis|430    (    1) AGAAAGCGTTTACA  1 
+Bacillus_amyloliquefacie (    2) AGAAAGCGTTTACA  1 
+Bacillus_subtilis|456    (    1) TGAAAACGTTATCA  1 
+Bacillus_subtilis|445    (    1) TGAAAGCGCTATCT  1 
+Streptococcus_pyogenes|1 (    3) AGAAAGCGGTTTCA  1 
+Streptococcus_pneumoniae (    2) AGAAAGCGTTTTCT  1 
+Bacillus_thuringiensis|2 (    1) AGAAAGCGTTTTCT  1 
+Bacillus_megaterium|556  (    1) TGAAAGCGTTAACA  1 
+Streptococcus_suis|343   (    2) TGGAAGCGTTTTCT  1 
+Bacillus_subtilis|470    (    1) TGAAAGCGTTTTCC  1 
+Bacillus_subtilis|440    (    1) AGAAAACGCTTTCT  1 
+Streptococcus_pyogenes|3 (    3) AGAAAACGCTTTCT  1 
+Bacillus_subtilis|465    (    1) GGAAAACGCTTTCA  1 
+Staphylococcus_aureus|49 (    3) TGTAAACGTTTACA  1 
+Bacillus_subtilis|455    (    1) TGAAACCGCTTCCA  1 
+Bacillus_subtilis|417    (    1) TGAAAGCGTTACCA  1 
+Streptococcus_suis|368   (    2) TGTAAACGTTTTCT  1 
+Bacillus_anthracis|267   (    2) TGAAAACGCTGTCA  1 
+Bacillus_amyloliquefacie (    2) TGTAAGCGTTATCA  1 
+Streptococcus_pyogenes|5 (    3) AGAAAACGTTTTCT  1 
+Streptococcus_intermediu (    3) TGAAAGCGTTAGCA  1 
+Streptococcus_suis|364   (    2) AGGAAACGCTTTCA  1 
+Streptococcus_suis|339   (    2) AGGAAACGCTTTCA  1 
+Bacillus_subtilis|471    (    1) AGAAAGCGGTTACA  1 
+Bacillus_subtilis|446    (    1) TTAAAGCGCTTTCA  1 
+Streptococcus_suis|373   (    2) AGAAAACGTTTGCA  1 
+Bacillus_subtilis|428    (    1) TGAAAACGTTGTCA  1 
+Streptococcus_pyogenes|9 (    3) TGTAAGCGCTAACA  1 
+Streptococcus_pyogenes|8 (    3) TGTAAGCGCTAACA  1 
+Streptococcus_suis|388   (    2) TGCAAACGTTTTCT  1 
+Bacillus_subtilis|458    (    1) TGTAAACGTTATCA  1 
+Bacillus_subtilis|439    (    1) TGAAAGCGCTTTTA  1 
+Bacillus_subtilis|420    (    1) TGAAAGCGTTGACA  1 
+Lactobacillus_plantarum| (    1) TGTAAGCGTTTGCT  1 
+Bacillus_subtilis|472    (    1) TGTAAACGGTTACA  1 
+Bacillus_subtilis|448    (    1) TGTAAGCGTTTGCT  1 
+Bacillus_subtilis|444    (    1) TGTAAGCGTTTGCT  1 
+Bacillus_subtilis|431    (    1) TGTAAACGGTTACA  1 
+Bacillus_amyloliquefacie (    2) TGTAAACGGTTACA  1 
+Lactococcus_lactis|130   (    1) TGAAATCGCTATCA  1 
+Streptococcus_suis|385   (    2) AGAAAACGGTTACA  1 
+Streptococcus_pneumoniae (    2) AGAAAACGCTTCCT  1 
+Streptococcus_pneumoniae (    1) TGTAAACGATTTCA  1 
+Paenibacillus_polymyxa|2 (    1) TGTAAACGTTTACT  1 
+Enterococcus_faecalis|55 (    1) TGTAAGCGTTAACA  1 
+Bacillus_subtilis|454    (    1) TGAAAGCGGTACCA  1 
+Bacillus_subtilis|419    (    1) TGTAAGCGTTAACA  1 
+Bacillus_amyloliquefacie (    2) TGTAAGCGTTAACA  1 
+Streptococcus_pyogenes|2 (    3) AGAAAACGATTTCA  1 
+Bacillus_subtilis|429    (    1) TGTAAACGGTTTCT  1 
+Streptococcus_pneumoniae (    2) TGTAAACGGTTTCT  1 
+Streptococcus_pyogenes|1 (    2) AGGAAGCGTTTTCT  1 
+Bacillus_subtilis|480    (    1) TGTAACCGCTTTCT  1 
+Lactococcus_lactis|127   (    1) AGAAACCGCTTTCT  1 
+Streptococcus_pyogenes|7 (    2) TGTAAGCGTTATCT  1 
+Streptococcus_pyogenes|7 (    2) TGTAAGCGTTATCT  1 
+Streptococcus_pyogenes|3 (    3) TGAAACCGCTTGCT  1 
+Bacillus_subtilis|432    (    1) TTAAAGCGCTTACA  1 
+Bacillus_subtilis|443    (    1) TGATAGCGTTTTCT  1 
+Bacillus_subtilis|492    (    2) TGAAAGCGTATACA  1 
+Bacillus_subtilis|484    (    1) TGAAAGCGTATACA  1 
+Streptococcus_pyogenes|3 (    2) TGCAAGCGGTTGCA  1 
+Streptococcus_pyogenes|3 (    2) TGCAAGCGGTTGCA  1 
+Enterococcus_faecalis|55 (    1) TGAAAGCGTTATCC  1 
+Streptococcus_oligoferme (    1) TGACAGCGCTATCA  1 
+Bacillus_subtilis|416    (    1) TGAAAGCGCTTTAT  1 
+Streptococcus_pneumoniae (    2) TGAAACCGTTTCCT  1 
+Streptococcus_pyogenes|5 (    2) TGAAAACGTTTTAA  1 
+Streptococcus_pyogenes|5 (    2) TGAAAACGTTTTAA  1 
+Streptococcus_pyogenes|6 (    2) TGAAAGCGCTTTAT  1 
+Streptococcus_suis|406   (    2) TGATAACGCTTTCT  1 
+Streptococcus_suis|361   (    2) AGTAAACGTTTTCT  1 
+Streptococcus_pyogenes|4 (    3) AGAAATCGCTTTCT  1 
+Bacillus_subtilis|478    (    1) TGAATGCGCTTTCT  1 
+Bacillus_subtilis|433    (    1) CGAAAACGCTATCA  1 
+Streptococcus_pyogenes|3 (    3) TGATAACGCTTCCA  1 
+Streptococcus_pyogenes|2 (    3) TGATAACGCTTCCA  1 
+Streptococcus_pyogenes|2 (    2) AGAAAGGGTTTTCA  1 
+Streptococcus_pyogenes|2 (    2) AGAAAGGGTTTTCA  1 
+Bacillus_subtilis|442    (    1) TGCAAGGGCTTTCA  1 
+Streptococcus_pneumoniae (    2) TGACAACGGTTTCA  1 
+Lactococcus_lactis|202   (    2) TGAAAAGGTTTACA  1 
+Streptococcus_pyogenes|4 (    2) TGGAATCGCTTTCT  1 
+Clostridioides_difficile (    2) TGTAAACGTTATCT  1 
+Bacillus_subtilis|437    (    1) TAAAAGCGCTTACA  1 
+Bacillus_subtilis|425    (    1) TGACACCGCTTTCA  1 
+Streptococcus_pneumoniae (    2) CGAAAACGTTTGCA  1 
+Bacillus_amyloliquefacie (    2) TGACACCGCTTTCA  1 
+Lactococcus_lactis|191   (    5) TGAAAACGTTTTTA  1 
+Lactococcus_lactis|128   (    1) TGAAAACGTTTTTA  1 
+Streptococcus_pyogenes|6 (    2) TGTAATCGTTTACA  1 
+Bacillus_subtilis|485    (    1) TGAAAGCGTTTTAT  1 
+Bacillus_subtilis|461    (    1) TGAAAGCGTTTTAT  1 
+Bacillus_megaterium|558  (    1) TGATAACGTTTTCT  1 
+Clostridioides_difficile (    2) TGATAACGTTTTCT  1 
+Bacillus_amyloliquefacie (    2) TGGAAGCGCTGACA  1 
+Bacillus_subtilis|460    (    1) TGTAACCGCTTACT  1 
+Streptococcus_suis|362   (    2) TGTAATCGTTTTCT  1 
+Streptococcus_pneumoniae (    2) TGTAATCGTTTTCT  1 
+Bacillus_subtilis|418    (    1) TGAAAACGCTTTAT  1 
+Streptococcus_suis|375   (    2) TTAAAACGCTTTCT  1 
+Streptococcus_pyogenes|6 (    2) TGAAAGCGTTATCG  1 
+Streptococcus_pyogenes|3 (    3) TGAAAGCGTTTATA  1 
+Streptococcus_suis|377   (    2) TGCAACCGTTTTCT  1 
+Streptococcus_suis|367   (    2) AGATAGCGCTTACA  1 
+Bacillus_licheniformis|2 (    1) TGAAAGCGCTATAA  1 
+Bacillus_subtilis|468    (    1) AGAAAGCGCTTACG  1 
+Bacillus_subtilis|466    (    1) TGTAAGCGGTATCT  1 
+Bacillus_subtilis|426    (    1) TGTAAGCGTTTTAA  1 
+Streptococcus_suis|341   (    2) TGAAAACACTTTCT  1 
+Lactococcus_lactis|116   (    1) TGTAAACGATTCCA  1 
+Bacillus_subtilis|477    (    1) TGAAAGCGTTTTTT  1 
+Bacillus_subtilis|474    (    1) TGAAAACGCTATCG  1 
+Streptococcus_suis|340   (    2) TGTGAGCGTTTTCA  1 
+Streptococcus_pneumoniae (    2) ATAAAGCGTTTTCA  1 
+Streptococcus_pyogenes|5 (    2) TGTAAGCGATTACT  1 
+Streptococcus_pyogenes|1 (    2) TGACACCGTTTTCA  1 
+Streptococcus_pyogenes|1 (    2) TGACACCGTTTTCA  1 
+Streptococcus_suis|383   (    2) CGAAAACGATTTCA  1 
+Streptococcus_suis|376   (    2) TGAAAACCCTTTCT  1 
+Streptococcus_gordonii|4 (    2) TTGAAGCGTTTTCA  1 
+Corynebacterium_glutamic (    1) TGTAATCGTTTGCA  1 
+Lactobacillus_plantarum| (    1) TGGAAACGATTCCA  1 
+Bacillus_amyloliquefacie (    2) AGAAAGCGCATACA  1 
+Streptococcus_pyogenes|1 (    2) TGAAAACTTTTTCA  1 
+Lactococcus_lactis|200   (    2) TGAAAACGCTTTTT  1 
+Lactococcus_lactis|139   (    1) TGAAAACGCTTTTT  1 
+Streptococcus_pyogenes|3 (    2) TAAAAGCGTTTTCT  1 
+Streptococcus_oligoferme (    1) TGAAAACGTTTTAT  1 
+Streptococcus_pneumoniae (    2) AGCAAACGCTTACT  1 
+Streptococcus_pneumoniae (    1) TGAAATCGGTTACT  1 
+Streptococcus_pyogenes|6 (    3) TGCAATCGCTTGCA  1 
+Streptococcus_pyogenes|6 (    3) GGAAAACGTTTCCT  1 
+Streptococcus_pyogenes|5 (    2) AGTAAGCGTTTTCC  1 
+Bacillus_subtilis|481    (    1) TTGAAACGCTTTCA  1 
+Streptococcus_pneumoniae (    2) AGAAAGGGTTTACA  1 
+Lactococcus_lactis|165   (    1) TGAAAGTGCTTGCA  1 
+Streptococcus_pyogenes|2 (    2) AGAAAGGGTTTACA  1 
+Bacillus_subtilis|486    (    1) TGAAAGCGCTCGCT  1 
+Bacillus_subtilis|464    (    1) TAAAAACGCTTTCT  1 
+Streptococcus_suis|386   (    2) TGAAACCACTTTCA  1 
+Streptococcus_pyogenes|6 (    2) TGATAGCGCTATCT  1 
+Streptococcus_pyogenes|6 (    2) TGATAGCGCTATCT  1 
+Clostridioides_difficile (    2) TGAAAAAGTTTTCT  1 
+Bacillus_megaterium|271  (    1) TGAAAGCGCAAACA  1 
+Lactococcus_lactis|147   (    1) TGAAAGCGCAAACA  1 
+Streptococcus_pyogenes|6 (    3) CGCAAGCGCTTGCA  1 
+Bacillus_subtilis|462    (    1) TGGAAGCGTTTTTA  1 
+Bacillus_subtilis|427    (    1) TGAAAGCGTTTAAT  1 
+Bacillus_subtilis|421    (    1) TGTAAGCGTATACA  1 
+Lactococcus_lactis|173   (    1) AGAAAGGGTTTTCT  1 
+Clostridioides_difficile (    2) GGAAAACGTTAACA  1 
+Bacillus_subtilis|476    (    1) TGTAAGCGCTTTAT  1 
+Bacillus_subtilis|450    (    1) TGAAAACGGTGCCA  1 
+Lactococcus_lactis|163   (    1) TGTAATCGGTTACA  1 
+Lactococcus_lactis|103   (    1) AGTAACCGTTTACA  1 
+Clostridium_acetobutylic (    2) TGTAAACGGTATCT  1 
+Streptococcus_pyogenes|4 (    3) AGTAATCGCTTACA  1 
+Streptococcus_pyogenes|4 (    3) AGTAATCGCTTACA  1 
+Clostridioides_difficile (    2) AGAAAACGTTTTAA  1 
+Bacillus_subtilis|463    (    1) TGAAAACGTTTTTT  1 
+Bacillus_subtilis|422    (    1) TGTAAGCGGATTCA  1 
+Streptococcus_pneumoniae (    2) AGAAAGCGCTTTAT  1 
+Streptococcus_pneumoniae (    2) ATAAAACGTTTTCA  1 
+Streptococcus_pneumoniae (    1) TGTAATCGATTTCA  1 
+Bacillus_amyloliquefacie (    2) TGTAAGCGGATTCA  1 
+Clostridioides_difficile (    2) AGAAAAGGCTTTCT  1 
+Lactobacillus_plantarum| (    1) TGTAAGGGCTATCA  1 
+Bacillus_subtilis|423    (    1) TGAATGCGGTTACA  1 
+Streptococcus_suis|395   (    2) TAGAAGCGTTTTCA  1 
+Streptococcus_suis|345   (    2) TGTAAACATTTTCA  1 
+Lactobacillus_plantarum| (    1) TGTAAGGGCTATCA  1 
+Clostridioides_difficile (    2) AGAAAACATTTTCA  1 
+Bacillus_subtilis|479    (    1) TGAAAACGGATACA  1 
+Bacillus_subtilis|453    (    1) TGAAAGTGTTTGCA  1 
+Streptococcus_suis|374   (    2) TAAAAACGCTTGCA  1 
+Streptococcus_pneumoniae (    2) TAAAAACGCTTGCA  1 
+Streptococcus_pneumoniae (    2) AGTAATCGCTTTCT  1 
+Streptococcus_pneumoniae (    2) TAAAAACGCTTGCA  1 
+Clostridioides_difficile (    2) AGAAAAAGTTTTCA  1 
+Bacillus_subtilis|475    (    1) TGAAAATGTTTACA  1 
+Bacillus_subtilis|441    (    1) TGAAAGCGGTTCAA  1 
+Lactococcus_lactis|113   (    1) TGTAAACCTTTTCA  1 
+Streptococcus_pneumoniae (    1) GGCAAACGCTTGCA  1 
+Streptococcus_pneumoniae (    1) GGCAAACGCTTGCA  1 
+Lactococcus_lactis|188   (    3) TGAAAACCTTTGCA  1 
+Lactococcus_lactis|133   (    1) ATAAAGCGTTTACA  1 
+Lactococcus_lactis|125   (    1) TGAAAACCTTTGCA  1 
+Lactococcus_lactis|189   (   15) TGAAAACGTTATAA  1 
+Lactococcus_lactis|126   (    1) TGAAAACGTTATAA  1 
+Lactococcus_lactis|104   (    1) AGAAATCGCTAACA  1 
+Clostridioides_difficile (    2) AGAAAGCGTTTTGA  1 
+Lactococcus_lactis|115   (    1) TGAAAACTTTTACA  1 
+Streptococcus_pyogenes|3 (    3) CGTAATCGCTTTCA  1 
+Lactococcus_lactis|167   (    1) AGAAAGCGTTTTAT  1 
+Lactococcus_lactis|112   (    1) AGTAAGCGTATTCA  1 
+Streptococcus_pyogenes|2 (    2) TGGAAGCTTTTTCA  1 
+Streptococcus_pyogenes|2 (    2) TGGAAGCTTTTTCA  1 
+Streptococcus_pyogenes|1 (    2) TGCAAGCGCTTTGA  1 
+Bacillus_subtilis|490    (    8) TGTAAGCATTTTCT  1 
+Bacillus_subtilis|449    (    1) TGTAAGCATTTTCT  1 
+Streptococcus_pneumoniae (    2) TGAAATCGGTATCT  1 
+Streptococcus_pneumoniae (    1) TTAAATCGTTTTCA  1 
+Lactococcus_lactis|161   (    1) AGAATGCGTTTACA  1 
+Streptococcus_suis|351   (    2) TGAAAACTTTTTCT  1 
+Bacillus_thuringiensis|2 (    1) TGTAAACGCTTTAT  1 
+Lactococcus_lactis|124   (    1) TGTAAAAGCTTACA  1 
+Streptococcus_pyogenes|5 (    2) TGCAATCGTTTACT  1 
+Streptococcus_pyogenes|4 (    2) TGCAATCGTTTACT  1 
+Bacillus_subtilis|483    (    1) TGAAAGCGTAACCA  1 
+Bacillus_subtilis|452    (    1) TGAAAACGGTTTAT  1 
+Streptococcus_suis|371   (    2) TGTAAGCCTTTTCT  1 
+Streptococcus_pneumoniae (    2) TGAAATCGCATACA  1 
+Lactococcus_lactis|136   (    1) AGTTAGCGCTTACA  1 
+Clostridioides_difficile (    2) AGAAAAGGTTTCCA  1 
+Streptococcus_pneumoniae (    3) TGTAAACGATAACA  1 
+Lactobacillus_plantarum| (    2) TGTAAGCGGTTTTA  1 
+Lactobacillus_plantarum| (    1) TGTAATCGTTAACA  1 
+Lactococcus_lactis|218   (   15) AGAAAGCGCTATAA  1 
+Lactococcus_lactis|174   (    1) AGAAAGCGCTATAA  1 
+Lactococcus_lactis|145   (    1) TGATATCGCTTCCA  1 
+Lactococcus_lactis|143   (    1) AGAAAATGTTTTCA  1 
+Clostridioides_difficile (    2) AGTTAACGTTTTCA  1 
+Streptococcus_pyogenes|7 (    3) TGAAAACGCCTCCA  1 
+Lactobacillus_casei|553  (    1) ATAAAACGTTTACA  1 
+Clostridioides_difficile (    2) AGAAAAGGTTTGCA  1 
+Streptococcus_gordonii|4 (    2) TGGAAATGTTTTCA  1 
+Streptococcus_pneumoniae (    2) TGAAAGCGCAAACT  1 
+Streptococcus_pyogenes|1 (    3) ATAAAGCGCTTACT  1 
+Enterococcus_faecalis|55 (    1) TGTAAACGGTGACA  1 
+Streptococcus_lutetiensi (    1) TGAAAGCGATTTAT  1 
+Streptococcus_suis|363   (    2) ATTAAACGCTTTCA  1 
+Streptococcus_pyogenes|7 (    3) AGATAACGCTTACT  1 
+Streptococcus_pneumoniae (    3) TGAAAGGGGTAACA  1 
+Lactococcus_lactis|199   (    2) TGGAAACCCTTTCT  1 
+Lactococcus_lactis|171   (    1) GGCAAACGTTATCA  1 
+Streptococcus_pyogenes|5 (    2) TTGAAGCGCTTACT  1 
+Streptococcus_pyogenes|5 (    2) TTGAAGCGCTTACT  1 
+Clostridioides_difficile (    2) ATAAAACGTTTTCT  1 
+Streptococcus_suis|378   (    2) TGCAAGCATTTTCT  1 
+Bacillus_subtilis|469    (    1) TGAAAACGTGTCCA  1 
+Bacillus_amyloliquefacie (    2) TGAATACGTTTCCT  1 
+Lactococcus_lactis|156   (    1) TGAAATCGTTCACA  1 
+Streptococcus_pyogenes|5 (    3) AGAAAACACTTGCA  1 
+Clostridioides_difficile (    2) AGAAAAGGTTATCA  1 
+Bacillus_subtilis|467    (    1) TGAAAACGCGATCA  1 
+Bacillus_subtilis|434    (    1) TGAAAGCGCAGTCT  1 
+Streptococcus_pneumoniae (    2) GGAAAAGGCTTTCT  1 
+Bacillus_megaterium|557  (    1) TGATAAGGTTTTCA  1 
+Bacillus_subtilis|459    (    1) TGAAAGCGTTTTAG  1 
+Streptococcus_pneumoniae (    3) TGTAACCGGTAACA  1 
+Lactococcus_lactis|108   (    1) TGACAGAGTTTTCA  1 
+Streptococcus_pyogenes|6 (    2) TAAAAGCGTTATCT  1 
+Bacillus_subtilis|482    (    1) TGTAAGCGGTTTAT  1 
+Bacillus_subtilis|438    (    1) TGGAAGCGCAAACA  1 
+Lactococcus_lactis|214   (    2) TGATAACGCTGACA  1 
+Lactococcus_lactis|166   (    1) TGATAACGCTGACA  1 
+Streptococcus_pyogenes|5 (    2) AGAAAAGGATTTCA  1 
+Streptococcus_pyogenes|2 (    2) TGTAAGCGCTACCG  1 
+Streptococcus_pyogenes|2 (    3) AGATAACGATTTCA  1 
+Streptococcus_suis|381   (    2) CGTAACCGTTTTCT  1 
+Lactobacillus_plantarum| (    2) TGGAATCGATTCCA  1 
+Clostridioides_difficile (    2) TGAAAACGTTTAGT  1 
+Streptococcus_anginosus| (    2) GGAAAGCGCTTTTT  1 
+Lactobacillus_plantarum| (    2) GTAAAGCGCTTGCA  1 
+Lactococcus_lactis|129   (    1) ATAAACCGTTTTCA  1 
+Lactococcus_lactis|150   (    1) TGAAAGCGTTAAGA  1 
+Streptococcus_pyogenes|4 (    2) AGAAAACTCTTTCT  1 
+Streptococcus_pyogenes|5 (    3) CGAAAACCTTTTCA  1 
+Streptococcus_pyogenes|4 (    3) CGAAAACCTTTTCA  1 
+Clostridioides_difficile (    2) AGAAAATGTTTACA  1 
+Clostridioides_difficile (    2) AGAAAATGTTTACA  1 
+Clostridioides_difficile (    2) AGAAAATGTTTACA  1 
+Bacillus_subtilis|457    (    1) TGAAAACGCTTAAC  1 
+Streptococcus_pneumoniae (    2) TGAAACTGTTTACA  1 
+Streptococcus_anginosus| (    2) CGAAAGCGCTTTTT  1 
+Lactococcus_lactis|153   (    1) TGAAAACTCTAACA  1 
+Streptococcus_pyogenes|6 (    3) AGAAACCGGTACCA  1 
+Lactococcus_lactis|140   (    1) AATAAGCGCTTACA  1 
+Lactococcus_lactis|118   (    1) TGTAAGCGCAAGCA  1 
+Lactococcus_lactis|164   (    1) TGAAAGCACTGCCA  1 
+Clostridium_acetobutylic (   20) AGAAAACTTTTACA  1 
+Streptococcus_pyogenes|7 (    3) AGAAAGCCCTTTCC  1 
+Streptococcus_pyogenes|3 (    3) AGATACCGCTTGCA  1 
+Streptococcus_pyogenes|3 (    3) AGATACCGCTTGCA  1 
+Lactococcus_lactis|132   (    1) TGAAACAGTTATCA  1 
+Streptococcus_pneumoniae (    3) TGAAAATGGTATCA  1 
+Streptococcus_pneumoniae (    3) TGAAAATGGTATCA  1 
+Bacillus_amyloliquefacie (    2) TGCAAACGGATACA  1 
+Lactococcus_lactis|107   (    1) TGAAAGAGCATACA  1 
+Clostridioides_difficile (    2) AGAAAACGTTATTA  1 
+Streptococcus_suis|403   (    2) AGAGAACGGTTTCT  1 
+Streptococcus_suis|389   (    2) AGATAACGTTTTCC  1 
+Clostridioides_difficile (    2) AGAAAATGTTTGCA  1 
+Streptococcus_pneumoniae (    2) ATTAAACGCTTCCA  1 
+Clostridioides_difficile (    2) GGAAAACGATACCA  1 
+Tetragenococcus_halophil (    1) TGAAAACGCTTGAC  1 
+Bacillus_amyloliquefacie (    1) TTGAAGCGGTATCA  1 
+Clostridioides_difficile (    2) GGAAAACATTTTCT  1 
+Clostridioides_difficile (    2) GGATAACGTTATCA  1 
+Clostridioides_difficile (    2) GGAAAACATTTTCT  1 
+Streptococcus_pneumoniae (    2) CAAAAACGCTTACA  1 
+Lactococcus_lactis|131   (    1) AGTAATCGTTATCT  1 
+Lactococcus_lactis|141   (    1) TGAAAAAGGTAACA  1 
+Lactococcus_lactis|134   (    1) TGAAAAAGGTAACA  1 
+Lactococcus_lactis|111   (    1) ATAAAGCGATTTCT  1 
+Clostridioides_difficile (    2) AGAAAAGGATTTCT  1 
+Bacillus_amyloliquefacie (    1) TTGAACCGCTTCCA  1 
+Bacillus_amyloliquefacie (    1) TTGAAGCGTTACCA  1 
+Lactococcus_lactis|105   (    1) TGTAACAGTTTACA  1 
+Streptococcus_pyogenes|4 (    3) TGATAACCCTTACA  1 
+Streptococcus_pyogenes|4 (    3) TGATAACCCTTACA  1 
+Lactococcus_lactis|162   (    1) TGTCAGCATTTTCA  1 
+Lactococcus_lactis|146   (    1) GGTAATCGTTTACT  1 
+Clostridioides_difficile (    2) TGAAAAAGATTACT  1 
+Streptococcus_pneumoniae (    3) CGAAAACGATAGCA  1 
+Streptococcus_suis|346   (    2) TTGAACCGTTTTCT  1 
+Lactococcus_lactis|154   (    1) TAAATACGCTTTCA  1 
+Streptococcus_pneumoniae (    1) TGTCAAAGCTTTCA  1 
+Streptococcus_pneumoniae (    1) TGTCAAAGCTTTCA  1 
+Lactococcus_lactis|144   (    1) TGCAAGCGATTTGA  1 
+Clostridioides_difficile (    2) TGATAACATTTTCT  1 
+Clostridioides_difficile (    2) AGAAAACCTTATCT  1 
+Streptococcus_pyogenes|1 (    3) TGGGAACGATTTCT  1 
+Lactococcus_lactis|121   (    1) TGAAAGTGATAACA  1 
+Lactococcus_lactis|120   (    1) TGTAATGGATTTCA  1 
+Clostridium_acetobutylic (    2) TGTAAACGGTTATT  1 
+Streptococcus_pyogenes|1 (    2) AGAAAACGTTTTAG  1 
+Lactococcus_lactis|172   (    1) TGTATGCGTTTTAA  1 
+Streptococcus_pneumoniae (    3) TGTAAGCTATTCCA  1 
+Lactococcus_lactis|148   (    1) AAAAAGCGTATTCA  1 
+Bacillus_amyloliquefacie (    1) TTGAAGCGGTACCA  1 
+Lactococcus_lactis|160   (    1) TTTAAACGTTTACC  1 
+Lactococcus_lactis|157   (    1) TGTAAGCGTTGATA  1 
+Streptococcus_pneumoniae (    3) TGAAAAAGCAATCA  1 
+Streptococcus_pneumoniae (    3) TGAAAAAGCAATCA  1 
+Lactococcus_lactis|205   (    2) TGTAAAGGCTTAAA  1 
+Lactococcus_lactis|169   (    1) AGAAAGCGGACTCA  1 
+Lactococcus_lactis|168   (    1) TGCGAACGCATTCA  1 
+Lactococcus_lactis|152   (    1) TTAAAGCGGTTAAA  1 
+Lactococcus_lactis|151   (    1) TGTAAAGGCTTAAA  1 
+Clostridioides_difficile (    2) AGATAAGGTTTTCT  1 
+Streptococcus_pneumoniae (    2) TATAATCGCTATCA  1 
+Lactococcus_lactis|158   (    1) TTTAAGCGTTCACA  1 
+Streptococcus_pneumoniae (    2) AGAATGCGTTTTTA  1 
+Lactococcus_lactis|117   (    1) TGAAATCATTAGCA  1 
+Lactococcus_lactis|109   (    1) TTAAAACGTTTGAA  1 
+Clostridioides_difficile (    2) AGATAACGATTGCT  1 
+Clostridioides_difficile (    2) AGATAACGATTGCT  1 
+Streptococcus_pneumoniae (    3) TGTATTCGTTATCA  1 
+Lactococcus_lactis|192   (   10) AGCAAACGGTTGCG  1 
+Streptococcus_pneumoniae (    1) TGCAACCGATTTAA  1 
+Bacillus_amyloliquefacie (    1) TTGAAGCGCTTTAT  1 
+Lactococcus_lactis|110   (    1) ATAAAACGCATACA  1 
+Lactococcus_lactis|142   (    1) TGTAAGTATTTTCA  1 
+Streptococcus_pneumoniae (    3) TGAAAATGATGTCA  1 
+Streptococcus_pneumoniae (    1) TTAAACTGCTTTCA  1 
+Lactococcus_lactis|135   (    1) TGAAAGCGAATAAA  1 
+Lactococcus_lactis|119   (    1) TGTGAACGCTTAAA  1 
+Lactococcus_lactis|114   (    1) TGTAAGAGATATCT  1 
+Streptococcus_pyogenes|3 (    2) TGGTGGCGTTTTCT  1 
+Clostridioides_difficile (    2) GGAAATAGTTTTCT  1 
+Streptococcus_pyogenes|4 (    3) CGTAAGCGCCTCCA  1 
+Clostridioides_difficile (    2) AGAAAAGGTATGCA  1 
+Bacillus_amyloliquefacie (    1) TTGAAGCGTTTTAT  1 
+Lactococcus_lactis|159   (    1) TGATATCGATAACA  1 
+Lactococcus_lactis|122   (    1) TGCACACGTTATCT  1 
+Streptococcus_pneumoniae (    3) TGTTTGCGTTATCA  1 
+Clostridioides_difficile (    2) AGAAATCGTTTCTT  1 
+Lactococcus_lactis|170   (    1) TAGAAGCGATAACA  1 
+Bacillus_amyloliquefacie (    1) ATGAAGCGTTGACA  1 
+Clostridioides_difficile (    2) GTAAAACGGTTTCC  1 
+Lactococcus_lactis|186   (   14) TGGTAGCGGTTATA  1 
+Lactococcus_lactis|123   (    1) TGGTAGCGGTTATA  1 
+Streptococcus_pneumoniae (    1) TGAAATCGAAACCA  1 
+Lactococcus_lactis|155   (    1) TGAATACGAATACA  1 
+Bacillus_amyloliquefacie (    1) TTGAAGCGCAAACA  1 
+Bacillus_amyloliquefacie (    1) TTGAAACGTTTATA  1 
+Lactococcus_lactis|138   (    1) TGCCATCGTATTCA  1 
+Clostridioides_difficile (    2) AGAAAAGGTTTTGT  1 
+Clostridioides_difficile (    2) AGAAAAGGTTTTGT  1 
+Clostridioides_difficile (    2) GAAAAACGTTAACT  1 
+Streptococcus_anginosus| (    2) AGAACGCGCTTTTT  1 
+Bacillus_amyloliquefacie (    1) ATGAAGCGGATTCA  1 
+Lactococcus_lactis|149   (    1) TTAATACGATTACA  1 
+Clostridium_acetobutylic (    9) TATAAGCTTTTACA  1 
+Streptococcus_pneumoniae (    3) TGACAACACTGCCA  1 
+Bacillus_amyloliquefacie (    1) TTGAACCGCATACA  1 
+Clostridioides_difficile (    2) AGAAAACGATTTTG  1 
+Clostridioides_difficile (    2) AGAAAACGATTTTG  1 
+Bacillus_amyloliquefacie (    2) TGAATACGTTACAA  1 
+Lactococcus_lactis|137   (    1) TATCAGCGTTAACA  1 
+Clostridioides_difficile (    2) GGAAAACGTATTAT  1 
+Clostridium_acetobutylic (    1) TGTAAACGTTCCAT  1 
+Lactococcus_lactis|106   (    1) AGTAACCGGTATTA  1 
+Streptococcus_pneumoniae (    1) TGTTATCTTTTTCA  1 
+Streptococcus_pneumoniae (    1) TGTTATCTTTTTCA  1 
+Clostridium_acetobutylic (    9) TGTACACCTTTACA  1 
+Clostridioides_difficile (    2) AATAAAGGTTTTCT  1 
+Clostridioides_difficile (    2) AATAAAGGTTTTCT  1 
+Clostridioides_difficile (    2) AGAAAACGTTAAGC  1 
+Clostridium_acetobutylic (   17) ATTATACGTTTACA  1 
+Streptococcus_pyogenes|1 (    3) AGATATCGCTTCTA  1 
+Streptococcus_pyogenes|6 (    2) TTAAAGCTTTTTAA  1 
+Clostridioides_difficile (    2) GGAAAACGTTATGC  1 
+Clostridioides_difficile (    2) GGAAAACGTTATGC  1 
+Streptococcus_pneumoniae (    3) TGGAAAAGAATACA  1 
+Bacillus_licheniformis|2 (    1) AGACACCGCTTGGA  1 
+Streptococcus_pyogenes|2 (    3) TTATATCGATTTCT  1 
+Streptococcus_pyogenes|1 (    3) TTATATCGATTTCT  1 
+Clostridioides_difficile (    2) GGAGAACATTATCA  1 
+Streptococcus_pyogenes|4 (    2) TAAAATCTTTTTCT  1 
+Clostridioides_difficile (    2) GGAAATAGTTAACT  1 
+Streptococcus_suis|399   (    2) AGGAAAATCTTACA  1 
+Clostridium_acetobutylic (    8) AGAAATAATTTACA  1 
+Streptococcus_suis|398   (    6) TCAATAAGTTTTCA  1 
+Streptococcus_intermediu (    3) TGAAAGAATTCGCA  1 
+Streptococcus_pneumoniae (    3) TGAAAAAGAAACCA  1 
+Streptococcus_pneumoniae (    3) TGTTACCGATCACA  1 
+Bacillus_amyloliquefacie (    1) TTGAAGCGTTAATT  1 
+Clostridium_acetobutylic (    1) TGTAAAGGGTATTT  1 
+Bacillus_amyloliquefacie (    2) TGAAGCGATTTTCA  1 
+Streptococcus_pyogenes|2 (    2) TGAAGGGTTTATCA  1 
+Lactococcus_lactis|178   (   14) TGAATCGGCTTATA  1 
+Streptococcus_suis|350   (    6) TCAAAGATTTTCCA  1 
+Clostridium_acetobutylic (    4) TGTAAACCTTGTTT  1 
+Clostridioides_difficile (    2) AGAAAAAATATACA  1 
+Clostridium_acetobutylic (    1) TGTAAAAGTTGCTA  1 
+Streptococcus_suis|407   (    7) CCTAACCATTTTCA  1 
+Lactococcus_lactis|210   (   15) TGAAAAGTGTTATA  1 
+Streptococcus_suis|349   (    6) TCAAATCCTTTCCC  1 
+Clostridioides_difficile (    2) CAAAAAGATTTTCA  1 
+Clostridioides_difficile (    2) AGAAAAAGACATCA  1 
+Streptococcus_suis|387   (    8) TGAAAATATTTTGT  1 
+Bacillus_amyloliquefacie (    2) TGAATACGTAACAA  1 
+Streptococcus_suis|392   (    6) TCATAACTTTTCCT  1 
+Streptococcus_suis|384   (    6) TCAATTTGTTTTCA  1 
+Clostridioides_difficile (    2) AGAAAAAATTATAA  1 
+Clostridium_acetobutylic (   21) TGCAAAAAGTTTTA  1 
+Lactococcus_lactis|208   (    2) TGTCAAAGATTAAA  1 
+Lactococcus_lactis|177   (   15) TAAAAAGGATATAA  1 
+Clostridium_acetobutylic (    1) TGTAAAAGATGTAT  1 
+Clostridium_acetobutylic (    1) TGTAAATATTTTTT  1 
+Lactococcus_lactis|180   (   13) TAAAAGGATTGGCA  1 
+Clostridium_acetobutylic (   37) ATTGAGTGTTTACA  1 
+Clostridioides_difficile (    1) AGGAAATGGTATTT  1 
+Clostridioides_difficile (    1) AGGAAATGGTATTT  1 
+Clostridioides_difficile (    2) AAAAAATGTTTTTT  1 
+Streptococcus_suis|409   (    8) AGAAAGATGTTCAA  1 
+Lactococcus_lactis|184   (   14) TGAAAAAGACTAAA  1 
+Bacillus_megaterium|555  (    1) GTAAAACGATGAAA  1 
+Streptococcus_suis|404   (    5) TTCAATGATTTTCT  1 
+Lactococcus_lactis|209   (   15) AAAAAATGTTATAA  1 
+Lactococcus_lactis|212   (   16) TTTAAATGCTACAA  1 
+Clostridium_acetobutylic (    1) TGTAAAATCTAATA  1 
+Clostridium_acetobutylic (    3) TAAATAGATTTACA  1 
+Streptococcus_suis|411   (    6) TCAAAATTATTTCT  1 
+Streptococcus_suis|408   (    6) TCAAGCCTATTTCA  1 
+Clostridium_acetobutylic (   22) TAAACGGATTTACA  1 
+Bacillus_subtilis|415    (    2) AAGGAACGATGACA  1 
+Clostridium_acetobutylic (    1) TGTAAAGGATGTTG  1 
+Streptococcus_suis|370   (    5) CTCAAGCATTTTTT  1 
+Streptococcus_suis|359   (    7) CCGAAATATTTTCA  1 
+Bacillus_amyloliquefacie (    2) TGTAAAGCGTTTGC  1 
+Clostridium_acetobutylic (    7) ATTTATTGTTTACA  1 
+Streptococcus_suis|353   (    6) TCAGAAAATTTCCA  1 
+Clostridium_acetobutylic (    5) AAAAATATTTTACA  1 
+Clostridioides_difficile (    1) TGTAAAAAGTTTAG  1 
+Clostridioides_difficile (    1) TGTAAAAAGTTTAG  1 
+Streptococcus_suis|413   (    5) TTCCAACAATTTCC  1 
+Lactococcus_lactis|201   (   13) CGAAAAAGTGATAA  1 
+Lactococcus_lactis|193   (    4) CAAAAACAATTAAA  1 
+Lactococcus_lactis|176   (    2) TGCAATCTTAATAA  1 
+Streptococcus_suis|355   (    5) TTCATAAATTTTCA  1 
+Streptococcus_intermediu (    3) TGAAAGCATGCAAT  1 
+Clostridioides_difficile (    2) AGATAAAATTTTTT  1 
+Lactobacillus_plantarum| (    2) GTCAAACGATTGAC  1 
+Clostridium_acetobutylic (   21) ATAAGGTATTTACA  1 
+Streptococcus_suis|347   (    6) TCACAAAAATTTCT  1 
+Streptococcus_suis|380   (    5) TTCATAACCTTTCT  1 
+Streptococcus_suis|366   (    6) TCAAGCTATTTTCA  1 
+Lactococcus_lactis|179   (    2) TGAAATCAACTCTA  1 
+Clostridium_acetobutylic (    1) TGTAAATGTAGATT  1 
+Lactococcus_lactis|183   (    4) ACAAAAAATATGCA  1 
+Streptococcus_suis|358   (    6) TCATAAAAATTCCA  1 
+Streptococcus_suis|390   (    5) TTCCAAATTTTTCT  1 
+Clostridioides_difficile (    2) GGAAATAGATAAGT  1 
+Lactococcus_lactis|215   (   14) GAAAATAGGTTATA  1 
+Streptococcus_suis|401   (    6) TCAATAATTTTACT  1 
+Streptococcus_suis|394   (    8) TGACATTTTTCTCT  1 
+Bacillus_amyloliquefacie (    1) TTGAACGCTTTTAT  1 
+Lactococcus_lactis|198   (   11) GGAAAAAAATTGTT  1 
+Lactococcus_lactis|175   (    2) TGACATCTTTCTGT  1 
+Bacillus_amyloliquefacie (    1) TTGAACGCTTTCTA  1 
+Streptococcus_suis|414   (    7) CAAGAAAATTTACA  1 
+Clostridium_acetobutylic (    6) AGGAAATGATAGAG  1 
+Clostridium_acetobutylic (    4) AAATATACTTTACA  1 
+Lactococcus_lactis|195   (   15) TAAATACGTGATAT  1 
+Streptococcus_suis|342   (    5) TTCATTTATTTTCA  1 
+Streptococcus_suis|357   (    6) TCATAAATTTTGCC  1 
+Clostridium_acetobutylic (    3) TAAAATCTGTTATG  1 
+Streptococcus_suis|391   (    7) CAAGTTCATTTTCA  1 
+Streptococcus_suis|354   (    5) TTCAGAAAATTTCT  1 
+Lactococcus_lactis|203   (    5) TAAACTTGTTTATA  1 
+Streptococcus_suis|352   (    5) TTCTGAAATTTTCA  1 
+Clostridioides_difficile (    1) TAGATTTGGTTTAA  1 
+Bacillus_subtilis|451    (    1) TGAAATGAATCGTT  1 
+Streptococcus_suis|410   (    7) CATGCACCTTTTCA  1 
+Streptococcus_suis|405   (    8) TGGATATTTTCACC  1 
+Lactococcus_lactis|181   (    8) TACTATCATTTTTC  1 
+Lactococcus_lactis|196   (    8) TAAAGGCCAATTAT  1 
+Lactococcus_lactis|185   (    2) TGACAAAAAGCCCA  1 
+Streptococcus_suis|360   (    6) TCAGTACATTTTTC  1 
+Lactococcus_lactis|194   (    4) ACAGGTTGTTTTCC  1 
+Streptococcus_suis|379   (    6) TCATGACATTTTTG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TGAAAACGTTTTCA MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 20 w= 14 n= 2540 bayes= 1.82531 E= 1.3e-701 
+   -51   -187   -162   -143   -169   -164   -225   -121   -169    -64   -163    -65    -24   -111   -120    237     94     60   -335   -231 
+  -214   -202   -162   -142   -169    226   -225   -122   -169    -64   -163    -65    -24   -111   -120    237   -158     60   -335   -231 
+    81   -114   -162   -143   -169    -75   -225   -121   -169    -64   -163    -65    -24   -111   -120    238    -58     61   -335   -231 
+   129   -187   -162   -143   -169   -258   -225   -121   -169    -64   -163    -65    -24   -111   -120    237   -196     61   -335   -231 
+   140   -367   -162   -143   -169   -292   -225   -121   -169    -64   -163    -65    -24   -111   -120    237   -275     60   -335   -231 
+    45   -106   -162   -143   -169    106   -225   -121   -169    -64   -163    -65    -24   -111   -120    238   -151     61   -335   -231 
+  -169    234   -163   -143   -170    -97   -226   -122   -169    -64   -163    -66    -24   -111   -120    237   -226     60   -335   -231 
+  -164   -181   -161   -142   -169    229   -225   -121   -168    -64   -163    -65    -24   -111   -119    237   -251     60   -335   -230 
+  -150     93   -163   -143   -169    -52   -226   -122   -169    -64   -163    -66    -24   -111   -120    237     49     60   -335   -231 
+  -214   -393   -163   -143   -170   -378   -226   -122   -170    -64   -164    -66    -24   -112   -121    237    138     60   -336   -231 
+   -70   -256   -163   -143   -169   -193   -226   -122   -169    -64   -163    -66    -24   -111   -120    237    105     60   -335   -231 
+   -29    -68   -162   -143   -169    -81   -225   -121   -169    -64   -163    -65    -24   -111   -120    237     62     61   -335   -231 
+  -150    236   -163   -143   -170   -248   -226   -122   -169    -64   -163    -66    -24   -111   -120    237   -184     60   -335   -231 
+    85   -187   -162   -143   -169   -248   -225   -121   -169    -64   -163    -65    -24   -111   -120    237    -18     61   -335   -231 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TGAAAACGTTTTCA MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 20 w= 14 nsites= 527 E= 1.3e-701 
+ 0.242884  0.039848  0.000000  0.000000  0.000000  0.051233  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.666034  0.000000  0.000000  0.000000 
+ 0.077799  0.036053  0.000000  0.000000  0.000000  0.770398  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.115750  0.000000  0.000000  0.000000 
+ 0.607211  0.066414  0.000000  0.000000  0.000000  0.094877  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.231499  0.000000  0.000000  0.000000 
+ 0.844402  0.039848  0.000000  0.000000  0.000000  0.026565  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.089184  0.000000  0.000000  0.000000 
+ 0.916509  0.011385  0.000000  0.000000  0.000000  0.020873  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.051233  0.000000  0.000000  0.000000 
+ 0.474383  0.070209  0.000000  0.000000  0.000000  0.333966  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.121442  0.000000  0.000000  0.000000 
+ 0.106262  0.740038  0.000000  0.000000  0.000000  0.081594  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.072106  0.000000  0.000000  0.000000 
+ 0.110057  0.041746  0.000000  0.000000  0.000000  0.787476  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.060721  0.000000  0.000000  0.000000 
+ 0.121442  0.278937  0.000000  0.000000  0.000000  0.111954  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.487666  0.000000  0.000000  0.000000 
+ 0.077799  0.009488  0.000000  0.000000  0.000000  0.011385  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.901328  0.000000  0.000000  0.000000 
+ 0.212524  0.024668  0.000000  0.000000  0.000000  0.041746  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.721063  0.000000  0.000000  0.000000 
+ 0.282732  0.091082  0.000000  0.000000  0.000000  0.091082  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.535104  0.000000  0.000000  0.000000 
+ 0.121442  0.753321  0.000000  0.000000  0.000000  0.028463  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.096774  0.000000  0.000000  0.000000 
+ 0.624288  0.039848  0.000000  0.000000  0.000000  0.028463  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.307400  0.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TGAAAACGTTTTCA MEME-1 regular expression
+--------------------------------------------------------------------------------
+[TA]G[AT]AA[AG]CG[TC]T[TA][TA]C[AT]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 359.78 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+Streptococcus_pyogenes|1         1.01e-06  2_[1(3.37e-07)]
+Streptococcus_pyogenes|2         5.22e-06  2_[1(1.74e-06)]
+Streptococcus_pyogenes|3         7.12e-04  16
+Streptococcus_pyogenes|4         1.05e-04  2_[1(3.51e-05)]
+Streptococcus_pyogenes|5         1.05e-04  2_[1(3.51e-05)]
+Streptococcus_pyogenes|6         7.80e-06  1_[1(2.60e-06)]_1
+Streptococcus_pyogenes|7         1.33e-04  2_[1(4.42e-05)]
+Streptococcus_pyogenes|8         7.94e-06  2_[1(1.13e-06)]_4
+Streptococcus_pyogenes|9         7.94e-06  2_[1(1.13e-06)]_4
+Streptococcus_pyogenes|1         5.50e-06  1_[1(1.83e-06)]_1
+Streptococcus_pyogenes|1         4.23e-05  1_[1(1.41e-05)]_1
+Streptococcus_pyogenes|1         1.88e-05  1_[1(6.25e-06)]_1
+Streptococcus_pyogenes|1         8.03e-04  20
+Streptococcus_pyogenes|1         6.10e-05  2_[1(2.03e-05)]
+Streptococcus_pyogenes|1         3.76e-04  16
+Streptococcus_pyogenes|1         1.66e-05  1_[1(5.53e-06)]_1
+Streptococcus_pyogenes|1         1.66e-05  1_[1(5.53e-06)]_1
+Streptococcus_pyogenes|1         2.69e-03  16
+Streptococcus_pyogenes|1         3.34e-03  16
+Streptococcus_pyogenes|2         3.34e-03  16
+Streptococcus_pyogenes|2         2.21e-05  1_[1(7.37e-06)]_1
+Streptococcus_pyogenes|2         4.23e-05  1_[1(1.41e-05)]_1
+Streptococcus_pyogenes|2         4.23e-05  1_[1(1.41e-05)]_1
+Streptococcus_pyogenes|2         7.15e-03  16
+Streptococcus_pyogenes|2         9.08e-05  2_[1(3.03e-05)]
+Streptococcus_pyogenes|2         9.08e-05  1_[1(3.03e-05)]_1
+Streptococcus_pyogenes|2         9.81e-06  1_[1(3.27e-06)]_1
+Streptococcus_pyogenes|2         9.81e-06  1_[1(3.27e-06)]_1
+Streptococcus_pyogenes|2         1.31e-05  2_[1(3.27e-06)]_1
+Streptococcus_pyogenes|3         1.31e-05  2_[1(3.27e-06)]_1
+Streptococcus_pyogenes|3         6.12e-06  2_[1(2.04e-06)]
+Streptococcus_pyogenes|3         1.41e-05  2_[1(4.70e-06)]
+Streptococcus_pyogenes|3         1.40e-04  2_[1(4.66e-05)]
+Streptococcus_pyogenes|3         1.40e-04  2_[1(4.66e-05)]
+Streptococcus_pyogenes|3         7.22e-06  1_[1(2.41e-06)]_1
+Streptococcus_pyogenes|3         7.22e-06  1_[1(2.41e-06)]_1
+Streptococcus_pyogenes|3         4.03e-05  2_[1(1.34e-05)]
+Streptococcus_pyogenes|3         1.39e-06  2_[1(4.63e-07)]
+Streptococcus_pyogenes|3         1.99e-05  1_[1(6.64e-06)]_1
+Streptococcus_pyogenes|4         2.11e-04  2_[1(7.02e-05)]
+Streptococcus_pyogenes|4         2.11e-04  2_[1(7.02e-05)]
+Streptococcus_pyogenes|4         9.29e-06  2_[1(3.10e-06)]
+Streptococcus_pyogenes|4         1.05e-04  1_[1(3.51e-05)]_1
+Streptococcus_pyogenes|4         1.04e-05  1_[1(3.47e-06)]_1
+Streptococcus_pyogenes|4         7.42e-04  16
+Streptococcus_pyogenes|4         3.59e-03  16
+Streptococcus_pyogenes|4         2.77e-05  2_[1(9.22e-06)]
+Streptococcus_pyogenes|4         2.77e-05  2_[1(9.22e-06)]
+Streptococcus_pyogenes|4         4.72e-05  1_[1(1.57e-05)]_1
+Streptococcus_pyogenes|5         4.72e-05  1_[1(1.57e-05)]_1
+Streptococcus_pyogenes|5         6.75e-05  1_[1(2.25e-05)]_1
+Streptococcus_pyogenes|5         6.75e-05  1_[1(2.25e-05)]_1
+Streptococcus_pyogenes|5         9.08e-05  1_[1(3.03e-05)]_1
+Streptococcus_pyogenes|5         2.10e-05  1_[1(6.99e-06)]_1
+Streptococcus_pyogenes|5         1.66e-05  1_[1(5.53e-06)]_1
+Streptococcus_pyogenes|5         7.80e-06  1_[1(2.60e-06)]_1
+Streptococcus_pyogenes|5         7.80e-06  1_[1(2.60e-06)]_1
+Streptococcus_pyogenes|5         2.14e-06  2_[1(7.14e-07)]
+Streptococcus_pyogenes|5         7.42e-05  2_[1(2.47e-05)]
+Streptococcus_pyogenes|6         2.10e-05  2_[1(6.99e-06)]
+Streptococcus_pyogenes|6         1.93e-03  15
+Streptococcus_pyogenes|6         8.60e-05  1_[1(2.87e-05)]_1
+Streptococcus_pyogenes|6         1.15e-04  2_[1(3.84e-05)]
+Streptococcus_pyogenes|6         2.46e-05  2_[1(8.20e-06)]
+Streptococcus_pyogenes|6         2.10e-05  2_[1(6.99e-06)]
+Streptococcus_pyogenes|6         2.33e-05  1_[1(7.78e-06)]_1
+Streptococcus_pyogenes|6         2.33e-05  1_[1(7.78e-06)]_1
+Streptococcus_pyogenes|6         1.11e-05  1_[1(3.70e-06)]_1
+Streptococcus_pyogenes|6         1.41e-05  1_[1(4.70e-06)]_1
+Streptococcus_pyogenes|7         8.16e-06  1_[1(2.04e-06)]_2
+Streptococcus_pyogenes|7         8.16e-06  1_[1(2.04e-06)]_2
+Streptococcus_pyogenes|7         5.79e-05  2_[1(1.93e-05)]
+Streptococcus_pyogenes|7         6.43e-05  2_[1(2.14e-05)]
+Clostridium_acetobutylic         8.16e-03  24
+Clostridium_acetobutylic         7.19e-01  27
+Clostridium_acetobutylic         2.39e-02  41
+Clostridium_acetobutylic         2.02e-02  20
+Clostridium_acetobutylic         6.09e-02  36
+Clostridium_acetobutylic         2.31e-04  1_[1(9.22e-06)]_23
+Clostridium_acetobutylic         3.44e-02  19
+Clostridium_acetobutylic         1.08e-03  22
+Clostridium_acetobutylic         4.04e-01  35
+Clostridium_acetobutylic         1.65e-01  17
+Clostridium_acetobutylic         4.75e-03  22
+Clostridium_acetobutylic         9.32e-02  19
+Clostridium_acetobutylic         1.27e-01  37
+Clostridium_acetobutylic         8.44e-04  19_[1(4.22e-05)]
+Clostridium_acetobutylic         7.90e-01  50
+Clostridium_acetobutylic         3.28e-02  16
+Clostridium_acetobutylic         2.10e-01  30
+Clostridium_acetobutylic         2.09e-01  33
+Clostridium_acetobutylic         1.23e-02  23
+Clostridium_acetobutylic         1.03e-01  20
+Clostridium_acetobutylic         4.83e-01  20
+Clostridium_acetobutylic         1.63e-01  29
+Clostridium_acetobutylic         3.84e-03  19
+Clostridium_acetobutylic         3.44e-02  19
+Clostridium_acetobutylic         1.37e-01  36
+Clostridium_acetobutylic         1.44e-01  19
+Clostridium_acetobutylic         1.26e-02  21
+Clostridium_acetobutylic         3.09e-01  42
+Clostridium_acetobutylic         2.11e-01  50
+Lactococcus_lactis|103           9.22e-06  [1(9.22e-06)]
+Lactococcus_lactis|104           1.27e-05  [1(1.27e-05)]
+Lactococcus_lactis|105           7.02e-05  [1(7.02e-05)]
+Lactococcus_lactis|106           7.18e-04  14
+Lactococcus_lactis|107           5.09e-05  [1(5.09e-05)]
+Lactococcus_lactis|108           2.73e-05  [1(2.73e-05)]
+Lactococcus_lactis|109           1.77e-04  14
+Lactococcus_lactis|110           1.92e-04  14
+Lactococcus_lactis|111           6.41e-05  [1(6.41e-05)]
+Lactococcus_lactis|112           1.41e-05  [1(1.41e-05)]
+Lactococcus_lactis|113           1.15e-05  [1(1.15e-05)]
+Lactococcus_lactis|114           2.37e-04  14
+Lactococcus_lactis|115           1.34e-05  [1(1.34e-05)]
+Lactococcus_lactis|116           5.23e-06  [1(5.23e-06)]
+Lactococcus_lactis|117           1.77e-04  14
+Lactococcus_lactis|118           4.02e-05  [1(4.02e-05)]
+Lactococcus_lactis|119           2.37e-04  14
+Lactococcus_lactis|120           1.20e-04  14
+Lactococcus_lactis|121           1.20e-04  14
+Lactococcus_lactis|122           2.80e-04  14
+Lactococcus_lactis|123           3.87e-04  14
+Lactococcus_lactis|124           1.57e-05  [1(1.57e-05)]
+Lactococcus_lactis|125           1.20e-05  [1(1.20e-05)]
+Lactococcus_lactis|126           1.27e-05  [1(1.27e-05)]
+Lactococcus_lactis|127           2.04e-06  [1(2.04e-06)]
+Lactococcus_lactis|128           3.70e-06  [1(3.70e-06)]
+Lactococcus_lactis|129           3.34e-05  [1(3.34e-05)]
+Lactococcus_lactis|130           1.50e-06  [1(1.50e-06)]
+Lactococcus_lactis|131           6.12e-05  [1(6.12e-05)]
+Lactococcus_lactis|132           4.86e-05  [1(4.86e-05)]
+Lactococcus_lactis|133           1.20e-05  [1(1.20e-05)]
+Lactococcus_lactis|134           6.41e-05  [1(6.41e-05)]
+Lactococcus_lactis|135           2.37e-04  14
+Lactococcus_lactis|136           1.66e-05  [1(1.66e-05)]
+Lactococcus_lactis|137           5.72e-04  14
+Lactococcus_lactis|138           4.53e-04  14
+Lactococcus_lactis|139           6.64e-06  [1(6.64e-06)]
+Lactococcus_lactis|140           4.02e-05  [1(4.02e-05)]
+Lactococcus_lactis|141           6.41e-05  [1(6.41e-05)]
+Lactococcus_lactis|142           2.01e-04  14
+Lactococcus_lactis|143           1.84e-05  [1(1.84e-05)]
+Lactococcus_lactis|144           8.80e-05  [1(8.80e-05)]
+Lactococcus_lactis|145           1.84e-05  [1(1.84e-05)]
+Lactococcus_lactis|146           7.35e-05  [1(7.35e-05)]
+Lactococcus_lactis|147           8.20e-06  [1(8.20e-06)]
+Lactococcus_lactis|148           1.37e-04  14
+Lactococcus_lactis|149           5.09e-04  14
+Lactococcus_lactis|150           3.51e-05  [1(3.51e-05)]
+Lactococcus_lactis|151           1.55e-04  14
+Lactococcus_lactis|152           1.55e-04  14
+Lactococcus_lactis|153           3.84e-05  [1(3.84e-05)]
+Lactococcus_lactis|154           8.40e-05  [1(8.40e-05)]
+Lactococcus_lactis|155           4.19e-04  14
+Lactococcus_lactis|156           2.47e-05  [1(2.47e-05)]
+Lactococcus_lactis|157           1.43e-04  14
+Lactococcus_lactis|158           1.69e-04  14
+Lactococcus_lactis|159           2.80e-04  14
+Lactococcus_lactis|160           1.43e-04  14
+Lactococcus_lactis|161           1.49e-05  [1(1.49e-05)]
+Lactococcus_lactis|162           7.35e-05  [1(7.35e-05)]
+Lactococcus_lactis|163           9.22e-06  [1(9.22e-06)]
+Lactococcus_lactis|164           4.22e-05  [1(4.22e-05)]
+Lactococcus_lactis|165           7.37e-06  [1(7.37e-06)]
+Lactococcus_lactis|166           3.03e-05  [1(3.03e-05)]
+Lactococcus_lactis|167           1.41e-05  [1(1.41e-05)]
+Lactococcus_lactis|168           1.55e-04  14
+Lactococcus_lactis|169           1.55e-04  14
+Lactococcus_lactis|170           3.04e-04  14
+Lactococcus_lactis|171           2.25e-05  [1(2.25e-05)]
+Lactococcus_lactis|172           1.31e-04  14
+Lactococcus_lactis|173           8.67e-06  [1(8.67e-06)]
+Lactococcus_lactis|174           1.74e-05  [1(1.74e-05)]
+Lactococcus_lactis|175           4.28e-01  29
+Lactococcus_lactis|176           2.71e-01  30
+Lactococcus_lactis|177           8.92e-02  29
+Lactococcus_lactis|178           3.88e-02  29
+Lactococcus_lactis|179           3.40e-01  29
+Lactococcus_lactis|180           1.03e-01  30
+Lactococcus_lactis|181           4.87e-01  30
+Lactococcus_lactis|182           6.04e-01  29
+Lactococcus_lactis|183           3.47e-01  29
+Lactococcus_lactis|184           1.25e-01  29
+Lactococcus_lactis|185           4.04e-01  31
+Lactococcus_lactis|186           6.17e-03  29
+Lactococcus_lactis|187           4.63e-01  30
+Lactococcus_lactis|188           1.93e-04  2_[1(1.20e-05)]_13
+Lactococcus_lactis|189           2.03e-04  14_[1(1.27e-05)]_1
+Lactococcus_lactis|190           3.61e-01  29
+Lactococcus_lactis|191           5.93e-05  4_[1(3.70e-06)]_11
+Lactococcus_lactis|192           2.95e-03  29
+Lactococcus_lactis|193           2.58e-01  29
+Lactococcus_lactis|194           6.37e-01  29
+Lactococcus_lactis|195           5.90e-01  31
+Lactococcus_lactis|196           3.68e-01  29
+Lactococcus_lactis|197           7.91e-01  28
+Lactococcus_lactis|198           4.12e-01  29
+Lactococcus_lactis|199           4.72e-04  1_[1(2.25e-05)]_19
+Lactococcus_lactis|200           9.29e-05  1_[1(6.64e-06)]_12
+Lactococcus_lactis|201           2.35e-01  29
+Lactococcus_lactis|202           5.55e-05  1_[1(3.47e-06)]_14
+Lactococcus_lactis|203           6.44e-01  29
+Lactococcus_lactis|204           5.23e-01  29
+Lactococcus_lactis|205           2.48e-03  29
+Lactococcus_lactis|206           9.62e-01  29
+Lactococcus_lactis|207           5.72e-01  29
+Lactococcus_lactis|208           8.92e-02  29
+Lactococcus_lactis|209           1.28e-01  29
+Lactococcus_lactis|210           5.67e-02  30
+Lactococcus_lactis|211           3.97e-01  29
+Lactococcus_lactis|212           1.47e-01  30
+Lactococcus_lactis|213           5.07e-01  29
+Lactococcus_lactis|214           5.45e-04  1_[1(3.03e-05)]_16
+Lactococcus_lactis|215           3.61e-01  29
+Lactococcus_lactis|216           8.59e-01  30
+Lactococcus_lactis|217           8.23e-01  31
+Lactococcus_lactis|218           2.78e-04  14_[1(1.74e-05)]_1
+Bacillus_amyloliquefacie         1.43e-06  1_[1(7.14e-07)]
+Bacillus_amyloliquefacie         2.96e-02  15
+Bacillus_amyloliquefacie         3.85e-04  15
+Bacillus_amyloliquefacie         7.02e-05  [1(7.02e-05)]
+Bacillus_amyloliquefacie         4.36e-04  14
+Bacillus_amyloliquefacie         3.48e-06  1_[1(1.74e-06)]
+Bacillus_amyloliquefacie         7.73e-04  16
+Bacillus_amyloliquefacie         1.14e-03  15
+Bacillus_amyloliquefacie         4.95e-05  1_[1(2.47e-05)]
+Bacillus_amyloliquefacie         3.30e-04  14
+Bacillus_amyloliquefacie         1.88e-05  1_[1(6.25e-06)]_1
+Bacillus_amyloliquefacie         2.94e-05  1_[1(9.80e-06)]_1
+Bacillus_amyloliquefacie         1.10e-03  15
+Bacillus_amyloliquefacie         1.11e-05  1_[1(3.70e-06)]_1
+Bacillus_amyloliquefacie         2.86e-04  15
+Bacillus_amyloliquefacie         6.71e-05  [1(6.71e-05)]
+Bacillus_amyloliquefacie         8.02e-03  15
+Bacillus_amyloliquefacie         1.26e-05  1_[1(4.19e-06)]_1
+Bacillus_amyloliquefacie         3.24e-01  14
+Bacillus_amyloliquefacie         3.59e-02  14
+Bacillus_amyloliquefacie         5.65e-03  16
+Bacillus_amyloliquefacie         3.17e-03  15
+Bacillus_amyloliquefacie         3.53e-01  14
+Bacillus_amyloliquefacie         8.74e-07  1_[1(2.91e-07)]_1
+Bacillus_amyloliquefacie         2.15e-01  14
+Bacillus_amyloliquefacie         1.97e-01  14
+Bacillus_amyloliquefacie         9.36e-02  14
+Bacillus_amyloliquefacie         3.00e-06  1_[1(1.50e-06)]
+Bacillus_amyloliquefacie         3.17e-07  [1(1.59e-07)]_1
+Bacillus_amyloliquefacie         3.24e-01  14
+Bacillus_amyloliquefacie         4.36e-04  14
+Bacillus_amyloliquefacie         3.19e-02  14
+Bacillus_amyloliquefacie         1.17e-04  [1(5.85e-05)]_1
+Bacillus_amyloliquefacie         5.09e-04  14
+Bacillus_amyloliquefacie         3.94e-02  14
+Bacillus_amyloliquefacie         1.02e-04  1_[1(5.09e-05)]
+Lactobacillus_plantarum|         5.22e-05  [1(1.74e-05)]_2
+Lactobacillus_plantarum|         1.00e-04  1_[1(3.34e-05)]_1
+Lactobacillus_plantarum|         3.66e-02  16
+Lactobacillus_plantarum|         5.22e-05  1_[1(1.74e-05)]_1
+Lactobacillus_plantarum|         9.53e-05  1_[1(3.18e-05)]_1
+Lactobacillus_plantarum|         1.88e-05  [1(6.25e-06)]_2
+Tetragenococcus_halophil         1.17e-04  [1(5.85e-05)]_1
+Lactobacillus_sakei|262          8.83e-01  14
+Corynebacterium_glutamic         6.25e-06  [1(6.25e-06)]
+Corynebacterium_glutamic         3.45e-01  14
+Corynebacterium_glutamic         2.39e-07  [1(2.39e-07)]
+Streptococcus_anginosus|         1.15e-04  1_[1(3.84e-05)]_1
+Bacillus_anthracis|267           3.57e-06  1_[1(7.14e-07)]_3
+Paenibacillus_polymyxa|2         1.60e-06  [1(1.60e-06)]
+Streptococcus_intermediu         6.64e-03  18
+Streptococcus_intermediu         5.57e-02  16
+Bacillus_megaterium|271          8.20e-06  [1(8.20e-06)]
+Bacillus_megaterium|272          2.71e-07  [1(2.71e-07)]
+Bacillus_licheniformis|2         4.91e-06  [1(4.91e-06)]
+Bacillus_licheniformis|2         1.04e-03  14
+Bacillus_licheniformis|2         2.15e-01  14
+Streptococcus_anginosus|         3.90e-01  15
+Streptococcus_anginosus|         1.47e-03  16
+Streptococcus_anginosus|         5.59e-01  16
+Streptococcus_anginosus|         1.00e-04  1_[1(3.34e-05)]_1
+Bacillus_thuringiensis|2         1.57e-05  [1(1.57e-05)]
+Bacillus_thuringiensis|2         3.62e-07  [1(3.62e-07)]
+Bacillus_thuringiensis|2         1.30e-01  14
+Lactobacillus_pentosus|2         1.95e-07  [1(1.95e-07)]
+Streptococcus_pneumoniae         5.08e-04  16
+Streptococcus_pneumoniae         5.30e-04  16
+Streptococcus_pneumoniae         5.50e-06  1_[1(1.83e-06)]_1
+Streptococcus_pneumoniae         2.21e-05  1_[1(7.37e-06)]_1
+Streptococcus_pneumoniae         1.68e-04  1_[1(5.58e-05)]_1
+Streptococcus_pneumoniae         8.20e-04  19
+Streptococcus_pneumoniae         3.29e-03  19
+Streptococcus_pneumoniae         4.61e-04  2_[1(7.68e-05)]_3
+Streptococcus_pneumoniae         8.85e-03  19
+Streptococcus_pneumoniae         8.37e-04  15
+Streptococcus_pneumoniae         1.49e-05  [1(1.49e-05)]
+Streptococcus_pneumoniae         1.20e-05  [1(1.20e-05)]
+Streptococcus_pneumoniae         3.06e-04  2_[1(5.09e-05)]_3
+Streptococcus_pneumoniae         8.94e-04  19
+Streptococcus_pneumoniae         1.49e-03  15
+Streptococcus_pneumoniae         1.76e-04  [1(8.80e-05)]_1
+Streptococcus_pneumoniae         3.27e-05  1_[1(1.09e-05)]_1
+Streptococcus_pneumoniae         1.60e-06  [1(1.60e-06)]
+Streptococcus_pneumoniae         2.28e-04  14
+Streptococcus_pneumoniae         9.31e-08  [1(9.31e-08)]
+Streptococcus_pneumoniae         9.80e-06  [1(9.80e-06)]
+Streptococcus_pneumoniae         3.85e-04  15
+Streptococcus_pneumoniae         1.40e-05  [1(6.99e-06)]_1
+Streptococcus_pneumoniae         6.10e-05  1_[1(2.03e-05)]_1
+Streptococcus_pneumoniae         1.84e-04  1_[1(6.12e-05)]_1
+Streptococcus_pneumoniae         7.79e-05  1_[1(2.60e-05)]_1
+Streptococcus_pneumoniae         4.48e-05  1_[1(1.49e-05)]_1
+Streptococcus_pneumoniae         1.04e-05  1_[1(3.47e-06)]_1
+Streptococcus_pneumoniae         2.10e-05  1_[1(6.99e-06)]_1
+Streptococcus_pneumoniae         1.11e-05  1_[1(3.70e-06)]_1
+Streptococcus_pneumoniae         3.27e-05  1_[1(1.09e-05)]_1
+Streptococcus_pneumoniae         4.80e-06  1_[1(1.60e-06)]_1
+Streptococcus_pneumoniae         1.66e-05  1_[1(5.53e-06)]_1
+Streptococcus_pneumoniae         4.97e-05  1_[1(1.66e-05)]_1
+Streptococcus_pneumoniae         7.80e-06  1_[1(2.60e-06)]_1
+Streptococcus_pneumoniae         1.34e-05  1_[1(4.45e-06)]_1
+Streptococcus_pneumoniae         2.94e-05  1_[1(9.80e-06)]_1
+Streptococcus_pneumoniae         1.15e-04  1_[1(3.84e-05)]_1
+Streptococcus_pneumoniae         1.08e-06  1_[1(3.62e-07)]_1
+Streptococcus_pneumoniae         2.94e-05  1_[1(9.80e-06)]_1
+Streptococcus_pneumoniae         1.35e-04  2_[1(2.25e-05)]_3
+Streptococcus_pneumoniae         1.11e-03  19
+Streptococcus_pneumoniae         8.54e-03  19
+Streptococcus_pneumoniae         6.21e-03  19
+Streptococcus_pneumoniae         1.75e-03  19
+Streptococcus_pneumoniae         1.04e-04  2_[1(1.74e-05)]_3
+Streptococcus_pneumoniae         1.64e-04  2_[1(2.73e-05)]_3
+Streptococcus_pneumoniae         1.37e-03  19
+Streptococcus_pneumoniae         1.20e-05  [1(1.20e-05)]
+Streptococcus_pneumoniae         1.49e-03  15
+Streptococcus_pneumoniae         1.76e-04  [1(8.80e-05)]_1
+Streptococcus_pneumoniae         3.27e-05  1_[1(1.09e-05)]_1
+Streptococcus_pneumoniae         3.06e-04  2_[1(5.09e-05)]_3
+Streptococcus_pneumoniae         8.94e-04  19
+Lactobacillus_plantarum|         1.03e-05  [1(1.03e-05)]
+Streptococcus_suis|339           2.28e-06  1_[1(7.59e-07)]_1
+Streptococcus_suis|340           1.66e-05  1_[1(5.53e-06)]_1
+Streptococcus_suis|341           1.57e-05  1_[1(5.23e-06)]_1
+Streptococcus_suis|342           3.33e-01  21
+Streptococcus_suis|343           1.32e-06  1_[1(4.39e-07)]_1
+Streptococcus_suis|344           3.57e-07  1_[1(1.19e-07)]_1
+Streptococcus_suis|345           3.10e-05  1_[1(1.03e-05)]_1
+Streptococcus_suis|346           2.41e-04  1_[1(8.04e-05)]_1
+Streptococcus_suis|347           1.75e-01  21
+Streptococcus_suis|348           3.33e-01  21
+Streptococcus_suis|349           2.88e-02  21
+Streptococcus_suis|350           2.16e-02  21
+Streptococcus_suis|351           4.72e-05  1_[1(1.57e-05)]_1
+Streptococcus_suis|352           4.31e-01  21
+Streptococcus_suis|353           1.19e-01  21
+Streptococcus_suis|354           3.90e-01  21
+Streptococcus_suis|355           1.42e-01  21
+Streptococcus_suis|356           6.73e-01  21
+Streptococcus_suis|357           3.45e-01  21
+Streptococcus_suis|358           1.96e-01  21
+Streptococcus_suis|359           1.08e-01  21
+Streptococcus_suis|360           5.44e-01  21
+Streptococcus_suis|361           8.28e-06  1_[1(2.76e-06)]_1
+Streptococcus_suis|362           1.34e-05  1_[1(4.45e-06)]_1
+Streptococcus_suis|363           6.43e-05  1_[1(2.14e-05)]_1
+Streptococcus_suis|364           2.28e-06  1_[1(7.59e-07)]_1
+Streptococcus_suis|365           8.57e-01  21
+Streptococcus_suis|366           1.88e-01  21
+Streptococcus_suis|367           1.47e-05  1_[1(4.91e-06)]_1
+Streptococcus_suis|368           2.02e-06  1_[1(6.74e-07)]_1
+Streptococcus_suis|369           9.69e-01  21
+Streptococcus_suis|370           1.08e-01  21
+Streptococcus_suis|371           4.97e-05  1_[1(1.66e-05)]_1
+Streptococcus_suis|372           2.98e-01  21
+Streptococcus_suis|373           3.20e-06  1_[1(1.07e-06)]_1
+Streptococcus_suis|374           3.27e-05  1_[1(1.09e-05)]_1
+Streptococcus_suis|375           1.41e-05  1_[1(4.70e-06)]_1
+Streptococcus_suis|376           1.76e-05  1_[1(5.86e-06)]_1
+Streptococcus_suis|377           1.47e-05  1_[1(4.91e-06)]_1
+Streptococcus_suis|378           7.09e-05  1_[1(2.36e-05)]_1
+Streptococcus_suis|379           6.59e-01  21
+Streptococcus_suis|380           1.88e-01  21
+Streptococcus_suis|381           9.53e-05  1_[1(3.18e-05)]_1
+Streptococcus_suis|382           2.64e-01  21
+Streptococcus_suis|383           1.76e-05  1_[1(5.86e-06)]_1
+Streptococcus_suis|384           3.93e-02  21
+Streptococcus_suis|385           4.80e-06  1_[1(1.60e-06)]_1
+Streptococcus_suis|386           2.33e-05  1_[1(7.78e-06)]_1
+Streptococcus_suis|387           3.17e-02  21
+Streptococcus_suis|388           3.64e-06  1_[1(1.21e-06)]_1
+Streptococcus_suis|389           1.60e-04  1_[1(5.34e-05)]_1
+Streptococcus_suis|390           2.01e-01  21
+Streptococcus_suis|391           4.04e-01  21
+Streptococcus_suis|392           3.48e-02  21
+Streptococcus_suis|393           8.83e-01  21
+Streptococcus_suis|394           2.24e-01  21
+Streptococcus_suis|395           3.10e-05  1_[1(1.03e-05)]_1
+Streptococcus_suis|396           8.42e-01  21
+Streptococcus_suis|397           6.02e-01  21
+Streptococcus_suis|398           1.06e-02  21
+Streptococcus_suis|399           3.72e-03  16
+Streptococcus_suis|400           8.75e-01  21
+Streptococcus_suis|401           2.24e-01  21
+Streptococcus_suis|402           7.64e-01  21
+Streptococcus_suis|403           1.60e-04  1_[1(5.34e-05)]_1
+Streptococcus_suis|404           6.64e-02  21
+Streptococcus_suis|405           5.30e-01  21
+Streptococcus_suis|406           8.28e-06  1_[1(2.76e-06)]_1
+Streptococcus_suis|407           2.38e-02  21
+Streptococcus_suis|408           9.21e-02  21
+Streptococcus_suis|409           5.77e-02  21
+Streptococcus_suis|410           4.59e-01  21
+Streptococcus_suis|411           8.74e-02  21
+Streptococcus_suis|412           9.81e-01  21
+Streptococcus_suis|413           1.25e-01  21
+Streptococcus_suis|414           2.92e-01  21
+Bacillus_subtilis|415            4.07e-02  16
+Bacillus_subtilis|416            2.60e-06  [1(2.60e-06)]
+Bacillus_subtilis|417            6.36e-07  [1(6.36e-07)]
+Bacillus_subtilis|418            4.70e-06  [1(4.70e-06)]
+Bacillus_subtilis|419            1.74e-06  [1(1.74e-06)]
+Bacillus_subtilis|420            1.40e-06  [1(1.40e-06)]
+Bacillus_subtilis|421            8.67e-06  [1(8.67e-06)]
+Bacillus_subtilis|422            9.80e-06  [1(9.80e-06)]
+Bacillus_subtilis|423            1.03e-05  [1(1.03e-05)]
+Bacillus_subtilis|424            1.95e-07  [1(1.95e-07)]
+Bacillus_subtilis|425            3.70e-06  [1(3.70e-06)]
+Bacillus_subtilis|426            5.23e-06  [1(5.23e-06)]
+Bacillus_subtilis|427            8.67e-06  [1(8.67e-06)]
+Bacillus_subtilis|428            1.13e-06  [1(1.13e-06)]
+Bacillus_subtilis|429            1.83e-06  [1(1.83e-06)]
+Bacillus_subtilis|430            2.91e-07  [1(2.91e-07)]
+Bacillus_subtilis|431            1.50e-06  [1(1.50e-06)]
+Bacillus_subtilis|432            2.16e-06  [1(2.16e-06)]
+Bacillus_subtilis|433            3.27e-06  [1(3.27e-06)]
+Bacillus_subtilis|434            2.60e-05  [1(2.60e-05)]
+Bacillus_subtilis|435            1.34e-07  [1(1.34e-07)]
+Bacillus_subtilis|436            1.59e-07  [1(1.59e-07)]
+Bacillus_subtilis|437            3.70e-06  [1(3.70e-06)]
+Bacillus_subtilis|438            3.03e-05  [1(3.03e-05)]
+Bacillus_subtilis|439            1.30e-06  [1(1.30e-06)]
+Bacillus_subtilis|440            4.63e-07  [1(4.63e-07)]
+Bacillus_subtilis|441            1.15e-05  [1(1.15e-05)]
+Bacillus_subtilis|442            3.47e-06  [1(3.47e-06)]
+Bacillus_subtilis|443            2.29e-06  [1(2.29e-06)]
+Bacillus_subtilis|444            1.50e-06  [1(1.50e-06)]
+Bacillus_subtilis|445            3.16e-07  [1(3.16e-07)]
+Bacillus_subtilis|446            9.14e-07  [1(9.14e-07)]
+Bacillus_subtilis|447            2.12e-07  [1(2.12e-07)]
+Bacillus_subtilis|448            1.50e-06  [1(1.50e-06)]
+Bacillus_subtilis|449            1.49e-05  [1(1.49e-05)]
+Bacillus_subtilis|450            9.22e-06  [1(9.22e-06)]
+Bacillus_subtilis|451            7.09e-02  14
+Bacillus_subtilis|452            1.66e-05  [1(1.66e-05)]
+Bacillus_subtilis|453            1.09e-05  [1(1.09e-05)]
+Bacillus_subtilis|454            1.74e-06  [1(1.74e-06)]
+Bacillus_subtilis|455            5.84e-07  [1(5.84e-07)]
+Bacillus_subtilis|456            3.16e-07  [1(3.16e-07)]
+Bacillus_subtilis|457            3.84e-05  [1(3.84e-05)]
+Bacillus_subtilis|458            1.30e-06  [1(1.30e-06)]
+Bacillus_subtilis|459            2.73e-05  [1(2.73e-05)]
+Bacillus_subtilis|460            4.45e-06  [1(4.45e-06)]
+Bacillus_subtilis|461            3.96e-06  [1(3.96e-06)]
+Bacillus_subtilis|462            8.67e-06  [1(8.67e-06)]
+Bacillus_subtilis|463            9.80e-06  [1(9.80e-06)]
+Bacillus_subtilis|464            7.78e-06  [1(7.78e-06)]
+Bacillus_subtilis|465            4.78e-07  [1(4.78e-07)]
+Bacillus_subtilis|466            5.23e-06  [1(5.23e-06)]
+Bacillus_subtilis|467            2.60e-05  [1(2.60e-05)]
+Bacillus_subtilis|468            5.23e-06  [1(5.23e-06)]
+Bacillus_subtilis|469            2.47e-05  [1(2.47e-05)]
+Bacillus_subtilis|470            4.63e-07  [1(4.63e-07)]
+Bacillus_subtilis|471            8.54e-07  [1(8.54e-07)]
+Bacillus_subtilis|472            1.50e-06  [1(1.50e-06)]
+Bacillus_subtilis|473            3.38e-08  [1(3.38e-08)]
+Bacillus_subtilis|474            5.53e-06  [1(5.53e-06)]
+Bacillus_subtilis|475            1.15e-05  [1(1.15e-05)]
+Bacillus_subtilis|476            9.22e-06  [1(9.22e-06)]
+Bacillus_subtilis|477            5.53e-06  [1(5.53e-06)]
+Bacillus_subtilis|478            3.27e-06  [1(3.27e-06)]
+Bacillus_subtilis|479            1.09e-05  [1(1.09e-05)]
+Bacillus_subtilis|480            1.94e-06  [1(1.94e-06)]
+Bacillus_subtilis|481            7.37e-06  [1(7.37e-06)]
+Bacillus_subtilis|482            3.03e-05  [1(3.03e-05)]
+Bacillus_subtilis|483            1.66e-05  [1(1.66e-05)]
+Bacillus_subtilis|484            2.41e-06  [1(2.41e-06)]
+Bacillus_subtilis|485            3.96e-06  [1(3.96e-06)]
+Bacillus_subtilis|486            7.78e-06  [1(7.78e-06)]
+Streptococcus_oligoferme         2.60e-06  [1(2.60e-06)]
+Streptococcus_oligoferme         6.99e-06  [1(6.99e-06)]
+Streptococcus_intermediu         3.80e-06  2_[1(7.59e-07)]_2
+Bacillus_subtilis|490            2.09e-04  7_[1(1.49e-05)]_6
+Lactobacillus_plantarum|         1.50e-06  [1(1.50e-06)]
+Bacillus_subtilis|492            4.81e-06  1_[1(2.41e-06)]
+Staphylococcus_aureus|49         2.75e-06  2_[1(5.49e-07)]_2
+Lactobacillus_plantarum|         1.03e-05  [1(1.03e-05)]
+Streptococcus_gordonii|4         1.88e-05  1_[1(6.25e-06)]_1
+Streptococcus_gordonii|4         6.10e-05  1_[1(2.03e-05)]_1
+Streptococcus_lutetiensi         4.29e-05  [1(2.14e-05)]_1
+Clostridioides_difficile         1.10e-04  1_[1(3.67e-05)]_1
+Clostridioides_difficile         1.60e-04  1_[1(5.34e-05)]_1
+Clostridioides_difficile         1.03e-03  16
+Clostridioides_difficile         3.00e-03  16
+Clostridioides_difficile         1.16e-02  16
+Clostridioides_difficile         2.59e-03  16
+Clostridioides_difficile         1.78e-03  16
+Clostridioides_difficile         2.01e-04  1_[1(6.71e-05)]_1
+Clostridioides_difficile         1.47e-03  16
+Clostridioides_difficile         3.02e-04  16
+Clostridioides_difficile         1.75e-04  1_[1(5.85e-05)]_1
+Clostridioides_difficile         1.20e-02  16
+Clostridioides_difficile         2.14e-02  16
+Clostridioides_difficile         3.15e-04  16
+Clostridioides_difficile         5.22e-05  1_[1(1.74e-05)]_1
+Clostridioides_difficile         2.20e-02  16
+Clostridioides_difficile         4.30e-02  16
+Clostridioides_difficile         3.72e-03  16
+Clostridioides_difficile         2.94e-05  1_[1(9.80e-06)]_1
+Clostridioides_difficile         4.03e-05  1_[1(1.34e-05)]_1
+Clostridioides_difficile         5.54e-04  16
+Clostridioides_difficile         1.71e-03  16
+Clostridioides_difficile         7.79e-05  1_[1(2.60e-05)]_1
+Clostridioides_difficile         1.00e-04  1_[1(3.34e-05)]_1
+Clostridioides_difficile         8.85e-02  16
+Clostridioides_difficile         1.41e-03  16
+Clostridioides_difficile         7.09e-05  1_[1(2.36e-05)]_1
+Clostridioides_difficile         2.49e-03  16
+Clostridioides_difficile         1.68e-04  1_[1(5.58e-05)]_1
+Clostridioides_difficile         1.59e-02  16
+Clostridioides_difficile         3.45e-05  1_[1(1.15e-05)]_1
+Clostridioides_difficile         9.11e-04  16
+Clostridioides_difficile         1.84e-04  1_[1(6.12e-05)]_1
+Clostridioides_difficile         5.86e-02  16
+Clostridioides_difficile         6.10e-05  1_[1(2.03e-05)]_1
+Clostridioides_difficile         7.73e-04  16
+Clostridioides_difficile         2.30e-04  1_[1(7.68e-05)]_1
+Clostridioides_difficile         7.42e-04  16
+Clostridioides_difficile         1.84e-04  1_[1(6.12e-05)]_1
+Clostridioides_difficile         8.71e-03  16
+Clostridioides_difficile         1.11e-05  1_[1(3.70e-06)]_1
+Clostridioides_difficile         1.47e-01  16
+Clostridioides_difficile         2.77e-05  1_[1(9.22e-06)]_1
+Clostridioides_difficile         5.08e-04  16
+Clostridioides_difficile         2.46e-05  1_[1(8.20e-06)]_1
+Clostridioides_difficile         3.59e-03  16
+Clostridioides_difficile         7.87e-02  16
+Clostridioides_difficile         5.79e-05  1_[1(1.93e-05)]_1
+Clostridioides_difficile         1.10e-04  1_[1(3.67e-05)]_1
+Clostridioides_difficile         1.26e-05  1_[1(4.19e-06)]_1
+Clostridioides_difficile         3.10e-05  1_[1(1.03e-05)]_1
+Clostridioides_difficile         3.27e-05  1_[1(1.09e-05)]_1
+Enterococcus_faecalis|55         2.14e-05  [1(2.14e-05)]
+Enterococcus_faecalis|55         1.74e-06  [1(1.74e-06)]
+Enterococcus_faecalis|55         5.20e-06  [1(2.60e-06)]_1
+Lactobacillus_casei|553          2.03e-05  [1(2.03e-05)]
+Bacillus_megaterium|554          2.71e-07  [1(2.71e-07)]
+Bacillus_megaterium|555          8.56e-03  14
+Bacillus_megaterium|556          4.39e-07  [1(4.39e-07)]
+Bacillus_megaterium|557          2.73e-05  [1(2.73e-05)]
+Bacillus_megaterium|558          4.19e-06  [1(4.19e-06)]
+Clostridioides_difficile         5.54e-04  16
+Clostridioides_difficile         1.41e-03  16
+Clostridioides_difficile         1.10e-04  1_[1(3.67e-05)]_1
+Clostridioides_difficile         3.00e-03  16
+Clostridioides_difficile         2.14e-02  16
+Clostridioides_difficile         4.30e-02  16
+Clostridioides_difficile         1.71e-03  16
+Clostridioides_difficile         2.49e-03  16
+Clostridioides_difficile         1.84e-04  1_[1(6.12e-05)]_1
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because requested number of motifs (1) found.
+********************************************************************************
+
+CPU: yyigit
+
+********************************************************************************
