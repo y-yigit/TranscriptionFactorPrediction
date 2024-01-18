@@ -3,17 +3,8 @@
 This script sorts DNA sequences by the GC percentage of the matching species
 
 Variables:
-    data_dir (string):
-        Path to a folder containing fasta files with whole genome sequences
-
-    intergenic_folder (string):
-        Path to a folder containing fasta files with intergenic sequences
-
     max_length (int):
         The length of the features
-
-    non_motifs (string):
-        A file containing DNA sequences that are not CRE motifs
 """
 
 import os
@@ -24,10 +15,6 @@ import numpy as np
 from Bio import SeqIO
 import pandas as pd
 from dna import DNA
-
-intergenic_dir = "/home/ubuntu/Yaprak/Data/Intergenic_all"
-data_dir = "/home/ubuntu/Yaprak/Data/CNN_datasets"
-non_motifs = "/home/ubuntu/Yaprak/Pipeline_output/non_motifs_filtered.fasta"
 
 max_length = 50
 # Formats numerical ranges into a readable string
@@ -79,7 +66,6 @@ def create_negative_labels(fasta_file, output_dir, group_name, train_val_ids):
     gc_list = group_name.split("|")
     output_file_train = f"{output_dir}/CcpA_negatives_train{gc_list[0]}_{gc_list[-1]}.npy"
     output_file_val = f"{output_dir}/CcpA_negatives_val{gc_list[0]}_{gc_list[-1]}.npy"
-    notes_file = f"{output_dir}/CcpA_negatives_{gc_list[0]}_{gc_list[-1]}.txt"
     pattern = r"\[(.*?)\]"
     for record in SeqIO.parse(fasta_file, "fasta"):
         if not "[" in record.id:
@@ -110,13 +96,6 @@ def create_negative_labels(fasta_file, output_dir, group_name, train_val_ids):
     val_sequences = DNA.one_hot_encoder(val_sequences)
     np.save(output_file_train, np.array(train_sequences, dtype=object), allow_pickle=True)
     np.save(output_file_val, np.array(val_sequences, dtype=object), allow_pickle=True)
-
-    # Log additional information
-    with open(notes_file, "w") as open_file:
-        for specie_group, dataset in zip(train_val_ids, ["train", "validation"]):
-            open_file.write(f"Species {dataset} \n:")
-            for specie in specie_group:
-                open_file.write(f"{specie}\n")
 
 def save_gc(species, gc_content, data_file):
     """ Updates an R file containing information about the bacterial species with GC percentages
