@@ -29,7 +29,7 @@ sequences T<sub>1</sub>G<sub>2</sub>A<sub>3</sub>A<sub>4</sub>A<sub>5</sub>G<sub
 in other organisms. Bidirectional long short-term memory (BiLSTM) models have demonstrated efficacy in various bioinformatics applications. This project focuses on predicting CRE binding sites using BiLSTM.
 
 
-![*Figure 1. CcpA Weblogo for B.subtilis obtained from PRODORIC*](Images/ccpa_weblogo.png){width=500px height=200px}
+![*Figure 1. CcpA Weblogo for B.subtilis obtained from PRODORIC*](Images/ccpa_weblogo.png)
 
 <!-- prerequisites -->
 
@@ -129,7 +129,7 @@ and stored in /Data/Regprecise.
 
 ### Workflow
 
-![*Figure 2. Workflow diagram of the complete program*](Output/Images/workflow.png){width=500px height=500px}
+![*Figure 2. Workflow diagram of the complete program*](Output/Images/workflow.png)
 
 <!-- CONTACT -->
 
@@ -143,6 +143,8 @@ Project Link: <https://github.com/y-yigit/Placeholder>
 
 <!-- license -->
 ## License
+
+See LICENSE
 
 <p align="right">
 
