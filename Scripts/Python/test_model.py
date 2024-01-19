@@ -57,7 +57,7 @@ def my_roc(test_labels, pred_labels, test_specie):
 def plot_confusion_matrix(tp, fp, fn, tn, test_specie):
     """ Create a confusion matrix after classifying
     """
-    matrix = np.array([[tp, fp], [fn, tn]])
+    matrix = np.array([[tp, fn], [fp, tn]])
 
     # Plotting the confusion matrix
     plt.imshow(matrix, interpolation='nearest', cmap=plt.cm.Blues)
